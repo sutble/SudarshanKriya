@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AC94AD5A1B8E40BF002D9AD2"
-               BuildableName = "SnapchatCamera.app"
-               BlueprintName = "SnapchatCamera"
-               ReferencedContainer = "container:SnapchatCamera.xcodeproj">
+               BuildableName = "ArtOfLiving.app"
+               BlueprintName = "ArtOfLiving"
+               ReferencedContainer = "container:ArtOfLiving.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AC94AD6F1B8E40BF002D9AD2"
-               BuildableName = "SnapchatCameraTests.xctest"
-               BlueprintName = "SnapchatCameraTests"
-               ReferencedContainer = "container:SnapchatCamera.xcodeproj">
+               BuildableName = "ArtOfLiving.xctest"
+               BlueprintName = "ArtOfLivingTests"
+               ReferencedContainer = "container:ArtOfLiving.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AC94AD5A1B8E40BF002D9AD2"
-            BuildableName = "SnapchatCamera.app"
-            BlueprintName = "SnapchatCamera"
-            ReferencedContainer = "container:SnapchatCamera.xcodeproj">
+            BuildableName = "ArtOfLiving.app"
+            BlueprintName = "ArtOfLiving"
+            ReferencedContainer = "container:ArtOfLiving.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AC94AD5A1B8E40BF002D9AD2"
-            BuildableName = "SnapchatCamera.app"
-            BlueprintName = "SnapchatCamera"
-            ReferencedContainer = "container:SnapchatCamera.xcodeproj">
+            BuildableName = "ArtOfLiving.app"
+            BlueprintName = "ArtOfLiving"
+            ReferencedContainer = "container:ArtOfLiving.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AC94AD5A1B8E40BF002D9AD2"
-            BuildableName = "SnapchatCamera.app"
-            BlueprintName = "SnapchatCamera"
-            ReferencedContainer = "container:SnapchatCamera.xcodeproj">
+            BuildableName = "ArtOfLiving.app"
+            BlueprintName = "ArtOfLiving"
+            ReferencedContainer = "container:ArtOfLiving.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -15,29 +15,32 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        var v1 : View1 = View1(nibName: "View1", bundle: nil)
-        var v2 : View2 = View2(nibName: "View2", bundle: nil)
-        var v3 : View3 = View3(nibName: "View3", bundle: nil)
+        var display : View1 = View1(nibName: "View1", bundle: nil)
+        var instructions : View2 = View2(nibName: "View2", bundle: nil)
+        var settings : View3 = View3(nibName: "View3", bundle: nil)
         
-        self.addChildViewController(v1)
-        self.scrollView.addSubview(v1.view)
-        v1.didMoveToParentViewController(self)
+        self.scrollView.showsHorizontalScrollIndicator = false
+        self.scrollView.showsVerticalScrollIndicator = false
         
-        self.addChildViewController(v2)
-        self.scrollView.addSubview(v2.view)
-        v2.didMoveToParentViewController(self)
+        self.addChildViewController(display)
+        self.scrollView.addSubview(display.view)
+        display.didMoveToParentViewController(self)
         
-        self.addChildViewController(v3)
-        self.scrollView.addSubview(v3.view)
-        v3.didMoveToParentViewController(self)
+        self.addChildViewController(instructions)
+        self.scrollView.addSubview(instructions.view)
+        instructions.didMoveToParentViewController(self)
         
-        var v2Frame : CGRect = v2.view.frame
-        v2Frame.origin.x = self.view.frame.width
-        v2.view.frame = v2Frame
+        self.addChildViewController(settings)
+        self.scrollView.addSubview(settings.view)
+        settings.didMoveToParentViewController(self)
         
-        var v3Frame : CGRect = v3.view.frame
-        v3Frame.origin.x = self.view.frame.width * 2
-        v3.view.frame = v3Frame
+        var instructionsFrame : CGRect = instructions.view.frame
+        instructionsFrame.origin.x = self.view.frame.width
+        instructions.view.frame = instructionsFrame
+        
+        var settingsFrame : CGRect = settings.view.frame
+        settingsFrame.origin.x = self.view.frame.width * 2
+        settings.view.frame = settingsFrame
         
         self.scrollView.contentSize = CGSizeMake(self.view.frame.width * 3, self.view.frame.height)
         

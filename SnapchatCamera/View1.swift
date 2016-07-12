@@ -9,10 +9,14 @@
 import UIKit
 
 class View1: UIViewController {
+    
+    let ujayiColor = UIColor(red: 81/255, green: 163/255, blue: 157/255, alpha: 1)
+    let bellowsColor = UIColor(red: 1, green: 165/255, blue: 0, alpha: 1)
+    let kriyaColor = UIColor(red: 1, green: 165/255, blue: 0, alpha: 1)
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = ujayiColor
         // Do any additional setup after loading the view.
     }
 

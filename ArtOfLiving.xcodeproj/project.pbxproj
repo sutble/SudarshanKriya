@@ -32,14 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC94AD5B1B8E40BF002D9AD2 /* SnapchatCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapchatCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC94AD5B1B8E40BF002D9AD2 /* ArtOfLiving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtOfLiving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC94AD5F1B8E40BF002D9AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC94AD601B8E40BF002D9AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC94AD621B8E40BF002D9AD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC94AD651B8E40BF002D9AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC94AD671B8E40BF002D9AD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AC94AD6A1B8E40BF002D9AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		AC94AD701B8E40BF002D9AD2 /* SnapchatCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapchatCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC94AD701B8E40BF002D9AD2 /* ArtOfLiving.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtOfLiving.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC94AD751B8E40BF002D9AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC94AD761B8E40BF002D9AD2 /* SnapchatCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatCameraTests.swift; sourceTree = "<group>"; };
 		AC94AD801B8E4174002D9AD2 /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 		AC94AD5C1B8E40BF002D9AD2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC94AD5B1B8E40BF002D9AD2 /* SnapchatCamera.app */,
-				AC94AD701B8E40BF002D9AD2 /* SnapchatCameraTests.xctest */,
+				AC94AD5B1B8E40BF002D9AD2 /* ArtOfLiving.app */,
+				AC94AD701B8E40BF002D9AD2 /* ArtOfLiving.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC94AD5A1B8E40BF002D9AD2 /* SnapchatCamera */ = {
+		AC94AD5A1B8E40BF002D9AD2 /* ArtOfLiving */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC94AD7A1B8E40BF002D9AD2 /* Build configuration list for PBXNativeTarget "SnapchatCamera" */;
+			buildConfigurationList = AC94AD7A1B8E40BF002D9AD2 /* Build configuration list for PBXNativeTarget "ArtOfLiving" */;
 			buildPhases = (
 				AC94AD571B8E40BF002D9AD2 /* Sources */,
 				AC94AD581B8E40BF002D9AD2 /* Frameworks */,
@@ -145,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = SnapchatCamera;
+			name = ArtOfLiving;
 			productName = SnapchatCamera;
-			productReference = AC94AD5B1B8E40BF002D9AD2 /* SnapchatCamera.app */;
+			productReference = AC94AD5B1B8E40BF002D9AD2 /* ArtOfLiving.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AC94AD6F1B8E40BF002D9AD2 /* SnapchatCameraTests */ = {
+		AC94AD6F1B8E40BF002D9AD2 /* ArtOfLivingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC94AD7D1B8E40BF002D9AD2 /* Build configuration list for PBXNativeTarget "SnapchatCameraTests" */;
+			buildConfigurationList = AC94AD7D1B8E40BF002D9AD2 /* Build configuration list for PBXNativeTarget "ArtOfLivingTests" */;
 			buildPhases = (
 				AC94AD6C1B8E40BF002D9AD2 /* Sources */,
 				AC94AD6D1B8E40BF002D9AD2 /* Frameworks */,
@@ -163,9 +163,9 @@
 			dependencies = (
 				AC94AD721B8E40BF002D9AD2 /* PBXTargetDependency */,
 			);
-			name = SnapchatCameraTests;
+			name = ArtOfLivingTests;
 			productName = SnapchatCameraTests;
-			productReference = AC94AD701B8E40BF002D9AD2 /* SnapchatCameraTests.xctest */;
+			productReference = AC94AD701B8E40BF002D9AD2 /* ArtOfLiving.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -180,6 +180,7 @@
 				TargetAttributes = {
 					AC94AD5A1B8E40BF002D9AD2 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = YT23XWN63C;
 					};
 					AC94AD6F1B8E40BF002D9AD2 = {
 						CreatedOnToolsVersion = 6.4;
@@ -187,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AC94AD561B8E40BF002D9AD2 /* Build configuration list for PBXProject "SnapchatCamera" */;
+			buildConfigurationList = AC94AD561B8E40BF002D9AD2 /* Build configuration list for PBXProject "ArtOfLiving" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -200,8 +201,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC94AD5A1B8E40BF002D9AD2 /* SnapchatCamera */,
-				AC94AD6F1B8E40BF002D9AD2 /* SnapchatCameraTests */,
+				AC94AD5A1B8E40BF002D9AD2 /* ArtOfLiving */,
+				AC94AD6F1B8E40BF002D9AD2 /* ArtOfLivingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,7 +256,7 @@
 /* Begin PBXTargetDependency section */
 		AC94AD721B8E40BF002D9AD2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AC94AD5A1B8E40BF002D9AD2 /* SnapchatCamera */;
+			target = AC94AD5A1B8E40BF002D9AD2 /* ArtOfLiving */;
 			targetProxy = AC94AD711B8E40BF002D9AD2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -367,9 +368,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SnapchatCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ArtOfLiving;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -377,9 +381,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SnapchatCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ArtOfLiving;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -397,8 +404,8 @@
 				);
 				INFOPLIST_FILE = SnapchatCameraTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapchatCamera.app/SnapchatCamera";
+				PRODUCT_NAME = ArtOfLiving;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtOfLiving.app/ArtOfLiving";
 			};
 			name = Debug;
 		};
@@ -412,15 +419,15 @@
 				);
 				INFOPLIST_FILE = SnapchatCameraTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapchatCamera.app/SnapchatCamera";
+				PRODUCT_NAME = ArtOfLiving;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtOfLiving.app/ArtOfLiving";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC94AD561B8E40BF002D9AD2 /* Build configuration list for PBXProject "SnapchatCamera" */ = {
+		AC94AD561B8E40BF002D9AD2 /* Build configuration list for PBXProject "ArtOfLiving" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC94AD781B8E40BF002D9AD2 /* Debug */,
@@ -429,7 +436,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC94AD7A1B8E40BF002D9AD2 /* Build configuration list for PBXNativeTarget "SnapchatCamera" */ = {
+		AC94AD7A1B8E40BF002D9AD2 /* Build configuration list for PBXNativeTarget "ArtOfLiving" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC94AD7B1B8E40BF002D9AD2 /* Debug */,
@@ -438,7 +445,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC94AD7D1B8E40BF002D9AD2 /* Build configuration list for PBXNativeTarget "SnapchatCameraTests" */ = {
+		AC94AD7D1B8E40BF002D9AD2 /* Build configuration list for PBXNativeTarget "ArtOfLivingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC94AD7E1B8E40BF002D9AD2 /* Debug */,
