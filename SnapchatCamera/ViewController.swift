@@ -14,10 +14,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.blackColor()
         
-        var display : View1 = View1(nibName: "View1", bundle: nil)
-        var instructions : View2 = View2(nibName: "View2", bundle: nil)
-        var settings : View3 = View3(nibName: "View3", bundle: nil)
+        let display : View1 = View1(nibName: "View1", bundle: nil)
+        let instructions : View2 = View2(nibName: "View2", bundle: nil)
+        let settings : View3 = View3(nibName: "View3", bundle: nil)
         
         self.scrollView.showsHorizontalScrollIndicator = false
         self.scrollView.showsVerticalScrollIndicator = false
@@ -30,19 +31,19 @@ class ViewController: UIViewController {
         self.scrollView.addSubview(instructions.view)
         instructions.didMoveToParentViewController(self)
         
-        self.addChildViewController(settings)
-        self.scrollView.addSubview(settings.view)
-        settings.didMoveToParentViewController(self)
+//        self.addChildViewController(settings)
+//        self.scrollView.addSubview(settings.view)
+//        settings.didMoveToParentViewController(self)
         
         var instructionsFrame : CGRect = instructions.view.frame
         instructionsFrame.origin.x = self.view.frame.width
         instructions.view.frame = instructionsFrame
         
-        var settingsFrame : CGRect = settings.view.frame
-        settingsFrame.origin.x = self.view.frame.width * 2
-        settings.view.frame = settingsFrame
+//        var settingsFrame : CGRect = settings.view.frame
+//        settingsFrame.origin.x = self.view.frame.width * 2
+//        settings.view.frame = settingsFrame
         
-        self.scrollView.contentSize = CGSizeMake(self.view.frame.width * 3, self.view.frame.height)
+        self.scrollView.contentSize = CGSizeMake(self.view.frame.width * 2, self.view.frame.height) // MAKE SURE TO CHANGE THIS TO THREE WHEN YOU WANT TO ADD MORE
         
         
     }
