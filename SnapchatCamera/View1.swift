@@ -14,7 +14,6 @@ import Darwin
 
 class View1: UIViewController {
     
-    
     enum Stages {
         
         case Stage1 (Technique)
@@ -22,25 +21,18 @@ class View1: UIViewController {
         case Stage3 (Technique)
         case RestStage(Technique)
         case OhmStage(Technique)
-        
-        
     }
     
-    var followingSet : (() -> Void)?
-    var funcs = Array<(counter: Int, name: String, stage: String) -> Void>()
-    var i = 0
-
+    var listOfFuncs = Array<Stages>();
     
     var player: AVAudioPlayer?
     let breatheIN = NSBundle.mainBundle().URLForResource("breatheinfinal", withExtension: "mp3")!
     let breatheOUT = NSBundle.mainBundle().URLForResource("breatheout", withExtension: "mp3")!
-    
-    let ujayiColor = UIColor(red: 81/255, green: 163/255, blue: 157/255, alpha: 1)
-    let bellowsColor = UIColor(red: 129/255, green: 67/255, blue: 116/255, alpha: 1)
-    let kriyaColor = UIColor(red: 6/255, green: 66/255, blue: 92/255, alpha: 1)
+
     let infoColor = UIColor.lightGrayColor()
-    
-    
+    let highlightColor = UIColor.darkGrayColor()
+    let clearColor = UIColor.clearColor()
+
     @IBOutlet weak var counter: UIView!
     @IBOutlet weak var name: UIView!
     @IBOutlet weak var stage: UIView!
@@ -54,61 +46,46 @@ class View1: UIViewController {
     
     override func viewDidLoad() {
         
-//        funcs.append(bellowsSet)
-//        funcs.append(kriyaSet)
-//        funcs.append(bellowsSet)
-        
-        funcs.append(ujayiSet)
-        funcs.append(ujayiSet)
-        
         super.viewDidLoad()
-        self.view.backgroundColor = ujayiColor //TEMPORARY
         
-        name.backgroundColor = infoColor
-        counter.backgroundColor = infoColor
-        stage.backgroundColor = infoColor
-
-
-        //circleOneLabel
-        circleOne.backgroundColor = UIColor.darkGrayColor()
-        circleOne.layer.cornerRadius = 35.0
-        circleOne.clipsToBounds = true
-        circleOne.layer.borderColor = UIColor.blackColor().CGColor
-        circleOne.layer.borderWidth = 2.0
-        circleOne.textAlignment = NSTextAlignment.Center
-        circleOne.font = UIFont(name: "Azurite", size: 30)
+        listOfFuncs.append(Stages.Stage1(Ujayi()))
+        listOfFuncs.append(Stages.Stage2(Bhastrika()))
         
-        //circleTwoLabel
-        circleTwo.backgroundColor = UIColor.clearColor()
-        circleTwo.layer.cornerRadius = 35.0
-        circleTwo.clipsToBounds = true
-        circleTwo.layer.borderColor = UIColor.blackColor().CGColor
-        circleTwo.layer.borderWidth = 2.0
-        circleTwo.textAlignment = NSTextAlignment.Center
-        circleTwo.font = UIFont(name: "Azurite", size: 30)
+        backgroundColor(infoColor)
+    
+        setCircleLabel(circleOne)
+        setCircleLabel(circleTwo)
+        setCircleLabel(circleThree)
         
-        //circleThreeLabel
-        circleThree.backgroundColor = UIColor.clearColor()
-        circleThree.layer.cornerRadius = 35.0
-        circleThree.clipsToBounds = true
-        circleThree.layer.borderColor = UIColor.blackColor().CGColor
-        circleThree.layer.borderWidth = 2.0
-        circleThree.textAlignment = NSTextAlignment.Center
-        circleThree.font = UIFont(name: "Azurite", size: 30)
+        setTextLabel(nameText,size: 55)
+        setTextLabel(stageText,size: 45)
         
-        nameText.textAlignment = NSTextAlignment.Center
-        nameText.font = UIFont(name: "Azurite", size: 55)
-        nameText.text = "Ujayi Breath"
-        
-        stageText.textAlignment = NSTextAlignment.Center
-        stageText.font = UIFont(name: "Azurite", size: 45)
-        stageText.text = "Breast"
-        
-        
-        
-       
-        //doSet2(funcs[i])
-        doSet(funcs[i])
+        for t in listOfFuncs {
+            
+            switch t{
+            case let .Stage1(t):
+                changeCounter(1)
+                nameText.text = t.name
+                stageText.text = t.Stage1
+                self.view.backgroundColor = t.color
+                t.function(t.repitition)
+            case let .Stage2(t):
+                changeCounter(2)
+                nameText.text = t.name
+                stageText.text = t.Stage2
+                self.view.backgroundColor = t.color
+                t.function(t.repitition)
+            case let .Stage3(t):
+                changeCounter(3)
+                nameText.text = t.name
+                stageText.text = t.Stage3
+                self.view.backgroundColor = t.color
+                t.function(t.repitition)
+                
+            default:
+                print("No Technique with that name")
+            }
+        }
     }
     
     func playSound(url: NSURL){
@@ -124,7 +101,7 @@ class View1: UIViewController {
         }
     }
 
-    func ujayiSet(counter: Int, name: String, stage: String){
+    func ujayiSet(counter: Int, name: String, stage: String){ //Time stufff
         playSound(breatheIN)
         let delay = 8 * Double(NSEC_PER_SEC)
         let time = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
@@ -135,33 +112,29 @@ class View1: UIViewController {
         
     
     }
-    func bellowsSet(){playSound(breatheIN); print("zero")}
-    func kriyaSet(){playSound(breatheOUT); print("one")}
     
-    func doSet2(currentSet: (counter: Int, name: String, stage: String) -> Void) {
-        
-        currentSet(counter: 2, name: "Ujayi Breath", stage: "Waist")
-        sleep(5)
-       // delay(5)
-        i = i + 1
-        let isIndexValid = funcs.indices.contains(i)
-        if(isIndexValid){
-            doSet2(funcs[i])
-        }
-        else{print("done" + String(i))}
-        
-    }
+    
     
     func doSet(currentSet: (counter: Int, name: String, stage: String) -> Void){
-        funcs[i](counter: 2, name: "Ujayi Breath", stage: "Waist")
-        i = i + 1
-        if(funcs.indices.contains(i)){
-            doSet(funcs[i])
-        }
-        else{print("done " + String(i))}
+//        funcs[i](counter: 2, name: "Ujayi Breath", stage: "Waist")
+//        i = i + 1
+//        if(funcs.indices.contains(i)){
+//            doSet(funcs[i])
+//        }
+//        else{print("done " + String(i))}
     }
     
-    func changeCounter(number : Int){}
+    func changeCounter(number : Int){
+        circleOne.backgroundColor = clearColor
+        circleTwo.backgroundColor = clearColor
+        circleThree.backgroundColor = clearColor
+        
+        if(number == 1){ circleOne.backgroundColor = highlightColor}
+        else if(number == 2){ circleTwo.backgroundColor = highlightColor}
+        else if(number == 3){ circleThree.backgroundColor = highlightColor}
+        else{print("Wrong counter number inputted (only 1,2,3)")}
+
+    }
     
     func hideCounter(){
         circleOne.hidden = true
@@ -173,6 +146,27 @@ class View1: UIViewController {
         circleOne.hidden = false
         circleTwo.hidden = false
         circleThree.hidden = false
+    }
+    
+    func backgroundColor(color : UIColor){
+        name.backgroundColor = color
+        counter.backgroundColor = color
+        stage.backgroundColor = color
+    }
+    
+    func setCircleLabel(circle : UILabel){
+        circle.backgroundColor = clearColor
+        circle.layer.cornerRadius = 35.0
+        circle.clipsToBounds = true
+        circle.layer.borderColor = UIColor.blackColor().CGColor
+        circle.layer.borderWidth = 2.0
+        circle.textAlignment = NSTextAlignment.Center
+        circle.font = UIFont(name: "Azurite", size: 30)
+    }
+    
+    func setTextLabel(text: UILabel, size : CGFloat){
+        text.textAlignment = NSTextAlignment.Center
+        text.font = UIFont(name: "Azurite", size: size)
     }
     
     
