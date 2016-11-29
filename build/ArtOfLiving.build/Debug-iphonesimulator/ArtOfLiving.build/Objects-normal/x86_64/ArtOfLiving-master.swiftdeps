@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "b1507cf0b299077c214dd24cacefddc4"
+build_time: [531803052, 567693000]
+inputs:
+  "/Users/adityagarg/Code/Mobile App/IOS/ArtOfLiving/SnapchatCamera/Techniques.swift": !dirty [531783361, 0]
+  "/Users/adityagarg/Code/Mobile App/IOS/ArtOfLiving/SnapchatCamera/ViewController.swift": !dirty [531550043, 0]
+  "/Users/adityagarg/Code/Mobile App/IOS/ArtOfLiving/SnapchatCamera/View3.swift": [493930605, 0]
+  "/Users/adityagarg/Code/Mobile App/IOS/ArtOfLiving/SnapchatCamera/View1.swift": !dirty [531803050, 0]
+  "/Users/adityagarg/Code/Mobile App/IOS/ArtOfLiving/SnapchatCamera/AppDelegate.swift": !private [531781995, 0]
+  "/Users/adityagarg/Code/Mobile App/IOS/ArtOfLiving/SnapchatCamera/View2.swift": [531550043, 0]

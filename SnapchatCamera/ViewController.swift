@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.view.backgroundColor = UIColor.blackColor()
+        self.view.backgroundColor = UIColor.black
         
         let display : View1 = View1(nibName: "View1", bundle: nil)
         let instructions : View2 = View2(nibName: "View2", bundle: nil)
@@ -25,11 +25,11 @@ class ViewController: UIViewController {
         
         self.addChildViewController(display)
         self.scrollView.addSubview(display.view)
-        display.didMoveToParentViewController(self)
+        display.didMove(toParentViewController: self)
         
         self.addChildViewController(instructions)
         self.scrollView.addSubview(instructions.view)
-        instructions.didMoveToParentViewController(self)
+        instructions.didMove(toParentViewController: self)
         
 //        self.addChildViewController(settings)
 //        self.scrollView.addSubview(settings.view)
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
 //        settingsFrame.origin.x = self.view.frame.width * 2
 //        settings.view.frame = settingsFrame
         
-        self.scrollView.contentSize = CGSizeMake(self.view.frame.width * 2, self.view.frame.height) // MAKE SURE TO CHANGE THIS TO THREE WHEN YOU WANT TO ADD MORE
+        self.scrollView.contentSize = CGSize(width: self.view.frame.width * 2, height: self.view.frame.height) // MAKE SURE TO CHANGE THIS TO THREE WHEN YOU WANT TO ADD MORE
         
         
     }

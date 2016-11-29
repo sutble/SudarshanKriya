@@ -13,9 +13,9 @@ class View2: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let backgroundImage = UIImageView(frame: UIScreen.mainScreen().bounds)
+        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
         backgroundImage.image = UIImage(named: "instructions.jpg")
-        self.view.insertSubview(backgroundImage, atIndex: 0)
+        self.view.insertSubview(backgroundImage, at: 0)
         //self.view.backgroundColor = UIColor(patternImage: UIImage(named: "instructions.jpg")!)
         // Do any additional setup after loading the view.
     }

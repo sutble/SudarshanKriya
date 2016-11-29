@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1834395B1D35FB0300CEC95C /* instructions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1834395A1D35FB0300CEC95C /* instructions.jpg */; };
-		1834395D1D360E5D00CEC95C /* breatheinfinal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1834395C1D360E5D00CEC95C /* breatheinfinal.mp3 */; };
-		1834395F1D360E6800CEC95C /* breatheout.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1834395E1D360E6800CEC95C /* breatheout.mp3 */; };
 		183439611D36EBD000CEC95C /* Techniques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183439601D36EBD000CEC95C /* Techniques.swift */; };
-		18BCDA301D35EF4B0009C0E9 /* Azurite (1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18BCDA2F1D35EF4B0009C0E9 /* Azurite (1).ttf */; };
 		AC94AD611B8E40BF002D9AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94AD601B8E40BF002D9AD2 /* AppDelegate.swift */; };
 		AC94AD631B8E40BF002D9AD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94AD621B8E40BF002D9AD2 /* ViewController.swift */; };
 		AC94AD661B8E40BF002D9AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC94AD641B8E40BF002D9AD2 /* Main.storyboard */; };
@@ -37,11 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1834395A1D35FB0300CEC95C /* instructions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instructions.jpg; sourceTree = "<group>"; };
-		1834395C1D360E5D00CEC95C /* breatheinfinal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = breatheinfinal.mp3; sourceTree = "<group>"; };
-		1834395E1D360E6800CEC95C /* breatheout.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = breatheout.mp3; sourceTree = "<group>"; };
 		183439601D36EBD000CEC95C /* Techniques.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Techniques.swift; sourceTree = "<group>"; };
-		18BCDA2F1D35EF4B0009C0E9 /* Azurite (1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Azurite (1).ttf"; sourceTree = "<group>"; };
 		AC94AD5B1B8E40BF002D9AD2 /* ArtOfLiving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtOfLiving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC94AD5F1B8E40BF002D9AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC94AD601B8E40BF002D9AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,10 +102,6 @@
 				AC94AD8A1B8E436D002D9AD2 /* View3.swift */,
 				AC94AD8B1B8E436D002D9AD2 /* View3.xib */,
 				AC94AD671B8E40BF002D9AD2 /* Images.xcassets */,
-				1834395C1D360E5D00CEC95C /* breatheinfinal.mp3 */,
-				1834395E1D360E6800CEC95C /* breatheout.mp3 */,
-				1834395A1D35FB0300CEC95C /* instructions.jpg */,
-				18BCDA2F1D35EF4B0009C0E9 /* Azurite (1).ttf */,
 				AC94AD691B8E40BF002D9AD2 /* LaunchScreen.xib */,
 				AC94AD5E1B8E40BF002D9AD2 /* Supporting Files */,
 			);
@@ -196,9 +184,11 @@
 					AC94AD5A1B8E40BF002D9AD2 = {
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = YT23XWN63C;
+						LastSwiftMigration = 0800;
 					};
 					AC94AD6F1B8E40BF002D9AD2 = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0800;
 						TestTargetID = AC94AD5A1B8E40BF002D9AD2;
 					};
 				};
@@ -227,14 +217,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BCDA301D35EF4B0009C0E9 /* Azurite (1).ttf in Resources */,
 				AC94AD661B8E40BF002D9AD2 /* Main.storyboard in Resources */,
 				AC94AD6B1B8E40BF002D9AD2 /* LaunchScreen.xib in Resources */,
-				1834395D1D360E5D00CEC95C /* breatheinfinal.mp3 in Resources */,
 				AC94AD8D1B8E436D002D9AD2 /* View3.xib in Resources */,
-				1834395B1D35FB0300CEC95C /* instructions.jpg in Resources */,
 				AC94AD831B8E4174002D9AD2 /* View1.xib in Resources */,
-				1834395F1D360E6800CEC95C /* breatheout.mp3 in Resources */,
 				AC94AD871B8E41A1002D9AD2 /* View2.xib in Resources */,
 				AC94AD681B8E40BF002D9AD2 /* Images.xcassets in Resources */,
 			);
@@ -390,11 +376,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YT23XWN63C;
 				INFOPLIST_FILE = SnapchatCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.garg.AOL;
 				PRODUCT_NAME = ArtOfLiving;
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -404,11 +392,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YT23XWN63C;
 				INFOPLIST_FILE = SnapchatCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.garg.AOL;
 				PRODUCT_NAME = ArtOfLiving;
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -427,6 +417,7 @@
 				INFOPLIST_FILE = SnapchatCameraTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = ArtOfLiving;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtOfLiving.app/ArtOfLiving";
 			};
 			name = Debug;
@@ -442,6 +433,7 @@
 				INFOPLIST_FILE = SnapchatCameraTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = ArtOfLiving;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtOfLiving.app/ArtOfLiving";
 			};
 			name = Release;

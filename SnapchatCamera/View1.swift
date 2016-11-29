@@ -2,8 +2,7 @@
 //  View1.swift
 //  SnapchatCamera
 //
-//  Created by Jared Davidson on 8/26/15.
-//  Copyright (c) 2015 Archetapp. All rights reserved.
+//  Created by Aditya Garg on 8/26/16.
 //
 
 import UIKit
@@ -12,26 +11,30 @@ import Darwin
 
 
 
-class View1: UIViewController {
+class View1: UIViewController, AVAudioPlayerDelegate {
     
     enum Stages {
         
-        case Stage1 (Technique)
-        case Stage2 (Technique)
-        case Stage3 (Technique)
-        case RestStage(Technique)
-        case OhmStage(Technique)
+        case stage1 (Technique)
+        case stage2 (Technique)
+        case stage3 (Technique)
     }
     
     var listOfFuncs = Array<Stages>();
+    var progressCounter = -1 //starts incrementing in beginning, so will be 0 when used
     
-    var player: AVAudioPlayer?
-    let breatheIN = NSBundle.mainBundle().URLForResource("breatheinfinal", withExtension: "mp3")!
-    let breatheOUT = NSBundle.mainBundle().URLForResource("breatheout", withExtension: "mp3")!
+    var player: AVAudioPlayer? = AVAudioPlayer()
+    var playURL : URL?
+    var lastSound : Bool!
+    
+    
+    let beginSound = Bundle.main.url(forResource: "begin", withExtension: "mp3")!
+    let endSound = Bundle.main.url(forResource: "completedexercise", withExtension: "mp3")!
 
-    let infoColor = UIColor.lightGrayColor()
-    let highlightColor = UIColor.darkGrayColor()
-    let clearColor = UIColor.clearColor()
+
+    let infoColor = UIColor.lightGray
+    let highlightColor = UIColor.darkGray
+    let clearColor = UIColor.clear
 
     @IBOutlet weak var counter: UIView!
     @IBOutlet weak var name: UIView!
@@ -44,13 +47,34 @@ class View1: UIViewController {
     @IBOutlet weak var nameText: UILabel!
     @IBOutlet weak var stageText: UILabel!
     
+    
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        
-        listOfFuncs.append(Stages.Stage1(Ujayi()))
-        listOfFuncs.append(Stages.Stage2(Bhastrika()))
-        
+       
+        UIApplication.shared.isIdleTimerDisabled = true
+        lastSound = false
+
+
+
+        listOfFuncs.append(Stages.stage1(Ujayi()))
+        addRest()
+        listOfFuncs.append(Stages.stage2(Ujayi()))
+        addRest()
+        listOfFuncs.append(Stages.stage3(Ujayi()))
+        addRest()
+        listOfFuncs.append(Stages.stage1(Bhastrika()))
+        addRest()
+        listOfFuncs.append(Stages.stage2(Bhastrika()))
+        addRest()
+        listOfFuncs.append(Stages.stage3(Bhastrika()))
+        addAum()
+        listOfFuncs.append(Stages.stage1(SudarshanKriya()))
+        listOfFuncs.append(Stages.stage2(SudarshanKriya()))
+        listOfFuncs.append(Stages.stage3(SudarshanKriya()))
+       
+        self.view.backgroundColor = infoColor
         backgroundColor(infoColor)
     
         setCircleLabel(circleOne)
@@ -60,40 +84,30 @@ class View1: UIViewController {
         setTextLabel(nameText,size: 55)
         setTextLabel(stageText,size: 45)
         
-        for t in listOfFuncs {
-            
-            switch t{
-            case let .Stage1(t):
-                changeCounter(1)
-                nameText.text = t.name
-                stageText.text = t.Stage1
-                self.view.backgroundColor = t.color
-                t.function(t.repitition)
-            case let .Stage2(t):
-                changeCounter(2)
-                nameText.text = t.name
-                stageText.text = t.Stage2
-                self.view.backgroundColor = t.color
-                t.function(t.repitition)
-            case let .Stage3(t):
-                changeCounter(3)
-                nameText.text = t.name
-                stageText.text = t.Stage3
-                self.view.backgroundColor = t.color
-                t.function(t.repitition)
-                
-            default:
-                print("No Technique with that name")
-            }
-        }
+        hideCounter()
+        
+        playSound(beginSound)
+        hideCounter()
     }
     
-    func playSound(url: NSURL){
+    func addRest(){
+        listOfFuncs.append(Stages.stage1(Rest()))
+        listOfFuncs.append(Stages.stage2(Rest()))
+        listOfFuncs.append(Stages.stage3(Rest()))
+    }
+    
+    func addAum(){
+        listOfFuncs.append(Stages.stage1(Aum()))
+        listOfFuncs.append(Stages.stage2(Aum()))
+        listOfFuncs.append(Stages.stage3(Aum()))
+    }
+    
+    func playSound(_ url: URL){
         
         do {
-            player = try AVAudioPlayer(contentsOfURL: url)
+            player = try AVAudioPlayer(contentsOf: url)
             guard let player = player else { return }
-            
+            player.delegate = self
             player.prepareToPlay()
             player.play()
         } catch let error as NSError {
@@ -101,30 +115,7 @@ class View1: UIViewController {
         }
     }
 
-    func ujayiSet(counter: Int, name: String, stage: String){ //Time stufff
-        playSound(breatheIN)
-        let delay = 8 * Double(NSEC_PER_SEC)
-        let time = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
-        dispatch_after(time, dispatch_get_main_queue()) {
-            self.playSound(self.breatheOUT)
-            
-        }
-        
-    
-    }
-    
-    
-    
-    func doSet(currentSet: (counter: Int, name: String, stage: String) -> Void){
-//        funcs[i](counter: 2, name: "Ujayi Breath", stage: "Waist")
-//        i = i + 1
-//        if(funcs.indices.contains(i)){
-//            doSet(funcs[i])
-//        }
-//        else{print("done " + String(i))}
-    }
-    
-    func changeCounter(number : Int){
+    func changeCounter(_ number : Int){
         circleOne.backgroundColor = clearColor
         circleTwo.backgroundColor = clearColor
         circleThree.backgroundColor = clearColor
@@ -137,36 +128,82 @@ class View1: UIViewController {
     }
     
     func hideCounter(){
-        circleOne.hidden = true
-        circleTwo.hidden = true
-        circleThree.hidden = true
+        circleOne.isHidden = true
+        circleTwo.isHidden = true
+        circleThree.isHidden = true
     }
     
     func showCounter(){
-        circleOne.hidden = false
-        circleTwo.hidden = false
-        circleThree.hidden = false
+        circleOne.isHidden = false
+        circleTwo.isHidden = false
+        circleThree.isHidden = false
     }
     
-    func backgroundColor(color : UIColor){
+    func backgroundColor(_ color : UIColor){
         name.backgroundColor = color
         counter.backgroundColor = color
         stage.backgroundColor = color
     }
     
-    func setCircleLabel(circle : UILabel){
+    func setCircleLabel(_ circle : UILabel){
         circle.backgroundColor = clearColor
         circle.layer.cornerRadius = 35.0
         circle.clipsToBounds = true
-        circle.layer.borderColor = UIColor.blackColor().CGColor
+        circle.layer.borderColor = UIColor.black.cgColor
         circle.layer.borderWidth = 2.0
-        circle.textAlignment = NSTextAlignment.Center
+        circle.textAlignment = NSTextAlignment.center
         circle.font = UIFont(name: "Azurite", size: 30)
     }
     
-    func setTextLabel(text: UILabel, size : CGFloat){
-        text.textAlignment = NSTextAlignment.Center
+    func setTextLabel(_ text: UILabel, size : CGFloat){
+        text.textAlignment = NSTextAlignment.center
         text.font = UIFont(name: "Azurite", size: size)
+    }
+    
+    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) { // *
+        showCounter()   
+        progressCounter += 1
+        let isIndexValid = listOfFuncs.indices.contains(progressCounter)
+        if(isIndexValid){
+            let t = listOfFuncs[progressCounter]
+            switch t{
+            case let .stage1(t):
+                showCounter()
+                changeCounter(1)
+                nameText.text = t.name
+                stageText.text = t.Stage1
+                self.view.backgroundColor = t.color
+                playURL = t.url1
+            case let .stage2(t):
+                showCounter()
+                changeCounter(2)
+                nameText.text = t.name
+                stageText.text = t.Stage2
+                self.view.backgroundColor = t.color
+                playURL = t.url2
+            case let .stage3(t):
+                showCounter()
+                changeCounter(3)
+                nameText.text = t.name
+                stageText.text = t.Stage3
+                self.view.backgroundColor = t.color
+                playURL = t.url3
+                
+            default:
+                print("No Technique with that name")
+            }
+            playSound(playURL!)
+        }
+        else if (!self.lastSound){
+            hideCounter()
+            nameText.text = "Finished"
+            stageText.text = ""
+            self.playSound(endSound) //plays end sound
+            self.lastSound = true
+            hideCounter()
+        }
+
+        
     }
     
     
