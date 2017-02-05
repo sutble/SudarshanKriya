@@ -1,0 +1,273 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Technique"
+- "Ujayi"
+- "Bhastrika"
+- "SudarshanKriya"
+- "Rest"
+- "Aum"
+provides-nominal:
+- "P14SudarshanKriya9Technique"
+- "C14SudarshanKriya5Ujayi"
+- "C14SudarshanKriya9Bhastrika"
+- "C14SudarshanKriya14SudarshanKriya"
+- "C14SudarshanKriya4Rest"
+- "C14SudarshanKriya3Aum"
+provides-member:
+- ["P14SudarshanKriya9Technique", ""]
+- ["C14SudarshanKriya5Ujayi", ""]
+- ["C14SudarshanKriya9Bhastrika", ""]
+- ["C14SudarshanKriya14SudarshanKriya", ""]
+- ["C14SudarshanKriya4Rest", ""]
+- ["C14SudarshanKriya3Aum", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "/"
+- "Bundle"
+- "Ujayi"
+- "String"
+- "SudarshanKriya"
+- "Rest"
+- "Aum"
+- "UIColor"
+- "Technique"
+- "StringLiteralType"
+- "URL"
+- "Bhastrika"
+depends-member:
+- ["Ps9AnyObject", "Bundle"]
+- ["Ps9AnyObject", "Stage1"]
+- ["Ps9AnyObject", "Stage2"]
+- ["Ps9AnyObject", "Stage3"]
+- ["Ps9AnyObject", "UIColor"]
+- ["Ps9AnyObject", "color"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "main"]
+- ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "url"]
+- ["Ps9AnyObject", "url1"]
+- ["Ps9AnyObject", "url2"]
+- ["Ps9AnyObject", "url3"]
+- ["Ps9AnyObject", ""]
+- ["C14SudarshanKriya3Aum", "Bundle"]
+- ["C14SudarshanKriya3Aum", "Stage1"]
+- ["C14SudarshanKriya3Aum", "Stage2"]
+- ["C14SudarshanKriya3Aum", "Stage3"]
+- ["C14SudarshanKriya3Aum", "UIColor"]
+- ["C14SudarshanKriya3Aum", "color"]
+- ["C14SudarshanKriya3Aum", "deinit"]
+- ["C14SudarshanKriya3Aum", "init"]
+- ["C14SudarshanKriya3Aum", "name"]
+- ["C14SudarshanKriya3Aum", "url1"]
+- ["C14SudarshanKriya3Aum", "url2"]
+- ["C14SudarshanKriya3Aum", "url3"]
+- ["C14SudarshanKriya9Bhastrika", "Bundle"]
+- ["C14SudarshanKriya9Bhastrika", "Stage1"]
+- ["C14SudarshanKriya9Bhastrika", "Stage2"]
+- ["C14SudarshanKriya9Bhastrika", "Stage3"]
+- ["C14SudarshanKriya9Bhastrika", "UIColor"]
+- ["C14SudarshanKriya9Bhastrika", "color"]
+- ["C14SudarshanKriya9Bhastrika", "deinit"]
+- ["C14SudarshanKriya9Bhastrika", "init"]
+- ["C14SudarshanKriya9Bhastrika", "name"]
+- ["C14SudarshanKriya9Bhastrika", "url1"]
+- ["C14SudarshanKriya9Bhastrika", "url2"]
+- ["C14SudarshanKriya9Bhastrika", "url3"]
+- ["CSo6Bundle", "deinit"]
+- ["CSo6Bundle", "main"]
+- ["CSo6Bundle", "url"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "main"]
+- ["Ps7CVarArg", "url"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "main"]
+- ["Ps28CustomDebugStringConvertible", "url"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "url"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "main"]
+- ["Ps9Equatable", "url"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "url"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "url"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "main"]
+- ["PSo16NSObjectProtocol", "url"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["C14SudarshanKriya4Rest", "Bundle"]
+- ["C14SudarshanKriya4Rest", "Stage1"]
+- ["C14SudarshanKriya4Rest", "Stage2"]
+- ["C14SudarshanKriya4Rest", "Stage3"]
+- ["C14SudarshanKriya4Rest", "UIColor"]
+- ["C14SudarshanKriya4Rest", "color"]
+- ["C14SudarshanKriya4Rest", "deinit"]
+- ["C14SudarshanKriya4Rest", "init"]
+- ["C14SudarshanKriya4Rest", "name"]
+- ["C14SudarshanKriya4Rest", "url1"]
+- ["C14SudarshanKriya4Rest", "url2"]
+- ["C14SudarshanKriya4Rest", "url3"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["C14SudarshanKriya14SudarshanKriya", "Bundle"]
+- ["C14SudarshanKriya14SudarshanKriya", "Stage1"]
+- ["C14SudarshanKriya14SudarshanKriya", "Stage2"]
+- ["C14SudarshanKriya14SudarshanKriya", "Stage3"]
+- ["C14SudarshanKriya14SudarshanKriya", "UIColor"]
+- ["C14SudarshanKriya14SudarshanKriya", "color"]
+- ["C14SudarshanKriya14SudarshanKriya", "deinit"]
+- ["C14SudarshanKriya14SudarshanKriya", "init"]
+- ["C14SudarshanKriya14SudarshanKriya", "name"]
+- ["C14SudarshanKriya14SudarshanKriya", "url1"]
+- ["C14SudarshanKriya14SudarshanKriya", "url2"]
+- ["C14SudarshanKriya14SudarshanKriya", "url3"]
+- ["P14SudarshanKriya9Technique", "Bundle"]
+- ["P14SudarshanKriya9Technique", "Stage1"]
+- ["P14SudarshanKriya9Technique", "Stage2"]
+- ["P14SudarshanKriya9Technique", "Stage3"]
+- ["P14SudarshanKriya9Technique", "String"]
+- ["P14SudarshanKriya9Technique", "UIColor"]
+- ["P14SudarshanKriya9Technique", "URL"]
+- ["P14SudarshanKriya9Technique", "color"]
+- ["P14SudarshanKriya9Technique", "name"]
+- ["P14SudarshanKriya9Technique", "url1"]
+- ["P14SudarshanKriya9Technique", "url2"]
+- ["P14SudarshanKriya9Technique", "url3"]
+- ["P14SudarshanKriya9Technique", ""]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["CSo7UIColor", "deinit"]
+- ["CSo7UIColor", "init"]
+- ["V10Foundation3URL", "deinit"]
+- ["C14SudarshanKriya5Ujayi", "Bundle"]
+- ["C14SudarshanKriya5Ujayi", "Stage1"]
+- ["C14SudarshanKriya5Ujayi", "Stage2"]
+- ["C14SudarshanKriya5Ujayi", "Stage3"]
+- ["C14SudarshanKriya5Ujayi", "UIColor"]
+- ["C14SudarshanKriya5Ujayi", "color"]
+- ["C14SudarshanKriya5Ujayi", "deinit"]
+- ["C14SudarshanKriya5Ujayi", "init"]
+- ["C14SudarshanKriya5Ujayi", "name"]
+- ["C14SudarshanKriya5Ujayi", "url1"]
+- ["C14SudarshanKriya5Ujayi", "url2"]
+- ["C14SudarshanKriya5Ujayi", "url3"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps26_ExpressibleByColorLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "main"]
+- ["Ps9_Hashable", "url"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C14SudarshanKriya3Aum"
+- "C14SudarshanKriya9Bhastrika"
+- "CSo6Bundle"
+- "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Sq"
+- "C14SudarshanKriya4Rest"
+- "SS"
+- "C14SudarshanKriya14SudarshanKriya"
+- "P14SudarshanKriya9Technique"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "CSo7UIColor"
+- "V10Foundation3URL"
+- "C14SudarshanKriya5Ujayi"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps26_ExpressibleByColorLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/Firebase/Core/Sources/Firebase.h"
+interface-hash: "fc911fc052af14398d068b29734b4b07"

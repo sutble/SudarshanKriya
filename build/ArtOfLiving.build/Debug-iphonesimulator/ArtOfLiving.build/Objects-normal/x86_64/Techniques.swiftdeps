@@ -4,117 +4,171 @@ provides-top-level:
 - "Ujayi"
 - "Bhastrika"
 - "SudarshanKriya"
+- "Rest"
+- "Aum"
 provides-nominal:
 - "P11ArtOfLiving9Technique"
 - "C11ArtOfLiving5Ujayi"
 - "C11ArtOfLiving9Bhastrika"
 - "C11ArtOfLiving14SudarshanKriya"
+- "C11ArtOfLiving4Rest"
+- "C11ArtOfLiving3Aum"
 provides-member:
 - ["P11ArtOfLiving9Technique", ""]
 - ["C11ArtOfLiving5Ujayi", ""]
 - ["C11ArtOfLiving9Bhastrika", ""]
 - ["C11ArtOfLiving14SudarshanKriya", ""]
+- ["C11ArtOfLiving4Rest", ""]
+- ["C11ArtOfLiving3Aum", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Int"
-- "Technique"
-- "StringLiteralType"
-- "/"
+- "URL"
 - "SudarshanKriya"
-- "Bhastrika"
-- "String"
-- !private "print"
+- "Technique"
+- "Bundle"
 - "Ujayi"
+- "/"
+- "String"
+- "Rest"
+- "StringLiteralType"
+- "Aum"
+- "Bhastrika"
 - "UIColor"
 depends-member:
+- ["Ps9AnyObject", "Bundle"]
 - ["Ps9AnyObject", "Stage1"]
 - ["Ps9AnyObject", "Stage2"]
 - ["Ps9AnyObject", "Stage3"]
 - ["Ps9AnyObject", "UIColor"]
 - ["Ps9AnyObject", "color"]
-- ["Ps9AnyObject", "function"]
 - ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "main"]
 - ["Ps9AnyObject", "name"]
-- !private ["Ps9AnyObject", "print"]
-- ["Ps9AnyObject", "repitition"]
+- ["Ps9AnyObject", "url"]
+- ["Ps9AnyObject", "url1"]
+- ["Ps9AnyObject", "url2"]
+- ["Ps9AnyObject", "url3"]
 - ["Ps9AnyObject", ""]
-- ["C11ArtOfLiving9Bhastrika", "Int"]
+- ["C11ArtOfLiving3Aum", "Bundle"]
+- ["C11ArtOfLiving3Aum", "Stage1"]
+- ["C11ArtOfLiving3Aum", "Stage2"]
+- ["C11ArtOfLiving3Aum", "Stage3"]
+- ["C11ArtOfLiving3Aum", "UIColor"]
+- ["C11ArtOfLiving3Aum", "color"]
+- ["C11ArtOfLiving3Aum", "deinit"]
+- ["C11ArtOfLiving3Aum", "init"]
+- ["C11ArtOfLiving3Aum", "name"]
+- ["C11ArtOfLiving3Aum", "url1"]
+- ["C11ArtOfLiving3Aum", "url2"]
+- ["C11ArtOfLiving3Aum", "url3"]
+- ["C11ArtOfLiving9Bhastrika", "Bundle"]
 - ["C11ArtOfLiving9Bhastrika", "Stage1"]
 - ["C11ArtOfLiving9Bhastrika", "Stage2"]
 - ["C11ArtOfLiving9Bhastrika", "Stage3"]
 - ["C11ArtOfLiving9Bhastrika", "UIColor"]
 - ["C11ArtOfLiving9Bhastrika", "color"]
 - ["C11ArtOfLiving9Bhastrika", "deinit"]
-- ["C11ArtOfLiving9Bhastrika", "function"]
 - ["C11ArtOfLiving9Bhastrika", "init"]
 - ["C11ArtOfLiving9Bhastrika", "name"]
-- !private ["C11ArtOfLiving9Bhastrika", "print"]
-- ["C11ArtOfLiving9Bhastrika", "repitition"]
+- ["C11ArtOfLiving9Bhastrika", "url1"]
+- ["C11ArtOfLiving9Bhastrika", "url2"]
+- ["C11ArtOfLiving9Bhastrika", "url3"]
+- ["CSo6Bundle", "deinit"]
+- ["CSo6Bundle", "main"]
+- ["CSo6Bundle", "url"]
 - ["V12CoreGraphics7CGFloat", "deinit"]
 - ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "main"]
+- ["Ps7CVarArg", "url"]
 - ["Ps10Comparable", "init"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "main"]
+- ["Ps28CustomDebugStringConvertible", "url"]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
 - ["Ps17CustomReflectable", "init"]
 - ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "url"]
 - ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "main"]
+- ["Ps9Equatable", "url"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - ["Ps32ExpressibleByStringInterpolation", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - ["Ps8Hashable", "init"]
-- ["Si", "deinit"]
+- ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "url"]
 - ["Ps25LosslessStringConvertible", "init"]
 - ["Ps10MirrorPath", "init"]
 - ["PSo8NSCoding", "init"]
 - ["PSo9NSCopying", "init"]
 - ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "url"]
 - ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "main"]
+- ["PSo16NSObjectProtocol", "url"]
 - ["PSo14NSSecureCoding", "init"]
 - ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["C11ArtOfLiving4Rest", "Bundle"]
+- ["C11ArtOfLiving4Rest", "Stage1"]
+- ["C11ArtOfLiving4Rest", "Stage2"]
+- ["C11ArtOfLiving4Rest", "Stage3"]
+- ["C11ArtOfLiving4Rest", "UIColor"]
+- ["C11ArtOfLiving4Rest", "color"]
+- ["C11ArtOfLiving4Rest", "deinit"]
+- ["C11ArtOfLiving4Rest", "init"]
+- ["C11ArtOfLiving4Rest", "name"]
+- ["C11ArtOfLiving4Rest", "url1"]
+- ["C11ArtOfLiving4Rest", "url2"]
+- ["C11ArtOfLiving4Rest", "url3"]
 - ["SS", "deinit"]
 - ["SS", "init"]
-- ["C11ArtOfLiving14SudarshanKriya", "Int"]
+- ["C11ArtOfLiving14SudarshanKriya", "Bundle"]
 - ["C11ArtOfLiving14SudarshanKriya", "Stage1"]
 - ["C11ArtOfLiving14SudarshanKriya", "Stage2"]
 - ["C11ArtOfLiving14SudarshanKriya", "Stage3"]
 - ["C11ArtOfLiving14SudarshanKriya", "UIColor"]
 - ["C11ArtOfLiving14SudarshanKriya", "color"]
 - ["C11ArtOfLiving14SudarshanKriya", "deinit"]
-- ["C11ArtOfLiving14SudarshanKriya", "function"]
 - ["C11ArtOfLiving14SudarshanKriya", "init"]
 - ["C11ArtOfLiving14SudarshanKriya", "name"]
-- !private ["C11ArtOfLiving14SudarshanKriya", "print"]
-- ["C11ArtOfLiving14SudarshanKriya", "repitition"]
-- ["P11ArtOfLiving9Technique", "Int"]
+- ["C11ArtOfLiving14SudarshanKriya", "url1"]
+- ["C11ArtOfLiving14SudarshanKriya", "url2"]
+- ["C11ArtOfLiving14SudarshanKriya", "url3"]
+- ["P11ArtOfLiving9Technique", "Bundle"]
 - ["P11ArtOfLiving9Technique", "Stage1"]
 - ["P11ArtOfLiving9Technique", "Stage2"]
 - ["P11ArtOfLiving9Technique", "Stage3"]
 - ["P11ArtOfLiving9Technique", "String"]
 - ["P11ArtOfLiving9Technique", "UIColor"]
+- ["P11ArtOfLiving9Technique", "URL"]
 - ["P11ArtOfLiving9Technique", "color"]
-- ["P11ArtOfLiving9Technique", "function"]
 - ["P11ArtOfLiving9Technique", "name"]
-- !private ["P11ArtOfLiving9Technique", "print"]
-- ["P11ArtOfLiving9Technique", "repitition"]
+- ["P11ArtOfLiving9Technique", "url1"]
+- ["P11ArtOfLiving9Technique", "url2"]
+- ["P11ArtOfLiving9Technique", "url3"]
 - ["P11ArtOfLiving9Technique", ""]
 - ["Ps16TextOutputStream", "init"]
 - ["Ps20TextOutputStreamable", "init"]
 - ["CSo7UIColor", "deinit"]
 - ["CSo7UIColor", "init"]
-- ["C11ArtOfLiving5Ujayi", "Int"]
+- ["V10Foundation3URL", "deinit"]
+- ["C11ArtOfLiving5Ujayi", "Bundle"]
 - ["C11ArtOfLiving5Ujayi", "Stage1"]
 - ["C11ArtOfLiving5Ujayi", "Stage2"]
 - ["C11ArtOfLiving5Ujayi", "Stage3"]
 - ["C11ArtOfLiving5Ujayi", "UIColor"]
 - ["C11ArtOfLiving5Ujayi", "color"]
 - ["C11ArtOfLiving5Ujayi", "deinit"]
-- ["C11ArtOfLiving5Ujayi", "function"]
 - ["C11ArtOfLiving5Ujayi", "init"]
 - ["C11ArtOfLiving5Ujayi", "name"]
-- !private ["C11ArtOfLiving5Ujayi", "print"]
-- ["C11ArtOfLiving5Ujayi", "repitition"]
+- ["C11ArtOfLiving5Ujayi", "url1"]
+- ["C11ArtOfLiving5Ujayi", "url2"]
+- ["C11ArtOfLiving5Ujayi", "url3"]
 - ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
@@ -122,10 +176,14 @@ depends-member:
 - ["Ps26_ExpressibleByColorLiteral", "init"]
 - ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "main"]
+- ["Ps9_Hashable", "url"]
 - ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
+- "C11ArtOfLiving3Aum"
 - "C11ArtOfLiving9Bhastrika"
+- "CSo6Bundle"
 - "V12CoreGraphics7CGFloat"
 - "Ps7CVarArg"
 - "Ps10Comparable"
@@ -139,7 +197,6 @@ depends-nominal:
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
 - "Ps8Hashable"
-- "Si"
 - "Ps25LosslessStringConvertible"
 - "Ps10MirrorPath"
 - "PSo8NSCoding"
@@ -149,12 +206,15 @@ depends-nominal:
 - "PSo16NSObjectProtocol"
 - "PSo14NSSecureCoding"
 - "CSo8NSString"
+- "Sq"
+- "C11ArtOfLiving4Rest"
 - "SS"
 - "C11ArtOfLiving14SudarshanKriya"
 - "P11ArtOfLiving9Technique"
 - "Ps16TextOutputStream"
 - "Ps20TextOutputStreamable"
 - "CSo7UIColor"
+- "V10Foundation3URL"
 - "C11ArtOfLiving5Ujayi"
 - "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - "Ps34_ExpressibleByBuiltinStringLiteral"
@@ -169,6 +229,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
@@ -178,4 +239,35 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
-interface-hash: "ddeefe4a7edd93d14c6b73aee9c6271a"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/Firebase/Core/Sources/Firebase.h"
+interface-hash: "3d6ee11e43a6737acee515ffc4f5aac7"

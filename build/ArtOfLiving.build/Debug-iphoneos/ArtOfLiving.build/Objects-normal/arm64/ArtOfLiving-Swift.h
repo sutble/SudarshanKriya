@@ -133,6 +133,7 @@ SWIFT_CLASS("_TtC11ArtOfLiving11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class FIRDatabaseReference;
 @class AVAudioPlayer;
 @class UIColor;
 @class UILabel;
@@ -142,6 +143,7 @@ SWIFT_CLASS("_TtC11ArtOfLiving11AppDelegate")
 
 SWIFT_CLASS("_TtC11ArtOfLiving5View1")
 @interface View1 : UIViewController <AVAudioPlayerDelegate>
+@property (nonatomic, strong) FIRDatabaseReference * _Nullable ref;
 @property (nonatomic) NSInteger progressCounter;
 @property (nonatomic, strong) AVAudioPlayer * _Nullable player;
 @property (nonatomic, copy) NSURL * _Nullable playURL;
@@ -169,6 +171,8 @@ SWIFT_CLASS("_TtC11ArtOfLiving5View1")
 - (void)setCircleLabel:(UILabel * _Nonnull)circle;
 - (void)setTextLabel:(UILabel * _Nonnull)text size:(CGFloat)size;
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer * _Nonnull)player successfully:(BOOL)flag;
+- (void)sendFirUpdate;
+- (NSString * _Nonnull)stringDate;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

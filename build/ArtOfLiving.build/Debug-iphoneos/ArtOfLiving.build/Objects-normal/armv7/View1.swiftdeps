@@ -8,65 +8,77 @@ provides-member:
 - ["C11ArtOfLiving5View1", ""]
 - ["OC11ArtOfLiving5View16Stages", ""]
 provides-dynamic-lookup:
-- "audioPlayerDidFinishPlaying"
-- "stageText"
-- "addRest"
-- "hideCounter"
-- "viewDidLoad"
-- "stage"
-- "showCounter"
-- "playURL"
-- "circleThree"
-- "playSound"
-- "counter"
-- "changeCounter"
-- "clearColor"
-- "circleOne"
-- "beginSound"
-- "didReceiveMemoryWarning"
-- "backgroundColor"
-- "highlightColor"
-- "nameText"
-- "addAum"
-- "setCircleLabel"
-- "player"
-- "endSound"
-- "circleTwo"
-- "name"
-- "setTextLabel"
+- "sendFirUpdate"
 - "progressCounter"
+- "highlightColor"
+- "player"
+- "counter"
+- "endSound"
+- "beginSound"
+- "circleThree"
+- "addAum"
+- "viewDidLoad"
+- "playSound"
+- "backgroundColor"
+- "audioPlayerDidFinishPlaying"
+- "hideCounter"
+- "circleOne"
+- "setTextLabel"
+- "showCounter"
+- "stageText"
+- "clearColor"
+- "playURL"
+- "changeCounter"
+- "nameText"
+- "ref"
+- "addRest"
+- "stage"
+- "stringDate"
+- "didReceiveMemoryWarning"
+- "circleTwo"
 - "infoColor"
+- "name"
+- "setCircleLabel"
 depends-top-level:
-- !private "Rest"
+- !private "SudarshanKriya"
 - "Technique"
-- "UILabel"
-- "StringLiteralType"
-- "Array"
-- "View1"
-- !private "NSTextAlignment"
 - !private "print"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "Bhastrika"
+- "Bundle"
+- "FIRDatabaseReference"
 - !private "+="
 - !private "NSError"
-- "AVAudioPlayer"
-- !private "UIApplication"
-- !private "BooleanLiteralType"
-- !private "UIFont"
 - !private "!"
-- "AVAudioPlayerDelegate"
-- "URL"
 - "Bool"
-- "UIView"
-- "UIViewController"
-- !private "Bhastrika"
-- "CGFloat"
-- !private "SudarshanKriya"
-- "UIColor"
-- "Bundle"
-- "Int"
-- !private "Aum"
+- "View1"
 - !private "Ujayi"
-- "AssignmentPrecedence"
-- !private "=="
+- "UIViewController"
+- "FIRDatabaseHandle"
+- "AVAudioPlayer"
+- "URL"
+- !private "NSTextAlignment"
+- !private "+"
+- "CGFloat"
+- "Int"
+- "UILabel"
+- "String"
+- "Array"
+- !private "UIFont"
+- !private "<"
+- "UIView"
+- !private "Aum"
+- !private "BooleanLiteralType"
+- "StringLiteralType"
+- "UIColor"
+- !private "UnicodeScalarType"
+- "AVAudioPlayerDelegate"
+- !private "Rest"
+- !private "Calendar"
+- !private "Date"
+- !private "UIApplication"
+- !private "FIRDatabase"
 depends-member:
 - ["CSo13AVAudioPlayer", "deinit"]
 - !private ["CSo13AVAudioPlayer", "delegate"]
@@ -78,6 +90,9 @@ depends-member:
 - !private ["PSo21AVAudioPlayerDelegate", "Aum"]
 - !private ["PSo21AVAudioPlayerDelegate", "Bhastrika"]
 - ["PSo21AVAudioPlayerDelegate", "Bundle"]
+- !private ["PSo21AVAudioPlayerDelegate", "Calendar"]
+- !private ["PSo21AVAudioPlayerDelegate", "Date"]
+- !private ["PSo21AVAudioPlayerDelegate", "FIRDatabase"]
 - !private ["PSo21AVAudioPlayerDelegate", "NSTextAlignment"]
 - !private ["PSo21AVAudioPlayerDelegate", "Rest"]
 - !private ["PSo21AVAudioPlayerDelegate", "Stages"]
@@ -113,11 +128,14 @@ depends-member:
 - !private ["PSo21AVAudioPlayerDelegate", "player"]
 - !private ["PSo21AVAudioPlayerDelegate", "print"]
 - !private ["PSo21AVAudioPlayerDelegate", "progressCounter"]
+- !private ["PSo21AVAudioPlayerDelegate", "ref"]
+- !private ["PSo21AVAudioPlayerDelegate", "sendFirUpdate"]
 - !private ["PSo21AVAudioPlayerDelegate", "setCircleLabel"]
 - !private ["PSo21AVAudioPlayerDelegate", "setTextLabel"]
 - !private ["PSo21AVAudioPlayerDelegate", "showCounter"]
 - !private ["PSo21AVAudioPlayerDelegate", "stage"]
 - !private ["PSo21AVAudioPlayerDelegate", "stageText"]
+- !private ["PSo21AVAudioPlayerDelegate", "stringDate"]
 - !private ["PSo21AVAudioPlayerDelegate", "view"]
 - ["PSo21AVAudioPlayerDelegate", ""]
 - ["Ps9AnyObject", "AVAudioPlayer"]
@@ -125,6 +143,9 @@ depends-member:
 - !private ["Ps9AnyObject", "Aum"]
 - !private ["Ps9AnyObject", "Bhastrika"]
 - ["Ps9AnyObject", "Bundle"]
+- !private ["Ps9AnyObject", "Calendar"]
+- !private ["Ps9AnyObject", "Date"]
+- !private ["Ps9AnyObject", "FIRDatabase"]
 - !private ["Ps9AnyObject", "NSTextAlignment"]
 - !private ["Ps9AnyObject", "Rest"]
 - !private ["Ps9AnyObject", "Stages"]
@@ -146,6 +167,7 @@ depends-member:
 - !private ["Ps9AnyObject", "borderWidth"]
 - !private ["Ps9AnyObject", "cgColor"]
 - ["Ps9AnyObject", "changeCounter"]
+- !private ["Ps9AnyObject", "child"]
 - ["Ps9AnyObject", "circleOne"]
 - ["Ps9AnyObject", "circleThree"]
 - ["Ps9AnyObject", "circleTwo"]
@@ -155,6 +177,8 @@ depends-member:
 - !private ["Ps9AnyObject", "cornerRadius"]
 - ["Ps9AnyObject", "counter"]
 - ["Ps9AnyObject", "darkGray"]
+- !private ["Ps9AnyObject", "database"]
+- ["Ps9AnyObject", "databaseHandle"]
 - !private ["Ps9AnyObject", "delegate"]
 - !private ["Ps9AnyObject", "description"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
@@ -180,12 +204,17 @@ depends-member:
 - !private ["Ps9AnyObject", "prepareToPlay"]
 - !private ["Ps9AnyObject", "print"]
 - ["Ps9AnyObject", "progressCounter"]
+- ["Ps9AnyObject", "ref"]
+- !private ["Ps9AnyObject", "reference"]
+- ["Ps9AnyObject", "sendFirUpdate"]
 - ["Ps9AnyObject", "setCircleLabel"]
 - ["Ps9AnyObject", "setTextLabel"]
+- !private ["Ps9AnyObject", "setValue"]
 - !private ["Ps9AnyObject", "shared"]
 - ["Ps9AnyObject", "showCounter"]
 - ["Ps9AnyObject", "stage"]
 - ["Ps9AnyObject", "stageText"]
+- ["Ps9AnyObject", "stringDate"]
 - !private ["Ps9AnyObject", "text"]
 - !private ["Ps9AnyObject", "textAlignment"]
 - ["Ps9AnyObject", "url"]
@@ -264,6 +293,9 @@ depends-member:
 - !private ["Ps7CVarArg", "Aum"]
 - !private ["Ps7CVarArg", "Bhastrika"]
 - ["Ps7CVarArg", "Bundle"]
+- !private ["Ps7CVarArg", "Calendar"]
+- !private ["Ps7CVarArg", "Date"]
+- !private ["Ps7CVarArg", "FIRDatabase"]
 - !private ["Ps7CVarArg", "Index"]
 - !private ["Ps7CVarArg", "IndexDistance"]
 - !private ["Ps7CVarArg", "Indices"]
@@ -295,6 +327,7 @@ depends-member:
 - !private ["Ps7CVarArg", "borderWidth"]
 - !private ["Ps7CVarArg", "cgColor"]
 - ["Ps7CVarArg", "changeCounter"]
+- !private ["Ps7CVarArg", "child"]
 - ["Ps7CVarArg", "circleOne"]
 - ["Ps7CVarArg", "circleThree"]
 - ["Ps7CVarArg", "circleTwo"]
@@ -304,6 +337,8 @@ depends-member:
 - !private ["Ps7CVarArg", "cornerRadius"]
 - ["Ps7CVarArg", "counter"]
 - ["Ps7CVarArg", "darkGray"]
+- !private ["Ps7CVarArg", "database"]
+- ["Ps7CVarArg", "databaseHandle"]
 - !private ["Ps7CVarArg", "delegate"]
 - !private ["Ps7CVarArg", "description"]
 - ["Ps7CVarArg", "didReceiveMemoryWarning"]
@@ -330,12 +365,17 @@ depends-member:
 - !private ["Ps7CVarArg", "prepareToPlay"]
 - !private ["Ps7CVarArg", "print"]
 - ["Ps7CVarArg", "progressCounter"]
+- ["Ps7CVarArg", "ref"]
+- !private ["Ps7CVarArg", "reference"]
+- ["Ps7CVarArg", "sendFirUpdate"]
 - ["Ps7CVarArg", "setCircleLabel"]
 - ["Ps7CVarArg", "setTextLabel"]
+- !private ["Ps7CVarArg", "setValue"]
 - !private ["Ps7CVarArg", "shared"]
 - ["Ps7CVarArg", "showCounter"]
 - ["Ps7CVarArg", "stage"]
 - ["Ps7CVarArg", "stageText"]
+- ["Ps7CVarArg", "stringDate"]
 - !private ["Ps7CVarArg", "subscript"]
 - !private ["Ps7CVarArg", "text"]
 - !private ["Ps7CVarArg", "textAlignment"]
@@ -343,6 +383,10 @@ depends-member:
 - !private ["Ps7CVarArg", "view"]
 - ["Ps7CVarArg", "viewDidLoad"]
 - ["Ps7CVarArg", ""]
+- !private ["V10Foundation8Calendar", "dateComponents"]
+- ["V10Foundation8Calendar", "deinit"]
+- !private ["V10Foundation8Calendar", "init"]
+- !private ["Vs9Character", "deinit"]
 - !private ["Ps10Collection", "Index"]
 - !private ["Ps10Collection", "IndexDistance"]
 - !private ["Ps10Collection", "Indices"]
@@ -371,6 +415,9 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "Aum"]
 - !private ["Ps28CustomDebugStringConvertible", "Bhastrika"]
 - ["Ps28CustomDebugStringConvertible", "Bundle"]
+- !private ["Ps28CustomDebugStringConvertible", "Calendar"]
+- !private ["Ps28CustomDebugStringConvertible", "Date"]
+- !private ["Ps28CustomDebugStringConvertible", "FIRDatabase"]
 - !private ["Ps28CustomDebugStringConvertible", "Index"]
 - !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
 - !private ["Ps28CustomDebugStringConvertible", "Indices"]
@@ -399,6 +446,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "borderWidth"]
 - !private ["Ps28CustomDebugStringConvertible", "cgColor"]
 - ["Ps28CustomDebugStringConvertible", "changeCounter"]
+- !private ["Ps28CustomDebugStringConvertible", "child"]
 - ["Ps28CustomDebugStringConvertible", "circleOne"]
 - ["Ps28CustomDebugStringConvertible", "circleThree"]
 - ["Ps28CustomDebugStringConvertible", "circleTwo"]
@@ -408,7 +456,12 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "contains"]
 - !private ["Ps28CustomDebugStringConvertible", "cornerRadius"]
 - ["Ps28CustomDebugStringConvertible", "counter"]
+- !private ["Ps28CustomDebugStringConvertible", "current"]
 - ["Ps28CustomDebugStringConvertible", "darkGray"]
+- !private ["Ps28CustomDebugStringConvertible", "database"]
+- ["Ps28CustomDebugStringConvertible", "databaseHandle"]
+- !private ["Ps28CustomDebugStringConvertible", "dateComponents"]
+- !private ["Ps28CustomDebugStringConvertible", "day"]
 - !private ["Ps28CustomDebugStringConvertible", "delegate"]
 - !private ["Ps28CustomDebugStringConvertible", "description"]
 - ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
@@ -426,6 +479,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "lightGray"]
 - ["Ps28CustomDebugStringConvertible", "listOfFuncs"]
 - ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "month"]
 - ["Ps28CustomDebugStringConvertible", "name"]
 - ["Ps28CustomDebugStringConvertible", "nameText"]
 - !private ["Ps28CustomDebugStringConvertible", "play"]
@@ -435,19 +489,25 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "prepareToPlay"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
 - ["Ps28CustomDebugStringConvertible", "progressCounter"]
+- ["Ps28CustomDebugStringConvertible", "ref"]
+- !private ["Ps28CustomDebugStringConvertible", "reference"]
+- ["Ps28CustomDebugStringConvertible", "sendFirUpdate"]
 - ["Ps28CustomDebugStringConvertible", "setCircleLabel"]
 - ["Ps28CustomDebugStringConvertible", "setTextLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
 - !private ["Ps28CustomDebugStringConvertible", "shared"]
 - ["Ps28CustomDebugStringConvertible", "showCounter"]
 - ["Ps28CustomDebugStringConvertible", "some"]
 - ["Ps28CustomDebugStringConvertible", "stage"]
 - ["Ps28CustomDebugStringConvertible", "stageText"]
+- ["Ps28CustomDebugStringConvertible", "stringDate"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - !private ["Ps28CustomDebugStringConvertible", "text"]
 - !private ["Ps28CustomDebugStringConvertible", "textAlignment"]
 - ["Ps28CustomDebugStringConvertible", "url"]
 - !private ["Ps28CustomDebugStringConvertible", "view"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "year"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
@@ -466,15 +526,23 @@ depends-member:
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - !private ["Ps17CustomReflectable", "append"]
 - !private ["Ps17CustomReflectable", "contains"]
+- !private ["Ps17CustomReflectable", "current"]
+- !private ["Ps17CustomReflectable", "dateComponents"]
+- !private ["Ps17CustomReflectable", "day"]
 - !private ["Ps17CustomReflectable", "indices"]
 - ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "month"]
 - ["Ps17CustomReflectable", "some"]
 - !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "year"]
 - ["Ps23CustomStringConvertible", "AVAudioPlayer"]
 - ["Ps23CustomStringConvertible", "Array"]
 - !private ["Ps23CustomStringConvertible", "Aum"]
 - !private ["Ps23CustomStringConvertible", "Bhastrika"]
 - ["Ps23CustomStringConvertible", "Bundle"]
+- !private ["Ps23CustomStringConvertible", "Calendar"]
+- !private ["Ps23CustomStringConvertible", "Date"]
+- !private ["Ps23CustomStringConvertible", "FIRDatabase"]
 - !private ["Ps23CustomStringConvertible", "Index"]
 - !private ["Ps23CustomStringConvertible", "IndexDistance"]
 - !private ["Ps23CustomStringConvertible", "Indices"]
@@ -507,6 +575,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "borderWidth"]
 - !private ["Ps23CustomStringConvertible", "cgColor"]
 - ["Ps23CustomStringConvertible", "changeCounter"]
+- !private ["Ps23CustomStringConvertible", "child"]
 - ["Ps23CustomStringConvertible", "circleOne"]
 - ["Ps23CustomStringConvertible", "circleThree"]
 - ["Ps23CustomStringConvertible", "circleTwo"]
@@ -516,7 +585,12 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "contains"]
 - !private ["Ps23CustomStringConvertible", "cornerRadius"]
 - ["Ps23CustomStringConvertible", "counter"]
+- !private ["Ps23CustomStringConvertible", "current"]
 - ["Ps23CustomStringConvertible", "darkGray"]
+- !private ["Ps23CustomStringConvertible", "database"]
+- ["Ps23CustomStringConvertible", "databaseHandle"]
+- !private ["Ps23CustomStringConvertible", "dateComponents"]
+- !private ["Ps23CustomStringConvertible", "day"]
 - !private ["Ps23CustomStringConvertible", "delegate"]
 - !private ["Ps23CustomStringConvertible", "description"]
 - ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
@@ -534,6 +608,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "lightGray"]
 - ["Ps23CustomStringConvertible", "listOfFuncs"]
 - ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "month"]
 - ["Ps23CustomStringConvertible", "name"]
 - ["Ps23CustomStringConvertible", "nameText"]
 - !private ["Ps23CustomStringConvertible", "play"]
@@ -543,19 +618,31 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "prepareToPlay"]
 - !private ["Ps23CustomStringConvertible", "print"]
 - ["Ps23CustomStringConvertible", "progressCounter"]
+- ["Ps23CustomStringConvertible", "ref"]
+- !private ["Ps23CustomStringConvertible", "reference"]
+- ["Ps23CustomStringConvertible", "sendFirUpdate"]
 - ["Ps23CustomStringConvertible", "setCircleLabel"]
 - ["Ps23CustomStringConvertible", "setTextLabel"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
 - !private ["Ps23CustomStringConvertible", "shared"]
 - ["Ps23CustomStringConvertible", "showCounter"]
 - ["Ps23CustomStringConvertible", "stage"]
 - ["Ps23CustomStringConvertible", "stageText"]
+- ["Ps23CustomStringConvertible", "stringDate"]
 - !private ["Ps23CustomStringConvertible", "subscript"]
 - !private ["Ps23CustomStringConvertible", "text"]
 - !private ["Ps23CustomStringConvertible", "textAlignment"]
 - ["Ps23CustomStringConvertible", "url"]
 - !private ["Ps23CustomStringConvertible", "view"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
+- !private ["Ps23CustomStringConvertible", "year"]
 - ["Ps23CustomStringConvertible", ""]
+- ["V10Foundation4Date", "deinit"]
+- !private ["V10Foundation4Date", "init"]
+- !private ["V10Foundation14DateComponents", "day"]
+- ["V10Foundation14DateComponents", "deinit"]
+- !private ["V10Foundation14DateComponents", "month"]
+- !private ["V10Foundation14DateComponents", "year"]
 - !private ["Vs27DefaultBidirectionalIndices", "Index"]
 - !private ["Vs27DefaultBidirectionalIndices", "IndexDistance"]
 - !private ["Vs27DefaultBidirectionalIndices", "Indices"]
@@ -572,11 +659,15 @@ depends-member:
 - !private ["Vs26DefaultRandomAccessIndices", "Iterator"]
 - !private ["Vs26DefaultRandomAccessIndices", "SubSequence"]
 - !private ["Vs26DefaultRandomAccessIndices", "_Element"]
+- !private ["Sd", "deinit"]
 - ["Ps9Equatable", "AVAudioPlayer"]
 - ["Ps9Equatable", "Array"]
 - !private ["Ps9Equatable", "Aum"]
 - !private ["Ps9Equatable", "Bhastrika"]
 - ["Ps9Equatable", "Bundle"]
+- !private ["Ps9Equatable", "Calendar"]
+- !private ["Ps9Equatable", "Date"]
+- !private ["Ps9Equatable", "FIRDatabase"]
 - !private ["Ps9Equatable", "Index"]
 - !private ["Ps9Equatable", "IndexDistance"]
 - !private ["Ps9Equatable", "Indices"]
@@ -609,6 +700,7 @@ depends-member:
 - !private ["Ps9Equatable", "center"]
 - !private ["Ps9Equatable", "cgColor"]
 - ["Ps9Equatable", "changeCounter"]
+- !private ["Ps9Equatable", "child"]
 - ["Ps9Equatable", "circleOne"]
 - ["Ps9Equatable", "circleThree"]
 - ["Ps9Equatable", "circleTwo"]
@@ -618,12 +710,18 @@ depends-member:
 - !private ["Ps9Equatable", "contains"]
 - !private ["Ps9Equatable", "cornerRadius"]
 - ["Ps9Equatable", "counter"]
+- !private ["Ps9Equatable", "current"]
 - ["Ps9Equatable", "darkGray"]
+- !private ["Ps9Equatable", "database"]
+- ["Ps9Equatable", "databaseHandle"]
+- !private ["Ps9Equatable", "dateComponents"]
+- !private ["Ps9Equatable", "day"]
 - !private ["Ps9Equatable", "delegate"]
 - !private ["Ps9Equatable", "description"]
 - ["Ps9Equatable", "didReceiveMemoryWarning"]
 - ["Ps9Equatable", "endSound"]
 - !private ["Ps9Equatable", "font"]
+- !private ["Ps9Equatable", "gregorian"]
 - ["Ps9Equatable", "hideCounter"]
 - ["Ps9Equatable", "highlightColor"]
 - ["Ps9Equatable", "infoColor"]
@@ -635,6 +733,7 @@ depends-member:
 - ["Ps9Equatable", "lightGray"]
 - ["Ps9Equatable", "listOfFuncs"]
 - ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "month"]
 - ["Ps9Equatable", "name"]
 - ["Ps9Equatable", "nameText"]
 - !private ["Ps9Equatable", "play"]
@@ -644,17 +743,23 @@ depends-member:
 - !private ["Ps9Equatable", "prepareToPlay"]
 - !private ["Ps9Equatable", "print"]
 - ["Ps9Equatable", "progressCounter"]
+- ["Ps9Equatable", "ref"]
+- !private ["Ps9Equatable", "reference"]
+- ["Ps9Equatable", "sendFirUpdate"]
 - ["Ps9Equatable", "setCircleLabel"]
 - ["Ps9Equatable", "setTextLabel"]
+- !private ["Ps9Equatable", "setValue"]
 - !private ["Ps9Equatable", "shared"]
 - ["Ps9Equatable", "showCounter"]
 - ["Ps9Equatable", "stage"]
 - ["Ps9Equatable", "stageText"]
+- ["Ps9Equatable", "stringDate"]
 - !private ["Ps9Equatable", "text"]
 - !private ["Ps9Equatable", "textAlignment"]
 - ["Ps9Equatable", "url"]
 - !private ["Ps9Equatable", "view"]
 - ["Ps9Equatable", "viewDidLoad"]
+- !private ["Ps9Equatable", "year"]
 - ["Ps9Equatable", ""]
 - !private ["Ps5Error", "description"]
 - !private ["Ps25ExpressibleByArrayLiteral", "Index"]
@@ -676,11 +781,23 @@ depends-member:
 - ["Ps32ExpressibleByStringInterpolation", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["CSo11FIRDatabase", "database"]
+- ["CSo11FIRDatabase", "deinit"]
+- !private ["CSo11FIRDatabase", "reference"]
+- !private ["CSo16FIRDatabaseQuery", "child"]
+- !private ["CSo16FIRDatabaseQuery", "setValue"]
+- !private ["CSo20FIRDatabaseReference", "child"]
+- ["CSo20FIRDatabaseReference", "deinit"]
+- !private ["CSo20FIRDatabaseReference", "setValue"]
+- !private ["Sf", "deinit"]
 - ["Ps8Hashable", "AVAudioPlayer"]
 - ["Ps8Hashable", "Array"]
 - !private ["Ps8Hashable", "Aum"]
 - !private ["Ps8Hashable", "Bhastrika"]
 - ["Ps8Hashable", "Bundle"]
+- !private ["Ps8Hashable", "Calendar"]
+- !private ["Ps8Hashable", "Date"]
+- !private ["Ps8Hashable", "FIRDatabase"]
 - !private ["Ps8Hashable", "IntegerLiteralType"]
 - !private ["Ps8Hashable", "NSTextAlignment"]
 - !private ["Ps8Hashable", "Rest"]
@@ -707,6 +824,7 @@ depends-member:
 - !private ["Ps8Hashable", "center"]
 - !private ["Ps8Hashable", "cgColor"]
 - ["Ps8Hashable", "changeCounter"]
+- !private ["Ps8Hashable", "child"]
 - ["Ps8Hashable", "circleOne"]
 - ["Ps8Hashable", "circleThree"]
 - ["Ps8Hashable", "circleTwo"]
@@ -715,12 +833,18 @@ depends-member:
 - !private ["Ps8Hashable", "clipsToBounds"]
 - !private ["Ps8Hashable", "cornerRadius"]
 - ["Ps8Hashable", "counter"]
+- !private ["Ps8Hashable", "current"]
 - ["Ps8Hashable", "darkGray"]
+- !private ["Ps8Hashable", "database"]
+- ["Ps8Hashable", "databaseHandle"]
+- !private ["Ps8Hashable", "dateComponents"]
+- !private ["Ps8Hashable", "day"]
 - !private ["Ps8Hashable", "delegate"]
 - !private ["Ps8Hashable", "description"]
 - ["Ps8Hashable", "didReceiveMemoryWarning"]
 - ["Ps8Hashable", "endSound"]
 - !private ["Ps8Hashable", "font"]
+- !private ["Ps8Hashable", "gregorian"]
 - ["Ps8Hashable", "hideCounter"]
 - ["Ps8Hashable", "highlightColor"]
 - ["Ps8Hashable", "infoColor"]
@@ -732,6 +856,7 @@ depends-member:
 - ["Ps8Hashable", "lightGray"]
 - ["Ps8Hashable", "listOfFuncs"]
 - ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "month"]
 - ["Ps8Hashable", "name"]
 - ["Ps8Hashable", "nameText"]
 - !private ["Ps8Hashable", "play"]
@@ -741,18 +866,26 @@ depends-member:
 - !private ["Ps8Hashable", "prepareToPlay"]
 - !private ["Ps8Hashable", "print"]
 - ["Ps8Hashable", "progressCounter"]
+- ["Ps8Hashable", "ref"]
+- !private ["Ps8Hashable", "reference"]
+- ["Ps8Hashable", "sendFirUpdate"]
 - ["Ps8Hashable", "setCircleLabel"]
 - ["Ps8Hashable", "setTextLabel"]
+- !private ["Ps8Hashable", "setValue"]
 - !private ["Ps8Hashable", "shared"]
 - ["Ps8Hashable", "showCounter"]
 - ["Ps8Hashable", "stage"]
 - ["Ps8Hashable", "stageText"]
+- ["Ps8Hashable", "stringDate"]
 - !private ["Ps8Hashable", "text"]
 - !private ["Ps8Hashable", "textAlignment"]
 - ["Ps8Hashable", "url"]
 - !private ["Ps8Hashable", "view"]
 - ["Ps8Hashable", "viewDidLoad"]
+- !private ["Ps8Hashable", "year"]
 - ["Ps8Hashable", ""]
+- ["OV10Foundation8Calendar10Identifier", "deinit"]
+- !private ["OV10Foundation8Calendar10Identifier", "gregorian"]
 - ["SQ", "deinit"]
 - !private ["Ps9Indexable", "Index"]
 - !private ["Ps9Indexable", "IndexDistance"]
@@ -781,6 +914,10 @@ depends-member:
 - !private ["Si", "Stride"]
 - !private ["Si", "_DisabledRangeIndex"]
 - ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
 - !private ["Ps7Integer", "IntegerLiteralType"]
 - !private ["Ps7Integer", "Stride"]
 - !private ["Ps7Integer", "_DisabledRangeIndex"]
@@ -820,6 +957,9 @@ depends-member:
 - !private ["PSo8NSCoding", "Aum"]
 - !private ["PSo8NSCoding", "Bhastrika"]
 - ["PSo8NSCoding", "Bundle"]
+- !private ["PSo8NSCoding", "Calendar"]
+- !private ["PSo8NSCoding", "Date"]
+- !private ["PSo8NSCoding", "FIRDatabase"]
 - !private ["PSo8NSCoding", "NSTextAlignment"]
 - !private ["PSo8NSCoding", "Rest"]
 - !private ["PSo8NSCoding", "Stages"]
@@ -850,6 +990,7 @@ depends-member:
 - !private ["PSo8NSCoding", "cornerRadius"]
 - ["PSo8NSCoding", "counter"]
 - ["PSo8NSCoding", "darkGray"]
+- ["PSo8NSCoding", "databaseHandle"]
 - !private ["PSo8NSCoding", "description"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - ["PSo8NSCoding", "endSound"]
@@ -870,11 +1011,14 @@ depends-member:
 - ["PSo8NSCoding", "player"]
 - !private ["PSo8NSCoding", "print"]
 - ["PSo8NSCoding", "progressCounter"]
+- ["PSo8NSCoding", "ref"]
+- ["PSo8NSCoding", "sendFirUpdate"]
 - ["PSo8NSCoding", "setCircleLabel"]
 - ["PSo8NSCoding", "setTextLabel"]
 - ["PSo8NSCoding", "showCounter"]
 - ["PSo8NSCoding", "stage"]
 - ["PSo8NSCoding", "stageText"]
+- ["PSo8NSCoding", "stringDate"]
 - !private ["PSo8NSCoding", "text"]
 - !private ["PSo8NSCoding", "textAlignment"]
 - !private ["PSo8NSCoding", "view"]
@@ -894,6 +1038,9 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "Aum"]
 - !private ["PSo26NSExtensionRequestHandling", "Bhastrika"]
 - ["PSo26NSExtensionRequestHandling", "Bundle"]
+- !private ["PSo26NSExtensionRequestHandling", "Calendar"]
+- !private ["PSo26NSExtensionRequestHandling", "Date"]
+- !private ["PSo26NSExtensionRequestHandling", "FIRDatabase"]
 - !private ["PSo26NSExtensionRequestHandling", "NSTextAlignment"]
 - !private ["PSo26NSExtensionRequestHandling", "Rest"]
 - !private ["PSo26NSExtensionRequestHandling", "Stages"]
@@ -916,6 +1063,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "circleTwo"]
 - ["PSo26NSExtensionRequestHandling", "clearColor"]
 - ["PSo26NSExtensionRequestHandling", "counter"]
+- ["PSo26NSExtensionRequestHandling", "databaseHandle"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - ["PSo26NSExtensionRequestHandling", "endSound"]
 - ["PSo26NSExtensionRequestHandling", "hideCounter"]
@@ -931,11 +1079,14 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "player"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "progressCounter"]
+- ["PSo26NSExtensionRequestHandling", "ref"]
+- ["PSo26NSExtensionRequestHandling", "sendFirUpdate"]
 - ["PSo26NSExtensionRequestHandling", "setCircleLabel"]
 - ["PSo26NSExtensionRequestHandling", "setTextLabel"]
 - ["PSo26NSExtensionRequestHandling", "showCounter"]
 - ["PSo26NSExtensionRequestHandling", "stage"]
 - ["PSo26NSExtensionRequestHandling", "stageText"]
+- ["PSo26NSExtensionRequestHandling", "stringDate"]
 - !private ["PSo26NSExtensionRequestHandling", "view"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
@@ -947,11 +1098,17 @@ depends-member:
 - ["CSo8NSObject", "Bool"]
 - ["CSo8NSObject", "Bundle"]
 - ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "Calendar"]
+- !private ["CSo8NSObject", "Date"]
+- !private ["CSo8NSObject", "FIRDatabase"]
+- ["CSo8NSObject", "FIRDatabaseHandle"]
+- ["CSo8NSObject", "FIRDatabaseReference"]
 - ["CSo8NSObject", "Int"]
 - !private ["CSo8NSObject", "NSError"]
 - !private ["CSo8NSObject", "NSTextAlignment"]
 - !private ["CSo8NSObject", "Rest"]
 - ["CSo8NSObject", "Stages"]
+- ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "SudarshanKriya"]
 - ["CSo8NSObject", "Technique"]
 - !private ["CSo8NSObject", "UIApplication"]
@@ -974,6 +1131,7 @@ depends-member:
 - !private ["CSo8NSObject", "borderWidth"]
 - !private ["CSo8NSObject", "cgColor"]
 - ["CSo8NSObject", "changeCounter"]
+- !private ["CSo8NSObject", "child"]
 - ["CSo8NSObject", "circleOne"]
 - ["CSo8NSObject", "circleThree"]
 - ["CSo8NSObject", "circleTwo"]
@@ -983,6 +1141,8 @@ depends-member:
 - !private ["CSo8NSObject", "cornerRadius"]
 - ["CSo8NSObject", "counter"]
 - ["CSo8NSObject", "darkGray"]
+- !private ["CSo8NSObject", "database"]
+- ["CSo8NSObject", "databaseHandle"]
 - !private ["CSo8NSObject", "delegate"]
 - !private ["CSo8NSObject", "description"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
@@ -1008,12 +1168,17 @@ depends-member:
 - !private ["CSo8NSObject", "prepareToPlay"]
 - !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "progressCounter"]
+- ["CSo8NSObject", "ref"]
+- !private ["CSo8NSObject", "reference"]
+- ["CSo8NSObject", "sendFirUpdate"]
 - ["CSo8NSObject", "setCircleLabel"]
 - ["CSo8NSObject", "setTextLabel"]
+- !private ["CSo8NSObject", "setValue"]
 - !private ["CSo8NSObject", "shared"]
 - ["CSo8NSObject", "showCounter"]
 - ["CSo8NSObject", "stage"]
 - ["CSo8NSObject", "stageText"]
+- ["CSo8NSObject", "stringDate"]
 - !private ["CSo8NSObject", "text"]
 - !private ["CSo8NSObject", "textAlignment"]
 - ["CSo8NSObject", "url"]
@@ -1024,6 +1189,9 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "Aum"]
 - !private ["PSo16NSObjectProtocol", "Bhastrika"]
 - ["PSo16NSObjectProtocol", "Bundle"]
+- !private ["PSo16NSObjectProtocol", "Calendar"]
+- !private ["PSo16NSObjectProtocol", "Date"]
+- !private ["PSo16NSObjectProtocol", "FIRDatabase"]
 - !private ["PSo16NSObjectProtocol", "NSTextAlignment"]
 - !private ["PSo16NSObjectProtocol", "Rest"]
 - !private ["PSo16NSObjectProtocol", "Stages"]
@@ -1045,6 +1213,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "borderWidth"]
 - !private ["PSo16NSObjectProtocol", "cgColor"]
 - ["PSo16NSObjectProtocol", "changeCounter"]
+- !private ["PSo16NSObjectProtocol", "child"]
 - ["PSo16NSObjectProtocol", "circleOne"]
 - ["PSo16NSObjectProtocol", "circleThree"]
 - ["PSo16NSObjectProtocol", "circleTwo"]
@@ -1054,6 +1223,8 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "cornerRadius"]
 - ["PSo16NSObjectProtocol", "counter"]
 - ["PSo16NSObjectProtocol", "darkGray"]
+- !private ["PSo16NSObjectProtocol", "database"]
+- ["PSo16NSObjectProtocol", "databaseHandle"]
 - !private ["PSo16NSObjectProtocol", "delegate"]
 - !private ["PSo16NSObjectProtocol", "description"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
@@ -1079,12 +1250,17 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "prepareToPlay"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - ["PSo16NSObjectProtocol", "progressCounter"]
+- ["PSo16NSObjectProtocol", "ref"]
+- !private ["PSo16NSObjectProtocol", "reference"]
+- ["PSo16NSObjectProtocol", "sendFirUpdate"]
 - ["PSo16NSObjectProtocol", "setCircleLabel"]
 - ["PSo16NSObjectProtocol", "setTextLabel"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
 - !private ["PSo16NSObjectProtocol", "shared"]
 - ["PSo16NSObjectProtocol", "showCounter"]
 - ["PSo16NSObjectProtocol", "stage"]
 - ["PSo16NSObjectProtocol", "stageText"]
+- ["PSo16NSObjectProtocol", "stringDate"]
 - !private ["PSo16NSObjectProtocol", "text"]
 - !private ["PSo16NSObjectProtocol", "textAlignment"]
 - ["PSo16NSObjectProtocol", "url"]
@@ -1152,6 +1328,12 @@ depends-member:
 - ["Ps25RangeReplaceableIndexable", "init"]
 - !private ["Ps25RangeReplaceableIndexable", "subscript"]
 - !private ["Ps16RawRepresentable", "center"]
+- !private ["P10Foundation20ReferenceConvertible", "current"]
+- !private ["P10Foundation20ReferenceConvertible", "dateComponents"]
+- !private ["P10Foundation20ReferenceConvertible", "day"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "month"]
+- !private ["P10Foundation20ReferenceConvertible", "year"]
 - ["C11ArtOfLiving4Rest", "deinit"]
 - !private ["C11ArtOfLiving4Rest", "init"]
 - !private ["Ps8Sequence", "Element"]
@@ -1200,6 +1382,8 @@ depends-member:
 - !private ["P11ArtOfLiving9Technique", "url3"]
 - ["Ps16TextOutputStream", "init"]
 - ["Ps20TextOutputStreamable", "init"]
+- !private ["V10Foundation8TimeZone", "current"]
+- ["V10Foundation8TimeZone", "deinit"]
 - !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
 - !private ["PSo29UIAccessibilityIdentification", "clipsToBounds"]
 - !private ["PSo29UIAccessibilityIdentification", "font"]
@@ -1219,6 +1403,9 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "Aum"]
 - !private ["PSo21UIAppearanceContainer", "Bhastrika"]
 - ["PSo21UIAppearanceContainer", "Bundle"]
+- !private ["PSo21UIAppearanceContainer", "Calendar"]
+- !private ["PSo21UIAppearanceContainer", "Date"]
+- !private ["PSo21UIAppearanceContainer", "FIRDatabase"]
 - !private ["PSo21UIAppearanceContainer", "NSTextAlignment"]
 - !private ["PSo21UIAppearanceContainer", "Rest"]
 - !private ["PSo21UIAppearanceContainer", "Stages"]
@@ -1242,6 +1429,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "clearColor"]
 - !private ["PSo21UIAppearanceContainer", "clipsToBounds"]
 - ["PSo21UIAppearanceContainer", "counter"]
+- ["PSo21UIAppearanceContainer", "databaseHandle"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - ["PSo21UIAppearanceContainer", "endSound"]
 - !private ["PSo21UIAppearanceContainer", "font"]
@@ -1260,11 +1448,14 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "player"]
 - !private ["PSo21UIAppearanceContainer", "print"]
 - ["PSo21UIAppearanceContainer", "progressCounter"]
+- ["PSo21UIAppearanceContainer", "ref"]
+- ["PSo21UIAppearanceContainer", "sendFirUpdate"]
 - ["PSo21UIAppearanceContainer", "setCircleLabel"]
 - ["PSo21UIAppearanceContainer", "setTextLabel"]
 - ["PSo21UIAppearanceContainer", "showCounter"]
 - ["PSo21UIAppearanceContainer", "stage"]
 - ["PSo21UIAppearanceContainer", "stageText"]
+- ["PSo21UIAppearanceContainer", "stringDate"]
 - !private ["PSo21UIAppearanceContainer", "text"]
 - !private ["PSo21UIAppearanceContainer", "textAlignment"]
 - !private ["PSo21UIAppearanceContainer", "view"]
@@ -1284,6 +1475,9 @@ depends-member:
 - !private ["PSo18UIContentContainer", "Aum"]
 - !private ["PSo18UIContentContainer", "Bhastrika"]
 - ["PSo18UIContentContainer", "Bundle"]
+- !private ["PSo18UIContentContainer", "Calendar"]
+- !private ["PSo18UIContentContainer", "Date"]
+- !private ["PSo18UIContentContainer", "FIRDatabase"]
 - !private ["PSo18UIContentContainer", "NSTextAlignment"]
 - !private ["PSo18UIContentContainer", "Rest"]
 - !private ["PSo18UIContentContainer", "Stages"]
@@ -1306,6 +1500,7 @@ depends-member:
 - ["PSo18UIContentContainer", "circleTwo"]
 - ["PSo18UIContentContainer", "clearColor"]
 - ["PSo18UIContentContainer", "counter"]
+- ["PSo18UIContentContainer", "databaseHandle"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - ["PSo18UIContentContainer", "endSound"]
 - ["PSo18UIContentContainer", "hideCounter"]
@@ -1321,11 +1516,14 @@ depends-member:
 - ["PSo18UIContentContainer", "player"]
 - !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "progressCounter"]
+- ["PSo18UIContentContainer", "ref"]
+- ["PSo18UIContentContainer", "sendFirUpdate"]
 - ["PSo18UIContentContainer", "setCircleLabel"]
 - ["PSo18UIContentContainer", "setTextLabel"]
 - ["PSo18UIContentContainer", "showCounter"]
 - ["PSo18UIContentContainer", "stage"]
 - ["PSo18UIContentContainer", "stageText"]
+- ["PSo18UIContentContainer", "stringDate"]
 - !private ["PSo18UIContentContainer", "view"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
@@ -1355,6 +1553,9 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "Aum"]
 - !private ["PSo18UIFocusEnvironment", "Bhastrika"]
 - ["PSo18UIFocusEnvironment", "Bundle"]
+- !private ["PSo18UIFocusEnvironment", "Calendar"]
+- !private ["PSo18UIFocusEnvironment", "Date"]
+- !private ["PSo18UIFocusEnvironment", "FIRDatabase"]
 - !private ["PSo18UIFocusEnvironment", "NSTextAlignment"]
 - !private ["PSo18UIFocusEnvironment", "Rest"]
 - !private ["PSo18UIFocusEnvironment", "Stages"]
@@ -1378,6 +1579,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "clearColor"]
 - !private ["PSo18UIFocusEnvironment", "clipsToBounds"]
 - ["PSo18UIFocusEnvironment", "counter"]
+- ["PSo18UIFocusEnvironment", "databaseHandle"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UIFocusEnvironment", "endSound"]
 - !private ["PSo18UIFocusEnvironment", "font"]
@@ -1396,11 +1598,14 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "player"]
 - !private ["PSo18UIFocusEnvironment", "print"]
 - ["PSo18UIFocusEnvironment", "progressCounter"]
+- ["PSo18UIFocusEnvironment", "ref"]
+- ["PSo18UIFocusEnvironment", "sendFirUpdate"]
 - ["PSo18UIFocusEnvironment", "setCircleLabel"]
 - ["PSo18UIFocusEnvironment", "setTextLabel"]
 - ["PSo18UIFocusEnvironment", "showCounter"]
 - ["PSo18UIFocusEnvironment", "stage"]
 - ["PSo18UIFocusEnvironment", "stageText"]
+- ["PSo18UIFocusEnvironment", "stringDate"]
 - !private ["PSo18UIFocusEnvironment", "text"]
 - !private ["PSo18UIFocusEnvironment", "textAlignment"]
 - !private ["PSo18UIFocusEnvironment", "view"]
@@ -1429,11 +1634,17 @@ depends-member:
 - ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "Bundle"]
 - ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "Calendar"]
+- !private ["CSo11UIResponder", "Date"]
+- !private ["CSo11UIResponder", "FIRDatabase"]
+- ["CSo11UIResponder", "FIRDatabaseHandle"]
+- ["CSo11UIResponder", "FIRDatabaseReference"]
 - ["CSo11UIResponder", "Int"]
 - !private ["CSo11UIResponder", "NSError"]
 - !private ["CSo11UIResponder", "NSTextAlignment"]
 - !private ["CSo11UIResponder", "Rest"]
 - ["CSo11UIResponder", "Stages"]
+- ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "SudarshanKriya"]
 - ["CSo11UIResponder", "Technique"]
 - !private ["CSo11UIResponder", "UIApplication"]
@@ -1458,6 +1669,7 @@ depends-member:
 - ["CSo11UIResponder", "clearColor"]
 - !private ["CSo11UIResponder", "clipsToBounds"]
 - ["CSo11UIResponder", "counter"]
+- ["CSo11UIResponder", "databaseHandle"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
 - ["CSo11UIResponder", "endSound"]
 - !private ["CSo11UIResponder", "font"]
@@ -1477,12 +1689,15 @@ depends-member:
 - ["CSo11UIResponder", "player"]
 - !private ["CSo11UIResponder", "print"]
 - ["CSo11UIResponder", "progressCounter"]
+- ["CSo11UIResponder", "ref"]
+- ["CSo11UIResponder", "sendFirUpdate"]
 - ["CSo11UIResponder", "setCircleLabel"]
 - ["CSo11UIResponder", "setTextLabel"]
 - !private ["CSo11UIResponder", "shared"]
 - ["CSo11UIResponder", "showCounter"]
 - ["CSo11UIResponder", "stage"]
 - ["CSo11UIResponder", "stageText"]
+- ["CSo11UIResponder", "stringDate"]
 - !private ["CSo11UIResponder", "text"]
 - !private ["CSo11UIResponder", "textAlignment"]
 - !private ["CSo11UIResponder", "view"]
@@ -1492,6 +1707,9 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "Aum"]
 - !private ["PSo30UIResponderStandardEditActions", "Bhastrika"]
 - ["PSo30UIResponderStandardEditActions", "Bundle"]
+- !private ["PSo30UIResponderStandardEditActions", "Calendar"]
+- !private ["PSo30UIResponderStandardEditActions", "Date"]
+- !private ["PSo30UIResponderStandardEditActions", "FIRDatabase"]
 - !private ["PSo30UIResponderStandardEditActions", "NSTextAlignment"]
 - !private ["PSo30UIResponderStandardEditActions", "Rest"]
 - !private ["PSo30UIResponderStandardEditActions", "Stages"]
@@ -1515,6 +1733,7 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "clearColor"]
 - !private ["PSo30UIResponderStandardEditActions", "clipsToBounds"]
 - ["PSo30UIResponderStandardEditActions", "counter"]
+- ["PSo30UIResponderStandardEditActions", "databaseHandle"]
 - ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
 - ["PSo30UIResponderStandardEditActions", "endSound"]
 - !private ["PSo30UIResponderStandardEditActions", "font"]
@@ -1534,12 +1753,15 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "player"]
 - !private ["PSo30UIResponderStandardEditActions", "print"]
 - ["PSo30UIResponderStandardEditActions", "progressCounter"]
+- ["PSo30UIResponderStandardEditActions", "ref"]
+- ["PSo30UIResponderStandardEditActions", "sendFirUpdate"]
 - ["PSo30UIResponderStandardEditActions", "setCircleLabel"]
 - ["PSo30UIResponderStandardEditActions", "setTextLabel"]
 - !private ["PSo30UIResponderStandardEditActions", "shared"]
 - ["PSo30UIResponderStandardEditActions", "showCounter"]
 - ["PSo30UIResponderStandardEditActions", "stage"]
 - ["PSo30UIResponderStandardEditActions", "stageText"]
+- ["PSo30UIResponderStandardEditActions", "stringDate"]
 - !private ["PSo30UIResponderStandardEditActions", "text"]
 - !private ["PSo30UIResponderStandardEditActions", "textAlignment"]
 - !private ["PSo30UIResponderStandardEditActions", "view"]
@@ -1550,6 +1772,9 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "Aum"]
 - !private ["PSo16UIStateRestoring", "Bhastrika"]
 - ["PSo16UIStateRestoring", "Bundle"]
+- !private ["PSo16UIStateRestoring", "Calendar"]
+- !private ["PSo16UIStateRestoring", "Date"]
+- !private ["PSo16UIStateRestoring", "FIRDatabase"]
 - !private ["PSo16UIStateRestoring", "NSTextAlignment"]
 - !private ["PSo16UIStateRestoring", "Rest"]
 - !private ["PSo16UIStateRestoring", "Stages"]
@@ -1572,6 +1797,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "circleTwo"]
 - ["PSo16UIStateRestoring", "clearColor"]
 - ["PSo16UIStateRestoring", "counter"]
+- ["PSo16UIStateRestoring", "databaseHandle"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - ["PSo16UIStateRestoring", "endSound"]
 - ["PSo16UIStateRestoring", "hideCounter"]
@@ -1587,11 +1813,14 @@ depends-member:
 - ["PSo16UIStateRestoring", "player"]
 - !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "progressCounter"]
+- ["PSo16UIStateRestoring", "ref"]
+- ["PSo16UIStateRestoring", "sendFirUpdate"]
 - ["PSo16UIStateRestoring", "setCircleLabel"]
 - ["PSo16UIStateRestoring", "setTextLabel"]
 - ["PSo16UIStateRestoring", "showCounter"]
 - ["PSo16UIStateRestoring", "stage"]
 - ["PSo16UIStateRestoring", "stageText"]
+- ["PSo16UIStateRestoring", "stringDate"]
 - !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
@@ -1600,6 +1829,9 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "Aum"]
 - !private ["PSo18UITraitEnvironment", "Bhastrika"]
 - ["PSo18UITraitEnvironment", "Bundle"]
+- !private ["PSo18UITraitEnvironment", "Calendar"]
+- !private ["PSo18UITraitEnvironment", "Date"]
+- !private ["PSo18UITraitEnvironment", "FIRDatabase"]
 - !private ["PSo18UITraitEnvironment", "NSTextAlignment"]
 - !private ["PSo18UITraitEnvironment", "Rest"]
 - !private ["PSo18UITraitEnvironment", "Stages"]
@@ -1623,6 +1855,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "clearColor"]
 - !private ["PSo18UITraitEnvironment", "clipsToBounds"]
 - ["PSo18UITraitEnvironment", "counter"]
+- ["PSo18UITraitEnvironment", "databaseHandle"]
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UITraitEnvironment", "endSound"]
 - !private ["PSo18UITraitEnvironment", "font"]
@@ -1641,11 +1874,14 @@ depends-member:
 - ["PSo18UITraitEnvironment", "player"]
 - !private ["PSo18UITraitEnvironment", "print"]
 - ["PSo18UITraitEnvironment", "progressCounter"]
+- ["PSo18UITraitEnvironment", "ref"]
+- ["PSo18UITraitEnvironment", "sendFirUpdate"]
 - ["PSo18UITraitEnvironment", "setCircleLabel"]
 - ["PSo18UITraitEnvironment", "setTextLabel"]
 - ["PSo18UITraitEnvironment", "showCounter"]
 - ["PSo18UITraitEnvironment", "stage"]
 - ["PSo18UITraitEnvironment", "stageText"]
+- ["PSo18UITraitEnvironment", "stringDate"]
 - !private ["PSo18UITraitEnvironment", "text"]
 - !private ["PSo18UITraitEnvironment", "textAlignment"]
 - !private ["PSo18UITraitEnvironment", "view"]
@@ -1665,11 +1901,17 @@ depends-member:
 - ["CSo16UIViewController", "Bool"]
 - ["CSo16UIViewController", "Bundle"]
 - ["CSo16UIViewController", "CGFloat"]
+- !private ["CSo16UIViewController", "Calendar"]
+- !private ["CSo16UIViewController", "Date"]
+- !private ["CSo16UIViewController", "FIRDatabase"]
+- ["CSo16UIViewController", "FIRDatabaseHandle"]
+- ["CSo16UIViewController", "FIRDatabaseReference"]
 - ["CSo16UIViewController", "Int"]
 - !private ["CSo16UIViewController", "NSError"]
 - !private ["CSo16UIViewController", "NSTextAlignment"]
 - !private ["CSo16UIViewController", "Rest"]
 - ["CSo16UIViewController", "Stages"]
+- ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "SudarshanKriya"]
 - ["CSo16UIViewController", "Technique"]
 - !private ["CSo16UIViewController", "UIApplication"]
@@ -1693,6 +1935,7 @@ depends-member:
 - ["CSo16UIViewController", "circleTwo"]
 - ["CSo16UIViewController", "clearColor"]
 - ["CSo16UIViewController", "counter"]
+- ["CSo16UIViewController", "databaseHandle"]
 - ["CSo16UIViewController", "deinit"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "endSound"]
@@ -1709,17 +1952,26 @@ depends-member:
 - ["CSo16UIViewController", "player"]
 - !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "progressCounter"]
+- ["CSo16UIViewController", "ref"]
+- ["CSo16UIViewController", "sendFirUpdate"]
 - ["CSo16UIViewController", "setCircleLabel"]
 - ["CSo16UIViewController", "setTextLabel"]
 - ["CSo16UIViewController", "showCounter"]
 - ["CSo16UIViewController", "stage"]
 - ["CSo16UIViewController", "stageText"]
+- ["CSo16UIViewController", "stringDate"]
 - !private ["CSo16UIViewController", "view"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
 - ["V10Foundation3URL", "deinit"]
 - ["C11ArtOfLiving5Ujayi", "deinit"]
 - !private ["C11ArtOfLiving5Ujayi", "init"]
+- !private ["Sc", "deinit"]
 - ["C11ArtOfLiving5View1", "AVAudioPlayer"]
 - ["C11ArtOfLiving5View1", "Array"]
 - !private ["C11ArtOfLiving5View1", "Aum"]
@@ -1727,11 +1979,17 @@ depends-member:
 - ["C11ArtOfLiving5View1", "Bool"]
 - ["C11ArtOfLiving5View1", "Bundle"]
 - ["C11ArtOfLiving5View1", "CGFloat"]
+- !private ["C11ArtOfLiving5View1", "Calendar"]
+- !private ["C11ArtOfLiving5View1", "Date"]
+- !private ["C11ArtOfLiving5View1", "FIRDatabase"]
+- ["C11ArtOfLiving5View1", "FIRDatabaseHandle"]
+- ["C11ArtOfLiving5View1", "FIRDatabaseReference"]
 - ["C11ArtOfLiving5View1", "Int"]
 - !private ["C11ArtOfLiving5View1", "NSError"]
 - !private ["C11ArtOfLiving5View1", "NSTextAlignment"]
 - !private ["C11ArtOfLiving5View1", "Rest"]
 - ["C11ArtOfLiving5View1", "Stages"]
+- ["C11ArtOfLiving5View1", "String"]
 - !private ["C11ArtOfLiving5View1", "SudarshanKriya"]
 - ["C11ArtOfLiving5View1", "Technique"]
 - !private ["C11ArtOfLiving5View1", "UIApplication"]
@@ -1755,6 +2013,7 @@ depends-member:
 - ["C11ArtOfLiving5View1", "circleTwo"]
 - ["C11ArtOfLiving5View1", "clearColor"]
 - ["C11ArtOfLiving5View1", "counter"]
+- ["C11ArtOfLiving5View1", "databaseHandle"]
 - ["C11ArtOfLiving5View1", "deinit"]
 - ["C11ArtOfLiving5View1", "didReceiveMemoryWarning"]
 - ["C11ArtOfLiving5View1", "endSound"]
@@ -1771,11 +2030,14 @@ depends-member:
 - ["C11ArtOfLiving5View1", "player"]
 - !private ["C11ArtOfLiving5View1", "print"]
 - ["C11ArtOfLiving5View1", "progressCounter"]
+- ["C11ArtOfLiving5View1", "ref"]
+- ["C11ArtOfLiving5View1", "sendFirUpdate"]
 - ["C11ArtOfLiving5View1", "setCircleLabel"]
 - ["C11ArtOfLiving5View1", "setTextLabel"]
 - ["C11ArtOfLiving5View1", "showCounter"]
 - ["C11ArtOfLiving5View1", "stage"]
 - ["C11ArtOfLiving5View1", "stageText"]
+- ["C11ArtOfLiving5View1", "stringDate"]
 - !private ["C11ArtOfLiving5View1", "view"]
 - ["C11ArtOfLiving5View1", "viewDidLoad"]
 - !private ["Ps14_ArrayProtocol", "Index"]
@@ -1824,6 +2086,9 @@ depends-member:
 - !private ["Ps9_Hashable", "Aum"]
 - !private ["Ps9_Hashable", "Bhastrika"]
 - ["Ps9_Hashable", "Bundle"]
+- !private ["Ps9_Hashable", "Calendar"]
+- !private ["Ps9_Hashable", "Date"]
+- !private ["Ps9_Hashable", "FIRDatabase"]
 - !private ["Ps9_Hashable", "IntegerLiteralType"]
 - !private ["Ps9_Hashable", "NSTextAlignment"]
 - !private ["Ps9_Hashable", "Rest"]
@@ -1850,6 +2115,7 @@ depends-member:
 - !private ["Ps9_Hashable", "center"]
 - !private ["Ps9_Hashable", "cgColor"]
 - ["Ps9_Hashable", "changeCounter"]
+- !private ["Ps9_Hashable", "child"]
 - ["Ps9_Hashable", "circleOne"]
 - ["Ps9_Hashable", "circleThree"]
 - ["Ps9_Hashable", "circleTwo"]
@@ -1858,12 +2124,18 @@ depends-member:
 - !private ["Ps9_Hashable", "clipsToBounds"]
 - !private ["Ps9_Hashable", "cornerRadius"]
 - ["Ps9_Hashable", "counter"]
+- !private ["Ps9_Hashable", "current"]
 - ["Ps9_Hashable", "darkGray"]
+- !private ["Ps9_Hashable", "database"]
+- ["Ps9_Hashable", "databaseHandle"]
+- !private ["Ps9_Hashable", "dateComponents"]
+- !private ["Ps9_Hashable", "day"]
 - !private ["Ps9_Hashable", "delegate"]
 - !private ["Ps9_Hashable", "description"]
 - ["Ps9_Hashable", "didReceiveMemoryWarning"]
 - ["Ps9_Hashable", "endSound"]
 - !private ["Ps9_Hashable", "font"]
+- !private ["Ps9_Hashable", "gregorian"]
 - ["Ps9_Hashable", "hideCounter"]
 - ["Ps9_Hashable", "highlightColor"]
 - ["Ps9_Hashable", "infoColor"]
@@ -1875,6 +2147,7 @@ depends-member:
 - ["Ps9_Hashable", "lightGray"]
 - ["Ps9_Hashable", "listOfFuncs"]
 - ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "month"]
 - ["Ps9_Hashable", "name"]
 - ["Ps9_Hashable", "nameText"]
 - !private ["Ps9_Hashable", "play"]
@@ -1884,17 +2157,23 @@ depends-member:
 - !private ["Ps9_Hashable", "prepareToPlay"]
 - !private ["Ps9_Hashable", "print"]
 - ["Ps9_Hashable", "progressCounter"]
+- ["Ps9_Hashable", "ref"]
+- !private ["Ps9_Hashable", "reference"]
+- ["Ps9_Hashable", "sendFirUpdate"]
 - ["Ps9_Hashable", "setCircleLabel"]
 - ["Ps9_Hashable", "setTextLabel"]
+- !private ["Ps9_Hashable", "setValue"]
 - !private ["Ps9_Hashable", "shared"]
 - ["Ps9_Hashable", "showCounter"]
 - ["Ps9_Hashable", "stage"]
 - ["Ps9_Hashable", "stageText"]
+- ["Ps9_Hashable", "stringDate"]
 - !private ["Ps9_Hashable", "text"]
 - !private ["Ps9_Hashable", "textAlignment"]
 - ["Ps9_Hashable", "url"]
 - !private ["Ps9_Hashable", "view"]
 - ["Ps9_Hashable", "viewDidLoad"]
+- !private ["Ps9_Hashable", "year"]
 - ["Ps9_Hashable", ""]
 - !private ["Ps14_Incrementable", "IntegerLiteralType"]
 - !private ["Ps14_Incrementable", "Stride"]
@@ -1905,6 +2184,11 @@ depends-member:
 - !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
 - !private ["Ps18_IntegerArithmetic", "Stride"]
 - !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["P10Foundation14_MutableBoxing", "dateComponents"]
+- !private ["P10Foundation14_MutableBoxing", "day"]
+- !private ["P10Foundation14_MutableBoxing", "init"]
+- !private ["P10Foundation14_MutableBoxing", "month"]
+- !private ["P10Foundation14_MutableBoxing", "year"]
 - !private ["Ps21_ObjectiveCBridgeable", "Index"]
 - !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
 - !private ["Ps21_ObjectiveCBridgeable", "Indices"]
@@ -1916,9 +2200,14 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "_Element"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "current"]
+- !private ["Ps21_ObjectiveCBridgeable", "dateComponents"]
+- !private ["Ps21_ObjectiveCBridgeable", "day"]
 - !private ["Ps21_ObjectiveCBridgeable", "indices"]
 - ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "month"]
 - !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "year"]
 - !private ["Ps14_SignedInteger", "IntegerLiteralType"]
 - !private ["Ps14_SignedInteger", "Stride"]
 - !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
@@ -1944,6 +2233,8 @@ depends-nominal:
 - "CSo7CGColor"
 - "V12CoreGraphics7CGFloat"
 - "Ps7CVarArg"
+- "V10Foundation8Calendar"
+- !private "Vs9Character"
 - "Ps10Collection"
 - "Ps10Comparable"
 - "Vs14CountableRange"
@@ -1951,9 +2242,12 @@ depends-nominal:
 - "Ps29CustomPlaygroundQuickLookable"
 - "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
+- "V10Foundation4Date"
+- "V10Foundation14DateComponents"
 - !private "Vs27DefaultBidirectionalIndices"
 - !private "Vs14DefaultIndices"
 - !private "Vs26DefaultRandomAccessIndices"
+- !private "Sd"
 - "Ps9Equatable"
 - !private "Ps5Error"
 - "Ps25ExpressibleByArrayLiteral"
@@ -1964,12 +2258,21 @@ depends-nominal:
 - "Ps32ExpressibleByStringInterpolation"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
+- "CSo11FIRDatabase"
+- !private "CSo16FIRDatabaseQuery"
+- "CSo20FIRDatabaseReference"
+- !private "Sf"
 - "Ps8Hashable"
+- "OV10Foundation8Calendar10Identifier"
 - "SQ"
 - "Ps9Indexable"
 - "Ps13IndexableBase"
 - !private "Vs16IndexingIterator"
 - "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
 - !private "Ps7Integer"
 - !private "Ps17IntegerArithmetic"
 - !private "Ps16IteratorProtocol"
@@ -1995,6 +2298,7 @@ depends-nominal:
 - "Ps26RangeReplaceableCollection"
 - "Ps25RangeReplaceableIndexable"
 - !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
 - "C11ArtOfLiving4Rest"
 - "Ps8Sequence"
 - !private "Ps13SignedInteger"
@@ -2007,6 +2311,7 @@ depends-nominal:
 - "P11ArtOfLiving9Technique"
 - "Ps16TextOutputStream"
 - "Ps20TextOutputStreamable"
+- "V10Foundation8TimeZone"
 - !private "PSo29UIAccessibilityIdentification"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
@@ -2026,8 +2331,14 @@ depends-nominal:
 - "PSo18UITraitEnvironment"
 - !private "CSo6UIView"
 - "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
 - "V10Foundation3URL"
 - "C11ArtOfLiving5Ujayi"
+- !private "Sc"
 - "C11ArtOfLiving5View1"
 - "Ps14_ArrayProtocol"
 - !private "Ps37_DefaultCustomPlaygroundQuickLookable"
@@ -2044,6 +2355,7 @@ depends-nominal:
 - !private "Ps14_Incrementable"
 - !private "Ps8_Integer"
 - !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation14_MutableBoxing"
 - "Ps21_ObjectiveCBridgeable"
 - !private "Ps14_SignedInteger"
 - !private "Ps11_Strideable"
@@ -2052,6 +2364,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
@@ -2061,4 +2374,35 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
-interface-hash: "b929287dffadcfa6b0bc89c81f23b7e8"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseCore/Frameworks/frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/Firebase/Core/Sources/Firebase.h"
+interface-hash: "285fe95c2081152b97e09149ebaf6007"

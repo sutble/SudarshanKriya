@@ -111,6 +111,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import AVFoundation;
 @import Foundation;
 @import CoreGraphics;
 #endif
@@ -140,10 +141,12 @@ SWIFT_CLASS("_TtC11ArtOfLiving11AppDelegate")
 @class NSCoder;
 
 SWIFT_CLASS("_TtC11ArtOfLiving5View1")
-@interface View1 : UIViewController
+@interface View1 : UIViewController <AVAudioPlayerDelegate>
+@property (nonatomic) NSInteger progressCounter;
 @property (nonatomic, strong) AVAudioPlayer * _Nullable player;
-@property (nonatomic, readonly, copy) NSURL * _Nonnull breatheIN;
-@property (nonatomic, readonly, copy) NSURL * _Nonnull breatheOUT;
+@property (nonatomic, copy) NSURL * _Nullable playURL;
+@property (nonatomic, readonly, copy) NSURL * _Nonnull beginSound;
+@property (nonatomic, readonly, copy) NSURL * _Nonnull endSound;
 @property (nonatomic, readonly, strong) UIColor * _Nonnull infoColor;
 @property (nonatomic, readonly, strong) UIColor * _Nonnull highlightColor;
 @property (nonatomic, readonly, strong) UIColor * _Nonnull clearColor;
@@ -156,15 +159,16 @@ SWIFT_CLASS("_TtC11ArtOfLiving5View1")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameText;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified stageText;
 - (void)viewDidLoad;
+- (void)addRest;
+- (void)addAum;
 - (void)playSound:(NSURL * _Nonnull)url;
-- (void)ujayiSet:(NSInteger)counter name:(NSString * _Nonnull)name stage:(NSString * _Nonnull)stage;
-- (void)doSet:(void (^ _Nonnull)(NSInteger, NSString * _Nonnull, NSString * _Nonnull))currentSet;
 - (void)changeCounter:(NSInteger)number;
 - (void)hideCounter;
 - (void)showCounter;
 - (void)backgroundColor:(UIColor * _Nonnull)color;
 - (void)setCircleLabel:(UILabel * _Nonnull)circle;
 - (void)setTextLabel:(UILabel * _Nonnull)text size:(CGFloat)size;
+- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer * _Nonnull)player successfully:(BOOL)flag;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

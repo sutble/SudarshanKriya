@@ -54,12 +54,12 @@ class SudarshanKriya : Technique {
     
     var name = "Sudarshan Kriya"
     var color = UIColor(red: 42/255, green: 54/255, blue: 59/255, alpha: 1)
-    var Stage1 = "DIY Quick Soham"
-    var Stage2 = "DIY Quick Soham"
-    var Stage3 = "DIY Quick Soham"
-    var url1 = Bundle.main.url(forResource: "sohamfinal2", withExtension: "mp3")!
-    var url2 = Bundle.main.url(forResource: "sohamfinal2", withExtension: "mp3")!
-    var url3 = Bundle.main.url(forResource: "sohamfinal2", withExtension: "mp3")!
+    var Stage1 = "Normal Breathing"
+    var Stage2 = "Normal Breathing"
+    var Stage3 = "Normal Breathing"
+    var url1 = Bundle.main.url(forResource: "SriSoham", withExtension: "mp3")!
+    var url2 = Bundle.main.url(forResource: "SriSoham", withExtension: "mp3")!
+    var url3 = Bundle.main.url(forResource: "SriSoham", withExtension: "mp3")!
 }
 
 class Rest : Technique {
@@ -69,7 +69,7 @@ class Rest : Technique {
     var Stage2 = "15 Seconds"
     var Stage3 = "Begin"
     var url1 = Bundle.main.url(forResource: "transition", withExtension: "mp3")!
-    var url2 = Bundle.main.url(forResource: "15secondsilence", withExtension: "mp3")!
+    var url2 = Bundle.main.url(forResource: "restTransition", withExtension: "mp3")!
     var url3 = Bundle.main.url(forResource: "begin", withExtension: "mp3")!
 }
 
@@ -82,7 +82,7 @@ class Aum : Technique {
     var Stage3 = "Take a Deep Breath"
     var url1 = Bundle.main.url(forResource: "aum1", withExtension: "mp3")!
     var url2 = Bundle.main.url(forResource: "aum2", withExtension: "mp3")!
-    var url3 = Bundle.main.url(forResource: "aum3", withExtension: "mp3")!
+    var url3 = Bundle.main.url(forResource: "aum2", withExtension: "mp3")!
 }
 
 
