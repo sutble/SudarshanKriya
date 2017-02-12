@@ -10,6 +10,8 @@ import AVFoundation
 import Darwin
 import FirebaseDatabase
 import AVFoundation
+import SceneKit
+import SpriteKit
 
 
 
@@ -18,15 +20,8 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
     var ref: FIRDatabaseReference?
     var databaseHandle:FIRDatabaseHandle?
     
-    enum Stages {
-        
-        case stage1 (Technique)
-        case stage2 (Technique)
-        case stage3 (Technique)
-        case rest (Technique)
-    }
+    var masterList = Array<Technique>()
     
-    var listOfFuncs = Array<Stages>();
     var progressCounter = -1 //starts incrementing in beginning, so will be 0 when used
     
     var restTime = 20
@@ -43,29 +38,33 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
     let endSound = Bundle.main.url(forResource: "transition", withExtension: "mp3")!
 
 
-    let infoColor = UIColor.lightGray
+    let infoColor = UIColor.gray
     let highlightColor = UIColor.darkGray
     let clearColor = UIColor.clear
-
+    
+    var Kriy : KriyScene?
+    
+    //MARK: - IBOutlets
     
     @IBOutlet weak var playButton: UIButton!
     
     @IBOutlet weak var counter: UIView!
-    @IBOutlet weak var name: UIView!
-    @IBOutlet weak var stage: UIView!
+    @IBOutlet weak var animationView: SKView!
+    
     
     @IBOutlet weak var circleOne: UILabel!
     @IBOutlet weak var circleTwo: UILabel!
     @IBOutlet weak var circleThree: UILabel!
     
+    
     @IBOutlet weak var nameText: UILabel!
-    @IBOutlet weak var stageText: UILabel!
     @IBOutlet weak var timerText: UILabel!
     
     
     @IBAction func pause(_ sender: AnyObject) {
         if (player?.isPlaying)! {
             player?.pause()
+            Kriy?.isPaused = true
             let play = UIImage(named: "play.png")
             playButton.contentMode = .scaleToFill
             playButton.contentVerticalAlignment = UIControlContentVerticalAlignment.bottom
@@ -74,43 +73,26 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
             //playButton.fram
         } else {
             self.player?.play()
-            
+            Kriy?.isPaused = false
             let pause = UIImage(named: "pause.png")
             playButton.setBackgroundImage(pause, for: .normal)
         }
     }
     
+
+    //MARK: - viewDidLoad
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
-       
+    
         UIApplication.shared.isIdleTimerDisabled = true
         lastSound = false
         seconds = restTime
 
-        
         ref = FIRDatabase.database().reference()
+        makeList()
 
-
-        listOfFuncs.append(Stages.stage1(Ujayi()))
-        addRest()
-        listOfFuncs.append(Stages.stage2(Ujayi()))
-        addRest()
-        listOfFuncs.append(Stages.stage3(Ujayi()))
-        addRest()
-        listOfFuncs.append(Stages.stage1(Bhastrika()))
-        addRest()
-        listOfFuncs.append(Stages.stage2(Bhastrika()))
-        addRest()
-        listOfFuncs.append(Stages.stage3(Bhastrika()))
-        addRest()
-        addAum()
-        listOfFuncs.append(Stages.stage1(SudarshanKriya()))
-        listOfFuncs.append(Stages.stage2(SudarshanKriya()))
-        listOfFuncs.append(Stages.stage3(SudarshanKriya()))
-        
-       
         self.view.backgroundColor = infoColor
         backgroundColor(infoColor)
         roundCorners()  
@@ -120,7 +102,6 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         setCircleLabel(circleThree)
         
         setTextLabel(nameText,size: 55)
-        setTextLabel(stageText,size: 45)
         setTextLabel(timerText, size: 45)
         
         let pause = UIImage(named: "pause.png")
@@ -133,39 +114,85 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         hideCounter()
     }
     
-    func addRest(){
-        listOfFuncs.append(Stages.rest(Rest()))
-    }
+ 
     
-    func addAum(){
-        listOfFuncs.append(Stages.stage1(Aum()))
-        listOfFuncs.append(Stages.stage2(Aum()))
-        listOfFuncs.append(Stages.stage3(Aum()))
-    }
+    //MARK: - Master List
     
-    func playSound(_ url: URL){
+    func makeList(){
         
-        do {
-            player = try AVAudioPlayer(contentsOf: url)
-            guard let player = player else { return }
-            player.delegate = self
-            player.prepareToPlay()
-            player.play()
-        } catch let error as NSError {
-            print(error.description)
-        }
+        let ujayiColor = UIColor(red: 69/255, green: 173/255, blue: 168/255, alpha: 1)
+        let restColor = UIColor(red: 157/255, green: 224/255, blue: 173/255, alpha: 1)
+        let bhastrikaColor = UIColor(red: 232/255, green: 74/255, blue: 95/255, alpha: 1)
+        let aumColor = UIColor(red: 84/255, green: 121/255, blue: 128/255, alpha: 1)
+        let kriyaColor = UIColor(red: 42/255, green: 54/255, blue: 59/255, alpha: 1)
+        let size = animationView.frame.size
+        
+        //Ujayi Stage 1
+       // masterList.append(Technique(name: "Ujayi Breath", color: ujayiColor , stage: 1, scene: "35secondemo", url: getURL(string: //"UjayiBreath")))
+        //Rest
+         masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "35secondemo", url: getURL(string: "restTransition"))) //need to make custom scenes for the various rest transitions, and combine them all in 1 URL
+        //Ujayi Stage 2
+         masterList.append(Technique(name: "Ujayi Breath", color: ujayiColor, stage: 2, scene: "35secondemo", url: getURL(string: "UjayiBreath")))
+        //Rest
+         masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "35secondemo", url: getURL(string: "transition")))
+        //Ujayi Stage 3
+         masterList.append(Technique(name: "Ujayi Breath", color: ujayiColor, stage: 3, scene: "35secondemo", url: getURL(string: "UjayiBreath")))
+        //Rest
+         masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "35secondemo", url: getURL(string: "transition")))
+        //Bhastrika
+        masterList.append(Technique(name: "Bhastrika", color: bhastrikaColor , stage: 1, scene: "35secondemo", url: getURL(string: "bhastrikafinal")))
+        //Rest
+        masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "35secondemo", url: getURL(string: "transition")))
+        //Bhastrika
+        masterList.append(Technique(name: "Bhastrika", color: bhastrikaColor, stage: 2, scene: "35secondemo", url: getURL(string: "bhastrikafinal")))
+        //Rest
+        masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "35secondemo", url: getURL(string: "transition")))
+        //Bhastrika
+        masterList.append(Technique(name: "Bhastrika", color: bhastrikaColor, stage: 3, scene: "35secondemo", url: getURL(string: "bhastrikafinal")))
+        //Aum
+        masterList.append(Technique(name: "Aum", color: aumColor, stage: 1, scene: "35secondemo", url: getURL(string: "aum1")))
+        masterList.append(Technique(name: "Aum", color: aumColor, stage: 2, scene: "35secondemo", url: getURL(string: "aum2")))
+        masterList.append(Technique(name: "Aum", color: aumColor, stage: 3, scene: "35secondemo", url: getURL(string: "aum2")))
+        //Sudarshan Kriya
+        masterList.append(Technique(name: "Sudarshan Kriya", color: kriyaColor, stage: 1, scene: "35secondemo", url: getURL(string: "SriSoham")))
+        masterList.append(Technique(name: "Sudarshan Kriya", color: kriyaColor, stage: 2, scene: "35secondemo", url: getURL(string: "SriSoham")))
+        masterList.append(Technique(name: "Sudarshan Kriya", color: kriyaColor, stage: 3, scene: "35secondemo", url: getURL(string: "SriSoham")))
     }
+    
+    func getURL(string: String) -> URL{
+        return Bundle.main.url(forResource: string, withExtension: "mp3")!
+    }
+    
+    //MARK: - UI
 
     func changeCounter(_ number : Int){
         circleOne.backgroundColor = clearColor
         circleTwo.backgroundColor = clearColor
         circleThree.backgroundColor = clearColor
         
-        if(number == 1){ circleOne.backgroundColor = highlightColor}
-        else if(number == 2){ circleTwo.backgroundColor = highlightColor}
-        else if(number == 3){ circleThree.backgroundColor = highlightColor}
-        else{print("Wrong counter number inputted (only 1,2,3)")}
-
+        if(number == 0){
+            hideCounter()
+            showTimer()
+            startTimer()
+        }
+        else if(number == 1){
+            showCounter()
+            hideTimer()
+            circleOne.backgroundColor = highlightColor
+        }
+        else if(number == 2){
+            showCounter()
+            hideTimer()
+            circleTwo.backgroundColor = highlightColor
+        }
+        else if(number == 3){
+            showCounter()
+            hideTimer()
+            circleThree.backgroundColor = highlightColor
+        }
+        else{
+            print("Wrong counter number inputted (only 0,1,2,3)")
+        }
     }
     
     func hideCounter(){
@@ -181,20 +208,15 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
     }
     
     func backgroundColor(_ color : UIColor){
-        name.backgroundColor = color
+        self.view.backgroundColor = color
         counter.backgroundColor = color
-        stage.backgroundColor = color
+        animationView.backgroundColor = color
+        Kriy?.backgroundColor = color
     }
     
     func roundCorners(){
-        
         counter.layer.cornerRadius = 10
-        name.layer.cornerRadius = 10
-        stage.layer.cornerRadius = 10
         counter.clipsToBounds = true
-        name.clipsToBounds = true
-        stage.clipsToBounds = true
-        
     }
     
     func setCircleLabel(_ circle : UILabel){
@@ -212,64 +234,57 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         text.font = UIFont(name: "Azurite", size: size)
     }
     
+    func showButton(){
+        playButton.alpha = 1
+    }
+    
+    func hideButton(){
+        playButton.alpha = 0
+    }
+    
+    //MARK: - Sound
+    
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) { // *
         showCounter()
         showButton()
         progressCounter += 1
-        let isIndexValid = listOfFuncs.indices.contains(progressCounter)
-        if(isIndexValid){
-            let t = listOfFuncs[progressCounter]
-            switch t{
-            case let .stage1(t):
-                showCounter()
-                hideTimer()
-                changeCounter(1)
-                nameText.text = t.name
-                stageText.text = t.Stage1
-                self.view.backgroundColor = t.color
-                playURL = t.url1
-            case let .stage2(t):
-                showCounter()
-                hideTimer()
-                changeCounter(2)
-                nameText.text = t.name
-                stageText.text = t.Stage2
-                self.view.backgroundColor = t.color
-                playURL = t.url2
-            case let .stage3(t):
-                showCounter()
-                hideTimer()
-                changeCounter(3)
-                nameText.text = t.name
-                stageText.text = t.Stage3
-                self.view.backgroundColor = t.color
-                playURL = t.url3
-            case let .rest(t):
-                hideCounter()
-                showTimer()
-                startTimer()
-                nameText.text = t.name
-                stageText.text = "Blow Nose/Drink Water"
-                self.view.backgroundColor = t.color
-                playURL = t.url2
-                
-            default:
-                print("No Technique with that name")
-            }
-            playSound(playURL!)
+        if masterList.indices.contains(progressCounter) {
+            let t = masterList[progressCounter]
+            showCounter()
+            hideTimer()
+            changeCounter(t.stage)
+            nameText.text = t.name
+            Kriy = KriyScene(size: animationView.frame.size)
+            backgroundColor(t.color)
+            playSound(t.url)
+            animationView.presentScene(Kriy)
+            Kriy?.start(position: animationView.center, sceneName: t.scene)
+            
         }
         else if (!self.lastSound){
             //sendFirUpdate()
             hideCounter()
             nameText.text = "Finished"
-            stageText.text = ""
             self.playSound(endSound) //plays end sound
             self.lastSound = true
             hideCounter()
         }
-
-        
     }
+    
+    func playSound(_ url: URL){
+        
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            guard let player = player else { return }
+            player.delegate = self
+            player.prepareToPlay()
+            player.play()
+        } catch let error as NSError {
+            print(error.description)
+        }
+    }
+  
+    //MARK: - Timer
     
     func showTimer(){
         timerText.alpha = 1
@@ -294,13 +309,8 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         }
     }
     
-    func showButton(){
-        playButton.alpha = 1
-    }
     
-    func hideButton(){
-        playButton.alpha = 0
-    }
+    //MARK: - Firebase
     
     func sendFirUpdate(){
          ref?.child(stringDate()).child("Mind").child("Habits").child("Meditated").setValue("YES")
@@ -331,13 +341,7 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         }
         return monthString + ":" + dayString + ":" + "\(year!)"
     }
-
     
-    
-    
-
-   
-
 }
 
 

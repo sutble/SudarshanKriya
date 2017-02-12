@@ -6,24 +6,24 @@ provides-nominal:
 provides-member:
 - ["C14SudarshanKriya20TestVCViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
 - "midView"
+- "viewDidLoad"
 depends-top-level:
-- "AssignmentPrecedence"
-- "CastingPrecedence"
-- "TestVCViewController"
 - !private "NSURL"
 - !private "Bundle"
-- !private "AVPlayerLayer"
-- !private "BooleanLiteralType"
-- !private "kCMTimeZero"
+- "CastingPrecedence"
+- "AssignmentPrecedence"
 - "UIViewController"
-- !private "URL"
-- !private "print"
+- !private "AVPlayerLayer"
+- !private "kCMTimeZero"
 - "UIView"
+- !private "print"
+- "TestVCViewController"
 - !private "AVPlayer"
 - !private "StringLiteralType"
+- !private "URL"
 - !private "AVLayerVideoGravityResizeAspectFill"
+- !private "BooleanLiteralType"
 depends-member:
 - !private ["CSo8AVPlayer", "actionAtItemEnd"]
 - ["CSo8AVPlayer", "deinit"]
@@ -526,6 +526,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"

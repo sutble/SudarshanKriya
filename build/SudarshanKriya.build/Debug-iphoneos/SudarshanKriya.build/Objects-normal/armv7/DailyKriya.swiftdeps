@@ -8,95 +8,96 @@ provides-member:
 - ["C14SudarshanKriya10DailyKriya", ""]
 - ["OC14SudarshanKriya10DailyKriya6Stages", ""]
 provides-dynamic-lookup:
-- "restCounter"
-- "pause"
-- "circleTwo"
-- "showCounter"
-- "timer"
-- "seconds"
-- "clearColor"
-- "sendFirUpdate"
-- "name"
-- "beginSound"
-- "audioPlayerDidFinishPlaying"
-- "restTime"
-- "setTextLabel"
-- "addAum"
+- "ref"
 - "viewDidLoad"
-- "circleThree"
-- "highlightColor"
-- "player"
-- "backgroundColor"
-- "hideButton"
-- "hideTimer"
-- "playSound"
-- "infoColor"
-- "progressCounter"
-- "playURL"
 - "nameText"
+- "restCounter"
+- "player"
+- "counter"
+- "showCounter"
+- "backgroundColor"
+- "circleThree"
+- "timerText"
+- "progressCounter"
+- "infoColor"
+- "animationView"
+- "playURL"
+- "showTimer"
+- "showButton"
 - "startTimer"
+- "sendFirUpdate"
+- "beginSound"
+- "setCircleLabel"
+- "pause"
 - "addRest"
+- "restTime"
+- "hideCounter"
+- "seconds"
+- "roundCorners"
 - "changeCounter"
 - "stringDate"
-- "stage"
-- "stageText"
-- "counter"
-- "hideCounter"
-- "ref"
-- "showButton"
-- "endSound"
+- "highlightColor"
 - "circleOne"
-- "roundCorners"
+- "hideTimer"
+- "hideButton"
+- "playSound"
+- "timer"
+- "setTextLabel"
+- "addAum"
 - "playButton"
-- "timerText"
-- "setCircleLabel"
-- "showTimer"
+- "endSound"
+- "clearColor"
+- "audioPlayerDidFinishPlaying"
+- "circleTwo"
 depends-top-level:
-- "CGFloat"
-- "DailyKriya"
-- !private "FIRDatabase"
-- "FIRDatabaseHandle"
-- !private "Date"
-- "String"
-- "UIViewController"
-- !private "<"
-- !private "Ujayi"
-- "Array"
-- !private "UIApplication"
-- !private "!"
-- "UIColor"
-- !private "NSTextAlignment"
-- !private "print"
-- !private "UnicodeScalarType"
-- !private "+="
-- "AssignmentPrecedence"
-- "UIView"
-- !private "=="
-- !private "NSError"
-- "Technique"
-- !private "Aum"
-- "UILabel"
-- "StringLiteralType"
-- "UIButton"
-- "Bundle"
-- "AVAudioPlayerDelegate"
-- "AVAudioPlayer"
-- !private "UIControlContentVerticalAlignment"
-- !private "UIImage"
-- !private "-="
-- "Timer"
-- "Bool"
-- !private "BooleanLiteralType"
-- !private "Bhastrika"
-- !private "Rest"
-- "AnyObject"
-- !private "SudarshanKriya"
-- !private "+"
-- !private "Calendar"
-- !private "UIFont"
-- "FIRDatabaseReference"
-- "Int"
 - "URL"
+- "StringLiteralType"
+- !private "FIRDatabase"
+- "FIRDatabaseReference"
+- !private "Rest"
+- "UIButton"
+- "AnyObject"
+- !private "UnicodeScalarType"
+- !private "BooleanLiteralType"
+- "Array"
+- "AVAudioPlayer"
+- "FIRDatabaseHandle"
+- "CGFloat"
+- !private "+"
+- "Bool"
+- !private "+="
+- !private "NSTextAlignment"
+- "UIImageView"
+- !private "UIApplication"
+- "Technique"
+- !private "UIViewContentMode"
+- "UILabel"
+- !private "<"
+- "Bundle"
+- !private "Aum"
+- !private "-="
+- !private "UIFont"
+- "String"
+- !private "NSError"
+- !private "!"
+- "Int"
+- !private "SudarshanKriya"
+- !private "Bhastrika"
+- !private "Date"
+- "UIViewController"
+- "UIColor"
+- !private "..."
+- "DailyKriya"
+- !private "Ujayi"
+- !private "Calendar"
+- "AssignmentPrecedence"
+- !private "=="
+- "Timer"
+- !private "print"
+- "UIView"
+- !private "UIImage"
+- "AVAudioPlayerDelegate"
+- !private "UIControlContentVerticalAlignment"
 depends-member:
 - ["CSo13AVAudioPlayer", "deinit"]
 - !private ["CSo13AVAudioPlayer", "delegate"]
@@ -125,9 +126,11 @@ depends-member:
 - !private ["PSo21AVAudioPlayerDelegate", "UIControlContentVerticalAlignment"]
 - !private ["PSo21AVAudioPlayerDelegate", "UIFont"]
 - !private ["PSo21AVAudioPlayerDelegate", "UIImage"]
+- !private ["PSo21AVAudioPlayerDelegate", "UIViewContentMode"]
 - !private ["PSo21AVAudioPlayerDelegate", "Ujayi"]
 - !private ["PSo21AVAudioPlayerDelegate", "addAum"]
 - !private ["PSo21AVAudioPlayerDelegate", "addRest"]
+- !private ["PSo21AVAudioPlayerDelegate", "animationView"]
 - ["PSo21AVAudioPlayerDelegate", "audioPlayerBeginInterruption"]
 - ["PSo21AVAudioPlayerDelegate", "audioPlayerDecodeErrorDidOccur"]
 - ["PSo21AVAudioPlayerDelegate", "audioPlayerDidFinishPlaying"]
@@ -148,7 +151,6 @@ depends-member:
 - !private ["PSo21AVAudioPlayerDelegate", "infoColor"]
 - !private ["PSo21AVAudioPlayerDelegate", "lastSound"]
 - !private ["PSo21AVAudioPlayerDelegate", "listOfFuncs"]
-- !private ["PSo21AVAudioPlayerDelegate", "name"]
 - !private ["PSo21AVAudioPlayerDelegate", "nameText"]
 - !private ["PSo21AVAudioPlayerDelegate", "playButton"]
 - !private ["PSo21AVAudioPlayerDelegate", "playSound"]
@@ -166,8 +168,6 @@ depends-member:
 - !private ["PSo21AVAudioPlayerDelegate", "showButton"]
 - !private ["PSo21AVAudioPlayerDelegate", "showCounter"]
 - !private ["PSo21AVAudioPlayerDelegate", "showTimer"]
-- !private ["PSo21AVAudioPlayerDelegate", "stage"]
-- !private ["PSo21AVAudioPlayerDelegate", "stageText"]
 - !private ["PSo21AVAudioPlayerDelegate", "startTimer"]
 - !private ["PSo21AVAudioPlayerDelegate", "stringDate"]
 - !private ["PSo21AVAudioPlayerDelegate", "timer"]
@@ -194,10 +194,13 @@ depends-member:
 - !private ["Ps9AnyObject", "UIControlContentVerticalAlignment"]
 - !private ["Ps9AnyObject", "UIFont"]
 - !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "UIViewContentMode"]
 - !private ["Ps9AnyObject", "Ujayi"]
 - ["Ps9AnyObject", "addAum"]
 - ["Ps9AnyObject", "addRest"]
 - !private ["Ps9AnyObject", "alpha"]
+- !private ["Ps9AnyObject", "animationImages"]
+- ["Ps9AnyObject", "animationView"]
 - ["Ps9AnyObject", "audioPlayerBeginInterruption"]
 - ["Ps9AnyObject", "audioPlayerDecodeErrorDidOccur"]
 - ["Ps9AnyObject", "audioPlayerDidFinishPlaying"]
@@ -239,10 +242,8 @@ depends-member:
 - !private ["Ps9AnyObject", "isPlaying"]
 - ["Ps9AnyObject", "lastSound"]
 - !private ["Ps9AnyObject", "layer"]
-- ["Ps9AnyObject", "lightGray"]
 - ["Ps9AnyObject", "listOfFuncs"]
 - ["Ps9AnyObject", "main"]
-- ["Ps9AnyObject", "name"]
 - ["Ps9AnyObject", "nameText"]
 - ["Ps9AnyObject", "pause"]
 - !private ["Ps9AnyObject", "play"]
@@ -269,8 +270,7 @@ depends-member:
 - ["Ps9AnyObject", "showButton"]
 - ["Ps9AnyObject", "showCounter"]
 - ["Ps9AnyObject", "showTimer"]
-- ["Ps9AnyObject", "stage"]
-- ["Ps9AnyObject", "stageText"]
+- !private ["Ps9AnyObject", "startAnimating"]
 - ["Ps9AnyObject", "startTimer"]
 - ["Ps9AnyObject", "stringDate"]
 - !private ["Ps9AnyObject", "text"]
@@ -280,6 +280,7 @@ depends-member:
 - ["Ps9AnyObject", "url"]
 - !private ["Ps9AnyObject", "view"]
 - ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "white"]
 - ["Ps9AnyObject", ""]
 - !private ["Sa", "Index"]
 - !private ["Sa", "IndexDistance"]
@@ -337,6 +338,7 @@ depends-member:
 - !private ["CSo7CALayer", "cornerRadius"]
 - ["CSo7CALayer", "deinit"]
 - !private ["PSo15CALayerDelegate", "alpha"]
+- !private ["PSo15CALayerDelegate", "animationImages"]
 - !private ["PSo15CALayerDelegate", "backgroundColor"]
 - !private ["PSo15CALayerDelegate", "clipsToBounds"]
 - !private ["PSo15CALayerDelegate", "contentMode"]
@@ -345,6 +347,7 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "isHidden"]
 - !private ["PSo15CALayerDelegate", "layer"]
 - !private ["PSo15CALayerDelegate", "setBackgroundImage"]
+- !private ["PSo15CALayerDelegate", "startAnimating"]
 - !private ["PSo15CALayerDelegate", "text"]
 - !private ["PSo15CALayerDelegate", "textAlignment"]
 - !private ["PSo13CAMediaTiming", "borderColor"]
@@ -379,12 +382,15 @@ depends-member:
 - !private ["Ps7CVarArg", "UIControlContentVerticalAlignment"]
 - !private ["Ps7CVarArg", "UIFont"]
 - !private ["Ps7CVarArg", "UIImage"]
+- !private ["Ps7CVarArg", "UIViewContentMode"]
 - !private ["Ps7CVarArg", "Ujayi"]
 - !private ["Ps7CVarArg", "_DisabledRangeIndex"]
 - !private ["Ps7CVarArg", "_Element"]
 - ["Ps7CVarArg", "addAum"]
 - ["Ps7CVarArg", "addRest"]
 - !private ["Ps7CVarArg", "alpha"]
+- !private ["Ps7CVarArg", "animationImages"]
+- ["Ps7CVarArg", "animationView"]
 - !private ["Ps7CVarArg", "append"]
 - ["Ps7CVarArg", "audioPlayerBeginInterruption"]
 - ["Ps7CVarArg", "audioPlayerDecodeErrorDidOccur"]
@@ -428,10 +434,8 @@ depends-member:
 - !private ["Ps7CVarArg", "isPlaying"]
 - ["Ps7CVarArg", "lastSound"]
 - !private ["Ps7CVarArg", "layer"]
-- ["Ps7CVarArg", "lightGray"]
 - ["Ps7CVarArg", "listOfFuncs"]
 - ["Ps7CVarArg", "main"]
-- ["Ps7CVarArg", "name"]
 - ["Ps7CVarArg", "nameText"]
 - ["Ps7CVarArg", "pause"]
 - !private ["Ps7CVarArg", "play"]
@@ -458,8 +462,7 @@ depends-member:
 - ["Ps7CVarArg", "showButton"]
 - ["Ps7CVarArg", "showCounter"]
 - ["Ps7CVarArg", "showTimer"]
-- ["Ps7CVarArg", "stage"]
-- ["Ps7CVarArg", "stageText"]
+- !private ["Ps7CVarArg", "startAnimating"]
 - ["Ps7CVarArg", "startTimer"]
 - ["Ps7CVarArg", "stringDate"]
 - !private ["Ps7CVarArg", "subscript"]
@@ -470,11 +473,14 @@ depends-member:
 - ["Ps7CVarArg", "url"]
 - !private ["Ps7CVarArg", "view"]
 - ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", "white"]
 - ["Ps7CVarArg", ""]
 - !private ["V10Foundation8Calendar", "dateComponents"]
 - ["V10Foundation8Calendar", "deinit"]
 - !private ["V10Foundation8Calendar", "init"]
 - !private ["Vs9Character", "deinit"]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Vs19ClosedRangeIterator", "Element"]
 - !private ["Ps10Collection", "Index"]
 - !private ["Ps10Collection", "IndexDistance"]
 - !private ["Ps10Collection", "Indices"]
@@ -490,6 +496,8 @@ depends-member:
 - !private ["Ps10Comparable", "Stride"]
 - !private ["Ps10Comparable", "_DisabledRangeIndex"]
 - ["Ps10Comparable", "init"]
+- !private ["Vs20CountableClosedRange", "Iterator"]
+- ["Vs20CountableClosedRange", "deinit"]
 - !private ["Vs14CountableRange", "Index"]
 - !private ["Vs14CountableRange", "IndexDistance"]
 - !private ["Vs14CountableRange", "Indices"]
@@ -523,11 +531,14 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "UIControlContentVerticalAlignment"]
 - !private ["Ps28CustomDebugStringConvertible", "UIFont"]
 - !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "UIViewContentMode"]
 - !private ["Ps28CustomDebugStringConvertible", "Ujayi"]
 - !private ["Ps28CustomDebugStringConvertible", "_Element"]
 - ["Ps28CustomDebugStringConvertible", "addAum"]
 - ["Ps28CustomDebugStringConvertible", "addRest"]
 - !private ["Ps28CustomDebugStringConvertible", "alpha"]
+- !private ["Ps28CustomDebugStringConvertible", "animationImages"]
+- ["Ps28CustomDebugStringConvertible", "animationView"]
 - !private ["Ps28CustomDebugStringConvertible", "append"]
 - ["Ps28CustomDebugStringConvertible", "audioPlayerBeginInterruption"]
 - ["Ps28CustomDebugStringConvertible", "audioPlayerDecodeErrorDidOccur"]
@@ -575,11 +586,9 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "isPlaying"]
 - ["Ps28CustomDebugStringConvertible", "lastSound"]
 - !private ["Ps28CustomDebugStringConvertible", "layer"]
-- ["Ps28CustomDebugStringConvertible", "lightGray"]
 - ["Ps28CustomDebugStringConvertible", "listOfFuncs"]
 - ["Ps28CustomDebugStringConvertible", "main"]
 - !private ["Ps28CustomDebugStringConvertible", "month"]
-- ["Ps28CustomDebugStringConvertible", "name"]
 - ["Ps28CustomDebugStringConvertible", "nameText"]
 - ["Ps28CustomDebugStringConvertible", "pause"]
 - !private ["Ps28CustomDebugStringConvertible", "play"]
@@ -607,8 +616,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "showCounter"]
 - ["Ps28CustomDebugStringConvertible", "showTimer"]
 - ["Ps28CustomDebugStringConvertible", "some"]
-- ["Ps28CustomDebugStringConvertible", "stage"]
-- ["Ps28CustomDebugStringConvertible", "stageText"]
+- !private ["Ps28CustomDebugStringConvertible", "startAnimating"]
 - ["Ps28CustomDebugStringConvertible", "startTimer"]
 - ["Ps28CustomDebugStringConvertible", "stringDate"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
@@ -619,6 +627,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "url"]
 - !private ["Ps28CustomDebugStringConvertible", "view"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "white"]
 - !private ["Ps28CustomDebugStringConvertible", "year"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
@@ -674,6 +683,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "UIControlContentVerticalAlignment"]
 - !private ["Ps23CustomStringConvertible", "UIFont"]
 - !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "UIViewContentMode"]
 - !private ["Ps23CustomStringConvertible", "Ujayi"]
 - !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
 - !private ["Ps23CustomStringConvertible", "_Element"]
@@ -681,6 +691,8 @@ depends-member:
 - ["Ps23CustomStringConvertible", "addAum"]
 - ["Ps23CustomStringConvertible", "addRest"]
 - !private ["Ps23CustomStringConvertible", "alpha"]
+- !private ["Ps23CustomStringConvertible", "animationImages"]
+- ["Ps23CustomStringConvertible", "animationView"]
 - !private ["Ps23CustomStringConvertible", "append"]
 - ["Ps23CustomStringConvertible", "audioPlayerBeginInterruption"]
 - ["Ps23CustomStringConvertible", "audioPlayerDecodeErrorDidOccur"]
@@ -728,11 +740,9 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "isPlaying"]
 - ["Ps23CustomStringConvertible", "lastSound"]
 - !private ["Ps23CustomStringConvertible", "layer"]
-- ["Ps23CustomStringConvertible", "lightGray"]
 - ["Ps23CustomStringConvertible", "listOfFuncs"]
 - ["Ps23CustomStringConvertible", "main"]
 - !private ["Ps23CustomStringConvertible", "month"]
-- ["Ps23CustomStringConvertible", "name"]
 - ["Ps23CustomStringConvertible", "nameText"]
 - ["Ps23CustomStringConvertible", "pause"]
 - !private ["Ps23CustomStringConvertible", "play"]
@@ -759,8 +769,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "showButton"]
 - ["Ps23CustomStringConvertible", "showCounter"]
 - ["Ps23CustomStringConvertible", "showTimer"]
-- ["Ps23CustomStringConvertible", "stage"]
-- ["Ps23CustomStringConvertible", "stageText"]
+- !private ["Ps23CustomStringConvertible", "startAnimating"]
 - ["Ps23CustomStringConvertible", "startTimer"]
 - ["Ps23CustomStringConvertible", "stringDate"]
 - !private ["Ps23CustomStringConvertible", "subscript"]
@@ -771,6 +780,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "url"]
 - !private ["Ps23CustomStringConvertible", "view"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "white"]
 - !private ["Ps23CustomStringConvertible", "year"]
 - ["Ps23CustomStringConvertible", ""]
 - ["C14SudarshanKriya10DailyKriya", "AVAudioPlayer"]
@@ -802,12 +812,15 @@ depends-member:
 - !private ["C14SudarshanKriya10DailyKriya", "UIControlContentVerticalAlignment"]
 - !private ["C14SudarshanKriya10DailyKriya", "UIFont"]
 - !private ["C14SudarshanKriya10DailyKriya", "UIImage"]
+- ["C14SudarshanKriya10DailyKriya", "UIImageView"]
 - ["C14SudarshanKriya10DailyKriya", "UILabel"]
 - ["C14SudarshanKriya10DailyKriya", "UIView"]
+- !private ["C14SudarshanKriya10DailyKriya", "UIViewContentMode"]
 - ["C14SudarshanKriya10DailyKriya", "URL"]
 - !private ["C14SudarshanKriya10DailyKriya", "Ujayi"]
 - ["C14SudarshanKriya10DailyKriya", "addAum"]
 - ["C14SudarshanKriya10DailyKriya", "addRest"]
+- ["C14SudarshanKriya10DailyKriya", "animationView"]
 - ["C14SudarshanKriya10DailyKriya", "audioPlayerBeginInterruption"]
 - ["C14SudarshanKriya10DailyKriya", "audioPlayerDecodeErrorDidOccur"]
 - ["C14SudarshanKriya10DailyKriya", "audioPlayerDidFinishPlaying"]
@@ -831,7 +844,6 @@ depends-member:
 - ["C14SudarshanKriya10DailyKriya", "init"]
 - ["C14SudarshanKriya10DailyKriya", "lastSound"]
 - ["C14SudarshanKriya10DailyKriya", "listOfFuncs"]
-- ["C14SudarshanKriya10DailyKriya", "name"]
 - ["C14SudarshanKriya10DailyKriya", "nameText"]
 - ["C14SudarshanKriya10DailyKriya", "pause"]
 - ["C14SudarshanKriya10DailyKriya", "playButton"]
@@ -851,8 +863,6 @@ depends-member:
 - ["C14SudarshanKriya10DailyKriya", "showButton"]
 - ["C14SudarshanKriya10DailyKriya", "showCounter"]
 - ["C14SudarshanKriya10DailyKriya", "showTimer"]
-- ["C14SudarshanKriya10DailyKriya", "stage"]
-- ["C14SudarshanKriya10DailyKriya", "stageText"]
 - ["C14SudarshanKriya10DailyKriya", "startTimer"]
 - ["C14SudarshanKriya10DailyKriya", "stringDate"]
 - ["C14SudarshanKriya10DailyKriya", "timer"]
@@ -909,6 +919,7 @@ depends-member:
 - !private ["Ps9Equatable", "UIControlContentVerticalAlignment"]
 - !private ["Ps9Equatable", "UIFont"]
 - !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "UIViewContentMode"]
 - !private ["Ps9Equatable", "Ujayi"]
 - !private ["Ps9Equatable", "_DisabledRangeIndex"]
 - !private ["Ps9Equatable", "_Element"]
@@ -916,6 +927,8 @@ depends-member:
 - ["Ps9Equatable", "addAum"]
 - ["Ps9Equatable", "addRest"]
 - !private ["Ps9Equatable", "alpha"]
+- !private ["Ps9Equatable", "animationImages"]
+- ["Ps9Equatable", "animationView"]
 - ["Ps9Equatable", "audioPlayerBeginInterruption"]
 - ["Ps9Equatable", "audioPlayerDecodeErrorDidOccur"]
 - ["Ps9Equatable", "audioPlayerDidFinishPlaying"]
@@ -964,11 +977,9 @@ depends-member:
 - !private ["Ps9Equatable", "isPlaying"]
 - ["Ps9Equatable", "lastSound"]
 - !private ["Ps9Equatable", "layer"]
-- ["Ps9Equatable", "lightGray"]
 - ["Ps9Equatable", "listOfFuncs"]
 - ["Ps9Equatable", "main"]
 - !private ["Ps9Equatable", "month"]
-- ["Ps9Equatable", "name"]
 - ["Ps9Equatable", "nameText"]
 - !private ["Ps9Equatable", "normal"]
 - ["Ps9Equatable", "pause"]
@@ -985,6 +996,7 @@ depends-member:
 - ["Ps9Equatable", "restCounter"]
 - ["Ps9Equatable", "restTime"]
 - ["Ps9Equatable", "roundCorners"]
+- !private ["Ps9Equatable", "scaleAspectFit"]
 - !private ["Ps9Equatable", "scaleToFill"]
 - !private ["Ps9Equatable", "scheduledTimer"]
 - ["Ps9Equatable", "seconds"]
@@ -997,8 +1009,7 @@ depends-member:
 - ["Ps9Equatable", "showButton"]
 - ["Ps9Equatable", "showCounter"]
 - ["Ps9Equatable", "showTimer"]
-- ["Ps9Equatable", "stage"]
-- ["Ps9Equatable", "stageText"]
+- !private ["Ps9Equatable", "startAnimating"]
 - ["Ps9Equatable", "startTimer"]
 - ["Ps9Equatable", "stringDate"]
 - !private ["Ps9Equatable", "text"]
@@ -1008,6 +1019,7 @@ depends-member:
 - ["Ps9Equatable", "url"]
 - !private ["Ps9Equatable", "view"]
 - ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "white"]
 - !private ["Ps9Equatable", "year"]
 - ["Ps9Equatable", ""]
 - !private ["Ps5Error", "description"]
@@ -1062,12 +1074,15 @@ depends-member:
 - !private ["Ps8Hashable", "UIControlContentVerticalAlignment"]
 - !private ["Ps8Hashable", "UIFont"]
 - !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "UIViewContentMode"]
 - !private ["Ps8Hashable", "Ujayi"]
 - !private ["Ps8Hashable", "_DisabledRangeIndex"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - ["Ps8Hashable", "addAum"]
 - ["Ps8Hashable", "addRest"]
 - !private ["Ps8Hashable", "alpha"]
+- !private ["Ps8Hashable", "animationImages"]
+- ["Ps8Hashable", "animationView"]
 - ["Ps8Hashable", "audioPlayerBeginInterruption"]
 - ["Ps8Hashable", "audioPlayerDecodeErrorDidOccur"]
 - ["Ps8Hashable", "audioPlayerDidFinishPlaying"]
@@ -1115,11 +1130,9 @@ depends-member:
 - !private ["Ps8Hashable", "isPlaying"]
 - ["Ps8Hashable", "lastSound"]
 - !private ["Ps8Hashable", "layer"]
-- ["Ps8Hashable", "lightGray"]
 - ["Ps8Hashable", "listOfFuncs"]
 - ["Ps8Hashable", "main"]
 - !private ["Ps8Hashable", "month"]
-- ["Ps8Hashable", "name"]
 - ["Ps8Hashable", "nameText"]
 - ["Ps8Hashable", "pause"]
 - !private ["Ps8Hashable", "play"]
@@ -1135,6 +1148,7 @@ depends-member:
 - ["Ps8Hashable", "restCounter"]
 - ["Ps8Hashable", "restTime"]
 - ["Ps8Hashable", "roundCorners"]
+- !private ["Ps8Hashable", "scaleAspectFit"]
 - !private ["Ps8Hashable", "scaleToFill"]
 - !private ["Ps8Hashable", "scheduledTimer"]
 - ["Ps8Hashable", "seconds"]
@@ -1147,8 +1161,7 @@ depends-member:
 - ["Ps8Hashable", "showButton"]
 - ["Ps8Hashable", "showCounter"]
 - ["Ps8Hashable", "showTimer"]
-- ["Ps8Hashable", "stage"]
-- ["Ps8Hashable", "stageText"]
+- !private ["Ps8Hashable", "startAnimating"]
 - ["Ps8Hashable", "startTimer"]
 - ["Ps8Hashable", "stringDate"]
 - !private ["Ps8Hashable", "text"]
@@ -1158,6 +1171,7 @@ depends-member:
 - ["Ps8Hashable", "url"]
 - !private ["Ps8Hashable", "view"]
 - ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "white"]
 - !private ["Ps8Hashable", "year"]
 - ["Ps8Hashable", ""]
 - ["OV10Foundation8Calendar10Identifier", "deinit"]
@@ -1248,10 +1262,13 @@ depends-member:
 - !private ["PSo8NSCoding", "UIControlContentVerticalAlignment"]
 - !private ["PSo8NSCoding", "UIFont"]
 - !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "UIViewContentMode"]
 - !private ["PSo8NSCoding", "Ujayi"]
 - ["PSo8NSCoding", "addAum"]
 - ["PSo8NSCoding", "addRest"]
 - !private ["PSo8NSCoding", "alpha"]
+- !private ["PSo8NSCoding", "animationImages"]
+- ["PSo8NSCoding", "animationView"]
 - ["PSo8NSCoding", "audioPlayerBeginInterruption"]
 - ["PSo8NSCoding", "audioPlayerDecodeErrorDidOccur"]
 - ["PSo8NSCoding", "audioPlayerDidFinishPlaying"]
@@ -1287,9 +1304,7 @@ depends-member:
 - !private ["PSo8NSCoding", "isHidden"]
 - ["PSo8NSCoding", "lastSound"]
 - !private ["PSo8NSCoding", "layer"]
-- ["PSo8NSCoding", "lightGray"]
 - ["PSo8NSCoding", "listOfFuncs"]
-- ["PSo8NSCoding", "name"]
 - ["PSo8NSCoding", "nameText"]
 - ["PSo8NSCoding", "pause"]
 - ["PSo8NSCoding", "playButton"]
@@ -1310,8 +1325,7 @@ depends-member:
 - ["PSo8NSCoding", "showButton"]
 - ["PSo8NSCoding", "showCounter"]
 - ["PSo8NSCoding", "showTimer"]
-- ["PSo8NSCoding", "stage"]
-- ["PSo8NSCoding", "stageText"]
+- !private ["PSo8NSCoding", "startAnimating"]
 - ["PSo8NSCoding", "startTimer"]
 - ["PSo8NSCoding", "stringDate"]
 - !private ["PSo8NSCoding", "text"]
@@ -1320,6 +1334,7 @@ depends-member:
 - ["PSo8NSCoding", "timerText"]
 - !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "white"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "black"]
 - !private ["PSo9NSCopying", "cgColor"]
@@ -1327,7 +1342,7 @@ depends-member:
 - ["PSo9NSCopying", "darkGray"]
 - !private ["PSo9NSCopying", "description"]
 - ["PSo9NSCopying", "init"]
-- ["PSo9NSCopying", "lightGray"]
+- ["PSo9NSCopying", "white"]
 - ["CSo7NSError", "deinit"]
 - !private ["CSo7NSError", "description"]
 - ["PSo26NSExtensionRequestHandling", "AVAudioPlayer"]
@@ -1350,9 +1365,11 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "UIControlContentVerticalAlignment"]
 - !private ["PSo26NSExtensionRequestHandling", "UIFont"]
 - !private ["PSo26NSExtensionRequestHandling", "UIImage"]
+- !private ["PSo26NSExtensionRequestHandling", "UIViewContentMode"]
 - !private ["PSo26NSExtensionRequestHandling", "Ujayi"]
 - ["PSo26NSExtensionRequestHandling", "addAum"]
 - ["PSo26NSExtensionRequestHandling", "addRest"]
+- ["PSo26NSExtensionRequestHandling", "animationView"]
 - ["PSo26NSExtensionRequestHandling", "audioPlayerBeginInterruption"]
 - ["PSo26NSExtensionRequestHandling", "audioPlayerDecodeErrorDidOccur"]
 - ["PSo26NSExtensionRequestHandling", "audioPlayerDidFinishPlaying"]
@@ -1375,7 +1392,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "lastSound"]
 - ["PSo26NSExtensionRequestHandling", "listOfFuncs"]
-- ["PSo26NSExtensionRequestHandling", "name"]
 - ["PSo26NSExtensionRequestHandling", "nameText"]
 - ["PSo26NSExtensionRequestHandling", "pause"]
 - ["PSo26NSExtensionRequestHandling", "playButton"]
@@ -1395,8 +1411,6 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "showButton"]
 - ["PSo26NSExtensionRequestHandling", "showCounter"]
 - ["PSo26NSExtensionRequestHandling", "showTimer"]
-- ["PSo26NSExtensionRequestHandling", "stage"]
-- ["PSo26NSExtensionRequestHandling", "stageText"]
 - ["PSo26NSExtensionRequestHandling", "startTimer"]
 - ["PSo26NSExtensionRequestHandling", "stringDate"]
 - ["PSo26NSExtensionRequestHandling", "timer"]
@@ -1434,13 +1448,17 @@ depends-member:
 - !private ["CSo8NSObject", "UIControlContentVerticalAlignment"]
 - !private ["CSo8NSObject", "UIFont"]
 - !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImageView"]
 - ["CSo8NSObject", "UILabel"]
 - ["CSo8NSObject", "UIView"]
+- !private ["CSo8NSObject", "UIViewContentMode"]
 - ["CSo8NSObject", "URL"]
 - !private ["CSo8NSObject", "Ujayi"]
 - ["CSo8NSObject", "addAum"]
 - ["CSo8NSObject", "addRest"]
 - !private ["CSo8NSObject", "alpha"]
+- !private ["CSo8NSObject", "animationImages"]
+- ["CSo8NSObject", "animationView"]
 - ["CSo8NSObject", "audioPlayerBeginInterruption"]
 - ["CSo8NSObject", "audioPlayerDecodeErrorDidOccur"]
 - ["CSo8NSObject", "audioPlayerDidFinishPlaying"]
@@ -1482,10 +1500,8 @@ depends-member:
 - !private ["CSo8NSObject", "isPlaying"]
 - ["CSo8NSObject", "lastSound"]
 - !private ["CSo8NSObject", "layer"]
-- ["CSo8NSObject", "lightGray"]
 - ["CSo8NSObject", "listOfFuncs"]
 - ["CSo8NSObject", "main"]
-- ["CSo8NSObject", "name"]
 - ["CSo8NSObject", "nameText"]
 - ["CSo8NSObject", "pause"]
 - !private ["CSo8NSObject", "play"]
@@ -1512,8 +1528,7 @@ depends-member:
 - ["CSo8NSObject", "showButton"]
 - ["CSo8NSObject", "showCounter"]
 - ["CSo8NSObject", "showTimer"]
-- ["CSo8NSObject", "stage"]
-- ["CSo8NSObject", "stageText"]
+- !private ["CSo8NSObject", "startAnimating"]
 - ["CSo8NSObject", "startTimer"]
 - ["CSo8NSObject", "stringDate"]
 - !private ["CSo8NSObject", "text"]
@@ -1523,6 +1538,7 @@ depends-member:
 - ["CSo8NSObject", "url"]
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "white"]
 - ["PSo16NSObjectProtocol", "AVAudioPlayer"]
 - ["PSo16NSObjectProtocol", "Array"]
 - !private ["PSo16NSObjectProtocol", "Aum"]
@@ -1543,10 +1559,13 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "UIControlContentVerticalAlignment"]
 - !private ["PSo16NSObjectProtocol", "UIFont"]
 - !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "UIViewContentMode"]
 - !private ["PSo16NSObjectProtocol", "Ujayi"]
 - ["PSo16NSObjectProtocol", "addAum"]
 - ["PSo16NSObjectProtocol", "addRest"]
 - !private ["PSo16NSObjectProtocol", "alpha"]
+- !private ["PSo16NSObjectProtocol", "animationImages"]
+- ["PSo16NSObjectProtocol", "animationView"]
 - ["PSo16NSObjectProtocol", "audioPlayerBeginInterruption"]
 - ["PSo16NSObjectProtocol", "audioPlayerDecodeErrorDidOccur"]
 - ["PSo16NSObjectProtocol", "audioPlayerDidFinishPlaying"]
@@ -1588,10 +1607,8 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "isPlaying"]
 - ["PSo16NSObjectProtocol", "lastSound"]
 - !private ["PSo16NSObjectProtocol", "layer"]
-- ["PSo16NSObjectProtocol", "lightGray"]
 - ["PSo16NSObjectProtocol", "listOfFuncs"]
 - ["PSo16NSObjectProtocol", "main"]
-- ["PSo16NSObjectProtocol", "name"]
 - ["PSo16NSObjectProtocol", "nameText"]
 - ["PSo16NSObjectProtocol", "pause"]
 - !private ["PSo16NSObjectProtocol", "play"]
@@ -1618,8 +1635,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "showButton"]
 - ["PSo16NSObjectProtocol", "showCounter"]
 - ["PSo16NSObjectProtocol", "showTimer"]
-- ["PSo16NSObjectProtocol", "stage"]
-- ["PSo16NSObjectProtocol", "stageText"]
+- !private ["PSo16NSObjectProtocol", "startAnimating"]
 - ["PSo16NSObjectProtocol", "startTimer"]
 - ["PSo16NSObjectProtocol", "stringDate"]
 - !private ["PSo16NSObjectProtocol", "text"]
@@ -1629,6 +1645,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "url"]
 - !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "white"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "black"]
 - !private ["PSo14NSSecureCoding", "cgColor"]
@@ -1636,7 +1653,7 @@ depends-member:
 - ["PSo14NSSecureCoding", "darkGray"]
 - !private ["PSo14NSSecureCoding", "description"]
 - ["PSo14NSSecureCoding", "init"]
-- ["PSo14NSSecureCoding", "lightGray"]
+- ["PSo14NSSecureCoding", "white"]
 - ["CSo8NSString", "init"]
 - !private ["OSC15NSTextAlignment", "center"]
 - ["OSC15NSTextAlignment", "deinit"]
@@ -1694,6 +1711,7 @@ depends-member:
 - !private ["Ps16RawRepresentable", "bottom"]
 - !private ["Ps16RawRepresentable", "center"]
 - !private ["Ps16RawRepresentable", "normal"]
+- !private ["Ps16RawRepresentable", "scaleAspectFit"]
 - !private ["Ps16RawRepresentable", "scaleToFill"]
 - !private ["P10Foundation20ReferenceConvertible", "current"]
 - !private ["P10Foundation20ReferenceConvertible", "dateComponents"]
@@ -1740,9 +1758,6 @@ depends-member:
 - ["SS", "init"]
 - ["C14SudarshanKriya14SudarshanKriya", "deinit"]
 - !private ["C14SudarshanKriya14SudarshanKriya", "init"]
-- !private ["P14SudarshanKriya9Technique", "Stage1"]
-- !private ["P14SudarshanKriya9Technique", "Stage2"]
-- !private ["P14SudarshanKriya9Technique", "Stage3"]
 - !private ["P14SudarshanKriya9Technique", "color"]
 - ["P14SudarshanKriya9Technique", "deinit"]
 - !private ["P14SudarshanKriya9Technique", "init"]
@@ -1759,6 +1774,7 @@ depends-member:
 - !private ["CSo5Timer", "invalidate"]
 - !private ["CSo5Timer", "scheduledTimer"]
 - !private ["PSo29UIAccessibilityIdentification", "alpha"]
+- !private ["PSo29UIAccessibilityIdentification", "animationImages"]
 - !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
 - !private ["PSo29UIAccessibilityIdentification", "clipsToBounds"]
 - !private ["PSo29UIAccessibilityIdentification", "contentMode"]
@@ -1768,9 +1784,11 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "isHidden"]
 - !private ["PSo29UIAccessibilityIdentification", "layer"]
 - !private ["PSo29UIAccessibilityIdentification", "setBackgroundImage"]
+- !private ["PSo29UIAccessibilityIdentification", "startAnimating"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo29UIAccessibilityIdentification", "textAlignment"]
 - !private ["PSo12UIAppearance", "alpha"]
+- !private ["PSo12UIAppearance", "animationImages"]
 - !private ["PSo12UIAppearance", "backgroundColor"]
 - !private ["PSo12UIAppearance", "clipsToBounds"]
 - !private ["PSo12UIAppearance", "contentMode"]
@@ -1779,6 +1797,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "isHidden"]
 - !private ["PSo12UIAppearance", "layer"]
 - !private ["PSo12UIAppearance", "setBackgroundImage"]
+- !private ["PSo12UIAppearance", "startAnimating"]
 - !private ["PSo12UIAppearance", "text"]
 - !private ["PSo12UIAppearance", "textAlignment"]
 - ["PSo21UIAppearanceContainer", "AVAudioPlayer"]
@@ -1801,10 +1820,13 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "UIControlContentVerticalAlignment"]
 - !private ["PSo21UIAppearanceContainer", "UIFont"]
 - !private ["PSo21UIAppearanceContainer", "UIImage"]
+- !private ["PSo21UIAppearanceContainer", "UIViewContentMode"]
 - !private ["PSo21UIAppearanceContainer", "Ujayi"]
 - ["PSo21UIAppearanceContainer", "addAum"]
 - ["PSo21UIAppearanceContainer", "addRest"]
 - !private ["PSo21UIAppearanceContainer", "alpha"]
+- !private ["PSo21UIAppearanceContainer", "animationImages"]
+- ["PSo21UIAppearanceContainer", "animationView"]
 - ["PSo21UIAppearanceContainer", "audioPlayerBeginInterruption"]
 - ["PSo21UIAppearanceContainer", "audioPlayerDecodeErrorDidOccur"]
 - ["PSo21UIAppearanceContainer", "audioPlayerDidFinishPlaying"]
@@ -1833,7 +1855,6 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "lastSound"]
 - !private ["PSo21UIAppearanceContainer", "layer"]
 - ["PSo21UIAppearanceContainer", "listOfFuncs"]
-- ["PSo21UIAppearanceContainer", "name"]
 - ["PSo21UIAppearanceContainer", "nameText"]
 - ["PSo21UIAppearanceContainer", "pause"]
 - ["PSo21UIAppearanceContainer", "playButton"]
@@ -1854,8 +1875,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "showButton"]
 - ["PSo21UIAppearanceContainer", "showCounter"]
 - ["PSo21UIAppearanceContainer", "showTimer"]
-- ["PSo21UIAppearanceContainer", "stage"]
-- ["PSo21UIAppearanceContainer", "stageText"]
+- !private ["PSo21UIAppearanceContainer", "startAnimating"]
 - ["PSo21UIAppearanceContainer", "startTimer"]
 - ["PSo21UIAppearanceContainer", "stringDate"]
 - !private ["PSo21UIAppearanceContainer", "text"]
@@ -1877,7 +1897,7 @@ depends-member:
 - ["CSo7UIColor", "clear"]
 - ["CSo7UIColor", "darkGray"]
 - ["CSo7UIColor", "deinit"]
-- ["CSo7UIColor", "lightGray"]
+- ["CSo7UIColor", "white"]
 - ["PSo18UIContentContainer", "AVAudioPlayer"]
 - ["PSo18UIContentContainer", "Array"]
 - !private ["PSo18UIContentContainer", "Aum"]
@@ -1898,9 +1918,11 @@ depends-member:
 - !private ["PSo18UIContentContainer", "UIControlContentVerticalAlignment"]
 - !private ["PSo18UIContentContainer", "UIFont"]
 - !private ["PSo18UIContentContainer", "UIImage"]
+- !private ["PSo18UIContentContainer", "UIViewContentMode"]
 - !private ["PSo18UIContentContainer", "Ujayi"]
 - ["PSo18UIContentContainer", "addAum"]
 - ["PSo18UIContentContainer", "addRest"]
+- ["PSo18UIContentContainer", "animationView"]
 - ["PSo18UIContentContainer", "audioPlayerBeginInterruption"]
 - ["PSo18UIContentContainer", "audioPlayerDecodeErrorDidOccur"]
 - ["PSo18UIContentContainer", "audioPlayerDidFinishPlaying"]
@@ -1923,7 +1945,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "lastSound"]
 - ["PSo18UIContentContainer", "listOfFuncs"]
-- ["PSo18UIContentContainer", "name"]
 - ["PSo18UIContentContainer", "nameText"]
 - ["PSo18UIContentContainer", "pause"]
 - ["PSo18UIContentContainer", "playButton"]
@@ -1943,8 +1964,6 @@ depends-member:
 - ["PSo18UIContentContainer", "showButton"]
 - ["PSo18UIContentContainer", "showCounter"]
 - ["PSo18UIContentContainer", "showTimer"]
-- ["PSo18UIContentContainer", "stage"]
-- ["PSo18UIContentContainer", "stageText"]
 - ["PSo18UIContentContainer", "startTimer"]
 - ["PSo18UIContentContainer", "stringDate"]
 - ["PSo18UIContentContainer", "timer"]
@@ -1969,6 +1988,7 @@ depends-member:
 - ["VSC14UIControlState", "deinit"]
 - !private ["VSC14UIControlState", "normal"]
 - !private ["PSo17UICoordinateSpace", "alpha"]
+- !private ["PSo17UICoordinateSpace", "animationImages"]
 - !private ["PSo17UICoordinateSpace", "backgroundColor"]
 - !private ["PSo17UICoordinateSpace", "clipsToBounds"]
 - !private ["PSo17UICoordinateSpace", "contentMode"]
@@ -1977,9 +1997,11 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "isHidden"]
 - !private ["PSo17UICoordinateSpace", "layer"]
 - !private ["PSo17UICoordinateSpace", "setBackgroundImage"]
+- !private ["PSo17UICoordinateSpace", "startAnimating"]
 - !private ["PSo17UICoordinateSpace", "text"]
 - !private ["PSo17UICoordinateSpace", "textAlignment"]
 - !private ["PSo13UIDynamicItem", "alpha"]
+- !private ["PSo13UIDynamicItem", "animationImages"]
 - !private ["PSo13UIDynamicItem", "backgroundColor"]
 - !private ["PSo13UIDynamicItem", "clipsToBounds"]
 - !private ["PSo13UIDynamicItem", "contentMode"]
@@ -1988,6 +2010,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "isHidden"]
 - !private ["PSo13UIDynamicItem", "layer"]
 - !private ["PSo13UIDynamicItem", "setBackgroundImage"]
+- !private ["PSo13UIDynamicItem", "startAnimating"]
 - !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo13UIDynamicItem", "textAlignment"]
 - ["PSo18UIFocusEnvironment", "AVAudioPlayer"]
@@ -2010,10 +2033,13 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "UIControlContentVerticalAlignment"]
 - !private ["PSo18UIFocusEnvironment", "UIFont"]
 - !private ["PSo18UIFocusEnvironment", "UIImage"]
+- !private ["PSo18UIFocusEnvironment", "UIViewContentMode"]
 - !private ["PSo18UIFocusEnvironment", "Ujayi"]
 - ["PSo18UIFocusEnvironment", "addAum"]
 - ["PSo18UIFocusEnvironment", "addRest"]
 - !private ["PSo18UIFocusEnvironment", "alpha"]
+- !private ["PSo18UIFocusEnvironment", "animationImages"]
+- ["PSo18UIFocusEnvironment", "animationView"]
 - ["PSo18UIFocusEnvironment", "audioPlayerBeginInterruption"]
 - ["PSo18UIFocusEnvironment", "audioPlayerDecodeErrorDidOccur"]
 - ["PSo18UIFocusEnvironment", "audioPlayerDidFinishPlaying"]
@@ -2042,7 +2068,6 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "lastSound"]
 - !private ["PSo18UIFocusEnvironment", "layer"]
 - ["PSo18UIFocusEnvironment", "listOfFuncs"]
-- ["PSo18UIFocusEnvironment", "name"]
 - ["PSo18UIFocusEnvironment", "nameText"]
 - ["PSo18UIFocusEnvironment", "pause"]
 - ["PSo18UIFocusEnvironment", "playButton"]
@@ -2063,8 +2088,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "showButton"]
 - ["PSo18UIFocusEnvironment", "showCounter"]
 - ["PSo18UIFocusEnvironment", "showTimer"]
-- ["PSo18UIFocusEnvironment", "stage"]
-- ["PSo18UIFocusEnvironment", "stageText"]
+- !private ["PSo18UIFocusEnvironment", "startAnimating"]
 - ["PSo18UIFocusEnvironment", "startTimer"]
 - ["PSo18UIFocusEnvironment", "stringDate"]
 - !private ["PSo18UIFocusEnvironment", "text"]
@@ -2075,6 +2099,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["PSo11UIFocusItem", "alpha"]
+- !private ["PSo11UIFocusItem", "animationImages"]
 - !private ["PSo11UIFocusItem", "backgroundColor"]
 - !private ["PSo11UIFocusItem", "clipsToBounds"]
 - !private ["PSo11UIFocusItem", "contentMode"]
@@ -2083,10 +2108,15 @@ depends-member:
 - !private ["PSo11UIFocusItem", "isHidden"]
 - !private ["PSo11UIFocusItem", "layer"]
 - !private ["PSo11UIFocusItem", "setBackgroundImage"]
+- !private ["PSo11UIFocusItem", "startAnimating"]
 - !private ["PSo11UIFocusItem", "text"]
 - !private ["PSo11UIFocusItem", "textAlignment"]
 - !private ["CSo6UIFont", "init"]
+- ["CSo7UIImage", "deinit"]
 - !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIImageView", "animationImages"]
+- !private ["CSo11UIImageView", "contentMode"]
+- !private ["CSo11UIImageView", "startAnimating"]
 - !private ["CSo7UILabel", "alpha"]
 - !private ["CSo7UILabel", "backgroundColor"]
 - !private ["CSo7UILabel", "clipsToBounds"]
@@ -2125,13 +2155,17 @@ depends-member:
 - !private ["CSo11UIResponder", "UIControlContentVerticalAlignment"]
 - !private ["CSo11UIResponder", "UIFont"]
 - !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIImageView"]
 - ["CSo11UIResponder", "UILabel"]
 - ["CSo11UIResponder", "UIView"]
+- !private ["CSo11UIResponder", "UIViewContentMode"]
 - ["CSo11UIResponder", "URL"]
 - !private ["CSo11UIResponder", "Ujayi"]
 - ["CSo11UIResponder", "addAum"]
 - ["CSo11UIResponder", "addRest"]
 - !private ["CSo11UIResponder", "alpha"]
+- !private ["CSo11UIResponder", "animationImages"]
+- ["CSo11UIResponder", "animationView"]
 - ["CSo11UIResponder", "audioPlayerBeginInterruption"]
 - ["CSo11UIResponder", "audioPlayerDecodeErrorDidOccur"]
 - ["CSo11UIResponder", "audioPlayerDidFinishPlaying"]
@@ -2161,7 +2195,6 @@ depends-member:
 - ["CSo11UIResponder", "lastSound"]
 - !private ["CSo11UIResponder", "layer"]
 - ["CSo11UIResponder", "listOfFuncs"]
-- ["CSo11UIResponder", "name"]
 - ["CSo11UIResponder", "nameText"]
 - ["CSo11UIResponder", "pause"]
 - ["CSo11UIResponder", "playButton"]
@@ -2183,8 +2216,7 @@ depends-member:
 - ["CSo11UIResponder", "showButton"]
 - ["CSo11UIResponder", "showCounter"]
 - ["CSo11UIResponder", "showTimer"]
-- ["CSo11UIResponder", "stage"]
-- ["CSo11UIResponder", "stageText"]
+- !private ["CSo11UIResponder", "startAnimating"]
 - ["CSo11UIResponder", "startTimer"]
 - ["CSo11UIResponder", "stringDate"]
 - !private ["CSo11UIResponder", "text"]
@@ -2213,10 +2245,13 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "UIControlContentVerticalAlignment"]
 - !private ["PSo30UIResponderStandardEditActions", "UIFont"]
 - !private ["PSo30UIResponderStandardEditActions", "UIImage"]
+- !private ["PSo30UIResponderStandardEditActions", "UIViewContentMode"]
 - !private ["PSo30UIResponderStandardEditActions", "Ujayi"]
 - ["PSo30UIResponderStandardEditActions", "addAum"]
 - ["PSo30UIResponderStandardEditActions", "addRest"]
 - !private ["PSo30UIResponderStandardEditActions", "alpha"]
+- !private ["PSo30UIResponderStandardEditActions", "animationImages"]
+- ["PSo30UIResponderStandardEditActions", "animationView"]
 - ["PSo30UIResponderStandardEditActions", "audioPlayerBeginInterruption"]
 - ["PSo30UIResponderStandardEditActions", "audioPlayerDecodeErrorDidOccur"]
 - ["PSo30UIResponderStandardEditActions", "audioPlayerDidFinishPlaying"]
@@ -2246,7 +2281,6 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "lastSound"]
 - !private ["PSo30UIResponderStandardEditActions", "layer"]
 - ["PSo30UIResponderStandardEditActions", "listOfFuncs"]
-- ["PSo30UIResponderStandardEditActions", "name"]
 - ["PSo30UIResponderStandardEditActions", "nameText"]
 - ["PSo30UIResponderStandardEditActions", "pause"]
 - ["PSo30UIResponderStandardEditActions", "playButton"]
@@ -2268,8 +2302,7 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "showButton"]
 - ["PSo30UIResponderStandardEditActions", "showCounter"]
 - ["PSo30UIResponderStandardEditActions", "showTimer"]
-- ["PSo30UIResponderStandardEditActions", "stage"]
-- ["PSo30UIResponderStandardEditActions", "stageText"]
+- !private ["PSo30UIResponderStandardEditActions", "startAnimating"]
 - ["PSo30UIResponderStandardEditActions", "startTimer"]
 - ["PSo30UIResponderStandardEditActions", "stringDate"]
 - !private ["PSo30UIResponderStandardEditActions", "text"]
@@ -2299,9 +2332,11 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "UIControlContentVerticalAlignment"]
 - !private ["PSo16UIStateRestoring", "UIFont"]
 - !private ["PSo16UIStateRestoring", "UIImage"]
+- !private ["PSo16UIStateRestoring", "UIViewContentMode"]
 - !private ["PSo16UIStateRestoring", "Ujayi"]
 - ["PSo16UIStateRestoring", "addAum"]
 - ["PSo16UIStateRestoring", "addRest"]
+- ["PSo16UIStateRestoring", "animationView"]
 - ["PSo16UIStateRestoring", "audioPlayerBeginInterruption"]
 - ["PSo16UIStateRestoring", "audioPlayerDecodeErrorDidOccur"]
 - ["PSo16UIStateRestoring", "audioPlayerDidFinishPlaying"]
@@ -2324,7 +2359,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "lastSound"]
 - ["PSo16UIStateRestoring", "listOfFuncs"]
-- ["PSo16UIStateRestoring", "name"]
 - ["PSo16UIStateRestoring", "nameText"]
 - ["PSo16UIStateRestoring", "pause"]
 - ["PSo16UIStateRestoring", "playButton"]
@@ -2344,8 +2378,6 @@ depends-member:
 - ["PSo16UIStateRestoring", "showButton"]
 - ["PSo16UIStateRestoring", "showCounter"]
 - ["PSo16UIStateRestoring", "showTimer"]
-- ["PSo16UIStateRestoring", "stage"]
-- ["PSo16UIStateRestoring", "stageText"]
 - ["PSo16UIStateRestoring", "startTimer"]
 - ["PSo16UIStateRestoring", "stringDate"]
 - ["PSo16UIStateRestoring", "timer"]
@@ -2373,10 +2405,13 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "UIControlContentVerticalAlignment"]
 - !private ["PSo18UITraitEnvironment", "UIFont"]
 - !private ["PSo18UITraitEnvironment", "UIImage"]
+- !private ["PSo18UITraitEnvironment", "UIViewContentMode"]
 - !private ["PSo18UITraitEnvironment", "Ujayi"]
 - ["PSo18UITraitEnvironment", "addAum"]
 - ["PSo18UITraitEnvironment", "addRest"]
 - !private ["PSo18UITraitEnvironment", "alpha"]
+- !private ["PSo18UITraitEnvironment", "animationImages"]
+- ["PSo18UITraitEnvironment", "animationView"]
 - ["PSo18UITraitEnvironment", "audioPlayerBeginInterruption"]
 - ["PSo18UITraitEnvironment", "audioPlayerDecodeErrorDidOccur"]
 - ["PSo18UITraitEnvironment", "audioPlayerDidFinishPlaying"]
@@ -2405,7 +2440,6 @@ depends-member:
 - ["PSo18UITraitEnvironment", "lastSound"]
 - !private ["PSo18UITraitEnvironment", "layer"]
 - ["PSo18UITraitEnvironment", "listOfFuncs"]
-- ["PSo18UITraitEnvironment", "name"]
 - ["PSo18UITraitEnvironment", "nameText"]
 - ["PSo18UITraitEnvironment", "pause"]
 - ["PSo18UITraitEnvironment", "playButton"]
@@ -2426,8 +2460,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "showButton"]
 - ["PSo18UITraitEnvironment", "showCounter"]
 - ["PSo18UITraitEnvironment", "showTimer"]
-- ["PSo18UITraitEnvironment", "stage"]
-- ["PSo18UITraitEnvironment", "stageText"]
+- !private ["PSo18UITraitEnvironment", "startAnimating"]
 - ["PSo18UITraitEnvironment", "startTimer"]
 - ["PSo18UITraitEnvironment", "stringDate"]
 - !private ["PSo18UITraitEnvironment", "text"]
@@ -2438,6 +2471,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "alpha"]
+- !private ["CSo6UIView", "animationImages"]
 - !private ["CSo6UIView", "backgroundColor"]
 - !private ["CSo6UIView", "clipsToBounds"]
 - !private ["CSo6UIView", "contentMode"]
@@ -2446,9 +2480,11 @@ depends-member:
 - !private ["CSo6UIView", "isHidden"]
 - !private ["CSo6UIView", "layer"]
 - !private ["CSo6UIView", "setBackgroundImage"]
+- !private ["CSo6UIView", "startAnimating"]
 - !private ["CSo6UIView", "text"]
 - !private ["CSo6UIView", "textAlignment"]
 - ["OSC17UIViewContentMode", "deinit"]
+- !private ["OSC17UIViewContentMode", "scaleAspectFit"]
 - !private ["OSC17UIViewContentMode", "scaleToFill"]
 - ["CSo16UIViewController", "AVAudioPlayer"]
 - ["CSo16UIViewController", "AnyObject"]
@@ -2479,12 +2515,15 @@ depends-member:
 - !private ["CSo16UIViewController", "UIControlContentVerticalAlignment"]
 - !private ["CSo16UIViewController", "UIFont"]
 - !private ["CSo16UIViewController", "UIImage"]
+- ["CSo16UIViewController", "UIImageView"]
 - ["CSo16UIViewController", "UILabel"]
 - ["CSo16UIViewController", "UIView"]
+- !private ["CSo16UIViewController", "UIViewContentMode"]
 - ["CSo16UIViewController", "URL"]
 - !private ["CSo16UIViewController", "Ujayi"]
 - ["CSo16UIViewController", "addAum"]
 - ["CSo16UIViewController", "addRest"]
+- ["CSo16UIViewController", "animationView"]
 - ["CSo16UIViewController", "audioPlayerBeginInterruption"]
 - ["CSo16UIViewController", "audioPlayerDecodeErrorDidOccur"]
 - ["CSo16UIViewController", "audioPlayerDidFinishPlaying"]
@@ -2508,7 +2547,6 @@ depends-member:
 - ["CSo16UIViewController", "init"]
 - ["CSo16UIViewController", "lastSound"]
 - ["CSo16UIViewController", "listOfFuncs"]
-- ["CSo16UIViewController", "name"]
 - ["CSo16UIViewController", "nameText"]
 - ["CSo16UIViewController", "pause"]
 - ["CSo16UIViewController", "playButton"]
@@ -2528,8 +2566,6 @@ depends-member:
 - ["CSo16UIViewController", "showButton"]
 - ["CSo16UIViewController", "showCounter"]
 - ["CSo16UIViewController", "showTimer"]
-- ["CSo16UIViewController", "stage"]
-- ["CSo16UIViewController", "stageText"]
 - ["CSo16UIViewController", "startTimer"]
 - ["CSo16UIViewController", "stringDate"]
 - ["CSo16UIViewController", "timer"]
@@ -2557,6 +2593,7 @@ depends-member:
 - ["Ps14_ArrayProtocol", "init"]
 - !private ["Ps14_ArrayProtocol", "subscript"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "alpha"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "animationImages"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "backgroundColor"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "clipsToBounds"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contentMode"]
@@ -2565,6 +2602,7 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isHidden"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setBackgroundImage"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "startAnimating"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "textAlignment"]
 - !private ["Ps24_DestructorSafeContainer", "Index"]
@@ -2589,7 +2627,7 @@ depends-member:
 - !private ["Ps26_ExpressibleByColorLiteral", "cgColor"]
 - ["Ps26_ExpressibleByColorLiteral", "clear"]
 - ["Ps26_ExpressibleByColorLiteral", "darkGray"]
-- ["Ps26_ExpressibleByColorLiteral", "lightGray"]
+- ["Ps26_ExpressibleByColorLiteral", "white"]
 - !private ["Ps26_ExpressibleByImageLiteral", "init"]
 - ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - ["Ps9_Hashable", "AVAudioPlayer"]
@@ -2614,12 +2652,15 @@ depends-member:
 - !private ["Ps9_Hashable", "UIControlContentVerticalAlignment"]
 - !private ["Ps9_Hashable", "UIFont"]
 - !private ["Ps9_Hashable", "UIImage"]
+- !private ["Ps9_Hashable", "UIViewContentMode"]
 - !private ["Ps9_Hashable", "Ujayi"]
 - !private ["Ps9_Hashable", "_DisabledRangeIndex"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - ["Ps9_Hashable", "addAum"]
 - ["Ps9_Hashable", "addRest"]
 - !private ["Ps9_Hashable", "alpha"]
+- !private ["Ps9_Hashable", "animationImages"]
+- ["Ps9_Hashable", "animationView"]
 - ["Ps9_Hashable", "audioPlayerBeginInterruption"]
 - ["Ps9_Hashable", "audioPlayerDecodeErrorDidOccur"]
 - ["Ps9_Hashable", "audioPlayerDidFinishPlaying"]
@@ -2667,11 +2708,9 @@ depends-member:
 - !private ["Ps9_Hashable", "isPlaying"]
 - ["Ps9_Hashable", "lastSound"]
 - !private ["Ps9_Hashable", "layer"]
-- ["Ps9_Hashable", "lightGray"]
 - ["Ps9_Hashable", "listOfFuncs"]
 - ["Ps9_Hashable", "main"]
 - !private ["Ps9_Hashable", "month"]
-- ["Ps9_Hashable", "name"]
 - ["Ps9_Hashable", "nameText"]
 - ["Ps9_Hashable", "pause"]
 - !private ["Ps9_Hashable", "play"]
@@ -2687,6 +2726,7 @@ depends-member:
 - ["Ps9_Hashable", "restCounter"]
 - ["Ps9_Hashable", "restTime"]
 - ["Ps9_Hashable", "roundCorners"]
+- !private ["Ps9_Hashable", "scaleAspectFit"]
 - !private ["Ps9_Hashable", "scaleToFill"]
 - !private ["Ps9_Hashable", "scheduledTimer"]
 - ["Ps9_Hashable", "seconds"]
@@ -2699,8 +2739,7 @@ depends-member:
 - ["Ps9_Hashable", "showButton"]
 - ["Ps9_Hashable", "showCounter"]
 - ["Ps9_Hashable", "showTimer"]
-- ["Ps9_Hashable", "stage"]
-- ["Ps9_Hashable", "stageText"]
+- !private ["Ps9_Hashable", "startAnimating"]
 - ["Ps9_Hashable", "startTimer"]
 - ["Ps9_Hashable", "stringDate"]
 - !private ["Ps9_Hashable", "text"]
@@ -2710,6 +2749,7 @@ depends-member:
 - ["Ps9_Hashable", "url"]
 - !private ["Ps9_Hashable", "view"]
 - ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", "white"]
 - !private ["Ps9_Hashable", "year"]
 - ["Ps9_Hashable", ""]
 - !private ["Ps14_Incrementable", "IntegerLiteralType"]
@@ -2772,8 +2812,11 @@ depends-nominal:
 - "Ps7CVarArg"
 - "V10Foundation8Calendar"
 - !private "Vs9Character"
+- !private "Vs11ClosedRange"
+- !private "Vs19ClosedRangeIterator"
 - "Ps10Collection"
 - "Ps10Comparable"
+- "Vs20CountableClosedRange"
 - "Vs14CountableRange"
 - "Ps28CustomDebugStringConvertible"
 - "Ps29CustomPlaygroundQuickLookable"
@@ -2870,7 +2913,8 @@ depends-nominal:
 - "PSo18UIFocusEnvironment"
 - !private "PSo11UIFocusItem"
 - !private "CSo6UIFont"
-- !private "CSo7UIImage"
+- "CSo7UIImage"
+- !private "CSo11UIImageView"
 - "CSo7UILabel"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
@@ -2953,4 +2997,4 @@ depends-external:
 - "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
 - "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
 - "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/Firebase/Core/Sources/Firebase.h"
-interface-hash: "e668ccfa69d8e25049aa12fb943c7c17"
+interface-hash: "b2658d75dd01f6d5b9d2658a049d19d9"

@@ -114,21 +114,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import AVFoundation;
 @import Foundation;
 @import CoreGraphics;
+@import SpriteKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
-@class NSBundle;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC14SudarshanKriya23AnimationViewController")
-@interface AnimationViewController : UIViewController
-- (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class UIWindow;
 @class UIApplication;
 
@@ -148,9 +138,13 @@ SWIFT_CLASS("_TtC14SudarshanKriya11AppDelegate")
 @class NSTimer;
 @class AVAudioPlayer;
 @class UIColor;
+@class KriyScene;
 @class UILabel;
 @class UIButton;
 @class UIView;
+@class SKView;
+@class NSBundle;
+@class NSCoder;
 
 SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
 @interface DailyKriya : UIViewController <AVAudioPlayerDelegate>
@@ -166,21 +160,19 @@ SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
 @property (nonatomic, readonly, strong) UIColor * _Nonnull infoColor;
 @property (nonatomic, readonly, strong) UIColor * _Nonnull highlightColor;
 @property (nonatomic, readonly, strong) UIColor * _Nonnull clearColor;
+@property (nonatomic, strong) KriyScene * _Nullable Kriy;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified playButton;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified counter;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified name;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified stage;
+@property (nonatomic, weak) IBOutlet SKView * _Null_unspecified animationView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified circleOne;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified circleTwo;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified circleThree;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameText;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified stageText;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified timerText;
 - (IBAction)pause:(id _Nonnull)sender;
 - (void)viewDidLoad;
-- (void)addRest;
-- (void)addAum;
-- (void)playSound:(NSURL * _Nonnull)url;
+- (void)makeList;
+- (NSURL * _Nonnull)getURLWithString:(NSString * _Nonnull)string;
 - (void)changeCounter:(NSInteger)number;
 - (void)hideCounter;
 - (void)showCounter;
@@ -188,17 +180,39 @@ SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
 - (void)roundCorners;
 - (void)setCircleLabel:(UILabel * _Nonnull)circle;
 - (void)setTextLabel:(UILabel * _Nonnull)text size:(CGFloat)size;
+- (void)showButton;
+- (void)hideButton;
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer * _Nonnull)player successfully:(BOOL)flag;
+- (void)playSound:(NSURL * _Nonnull)url;
 - (void)showTimer;
 - (void)hideTimer;
 - (void)startTimer;
 - (void)restCounter;
-- (void)showButton;
-- (void)hideButton;
 - (void)sendFirUpdate;
 - (NSString * _Nonnull)stringDate;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class SKTexture;
+
+SWIFT_CLASS("_TtC14SudarshanKriya9KriyScene")
+@interface KriyScene : SKScene
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithSize:(CGSize)size OBJC_DESIGNATED_INITIALIZER;
+- (NSArray<SKTexture *> * _Nonnull)getFramesWithAtlasString:(NSString * _Nonnull)atlasString count:(NSInteger)count;
+- (void)startWithPosition:(CGPoint)position sceneName:(NSString * _Nonnull)sceneName;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC14SudarshanKriya11SampleScene")
+@interface SampleScene : SKScene
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithSize:(CGSize)size OBJC_DESIGNATED_INITIALIZER;
+- (NSArray<SKTexture *> * _Nonnull)getFramesWithAtlasString:(NSString * _Nonnull)atlasString count:(NSInteger)count;
+- (void)startWithPosition:(CGPoint)position sceneName:(NSString * _Nonnull)sceneName;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 
 
@@ -213,15 +227,6 @@ SWIFT_CLASS("_TtC14SudarshanKriya19StartViewController")
 - (void)animateButton;
 - (void)successHaptic;
 - (IBAction)startAction:(id _Nonnull)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC14SudarshanKriya20TestVCViewController")
-@interface TestVCViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified midView;
-- (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

@@ -6,23 +6,22 @@ provides-nominal:
 provides-member:
 - ["C14SudarshanKriya23AnimationViewController", ""]
 provides-dynamic-lookup:
+- "imageView"
 - "didReceiveMemoryWarning"
 - "viewDidLoad"
-- "imageView"
 depends-top-level:
-- "UIImageView"
-- !private "UIImage"
-- !private "UIViewContentMode"
-- "AnimationViewController"
-- !private "String"
-- !private "<"
-- "AssignmentPrecedence"
 - !private "..."
-- !private "print"
-- !private "StringLiteralType"
-- !private "UnicodeScalarType"
-- "UIViewController"
+- "UIImageView"
 - !private "+"
+- !private "UnicodeScalarType"
+- "AssignmentPrecedence"
+- !private "String"
+- !private "UIImage"
+- !private "StringLiteralType"
+- !private "<"
+- !private "UIViewContentMode"
+- "UIViewController"
+- "AnimationViewController"
 depends-member:
 - !private ["C14SudarshanKriya23AnimationViewController", "String"]
 - !private ["C14SudarshanKriya23AnimationViewController", "UIImage"]
@@ -32,7 +31,6 @@ depends-member:
 - ["C14SudarshanKriya23AnimationViewController", "didReceiveMemoryWarning"]
 - ["C14SudarshanKriya23AnimationViewController", "imageView"]
 - ["C14SudarshanKriya23AnimationViewController", "init"]
-- !private ["C14SudarshanKriya23AnimationViewController", "print"]
 - ["C14SudarshanKriya23AnimationViewController", "viewDidLoad"]
 - !private ["Ps9AnyObject", "String"]
 - !private ["Ps9AnyObject", "UIImage"]
@@ -42,7 +40,6 @@ depends-member:
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - ["Ps9AnyObject", "imageView"]
 - !private ["Ps9AnyObject", "init"]
-- !private ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "startAnimating"]
 - ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", ""]
@@ -81,7 +78,6 @@ depends-member:
 - ["Ps7CVarArg", "didReceiveMemoryWarning"]
 - ["Ps7CVarArg", "imageView"]
 - !private ["Ps7CVarArg", "init"]
-- !private ["Ps7CVarArg", "print"]
 - !private ["Ps7CVarArg", "startAnimating"]
 - ["Ps7CVarArg", "viewDidLoad"]
 - ["Ps7CVarArg", ""]
@@ -108,7 +104,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
 - ["Ps28CustomDebugStringConvertible", "imageView"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
-- !private ["Ps28CustomDebugStringConvertible", "print"]
 - !private ["Ps28CustomDebugStringConvertible", "startAnimating"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", ""]
@@ -140,7 +135,6 @@ depends-member:
 - ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
 - ["Ps23CustomStringConvertible", "imageView"]
 - !private ["Ps23CustomStringConvertible", "init"]
-- !private ["Ps23CustomStringConvertible", "print"]
 - !private ["Ps23CustomStringConvertible", "startAnimating"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
@@ -157,7 +151,6 @@ depends-member:
 - ["Ps9Equatable", "didReceiveMemoryWarning"]
 - ["Ps9Equatable", "imageView"]
 - !private ["Ps9Equatable", "init"]
-- !private ["Ps9Equatable", "print"]
 - !private ["Ps9Equatable", "scaleAspectFit"]
 - !private ["Ps9Equatable", "startAnimating"]
 - ["Ps9Equatable", "viewDidLoad"]
@@ -186,7 +179,6 @@ depends-member:
 - ["Ps8Hashable", "didReceiveMemoryWarning"]
 - ["Ps8Hashable", "imageView"]
 - !private ["Ps8Hashable", "init"]
-- !private ["Ps8Hashable", "print"]
 - !private ["Ps8Hashable", "scaleAspectFit"]
 - !private ["Ps8Hashable", "startAnimating"]
 - ["Ps8Hashable", "viewDidLoad"]
@@ -235,7 +227,6 @@ depends-member:
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - ["PSo8NSCoding", "imageView"]
 - !private ["PSo8NSCoding", "init"]
-- !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "startAnimating"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
@@ -246,7 +237,6 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - ["PSo26NSExtensionRequestHandling", "imageView"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
-- !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["PSo16NSMutableCopying", "init"]
@@ -259,7 +249,6 @@ depends-member:
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - ["CSo8NSObject", "imageView"]
 - ["CSo8NSObject", "init"]
-- !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "startAnimating"]
 - ["CSo8NSObject", "viewDidLoad"]
 - !private ["PSo16NSObjectProtocol", "String"]
@@ -270,7 +259,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - ["PSo16NSObjectProtocol", "imageView"]
 - !private ["PSo16NSObjectProtocol", "init"]
-- !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "startAnimating"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
@@ -327,7 +315,6 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - ["PSo21UIAppearanceContainer", "imageView"]
 - !private ["PSo21UIAppearanceContainer", "init"]
-- !private ["PSo21UIAppearanceContainer", "print"]
 - !private ["PSo21UIAppearanceContainer", "startAnimating"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
@@ -337,7 +324,6 @@ depends-member:
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - ["PSo18UIContentContainer", "imageView"]
 - !private ["PSo18UIContentContainer", "init"]
-- !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
 - !private ["PSo17UICoordinateSpace", "animationImages"]
@@ -354,7 +340,6 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UIFocusEnvironment", "imageView"]
 - !private ["PSo18UIFocusEnvironment", "init"]
-- !private ["PSo18UIFocusEnvironment", "print"]
 - !private ["PSo18UIFocusEnvironment", "startAnimating"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
@@ -375,7 +360,6 @@ depends-member:
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
 - ["CSo11UIResponder", "imageView"]
 - ["CSo11UIResponder", "init"]
-- !private ["CSo11UIResponder", "print"]
 - !private ["CSo11UIResponder", "startAnimating"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["PSo30UIResponderStandardEditActions", "String"]
@@ -386,7 +370,6 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
 - ["PSo30UIResponderStandardEditActions", "imageView"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
-- !private ["PSo30UIResponderStandardEditActions", "print"]
 - !private ["PSo30UIResponderStandardEditActions", "startAnimating"]
 - ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
 - ["PSo30UIResponderStandardEditActions", ""]
@@ -396,7 +379,6 @@ depends-member:
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - ["PSo16UIStateRestoring", "imageView"]
 - !private ["PSo16UIStateRestoring", "init"]
-- !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
 - !private ["PSo18UITraitEnvironment", "String"]
@@ -407,7 +389,6 @@ depends-member:
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UITraitEnvironment", "imageView"]
 - !private ["PSo18UITraitEnvironment", "init"]
-- !private ["PSo18UITraitEnvironment", "print"]
 - !private ["PSo18UITraitEnvironment", "startAnimating"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
@@ -424,7 +405,6 @@ depends-member:
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "imageView"]
 - ["CSo16UIViewController", "init"]
-- !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
 - !private ["Ps14_ArrayProtocol", "Iterator"]
@@ -460,7 +440,6 @@ depends-member:
 - ["Ps9_Hashable", "didReceiveMemoryWarning"]
 - ["Ps9_Hashable", "imageView"]
 - !private ["Ps9_Hashable", "init"]
-- !private ["Ps9_Hashable", "print"]
 - !private ["Ps9_Hashable", "scaleAspectFit"]
 - !private ["Ps9_Hashable", "startAnimating"]
 - ["Ps9_Hashable", "viewDidLoad"]
@@ -597,6 +576,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"

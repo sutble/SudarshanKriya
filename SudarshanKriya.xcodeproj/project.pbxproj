@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		10435A9579FAF1AE691D0F91 /* Pods_ArtOfLivingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 702E4A890B931129549B49B2 /* Pods_ArtOfLivingTests.framework */; };
-		1803F1C01E3F3304008818DB /* TestVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F1BF1E3F3304008818DB /* TestVCViewController.swift */; };
 		1810C9941E3DE3B90001B5F3 /* 15secondsilence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1810C9871E3DE3B90001B5F3 /* 15secondsilence.mp3 */; };
 		1810C9951E3DE3B90001B5F3 /* aum1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1810C9881E3DE3B90001B5F3 /* aum1.mp3 */; };
 		1810C9961E3DE3B90001B5F3 /* aum2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1810C9891E3DE3B90001B5F3 /* aum2.mp3 */; };
@@ -21,14 +20,13 @@
 		1810C99F1E3DE3B90001B5F3 /* transition.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1810C9921E3DE3B90001B5F3 /* transition.mp3 */; };
 		1810C9A01E3DE3B90001B5F3 /* UjayiBreath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1810C9931E3DE3B90001B5F3 /* UjayiBreath.mp3 */; };
 		183439611D36EBD000CEC95C /* Techniques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183439601D36EBD000CEC95C /* Techniques.swift */; };
+		1842E9581E4D087800BCDC7A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1842E9571E4D087800BCDC7A /* SpriteKit.framework */; };
+		1842E95C1E4D092A00BCDC7A /* 35secondemo.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1842E95B1E4D092A00BCDC7A /* 35secondemo.atlas */; };
 		184C80D61E073F2000A8E24D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 184C80D51E073F2000A8E24D /* GoogleService-Info.plist */; };
-		189B5C681E471E2300E9F876 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B5C671E471E2300E9F876 /* AnimationViewController.swift */; };
 		18A8A4391E25DC1F007668F6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8A4381E25DC1F007668F6 /* StartViewController.swift */; };
+		18BDC2011E50701500CD109D /* KriyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BDC2001E50701500CD109D /* KriyScene.swift */; };
 		18EF78011E47246000C4F06A /* SriSoham.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18EF78001E47246000C4F06A /* SriSoham.mp3 */; };
 		18EF78031E47246600C4F06A /* restTransition.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18EF78021E47246600C4F06A /* restTransition.mp3 */; };
-		18EF78051E47246A00C4F06A /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EF78041E47246A00C4F06A /* play.png */; };
-		18EF78071E47247000C4F06A /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EF78061E47247000C4F06A /* pause.png */; };
-		18EF78091E47249000C4F06A /* 35secondemo in Resources */ = {isa = PBXBuildFile; fileRef = 18EF78081E47249000C4F06A /* 35secondemo */; };
 		AC94AD611B8E40BF002D9AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94AD601B8E40BF002D9AD2 /* AppDelegate.swift */; };
 		AC94AD661B8E40BF002D9AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC94AD641B8E40BF002D9AD2 /* Main.storyboard */; };
 		AC94AD681B8E40BF002D9AD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC94AD671B8E40BF002D9AD2 /* Images.xcassets */; };
@@ -49,7 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1803F1BF1E3F3304008818DB /* TestVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVCViewController.swift; sourceTree = "<group>"; };
 		1810C9871E3DE3B90001B5F3 /* 15secondsilence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 15secondsilence.mp3; path = Resources/15secondsilence.mp3; sourceTree = "<group>"; };
 		1810C9881E3DE3B90001B5F3 /* aum1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = aum1.mp3; path = Resources/aum1.mp3; sourceTree = "<group>"; };
 		1810C9891E3DE3B90001B5F3 /* aum2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = aum2.mp3; path = Resources/aum2.mp3; sourceTree = "<group>"; };
@@ -62,15 +59,14 @@
 		1810C9921E3DE3B90001B5F3 /* transition.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = transition.mp3; path = Resources/transition.mp3; sourceTree = "<group>"; };
 		1810C9931E3DE3B90001B5F3 /* UjayiBreath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = UjayiBreath.mp3; path = Resources/UjayiBreath.mp3; sourceTree = "<group>"; };
 		183439601D36EBD000CEC95C /* Techniques.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Techniques.swift; sourceTree = "<group>"; };
+		1842E9571E4D087800BCDC7A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		1842E95B1E4D092A00BCDC7A /* 35secondemo.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = 35secondemo.atlas; path = Resources/35secondemo.atlas; sourceTree = "<group>"; };
 		184C80D51E073F2000A8E24D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		189B5C671E471E2300E9F876 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		18A8A4381E25DC1F007668F6 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		18A8A43C1E260B5D007668F6 /* SudarshanKriya.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SudarshanKriya.entitlements; sourceTree = "<group>"; };
+		18BDC2001E50701500CD109D /* KriyScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KriyScene.swift; sourceTree = "<group>"; };
 		18EF78001E47246000C4F06A /* SriSoham.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SriSoham.mp3; path = Resources/SriSoham.mp3; sourceTree = "<group>"; };
 		18EF78021E47246600C4F06A /* restTransition.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = restTransition.mp3; path = Resources/restTransition.mp3; sourceTree = "<group>"; };
-		18EF78041E47246A00C4F06A /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = Resources/play.png; sourceTree = "<group>"; };
-		18EF78061E47247000C4F06A /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = Resources/pause.png; sourceTree = "<group>"; };
-		18EF78081E47249000C4F06A /* 35secondemo */ = {isa = PBXFileReference; lastKnownFileType = folder; name = 35secondemo; path = Resources/35secondemo; sourceTree = "<group>"; };
 		33A75391B67C9A5B8F2EE6A8 /* Pods_ArtOfLiving.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtOfLiving.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CB27059945645F3C7C49AA /* Pods-ArtOfLiving.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtOfLiving.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtOfLiving/Pods-ArtOfLiving.debug.xcconfig"; sourceTree = "<group>"; };
 		702E4A890B931129549B49B2 /* Pods_ArtOfLivingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtOfLivingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1842E9581E4D087800BCDC7A /* SpriteKit.framework in Frameworks */,
 				BD42352C3666A2399F367C69 /* Pods_ArtOfLiving.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,32 +106,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1810C9641E3DE1420001B5F3 /* Resources */ = {
+		1810C9641E3DE1420001B5F3 /* MP3s */ = {
 			isa = PBXGroup;
 			children = (
-				18EF78081E47249000C4F06A /* 35secondemo */,
-				18EF78061E47247000C4F06A /* pause.png */,
-				18EF78041E47246A00C4F06A /* play.png */,
+				1810C98C1E3DE3B90001B5F3 /* begin.mp3 */,
 				18EF78021E47246600C4F06A /* restTransition.mp3 */,
 				18EF78001E47246000C4F06A /* SriSoham.mp3 */,
 				1810C9871E3DE3B90001B5F3 /* 15secondsilence.mp3 */,
 				1810C9881E3DE3B90001B5F3 /* aum1.mp3 */,
 				1810C9891E3DE3B90001B5F3 /* aum2.mp3 */,
 				1810C98A1E3DE3B90001B5F3 /* aum3.mp3 */,
-				1810C98B1E3DE3B90001B5F3 /* Azurite (1).ttf */,
-				1810C98C1E3DE3B90001B5F3 /* begin.mp3 */,
 				1810C98D1E3DE3B90001B5F3 /* bhastrikafinal.mp3 */,
 				1810C98E1E3DE3B90001B5F3 /* breatheinfinal.mp3 */,
 				1810C98F1E3DE3B90001B5F3 /* breatheout.mp3 */,
 				1810C9921E3DE3B90001B5F3 /* transition.mp3 */,
 				1810C9931E3DE3B90001B5F3 /* UjayiBreath.mp3 */,
 			);
+			name = MP3s;
+			sourceTree = "<group>";
+		};
+		18D0F5BC1E4FE40B005BF379 /* Atlas' */ = {
+			isa = PBXGroup;
+			children = (
+				1842E95B1E4D092A00BCDC7A /* 35secondemo.atlas */,
+			);
+			name = "Atlas'";
+			sourceTree = "<group>";
+		};
+		18D0F5BD1E4FE41C005BF379 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				183439601D36EBD000CEC95C /* Techniques.swift */,
+				18BDC2001E50701500CD109D /* KriyScene.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		18D0F5BE1E4FE428005BF379 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1810C98B1E3DE3B90001B5F3 /* Azurite (1).ttf */,
+			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		18D0F5BF1E4FE43F005BF379 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18A8A4381E25DC1F007668F6 /* StartViewController.swift */,
+				AC94AD801B8E4174002D9AD2 /* DailyKriya.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 		313A2ACD10A95A5B0937125C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1842E9571E4D087800BCDC7A /* SpriteKit.framework */,
 				33A75391B67C9A5B8F2EE6A8 /* Pods_ArtOfLiving.framework */,
 				702E4A890B931129549B49B2 /* Pods_ArtOfLivingTests.framework */,
 			);
@@ -167,14 +195,13 @@
 			children = (
 				AC94AD601B8E40BF002D9AD2 /* AppDelegate.swift */,
 				AC94AD641B8E40BF002D9AD2 /* Main.storyboard */,
-				189B5C671E471E2300E9F876 /* AnimationViewController.swift */,
-				1803F1BF1E3F3304008818DB /* TestVCViewController.swift */,
-				18A8A4381E25DC1F007668F6 /* StartViewController.swift */,
-				AC94AD801B8E4174002D9AD2 /* DailyKriya.swift */,
-				183439601D36EBD000CEC95C /* Techniques.swift */,
-				AC94AD671B8E40BF002D9AD2 /* Images.xcassets */,
-				1810C9641E3DE1420001B5F3 /* Resources */,
 				AC94AD691B8E40BF002D9AD2 /* LaunchScreen.xib */,
+				AC94AD671B8E40BF002D9AD2 /* Images.xcassets */,
+				18D0F5BF1E4FE43F005BF379 /* View Controllers */,
+				18D0F5BD1E4FE41C005BF379 /* Classes */,
+				18D0F5BE1E4FE428005BF379 /* Resources */,
+				18D0F5BC1E4FE40B005BF379 /* Atlas' */,
+				1810C9641E3DE1420001B5F3 /* MP3s */,
 				AC94AD5E1B8E40BF002D9AD2 /* plist */,
 			);
 			path = SnapchatCamera;
@@ -320,16 +347,14 @@
 				1810C99A1E3DE3B90001B5F3 /* bhastrikafinal.mp3 in Resources */,
 				AC94AD6B1B8E40BF002D9AD2 /* LaunchScreen.xib in Resources */,
 				1810C9961E3DE3B90001B5F3 /* aum2.mp3 in Resources */,
+				1842E95C1E4D092A00BCDC7A /* 35secondemo.atlas in Resources */,
 				1810C9981E3DE3B90001B5F3 /* Azurite (1).ttf in Resources */,
 				1810C9991E3DE3B90001B5F3 /* begin.mp3 in Resources */,
 				1810C9941E3DE3B90001B5F3 /* 15secondsilence.mp3 in Resources */,
-				18EF78091E47249000C4F06A /* 35secondemo in Resources */,
 				1810C99F1E3DE3B90001B5F3 /* transition.mp3 in Resources */,
 				1810C9951E3DE3B90001B5F3 /* aum1.mp3 in Resources */,
 				1810C9971E3DE3B90001B5F3 /* aum3.mp3 in Resources */,
-				18EF78051E47246A00C4F06A /* play.png in Resources */,
 				18EF78031E47246600C4F06A /* restTransition.mp3 in Resources */,
-				18EF78071E47247000C4F06A /* pause.png in Resources */,
 				1810C99C1E3DE3B90001B5F3 /* breatheout.mp3 in Resources */,
 				1810C99B1E3DE3B90001B5F3 /* breatheinfinal.mp3 in Resources */,
 				AC94AD681B8E40BF002D9AD2 /* Images.xcassets in Resources */,
@@ -445,10 +470,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1803F1C01E3F3304008818DB /* TestVCViewController.swift in Sources */,
 				183439611D36EBD000CEC95C /* Techniques.swift in Sources */,
 				18A8A4391E25DC1F007668F6 /* StartViewController.swift in Sources */,
-				189B5C681E471E2300E9F876 /* AnimationViewController.swift in Sources */,
+				18BDC2011E50701500CD109D /* KriyScene.swift in Sources */,
 				AC94AD821B8E4174002D9AD2 /* DailyKriya.swift in Sources */,
 				AC94AD611B8E40BF002D9AD2 /* AppDelegate.swift in Sources */,
 			);

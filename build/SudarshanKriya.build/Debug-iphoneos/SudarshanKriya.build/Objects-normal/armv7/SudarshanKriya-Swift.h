@@ -118,11 +118,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@class UIImageView;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC14SudarshanKriya23AnimationViewController")
 @interface AnimationViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageView;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -168,13 +170,11 @@ SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
 @property (nonatomic, readonly, strong) UIColor * _Nonnull clearColor;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified playButton;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified counter;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified name;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified stage;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified animationView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified circleOne;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified circleTwo;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified circleThree;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameText;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified stageText;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified timerText;
 - (IBAction)pause:(id _Nonnull)sender;
 - (void)viewDidLoad;
@@ -197,6 +197,15 @@ SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
 - (void)hideButton;
 - (void)sendFirUpdate;
 - (NSString * _Nonnull)stringDate;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC14SudarshanKriya18GameViewController")
+@interface GameViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
