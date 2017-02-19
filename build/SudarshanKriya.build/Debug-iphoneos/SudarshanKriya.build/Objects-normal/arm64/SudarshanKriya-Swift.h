@@ -143,6 +143,7 @@ SWIFT_CLASS("_TtC14SudarshanKriya11AppDelegate")
 @class UIButton;
 @class UIView;
 @class SKView;
+@class UIImageView;
 @class NSBundle;
 @class NSCoder;
 
@@ -164,6 +165,7 @@ SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified playButton;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified counter;
 @property (nonatomic, weak) IBOutlet SKView * _Null_unspecified animationView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified circleOne;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified circleTwo;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified circleThree;
@@ -198,16 +200,6 @@ SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
 
 SWIFT_CLASS("_TtC14SudarshanKriya9KriyScene")
 @interface KriyScene : SKScene
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithSize:(CGSize)size OBJC_DESIGNATED_INITIALIZER;
-- (NSArray<SKTexture *> * _Nonnull)getFramesWithAtlasString:(NSString * _Nonnull)atlasString count:(NSInteger)count;
-- (void)startWithPosition:(CGPoint)position sceneName:(NSString * _Nonnull)sceneName;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-@end
-
-
-SWIFT_CLASS("_TtC14SudarshanKriya11SampleScene")
-@interface SampleScene : SKScene
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithSize:(CGSize)size OBJC_DESIGNATED_INITIALIZER;
 - (NSArray<SKTexture *> * _Nonnull)getFramesWithAtlasString:(NSString * _Nonnull)atlasString count:(NSInteger)count;

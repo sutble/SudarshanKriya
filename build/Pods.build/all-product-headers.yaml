@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers",
+      'name': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -19,7 +19,7 @@
         {
           'type': 'file',
           'name': "GoogleToolboxForMac-Swift.h",
-          'external-contents': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers/GoogleToolboxForMac-Swift.h"
+          'external-contents': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers/GoogleToolboxForMac-Swift.h"
         },
         {
           'type': 'file',
@@ -30,18 +30,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Modules",
+      'name': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/module.modulemap"
+          'external-contents': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Pods.build/Debug-iphonesimulator/GoogleToolboxForMac.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphoneos/Pods_ArtOfLiving.framework/Headers",
+      'name': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphonesimulator/Pods_ArtOfLiving.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -51,18 +51,18 @@
         {
           'type': 'file',
           'name': "Pods_ArtOfLiving-Swift.h",
-          'external-contents': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphoneos/Pods_ArtOfLiving.framework/Headers/Pods_ArtOfLiving-Swift.h"
+          'external-contents': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphonesimulator/Pods_ArtOfLiving.framework/Headers/Pods_ArtOfLiving-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphoneos/Pods_ArtOfLiving.framework/Modules",
+      'name': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphonesimulator/Pods_ArtOfLiving.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Pods.build/Debug-iphoneos/Pods-ArtOfLiving.build/module.modulemap"
+          'external-contents': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Pods.build/Debug-iphonesimulator/Pods-ArtOfLiving.build/module.modulemap"
         }
       ]
     }

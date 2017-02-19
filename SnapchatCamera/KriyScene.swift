@@ -53,11 +53,11 @@ class KriyScene: SKScene {
         let texture = frames[0]
         let Kriy = SKSpriteNode(texture: texture)
         Kriy.size = CGSize(width: 400, height: 400)
-        Kriy.position = CGPoint(x: position.x, y: position.y-150)
+        Kriy.position = CGPoint(x: position.x+20, y: position.y-250)
         
         self.addChild(Kriy)
         
-        let animateAction = SKAction.repeat(SKAction.animate(with: frames, timePerFrame: 0.06, resize: false, restore: true), count: 3)
+        let animateAction = SKAction.repeat(SKAction.animate(with: frames, timePerFrame: 0.08, resize: false, restore: true), count: 1)
         
         let removeAction = SKAction.run {
             Kriy.removeAllActions()

@@ -138,11 +138,12 @@ SWIFT_CLASS("_TtC14SudarshanKriya11AppDelegate")
 @class NSTimer;
 @class AVAudioPlayer;
 @class UIColor;
-@class SKScene;
+@class KriyScene;
 @class UILabel;
 @class UIButton;
 @class UIView;
 @class SKView;
+@class UIImageView;
 @class NSBundle;
 @class NSCoder;
 
@@ -160,10 +161,11 @@ SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
 @property (nonatomic, readonly, strong) UIColor * _Nonnull infoColor;
 @property (nonatomic, readonly, strong) UIColor * _Nonnull highlightColor;
 @property (nonatomic, readonly, strong) UIColor * _Nonnull clearColor;
-@property (nonatomic, strong) SKScene * _Nonnull scene;
+@property (nonatomic, strong) KriyScene * _Nullable Kriy;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified playButton;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified counter;
 @property (nonatomic, weak) IBOutlet SKView * _Null_unspecified animationView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified circleOne;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified circleTwo;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified circleThree;
@@ -171,7 +173,8 @@ SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified timerText;
 - (IBAction)pause:(id _Nonnull)sender;
 - (void)viewDidLoad;
-- (void)viewDidAppear:(BOOL)animated;
+- (void)makeList;
+- (NSURL * _Nonnull)getURLWithString:(NSString * _Nonnull)string;
 - (void)changeCounter:(NSInteger)number;
 - (void)hideCounter;
 - (void)showCounter;
@@ -189,20 +192,18 @@ SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
 - (void)restCounter;
 - (void)sendFirUpdate;
 - (NSString * _Nonnull)stringDate;
-- (void)addRest;
-- (void)addAum;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class SKTexture;
 
-SWIFT_CLASS("_TtC14SudarshanKriya11SampleScene")
-@interface SampleScene : SKScene
-@property (nonatomic, copy) NSArray<SKTexture *> * _Nullable sampleFrames;
+SWIFT_CLASS("_TtC14SudarshanKriya9KriyScene")
+@interface KriyScene : SKScene
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithSize:(CGSize)size OBJC_DESIGNATED_INITIALIZER;
-- (void)startBabblingWithPosition:(CGPoint)position;
+- (NSArray<SKTexture *> * _Nonnull)getFramesWithAtlasString:(NSString * _Nonnull)atlasString count:(NSInteger)count;
+- (void)startWithPosition:(CGPoint)position sceneName:(NSString * _Nonnull)sceneName;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 

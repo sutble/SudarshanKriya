@@ -6,96 +6,94 @@ provides-nominal:
 provides-member:
 - ["C14SudarshanKriya10DailyKriya", ""]
 provides-dynamic-lookup:
-- "progressCounter"
-- "nameText"
-- "restTime"
-- "counter"
-- "setCircleLabel"
-- "showTimer"
-- "infoColor"
-- "roundCorners"
-- "restCounter"
-- "startTimer"
-- "clearColor"
-- "changeCounter"
-- "highlightColor"
-- "timerText"
-- "viewDidLoad"
-- "beginSound"
-- "ref"
-- "viewDidAppear"
-- "seconds"
-- "animationView"
-- "sendFirUpdate"
-- "circleTwo"
-- "endSound"
 - "playSound"
-- "setTextLabel"
-- "timer"
-- "scene"
-- "circleOne"
-- "showCounter"
-- "getURL"
-- "pause"
-- "hideTimer"
-- "playButton"
-- "circleThree"
-- "makeList"
 - "playURL"
-- "player"
-- "backgroundColor"
-- "hideButton"
-- "showButton"
-- "audioPlayerDidFinishPlaying"
-- "hideCounter"
+- "setTextLabel"
+- "counter"
+- "infoColor"
 - "stringDate"
+- "sendFirUpdate"
+- "circleThree"
+- "setCircleLabel"
+- "restTime"
+- "roundCorners"
+- "pause"
+- "audioPlayerDidFinishPlaying"
+- "circleTwo"
+- "playButton"
+- "viewDidLoad"
+- "hideButton"
+- "progressCounter"
+- "showButton"
+- "timerText"
+- "imageView"
+- "backgroundColor"
+- "restCounter"
+- "showCounter"
+- "seconds"
+- "circleOne"
+- "ref"
+- "endSound"
+- "makeList"
+- "player"
+- "Kriy"
+- "highlightColor"
+- "nameText"
+- "beginSound"
+- "hideCounter"
+- "getURL"
+- "animationView"
+- "changeCounter"
+- "startTimer"
+- "showTimer"
+- "hideTimer"
+- "timer"
+- "clearColor"
 depends-top-level:
-- "UIView"
-- "Timer"
-- !private "SampleScene"
-- !private "UIFont"
-- !private "UnicodeScalarType"
-- !private "UIApplication"
-- "StringLiteralType"
-- "Bundle"
 - "FIRDatabaseReference"
-- !private "UIControlContentVerticalAlignment"
-- !private "+"
-- "String"
-- "UIViewController"
-- "FIRDatabaseHandle"
-- "DailyKriya"
-- "UIColor"
-- !private "BooleanLiteralType"
-- !private "NSTextAlignment"
 - !private "/"
-- "Int"
-- "URL"
-- !private "FIRDatabase"
-- !private "placeholderType"
-- "SKScene"
-- "UILabel"
-- "Array"
-- "UIButton"
-- "AnyObject"
-- !private "NSError"
-- "CGFloat"
-- !private "-="
-- !private "UIImage"
 - !private "+="
+- !private "=="
+- !private "NSError"
+- "KriyScene"
+- "UIView"
+- "StringLiteralType"
+- !private "+"
 - !private "!"
-- !private "Calendar"
-- !private "print"
+- !private "UIImage"
+- "AVAudioPlayerDelegate"
+- "Array"
 - !private "Date"
-- "Bool"
+- "Technique"
 - "SKView"
 - !private "<"
-- "AVAudioPlayerDelegate"
+- !private "BooleanLiteralType"
 - "AVAudioPlayer"
+- !private "UIControlContentVerticalAlignment"
+- !private "-="
+- !private "UIFont"
+- "CGFloat"
+- "DailyKriya"
+- !private "UnicodeScalarType"
+- !private "Calendar"
+- "UIImageView"
+- !private "NSTextAlignment"
+- "Bundle"
+- !private "UIApplication"
+- "URL"
+- "UILabel"
+- "UIViewController"
+- "Timer"
+- !private "FIRDatabase"
+- "FIRDatabaseHandle"
+- "UIButton"
+- "Int"
+- !private "print"
+- "Bool"
+- "UIColor"
 - "AssignmentPrecedence"
-- "Technique"
-- !private "=="
-- "CastingPrecedence"
+- "AnyObject"
+- "String"
 depends-member:
 - ["CSo13AVAudioPlayer", "deinit"]
 - !private ["CSo13AVAudioPlayer", "delegate"]
@@ -111,9 +109,8 @@ depends-member:
 - !private ["PSo21AVAudioPlayerDelegate", "DailyKriya"]
 - !private ["PSo21AVAudioPlayerDelegate", "Date"]
 - !private ["PSo21AVAudioPlayerDelegate", "FIRDatabase"]
+- !private ["PSo21AVAudioPlayerDelegate", "Kriy"]
 - !private ["PSo21AVAudioPlayerDelegate", "NSTextAlignment"]
-- ["PSo21AVAudioPlayerDelegate", "SKScene"]
-- !private ["PSo21AVAudioPlayerDelegate", "SampleScene"]
 - !private ["PSo21AVAudioPlayerDelegate", "String"]
 - !private ["PSo21AVAudioPlayerDelegate", "Technique"]
 - ["PSo21AVAudioPlayerDelegate", "Timer"]
@@ -141,8 +138,10 @@ depends-member:
 - !private ["PSo21AVAudioPlayerDelegate", "hideCounter"]
 - !private ["PSo21AVAudioPlayerDelegate", "hideTimer"]
 - !private ["PSo21AVAudioPlayerDelegate", "highlightColor"]
+- !private ["PSo21AVAudioPlayerDelegate", "imageView"]
 - !private ["PSo21AVAudioPlayerDelegate", "infoColor"]
 - !private ["PSo21AVAudioPlayerDelegate", "lastSound"]
+- !private ["PSo21AVAudioPlayerDelegate", "makeList"]
 - !private ["PSo21AVAudioPlayerDelegate", "masterList"]
 - !private ["PSo21AVAudioPlayerDelegate", "nameText"]
 - !private ["PSo21AVAudioPlayerDelegate", "playButton"]
@@ -154,11 +153,9 @@ depends-member:
 - !private ["PSo21AVAudioPlayerDelegate", "restCounter"]
 - !private ["PSo21AVAudioPlayerDelegate", "restTime"]
 - !private ["PSo21AVAudioPlayerDelegate", "roundCorners"]
-- !private ["PSo21AVAudioPlayerDelegate", "scene"]
 - !private ["PSo21AVAudioPlayerDelegate", "seconds"]
 - !private ["PSo21AVAudioPlayerDelegate", "setCircleLabel"]
 - !private ["PSo21AVAudioPlayerDelegate", "setTextLabel"]
-- !private ["PSo21AVAudioPlayerDelegate", "showButton"]
 - !private ["PSo21AVAudioPlayerDelegate", "showCounter"]
 - !private ["PSo21AVAudioPlayerDelegate", "showTimer"]
 - !private ["PSo21AVAudioPlayerDelegate", "startTimer"]
@@ -174,9 +171,8 @@ depends-member:
 - !private ["Ps9AnyObject", "DailyKriya"]
 - !private ["Ps9AnyObject", "Date"]
 - !private ["Ps9AnyObject", "FIRDatabase"]
+- ["Ps9AnyObject", "Kriy"]
 - !private ["Ps9AnyObject", "NSTextAlignment"]
-- ["Ps9AnyObject", "SKScene"]
-- !private ["Ps9AnyObject", "SampleScene"]
 - !private ["Ps9AnyObject", "String"]
 - !private ["Ps9AnyObject", "Technique"]
 - ["Ps9AnyObject", "Timer"]
@@ -217,13 +213,14 @@ depends-member:
 - !private ["Ps9AnyObject", "description"]
 - ["Ps9AnyObject", "endSound"]
 - !private ["Ps9AnyObject", "font"]
-- !private ["Ps9AnyObject", "frame"]
 - ["Ps9AnyObject", "getURL"]
 - ["Ps9AnyObject", "gray"]
 - ["Ps9AnyObject", "hideButton"]
 - ["Ps9AnyObject", "hideCounter"]
 - ["Ps9AnyObject", "hideTimer"]
 - ["Ps9AnyObject", "highlightColor"]
+- !private ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "imageView"]
 - ["Ps9AnyObject", "infoColor"]
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "invalidate"]
@@ -245,7 +242,6 @@ depends-member:
 - ["Ps9AnyObject", "playURL"]
 - ["Ps9AnyObject", "player"]
 - !private ["Ps9AnyObject", "prepareToPlay"]
-- !private ["Ps9AnyObject", "presentScene"]
 - !private ["Ps9AnyObject", "print"]
 - ["Ps9AnyObject", "progressCounter"]
 - ["Ps9AnyObject", "ref"]
@@ -253,7 +249,7 @@ depends-member:
 - ["Ps9AnyObject", "restCounter"]
 - ["Ps9AnyObject", "restTime"]
 - ["Ps9AnyObject", "roundCorners"]
-- ["Ps9AnyObject", "scene"]
+- !private ["Ps9AnyObject", "scene"]
 - !private ["Ps9AnyObject", "scheduledTimer"]
 - ["Ps9AnyObject", "seconds"]
 - ["Ps9AnyObject", "sendFirUpdate"]
@@ -274,7 +270,6 @@ depends-member:
 - ["Ps9AnyObject", "timerText"]
 - ["Ps9AnyObject", "url"]
 - !private ["Ps9AnyObject", "view"]
-- ["Ps9AnyObject", "viewDidAppear"]
 - ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", ""]
 - !private ["Sa", "Index"]
@@ -334,10 +329,9 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "contentMode"]
 - !private ["PSo15CALayerDelegate", "contentVerticalAlignment"]
 - !private ["PSo15CALayerDelegate", "font"]
-- !private ["PSo15CALayerDelegate", "frame"]
+- !private ["PSo15CALayerDelegate", "image"]
 - !private ["PSo15CALayerDelegate", "isHidden"]
 - !private ["PSo15CALayerDelegate", "layer"]
-- !private ["PSo15CALayerDelegate", "presentScene"]
 - !private ["PSo15CALayerDelegate", "setBackgroundImage"]
 - !private ["PSo15CALayerDelegate", "text"]
 - !private ["PSo15CALayerDelegate", "textAlignment"]
@@ -346,7 +340,6 @@ depends-member:
 - !private ["PSo13CAMediaTiming", "cornerRadius"]
 - ["CSo7CGColor", "deinit"]
 - ["V12CoreGraphics7CGFloat", "deinit"]
-- !private ["VSC6CGRect", "size"]
 - ["Ps7CVarArg", "AVAudioPlayer"]
 - ["Ps7CVarArg", "Array"]
 - ["Ps7CVarArg", "Bundle"]
@@ -359,9 +352,8 @@ depends-member:
 - !private ["Ps7CVarArg", "Indices"]
 - !private ["Ps7CVarArg", "IntegerLiteralType"]
 - !private ["Ps7CVarArg", "Iterator"]
+- ["Ps7CVarArg", "Kriy"]
 - !private ["Ps7CVarArg", "NSTextAlignment"]
-- ["Ps7CVarArg", "SKScene"]
-- !private ["Ps7CVarArg", "SampleScene"]
 - !private ["Ps7CVarArg", "Stride"]
 - !private ["Ps7CVarArg", "String"]
 - !private ["Ps7CVarArg", "SubSequence"]
@@ -406,13 +398,14 @@ depends-member:
 - !private ["Ps7CVarArg", "description"]
 - ["Ps7CVarArg", "endSound"]
 - !private ["Ps7CVarArg", "font"]
-- !private ["Ps7CVarArg", "frame"]
 - ["Ps7CVarArg", "getURL"]
 - ["Ps7CVarArg", "gray"]
 - ["Ps7CVarArg", "hideButton"]
 - ["Ps7CVarArg", "hideCounter"]
 - ["Ps7CVarArg", "hideTimer"]
 - ["Ps7CVarArg", "highlightColor"]
+- !private ["Ps7CVarArg", "image"]
+- ["Ps7CVarArg", "imageView"]
 - !private ["Ps7CVarArg", "indices"]
 - ["Ps7CVarArg", "infoColor"]
 - ["Ps7CVarArg", "init"]
@@ -434,7 +427,6 @@ depends-member:
 - ["Ps7CVarArg", "playURL"]
 - ["Ps7CVarArg", "player"]
 - !private ["Ps7CVarArg", "prepareToPlay"]
-- !private ["Ps7CVarArg", "presentScene"]
 - !private ["Ps7CVarArg", "print"]
 - ["Ps7CVarArg", "progressCounter"]
 - ["Ps7CVarArg", "ref"]
@@ -442,7 +434,6 @@ depends-member:
 - ["Ps7CVarArg", "restCounter"]
 - ["Ps7CVarArg", "restTime"]
 - ["Ps7CVarArg", "roundCorners"]
-- ["Ps7CVarArg", "scene"]
 - !private ["Ps7CVarArg", "scheduledTimer"]
 - ["Ps7CVarArg", "seconds"]
 - ["Ps7CVarArg", "sendFirUpdate"]
@@ -463,7 +454,6 @@ depends-member:
 - ["Ps7CVarArg", "timerText"]
 - ["Ps7CVarArg", "url"]
 - !private ["Ps7CVarArg", "view"]
-- ["Ps7CVarArg", "viewDidAppear"]
 - ["Ps7CVarArg", "viewDidLoad"]
 - ["Ps7CVarArg", ""]
 - !private ["V10Foundation8Calendar", "dateComponents"]
@@ -504,9 +494,8 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
 - !private ["Ps28CustomDebugStringConvertible", "Indices"]
 - !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- ["Ps28CustomDebugStringConvertible", "Kriy"]
 - !private ["Ps28CustomDebugStringConvertible", "NSTextAlignment"]
-- ["Ps28CustomDebugStringConvertible", "SKScene"]
-- !private ["Ps28CustomDebugStringConvertible", "SampleScene"]
 - !private ["Ps28CustomDebugStringConvertible", "String"]
 - !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
 - !private ["Ps28CustomDebugStringConvertible", "Technique"]
@@ -553,13 +542,14 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "description"]
 - ["Ps28CustomDebugStringConvertible", "endSound"]
 - !private ["Ps28CustomDebugStringConvertible", "font"]
-- !private ["Ps28CustomDebugStringConvertible", "frame"]
 - ["Ps28CustomDebugStringConvertible", "getURL"]
 - ["Ps28CustomDebugStringConvertible", "gray"]
 - ["Ps28CustomDebugStringConvertible", "hideButton"]
 - ["Ps28CustomDebugStringConvertible", "hideCounter"]
 - ["Ps28CustomDebugStringConvertible", "hideTimer"]
 - ["Ps28CustomDebugStringConvertible", "highlightColor"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "imageView"]
 - !private ["Ps28CustomDebugStringConvertible", "indices"]
 - ["Ps28CustomDebugStringConvertible", "infoColor"]
 - ["Ps28CustomDebugStringConvertible", "init"]
@@ -582,7 +572,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "playURL"]
 - ["Ps28CustomDebugStringConvertible", "player"]
 - !private ["Ps28CustomDebugStringConvertible", "prepareToPlay"]
-- !private ["Ps28CustomDebugStringConvertible", "presentScene"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
 - ["Ps28CustomDebugStringConvertible", "progressCounter"]
 - ["Ps28CustomDebugStringConvertible", "ref"]
@@ -590,7 +579,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "restCounter"]
 - ["Ps28CustomDebugStringConvertible", "restTime"]
 - ["Ps28CustomDebugStringConvertible", "roundCorners"]
-- ["Ps28CustomDebugStringConvertible", "scene"]
 - !private ["Ps28CustomDebugStringConvertible", "scheduledTimer"]
 - ["Ps28CustomDebugStringConvertible", "seconds"]
 - ["Ps28CustomDebugStringConvertible", "sendFirUpdate"]
@@ -602,7 +590,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "showButton"]
 - ["Ps28CustomDebugStringConvertible", "showCounter"]
 - ["Ps28CustomDebugStringConvertible", "showTimer"]
-- !private ["Ps28CustomDebugStringConvertible", "size"]
 - ["Ps28CustomDebugStringConvertible", "some"]
 - ["Ps28CustomDebugStringConvertible", "startTimer"]
 - ["Ps28CustomDebugStringConvertible", "stringDate"]
@@ -613,7 +600,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "timerText"]
 - ["Ps28CustomDebugStringConvertible", "url"]
 - !private ["Ps28CustomDebugStringConvertible", "view"]
-- ["Ps28CustomDebugStringConvertible", "viewDidAppear"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - !private ["Ps28CustomDebugStringConvertible", "year"]
 - ["Ps28CustomDebugStringConvertible", ""]
@@ -622,7 +608,6 @@ depends-member:
 - !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "size"]
 - !private ["Ps17CustomReflectable", "Index"]
 - !private ["Ps17CustomReflectable", "IndexDistance"]
 - !private ["Ps17CustomReflectable", "Indices"]
@@ -641,7 +626,6 @@ depends-member:
 - !private ["Ps17CustomReflectable", "indices"]
 - ["Ps17CustomReflectable", "init"]
 - !private ["Ps17CustomReflectable", "month"]
-- !private ["Ps17CustomReflectable", "size"]
 - ["Ps17CustomReflectable", "some"]
 - !private ["Ps17CustomReflectable", "subscript"]
 - !private ["Ps17CustomReflectable", "year"]
@@ -657,9 +641,8 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "Indices"]
 - !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["Ps23CustomStringConvertible", "Iterator"]
+- ["Ps23CustomStringConvertible", "Kriy"]
 - !private ["Ps23CustomStringConvertible", "NSTextAlignment"]
-- ["Ps23CustomStringConvertible", "SKScene"]
-- !private ["Ps23CustomStringConvertible", "SampleScene"]
 - !private ["Ps23CustomStringConvertible", "Stride"]
 - !private ["Ps23CustomStringConvertible", "String"]
 - !private ["Ps23CustomStringConvertible", "SubSequence"]
@@ -709,13 +692,14 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "description"]
 - ["Ps23CustomStringConvertible", "endSound"]
 - !private ["Ps23CustomStringConvertible", "font"]
-- !private ["Ps23CustomStringConvertible", "frame"]
 - ["Ps23CustomStringConvertible", "getURL"]
 - ["Ps23CustomStringConvertible", "gray"]
 - ["Ps23CustomStringConvertible", "hideButton"]
 - ["Ps23CustomStringConvertible", "hideCounter"]
 - ["Ps23CustomStringConvertible", "hideTimer"]
 - ["Ps23CustomStringConvertible", "highlightColor"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "imageView"]
 - !private ["Ps23CustomStringConvertible", "indices"]
 - ["Ps23CustomStringConvertible", "infoColor"]
 - ["Ps23CustomStringConvertible", "init"]
@@ -738,7 +722,6 @@ depends-member:
 - ["Ps23CustomStringConvertible", "playURL"]
 - ["Ps23CustomStringConvertible", "player"]
 - !private ["Ps23CustomStringConvertible", "prepareToPlay"]
-- !private ["Ps23CustomStringConvertible", "presentScene"]
 - !private ["Ps23CustomStringConvertible", "print"]
 - ["Ps23CustomStringConvertible", "progressCounter"]
 - ["Ps23CustomStringConvertible", "ref"]
@@ -746,7 +729,6 @@ depends-member:
 - ["Ps23CustomStringConvertible", "restCounter"]
 - ["Ps23CustomStringConvertible", "restTime"]
 - ["Ps23CustomStringConvertible", "roundCorners"]
-- ["Ps23CustomStringConvertible", "scene"]
 - !private ["Ps23CustomStringConvertible", "scheduledTimer"]
 - ["Ps23CustomStringConvertible", "seconds"]
 - ["Ps23CustomStringConvertible", "sendFirUpdate"]
@@ -767,7 +749,6 @@ depends-member:
 - ["Ps23CustomStringConvertible", "timerText"]
 - ["Ps23CustomStringConvertible", "url"]
 - !private ["Ps23CustomStringConvertible", "view"]
-- ["Ps23CustomStringConvertible", "viewDidAppear"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
 - !private ["Ps23CustomStringConvertible", "year"]
 - ["Ps23CustomStringConvertible", ""]
@@ -784,11 +765,11 @@ depends-member:
 - ["C14SudarshanKriya10DailyKriya", "FIRDatabaseHandle"]
 - ["C14SudarshanKriya10DailyKriya", "FIRDatabaseReference"]
 - ["C14SudarshanKriya10DailyKriya", "Int"]
+- ["C14SudarshanKriya10DailyKriya", "Kriy"]
+- ["C14SudarshanKriya10DailyKriya", "KriyScene"]
 - !private ["C14SudarshanKriya10DailyKriya", "NSError"]
 - !private ["C14SudarshanKriya10DailyKriya", "NSTextAlignment"]
-- ["C14SudarshanKriya10DailyKriya", "SKScene"]
 - ["C14SudarshanKriya10DailyKriya", "SKView"]
-- !private ["C14SudarshanKriya10DailyKriya", "SampleScene"]
 - ["C14SudarshanKriya10DailyKriya", "String"]
 - ["C14SudarshanKriya10DailyKriya", "Technique"]
 - ["C14SudarshanKriya10DailyKriya", "Timer"]
@@ -798,6 +779,7 @@ depends-member:
 - !private ["C14SudarshanKriya10DailyKriya", "UIControlContentVerticalAlignment"]
 - !private ["C14SudarshanKriya10DailyKriya", "UIFont"]
 - !private ["C14SudarshanKriya10DailyKriya", "UIImage"]
+- ["C14SudarshanKriya10DailyKriya", "UIImageView"]
 - ["C14SudarshanKriya10DailyKriya", "UILabel"]
 - ["C14SudarshanKriya10DailyKriya", "UIView"]
 - ["C14SudarshanKriya10DailyKriya", "URL"]
@@ -822,6 +804,7 @@ depends-member:
 - ["C14SudarshanKriya10DailyKriya", "hideCounter"]
 - ["C14SudarshanKriya10DailyKriya", "hideTimer"]
 - ["C14SudarshanKriya10DailyKriya", "highlightColor"]
+- ["C14SudarshanKriya10DailyKriya", "imageView"]
 - ["C14SudarshanKriya10DailyKriya", "infoColor"]
 - ["C14SudarshanKriya10DailyKriya", "init"]
 - ["C14SudarshanKriya10DailyKriya", "lastSound"]
@@ -829,7 +812,6 @@ depends-member:
 - ["C14SudarshanKriya10DailyKriya", "masterList"]
 - ["C14SudarshanKriya10DailyKriya", "nameText"]
 - ["C14SudarshanKriya10DailyKriya", "pause"]
-- !private ["C14SudarshanKriya10DailyKriya", "placeholderType"]
 - ["C14SudarshanKriya10DailyKriya", "playButton"]
 - ["C14SudarshanKriya10DailyKriya", "playSound"]
 - ["C14SudarshanKriya10DailyKriya", "playURL"]
@@ -840,7 +822,6 @@ depends-member:
 - ["C14SudarshanKriya10DailyKriya", "restCounter"]
 - ["C14SudarshanKriya10DailyKriya", "restTime"]
 - ["C14SudarshanKriya10DailyKriya", "roundCorners"]
-- ["C14SudarshanKriya10DailyKriya", "scene"]
 - ["C14SudarshanKriya10DailyKriya", "seconds"]
 - ["C14SudarshanKriya10DailyKriya", "sendFirUpdate"]
 - ["C14SudarshanKriya10DailyKriya", "setCircleLabel"]
@@ -853,7 +834,6 @@ depends-member:
 - ["C14SudarshanKriya10DailyKriya", "timer"]
 - ["C14SudarshanKriya10DailyKriya", "timerText"]
 - !private ["C14SudarshanKriya10DailyKriya", "view"]
-- ["C14SudarshanKriya10DailyKriya", "viewDidAppear"]
 - ["C14SudarshanKriya10DailyKriya", "viewDidLoad"]
 - ["V10Foundation4Date", "deinit"]
 - !private ["V10Foundation4Date", "init"]
@@ -890,9 +870,8 @@ depends-member:
 - !private ["Ps9Equatable", "Indices"]
 - !private ["Ps9Equatable", "IntegerLiteralType"]
 - !private ["Ps9Equatable", "Iterator"]
+- ["Ps9Equatable", "Kriy"]
 - !private ["Ps9Equatable", "NSTextAlignment"]
-- ["Ps9Equatable", "SKScene"]
-- !private ["Ps9Equatable", "SampleScene"]
 - !private ["Ps9Equatable", "Stride"]
 - !private ["Ps9Equatable", "String"]
 - !private ["Ps9Equatable", "SubSequence"]
@@ -943,7 +922,6 @@ depends-member:
 - !private ["Ps9Equatable", "description"]
 - ["Ps9Equatable", "endSound"]
 - !private ["Ps9Equatable", "font"]
-- !private ["Ps9Equatable", "frame"]
 - ["Ps9Equatable", "getURL"]
 - ["Ps9Equatable", "gray"]
 - !private ["Ps9Equatable", "gregorian"]
@@ -951,6 +929,8 @@ depends-member:
 - ["Ps9Equatable", "hideCounter"]
 - ["Ps9Equatable", "hideTimer"]
 - ["Ps9Equatable", "highlightColor"]
+- !private ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "imageView"]
 - ["Ps9Equatable", "infoColor"]
 - ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "invalidate"]
@@ -973,7 +953,6 @@ depends-member:
 - ["Ps9Equatable", "playURL"]
 - ["Ps9Equatable", "player"]
 - !private ["Ps9Equatable", "prepareToPlay"]
-- !private ["Ps9Equatable", "presentScene"]
 - !private ["Ps9Equatable", "print"]
 - ["Ps9Equatable", "progressCounter"]
 - ["Ps9Equatable", "ref"]
@@ -981,8 +960,8 @@ depends-member:
 - ["Ps9Equatable", "restCounter"]
 - ["Ps9Equatable", "restTime"]
 - ["Ps9Equatable", "roundCorners"]
+- !private ["Ps9Equatable", "scaleAspectFit"]
 - !private ["Ps9Equatable", "scaleToFill"]
-- ["Ps9Equatable", "scene"]
 - !private ["Ps9Equatable", "scheduledTimer"]
 - ["Ps9Equatable", "seconds"]
 - ["Ps9Equatable", "sendFirUpdate"]
@@ -994,7 +973,6 @@ depends-member:
 - ["Ps9Equatable", "showButton"]
 - ["Ps9Equatable", "showCounter"]
 - ["Ps9Equatable", "showTimer"]
-- !private ["Ps9Equatable", "size"]
 - ["Ps9Equatable", "startTimer"]
 - ["Ps9Equatable", "stringDate"]
 - !private ["Ps9Equatable", "text"]
@@ -1003,7 +981,6 @@ depends-member:
 - ["Ps9Equatable", "timerText"]
 - ["Ps9Equatable", "url"]
 - !private ["Ps9Equatable", "view"]
-- ["Ps9Equatable", "viewDidAppear"]
 - ["Ps9Equatable", "viewDidLoad"]
 - !private ["Ps9Equatable", "year"]
 - ["Ps9Equatable", ""]
@@ -1045,9 +1022,8 @@ depends-member:
 - !private ["Ps8Hashable", "Date"]
 - !private ["Ps8Hashable", "FIRDatabase"]
 - !private ["Ps8Hashable", "IntegerLiteralType"]
+- ["Ps8Hashable", "Kriy"]
 - !private ["Ps8Hashable", "NSTextAlignment"]
-- ["Ps8Hashable", "SKScene"]
-- !private ["Ps8Hashable", "SampleScene"]
 - !private ["Ps8Hashable", "Stride"]
 - !private ["Ps8Hashable", "String"]
 - !private ["Ps8Hashable", "Technique"]
@@ -1095,7 +1071,6 @@ depends-member:
 - !private ["Ps8Hashable", "description"]
 - ["Ps8Hashable", "endSound"]
 - !private ["Ps8Hashable", "font"]
-- !private ["Ps8Hashable", "frame"]
 - ["Ps8Hashable", "getURL"]
 - ["Ps8Hashable", "gray"]
 - !private ["Ps8Hashable", "gregorian"]
@@ -1103,6 +1078,8 @@ depends-member:
 - ["Ps8Hashable", "hideCounter"]
 - ["Ps8Hashable", "hideTimer"]
 - ["Ps8Hashable", "highlightColor"]
+- !private ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "imageView"]
 - ["Ps8Hashable", "infoColor"]
 - ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "invalidate"]
@@ -1124,7 +1101,6 @@ depends-member:
 - ["Ps8Hashable", "playURL"]
 - ["Ps8Hashable", "player"]
 - !private ["Ps8Hashable", "prepareToPlay"]
-- !private ["Ps8Hashable", "presentScene"]
 - !private ["Ps8Hashable", "print"]
 - ["Ps8Hashable", "progressCounter"]
 - ["Ps8Hashable", "ref"]
@@ -1132,8 +1108,8 @@ depends-member:
 - ["Ps8Hashable", "restCounter"]
 - ["Ps8Hashable", "restTime"]
 - ["Ps8Hashable", "roundCorners"]
+- !private ["Ps8Hashable", "scaleAspectFit"]
 - !private ["Ps8Hashable", "scaleToFill"]
-- ["Ps8Hashable", "scene"]
 - !private ["Ps8Hashable", "scheduledTimer"]
 - ["Ps8Hashable", "seconds"]
 - ["Ps8Hashable", "sendFirUpdate"]
@@ -1153,7 +1129,6 @@ depends-member:
 - ["Ps8Hashable", "timerText"]
 - ["Ps8Hashable", "url"]
 - !private ["Ps8Hashable", "view"]
-- ["Ps8Hashable", "viewDidAppear"]
 - ["Ps8Hashable", "viewDidLoad"]
 - !private ["Ps8Hashable", "year"]
 - ["Ps8Hashable", ""]
@@ -1198,6 +1173,7 @@ depends-member:
 - !private ["Ps17IntegerArithmetic", "Stride"]
 - !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
 - !private ["Ps16IteratorProtocol", "Element"]
+- !private ["C14SudarshanKriya9KriyScene", "isPaused"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "IntegerLiteralType"]
@@ -1232,9 +1208,8 @@ depends-member:
 - !private ["PSo8NSCoding", "DailyKriya"]
 - !private ["PSo8NSCoding", "Date"]
 - !private ["PSo8NSCoding", "FIRDatabase"]
+- ["PSo8NSCoding", "Kriy"]
 - !private ["PSo8NSCoding", "NSTextAlignment"]
-- ["PSo8NSCoding", "SKScene"]
-- !private ["PSo8NSCoding", "SampleScene"]
 - !private ["PSo8NSCoding", "String"]
 - !private ["PSo8NSCoding", "Technique"]
 - ["PSo8NSCoding", "Timer"]
@@ -1271,13 +1246,14 @@ depends-member:
 - !private ["PSo8NSCoding", "description"]
 - ["PSo8NSCoding", "endSound"]
 - !private ["PSo8NSCoding", "font"]
-- !private ["PSo8NSCoding", "frame"]
 - ["PSo8NSCoding", "getURL"]
 - ["PSo8NSCoding", "gray"]
 - ["PSo8NSCoding", "hideButton"]
 - ["PSo8NSCoding", "hideCounter"]
 - ["PSo8NSCoding", "hideTimer"]
 - ["PSo8NSCoding", "highlightColor"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "imageView"]
 - ["PSo8NSCoding", "infoColor"]
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "isHidden"]
@@ -1292,14 +1268,12 @@ depends-member:
 - ["PSo8NSCoding", "playSound"]
 - ["PSo8NSCoding", "playURL"]
 - ["PSo8NSCoding", "player"]
-- !private ["PSo8NSCoding", "presentScene"]
 - !private ["PSo8NSCoding", "print"]
 - ["PSo8NSCoding", "progressCounter"]
 - ["PSo8NSCoding", "ref"]
 - ["PSo8NSCoding", "restCounter"]
 - ["PSo8NSCoding", "restTime"]
 - ["PSo8NSCoding", "roundCorners"]
-- ["PSo8NSCoding", "scene"]
 - ["PSo8NSCoding", "seconds"]
 - ["PSo8NSCoding", "sendFirUpdate"]
 - !private ["PSo8NSCoding", "setBackgroundImage"]
@@ -1315,10 +1289,8 @@ depends-member:
 - ["PSo8NSCoding", "timer"]
 - ["PSo8NSCoding", "timerText"]
 - !private ["PSo8NSCoding", "view"]
-- ["PSo8NSCoding", "viewDidAppear"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
-- !private ["PSo9NSCopying", "backgroundColor"]
 - !private ["PSo9NSCopying", "black"]
 - !private ["PSo9NSCopying", "cgColor"]
 - ["PSo9NSCopying", "clear"]
@@ -1336,9 +1308,8 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "DailyKriya"]
 - !private ["PSo26NSExtensionRequestHandling", "Date"]
 - !private ["PSo26NSExtensionRequestHandling", "FIRDatabase"]
+- ["PSo26NSExtensionRequestHandling", "Kriy"]
 - !private ["PSo26NSExtensionRequestHandling", "NSTextAlignment"]
-- ["PSo26NSExtensionRequestHandling", "SKScene"]
-- !private ["PSo26NSExtensionRequestHandling", "SampleScene"]
 - !private ["PSo26NSExtensionRequestHandling", "String"]
 - !private ["PSo26NSExtensionRequestHandling", "Technique"]
 - ["PSo26NSExtensionRequestHandling", "Timer"]
@@ -1367,6 +1338,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "hideCounter"]
 - ["PSo26NSExtensionRequestHandling", "hideTimer"]
 - ["PSo26NSExtensionRequestHandling", "highlightColor"]
+- ["PSo26NSExtensionRequestHandling", "imageView"]
 - ["PSo26NSExtensionRequestHandling", "infoColor"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "lastSound"]
@@ -1384,7 +1356,6 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "restCounter"]
 - ["PSo26NSExtensionRequestHandling", "restTime"]
 - ["PSo26NSExtensionRequestHandling", "roundCorners"]
-- ["PSo26NSExtensionRequestHandling", "scene"]
 - ["PSo26NSExtensionRequestHandling", "seconds"]
 - ["PSo26NSExtensionRequestHandling", "sendFirUpdate"]
 - ["PSo26NSExtensionRequestHandling", "setCircleLabel"]
@@ -1397,7 +1368,6 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "timer"]
 - ["PSo26NSExtensionRequestHandling", "timerText"]
 - !private ["PSo26NSExtensionRequestHandling", "view"]
-- ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - ["PSo16NSMutableCopying", "init"]
@@ -1414,11 +1384,11 @@ depends-member:
 - ["CSo8NSObject", "FIRDatabaseHandle"]
 - ["CSo8NSObject", "FIRDatabaseReference"]
 - ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "Kriy"]
+- ["CSo8NSObject", "KriyScene"]
 - !private ["CSo8NSObject", "NSError"]
 - !private ["CSo8NSObject", "NSTextAlignment"]
-- ["CSo8NSObject", "SKScene"]
 - ["CSo8NSObject", "SKView"]
-- !private ["CSo8NSObject", "SampleScene"]
 - ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "Technique"]
 - ["CSo8NSObject", "Timer"]
@@ -1428,6 +1398,7 @@ depends-member:
 - !private ["CSo8NSObject", "UIControlContentVerticalAlignment"]
 - !private ["CSo8NSObject", "UIFont"]
 - !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImageView"]
 - ["CSo8NSObject", "UILabel"]
 - ["CSo8NSObject", "UIView"]
 - ["CSo8NSObject", "URL"]
@@ -1462,13 +1433,14 @@ depends-member:
 - !private ["CSo8NSObject", "description"]
 - ["CSo8NSObject", "endSound"]
 - !private ["CSo8NSObject", "font"]
-- !private ["CSo8NSObject", "frame"]
 - ["CSo8NSObject", "getURL"]
 - ["CSo8NSObject", "gray"]
 - ["CSo8NSObject", "hideButton"]
 - ["CSo8NSObject", "hideCounter"]
 - ["CSo8NSObject", "hideTimer"]
 - ["CSo8NSObject", "highlightColor"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "imageView"]
 - ["CSo8NSObject", "infoColor"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "invalidate"]
@@ -1483,14 +1455,12 @@ depends-member:
 - ["CSo8NSObject", "masterList"]
 - ["CSo8NSObject", "nameText"]
 - ["CSo8NSObject", "pause"]
-- !private ["CSo8NSObject", "placeholderType"]
 - !private ["CSo8NSObject", "play"]
 - ["CSo8NSObject", "playButton"]
 - ["CSo8NSObject", "playSound"]
 - ["CSo8NSObject", "playURL"]
 - ["CSo8NSObject", "player"]
 - !private ["CSo8NSObject", "prepareToPlay"]
-- !private ["CSo8NSObject", "presentScene"]
 - !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "progressCounter"]
 - ["CSo8NSObject", "ref"]
@@ -1498,7 +1468,6 @@ depends-member:
 - ["CSo8NSObject", "restCounter"]
 - ["CSo8NSObject", "restTime"]
 - ["CSo8NSObject", "roundCorners"]
-- ["CSo8NSObject", "scene"]
 - !private ["CSo8NSObject", "scheduledTimer"]
 - ["CSo8NSObject", "seconds"]
 - ["CSo8NSObject", "sendFirUpdate"]
@@ -1518,7 +1487,6 @@ depends-member:
 - ["CSo8NSObject", "timerText"]
 - ["CSo8NSObject", "url"]
 - !private ["CSo8NSObject", "view"]
-- ["CSo8NSObject", "viewDidAppear"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "AVAudioPlayer"]
 - ["PSo16NSObjectProtocol", "Array"]
@@ -1527,9 +1495,8 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "DailyKriya"]
 - !private ["PSo16NSObjectProtocol", "Date"]
 - !private ["PSo16NSObjectProtocol", "FIRDatabase"]
+- ["PSo16NSObjectProtocol", "Kriy"]
 - !private ["PSo16NSObjectProtocol", "NSTextAlignment"]
-- ["PSo16NSObjectProtocol", "SKScene"]
-- !private ["PSo16NSObjectProtocol", "SampleScene"]
 - !private ["PSo16NSObjectProtocol", "String"]
 - !private ["PSo16NSObjectProtocol", "Technique"]
 - ["PSo16NSObjectProtocol", "Timer"]
@@ -1569,13 +1536,14 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "description"]
 - ["PSo16NSObjectProtocol", "endSound"]
 - !private ["PSo16NSObjectProtocol", "font"]
-- !private ["PSo16NSObjectProtocol", "frame"]
 - ["PSo16NSObjectProtocol", "getURL"]
 - ["PSo16NSObjectProtocol", "gray"]
 - ["PSo16NSObjectProtocol", "hideButton"]
 - ["PSo16NSObjectProtocol", "hideCounter"]
 - ["PSo16NSObjectProtocol", "hideTimer"]
 - ["PSo16NSObjectProtocol", "highlightColor"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "imageView"]
 - ["PSo16NSObjectProtocol", "infoColor"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "invalidate"]
@@ -1596,7 +1564,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "playURL"]
 - ["PSo16NSObjectProtocol", "player"]
 - !private ["PSo16NSObjectProtocol", "prepareToPlay"]
-- !private ["PSo16NSObjectProtocol", "presentScene"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - ["PSo16NSObjectProtocol", "progressCounter"]
 - ["PSo16NSObjectProtocol", "ref"]
@@ -1604,7 +1571,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "restCounter"]
 - ["PSo16NSObjectProtocol", "restTime"]
 - ["PSo16NSObjectProtocol", "roundCorners"]
-- ["PSo16NSObjectProtocol", "scene"]
 - !private ["PSo16NSObjectProtocol", "scheduledTimer"]
 - ["PSo16NSObjectProtocol", "seconds"]
 - ["PSo16NSObjectProtocol", "sendFirUpdate"]
@@ -1624,7 +1590,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "timerText"]
 - ["PSo16NSObjectProtocol", "url"]
 - !private ["PSo16NSObjectProtocol", "view"]
-- ["PSo16NSObjectProtocol", "viewDidAppear"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "black"]
@@ -1691,6 +1656,7 @@ depends-member:
 - !private ["Ps16RawRepresentable", "bottom"]
 - !private ["Ps16RawRepresentable", "center"]
 - !private ["Ps16RawRepresentable", "normal"]
+- !private ["Ps16RawRepresentable", "scaleAspectFit"]
 - !private ["Ps16RawRepresentable", "scaleToFill"]
 - !private ["P10Foundation20ReferenceConvertible", "current"]
 - !private ["P10Foundation20ReferenceConvertible", "dateComponents"]
@@ -1698,24 +1664,11 @@ depends-member:
 - !private ["P10Foundation20ReferenceConvertible", "init"]
 - !private ["P10Foundation20ReferenceConvertible", "month"]
 - !private ["P10Foundation20ReferenceConvertible", "year"]
-- !private ["CSo12SKEffectNode", "backgroundColor"]
-- ["CSo12SKEffectNode", "init"]
 - !private ["CSo12SKEffectNode", "isPaused"]
-- !private ["CSo6SKNode", "backgroundColor"]
-- ["CSo6SKNode", "init"]
 - !private ["CSo6SKNode", "isPaused"]
-- !private ["CSo7SKScene", "backgroundColor"]
-- ["CSo7SKScene", "deinit"]
-- ["CSo7SKScene", "init"]
 - !private ["CSo7SKScene", "isPaused"]
-- !private ["CSo6SKView", "backgroundColor"]
-- !private ["CSo6SKView", "frame"]
-- !private ["CSo6SKView", "presentScene"]
-- !private ["PSo10SKWarpable", "backgroundColor"]
-- ["PSo10SKWarpable", "init"]
+- !private ["CSo6SKView", "alpha"]
 - !private ["PSo10SKWarpable", "isPaused"]
-- ["C14SudarshanKriya11SampleScene", "deinit"]
-- !private ["C14SudarshanKriya11SampleScene", "init"]
 - ["V10ObjectiveC8Selector", "deinit"]
 - !private ["Ps8Sequence", "Element"]
 - !private ["Ps8Sequence", "Index"]
@@ -1766,11 +1719,10 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "contentMode"]
 - !private ["PSo29UIAccessibilityIdentification", "contentVerticalAlignment"]
 - !private ["PSo29UIAccessibilityIdentification", "font"]
-- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "isHidden"]
 - !private ["PSo29UIAccessibilityIdentification", "layer"]
-- !private ["PSo29UIAccessibilityIdentification", "presentScene"]
 - !private ["PSo29UIAccessibilityIdentification", "setBackgroundImage"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo29UIAccessibilityIdentification", "textAlignment"]
@@ -1780,10 +1732,9 @@ depends-member:
 - !private ["PSo12UIAppearance", "contentMode"]
 - !private ["PSo12UIAppearance", "contentVerticalAlignment"]
 - !private ["PSo12UIAppearance", "font"]
-- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo12UIAppearance", "image"]
 - !private ["PSo12UIAppearance", "isHidden"]
 - !private ["PSo12UIAppearance", "layer"]
-- !private ["PSo12UIAppearance", "presentScene"]
 - !private ["PSo12UIAppearance", "setBackgroundImage"]
 - !private ["PSo12UIAppearance", "text"]
 - !private ["PSo12UIAppearance", "textAlignment"]
@@ -1794,9 +1745,8 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "DailyKriya"]
 - !private ["PSo21UIAppearanceContainer", "Date"]
 - !private ["PSo21UIAppearanceContainer", "FIRDatabase"]
+- ["PSo21UIAppearanceContainer", "Kriy"]
 - !private ["PSo21UIAppearanceContainer", "NSTextAlignment"]
-- ["PSo21UIAppearanceContainer", "SKScene"]
-- !private ["PSo21UIAppearanceContainer", "SampleScene"]
 - !private ["PSo21UIAppearanceContainer", "String"]
 - !private ["PSo21UIAppearanceContainer", "Technique"]
 - ["PSo21UIAppearanceContainer", "Timer"]
@@ -1825,12 +1775,13 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "databaseHandle"]
 - ["PSo21UIAppearanceContainer", "endSound"]
 - !private ["PSo21UIAppearanceContainer", "font"]
-- !private ["PSo21UIAppearanceContainer", "frame"]
 - ["PSo21UIAppearanceContainer", "getURL"]
 - ["PSo21UIAppearanceContainer", "hideButton"]
 - ["PSo21UIAppearanceContainer", "hideCounter"]
 - ["PSo21UIAppearanceContainer", "hideTimer"]
 - ["PSo21UIAppearanceContainer", "highlightColor"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "imageView"]
 - ["PSo21UIAppearanceContainer", "infoColor"]
 - !private ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "isHidden"]
@@ -1844,14 +1795,12 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "playSound"]
 - ["PSo21UIAppearanceContainer", "playURL"]
 - ["PSo21UIAppearanceContainer", "player"]
-- !private ["PSo21UIAppearanceContainer", "presentScene"]
 - !private ["PSo21UIAppearanceContainer", "print"]
 - ["PSo21UIAppearanceContainer", "progressCounter"]
 - ["PSo21UIAppearanceContainer", "ref"]
 - ["PSo21UIAppearanceContainer", "restCounter"]
 - ["PSo21UIAppearanceContainer", "restTime"]
 - ["PSo21UIAppearanceContainer", "roundCorners"]
-- ["PSo21UIAppearanceContainer", "scene"]
 - ["PSo21UIAppearanceContainer", "seconds"]
 - ["PSo21UIAppearanceContainer", "sendFirUpdate"]
 - !private ["PSo21UIAppearanceContainer", "setBackgroundImage"]
@@ -1867,7 +1816,6 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "timer"]
 - ["PSo21UIAppearanceContainer", "timerText"]
 - !private ["PSo21UIAppearanceContainer", "view"]
-- ["PSo21UIAppearanceContainer", "viewDidAppear"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
 - ["CSo13UIApplication", "deinit"]
@@ -1891,9 +1839,8 @@ depends-member:
 - !private ["PSo18UIContentContainer", "DailyKriya"]
 - !private ["PSo18UIContentContainer", "Date"]
 - !private ["PSo18UIContentContainer", "FIRDatabase"]
+- ["PSo18UIContentContainer", "Kriy"]
 - !private ["PSo18UIContentContainer", "NSTextAlignment"]
-- ["PSo18UIContentContainer", "SKScene"]
-- !private ["PSo18UIContentContainer", "SampleScene"]
 - !private ["PSo18UIContentContainer", "String"]
 - !private ["PSo18UIContentContainer", "Technique"]
 - ["PSo18UIContentContainer", "Timer"]
@@ -1922,6 +1869,7 @@ depends-member:
 - ["PSo18UIContentContainer", "hideCounter"]
 - ["PSo18UIContentContainer", "hideTimer"]
 - ["PSo18UIContentContainer", "highlightColor"]
+- ["PSo18UIContentContainer", "imageView"]
 - ["PSo18UIContentContainer", "infoColor"]
 - !private ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "lastSound"]
@@ -1939,7 +1887,6 @@ depends-member:
 - ["PSo18UIContentContainer", "restCounter"]
 - ["PSo18UIContentContainer", "restTime"]
 - ["PSo18UIContentContainer", "roundCorners"]
-- ["PSo18UIContentContainer", "scene"]
 - ["PSo18UIContentContainer", "seconds"]
 - ["PSo18UIContentContainer", "sendFirUpdate"]
 - ["PSo18UIContentContainer", "setCircleLabel"]
@@ -1952,7 +1899,6 @@ depends-member:
 - ["PSo18UIContentContainer", "timer"]
 - ["PSo18UIContentContainer", "timerText"]
 - !private ["PSo18UIContentContainer", "view"]
-- ["PSo18UIContentContainer", "viewDidAppear"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
 - !private ["PSo30UIContentSizeCategoryAdjusting", "alpha"]
@@ -1977,10 +1923,9 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "contentMode"]
 - !private ["PSo17UICoordinateSpace", "contentVerticalAlignment"]
 - !private ["PSo17UICoordinateSpace", "font"]
-- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo17UICoordinateSpace", "image"]
 - !private ["PSo17UICoordinateSpace", "isHidden"]
 - !private ["PSo17UICoordinateSpace", "layer"]
-- !private ["PSo17UICoordinateSpace", "presentScene"]
 - !private ["PSo17UICoordinateSpace", "setBackgroundImage"]
 - !private ["PSo17UICoordinateSpace", "text"]
 - !private ["PSo17UICoordinateSpace", "textAlignment"]
@@ -1990,10 +1935,9 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "contentMode"]
 - !private ["PSo13UIDynamicItem", "contentVerticalAlignment"]
 - !private ["PSo13UIDynamicItem", "font"]
-- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "image"]
 - !private ["PSo13UIDynamicItem", "isHidden"]
 - !private ["PSo13UIDynamicItem", "layer"]
-- !private ["PSo13UIDynamicItem", "presentScene"]
 - !private ["PSo13UIDynamicItem", "setBackgroundImage"]
 - !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo13UIDynamicItem", "textAlignment"]
@@ -2004,9 +1948,8 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "DailyKriya"]
 - !private ["PSo18UIFocusEnvironment", "Date"]
 - !private ["PSo18UIFocusEnvironment", "FIRDatabase"]
+- ["PSo18UIFocusEnvironment", "Kriy"]
 - !private ["PSo18UIFocusEnvironment", "NSTextAlignment"]
-- ["PSo18UIFocusEnvironment", "SKScene"]
-- !private ["PSo18UIFocusEnvironment", "SampleScene"]
 - !private ["PSo18UIFocusEnvironment", "String"]
 - !private ["PSo18UIFocusEnvironment", "Technique"]
 - ["PSo18UIFocusEnvironment", "Timer"]
@@ -2035,14 +1978,15 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "databaseHandle"]
 - ["PSo18UIFocusEnvironment", "endSound"]
 - !private ["PSo18UIFocusEnvironment", "font"]
-- !private ["PSo18UIFocusEnvironment", "frame"]
 - ["PSo18UIFocusEnvironment", "getURL"]
 - ["PSo18UIFocusEnvironment", "hideButton"]
 - ["PSo18UIFocusEnvironment", "hideCounter"]
 - ["PSo18UIFocusEnvironment", "hideTimer"]
 - ["PSo18UIFocusEnvironment", "highlightColor"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "imageView"]
 - ["PSo18UIFocusEnvironment", "infoColor"]
-- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "isHidden"]
 - !private ["PSo18UIFocusEnvironment", "isPaused"]
 - ["PSo18UIFocusEnvironment", "lastSound"]
@@ -2055,14 +1999,12 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "playSound"]
 - ["PSo18UIFocusEnvironment", "playURL"]
 - ["PSo18UIFocusEnvironment", "player"]
-- !private ["PSo18UIFocusEnvironment", "presentScene"]
 - !private ["PSo18UIFocusEnvironment", "print"]
 - ["PSo18UIFocusEnvironment", "progressCounter"]
 - ["PSo18UIFocusEnvironment", "ref"]
 - ["PSo18UIFocusEnvironment", "restCounter"]
 - ["PSo18UIFocusEnvironment", "restTime"]
 - ["PSo18UIFocusEnvironment", "roundCorners"]
-- ["PSo18UIFocusEnvironment", "scene"]
 - ["PSo18UIFocusEnvironment", "seconds"]
 - ["PSo18UIFocusEnvironment", "sendFirUpdate"]
 - !private ["PSo18UIFocusEnvironment", "setBackgroundImage"]
@@ -2078,7 +2020,6 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "timer"]
 - ["PSo18UIFocusEnvironment", "timerText"]
 - !private ["PSo18UIFocusEnvironment", "view"]
-- ["PSo18UIFocusEnvironment", "viewDidAppear"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["PSo11UIFocusItem", "alpha"]
@@ -2087,17 +2028,18 @@ depends-member:
 - !private ["PSo11UIFocusItem", "contentMode"]
 - !private ["PSo11UIFocusItem", "contentVerticalAlignment"]
 - !private ["PSo11UIFocusItem", "font"]
-- !private ["PSo11UIFocusItem", "frame"]
-- ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "image"]
 - !private ["PSo11UIFocusItem", "isHidden"]
 - !private ["PSo11UIFocusItem", "isPaused"]
 - !private ["PSo11UIFocusItem", "layer"]
-- !private ["PSo11UIFocusItem", "presentScene"]
 - !private ["PSo11UIFocusItem", "setBackgroundImage"]
 - !private ["PSo11UIFocusItem", "text"]
 - !private ["PSo11UIFocusItem", "textAlignment"]
 - !private ["CSo6UIFont", "init"]
 - !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIImageView", "backgroundColor"]
+- !private ["CSo11UIImageView", "contentMode"]
+- !private ["CSo11UIImageView", "image"]
 - !private ["CSo7UILabel", "alpha"]
 - !private ["CSo7UILabel", "backgroundColor"]
 - !private ["CSo7UILabel", "clipsToBounds"]
@@ -2120,11 +2062,11 @@ depends-member:
 - ["CSo11UIResponder", "FIRDatabaseHandle"]
 - ["CSo11UIResponder", "FIRDatabaseReference"]
 - ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "Kriy"]
+- ["CSo11UIResponder", "KriyScene"]
 - !private ["CSo11UIResponder", "NSError"]
 - !private ["CSo11UIResponder", "NSTextAlignment"]
-- ["CSo11UIResponder", "SKScene"]
 - ["CSo11UIResponder", "SKView"]
-- !private ["CSo11UIResponder", "SampleScene"]
 - ["CSo11UIResponder", "String"]
 - ["CSo11UIResponder", "Technique"]
 - ["CSo11UIResponder", "Timer"]
@@ -2134,6 +2076,7 @@ depends-member:
 - !private ["CSo11UIResponder", "UIControlContentVerticalAlignment"]
 - !private ["CSo11UIResponder", "UIFont"]
 - !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIImageView"]
 - ["CSo11UIResponder", "UILabel"]
 - ["CSo11UIResponder", "UIView"]
 - ["CSo11UIResponder", "URL"]
@@ -2157,12 +2100,13 @@ depends-member:
 - ["CSo11UIResponder", "databaseHandle"]
 - ["CSo11UIResponder", "endSound"]
 - !private ["CSo11UIResponder", "font"]
-- !private ["CSo11UIResponder", "frame"]
 - ["CSo11UIResponder", "getURL"]
 - ["CSo11UIResponder", "hideButton"]
 - ["CSo11UIResponder", "hideCounter"]
 - ["CSo11UIResponder", "hideTimer"]
 - ["CSo11UIResponder", "highlightColor"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "imageView"]
 - ["CSo11UIResponder", "infoColor"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "isHidden"]
@@ -2174,19 +2118,16 @@ depends-member:
 - ["CSo11UIResponder", "masterList"]
 - ["CSo11UIResponder", "nameText"]
 - ["CSo11UIResponder", "pause"]
-- !private ["CSo11UIResponder", "placeholderType"]
 - ["CSo11UIResponder", "playButton"]
 - ["CSo11UIResponder", "playSound"]
 - ["CSo11UIResponder", "playURL"]
 - ["CSo11UIResponder", "player"]
-- !private ["CSo11UIResponder", "presentScene"]
 - !private ["CSo11UIResponder", "print"]
 - ["CSo11UIResponder", "progressCounter"]
 - ["CSo11UIResponder", "ref"]
 - ["CSo11UIResponder", "restCounter"]
 - ["CSo11UIResponder", "restTime"]
 - ["CSo11UIResponder", "roundCorners"]
-- ["CSo11UIResponder", "scene"]
 - ["CSo11UIResponder", "seconds"]
 - ["CSo11UIResponder", "sendFirUpdate"]
 - !private ["CSo11UIResponder", "setBackgroundImage"]
@@ -2203,7 +2144,6 @@ depends-member:
 - ["CSo11UIResponder", "timer"]
 - ["CSo11UIResponder", "timerText"]
 - !private ["CSo11UIResponder", "view"]
-- ["CSo11UIResponder", "viewDidAppear"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - ["PSo30UIResponderStandardEditActions", "AVAudioPlayer"]
 - ["PSo30UIResponderStandardEditActions", "Array"]
@@ -2212,9 +2152,8 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "DailyKriya"]
 - !private ["PSo30UIResponderStandardEditActions", "Date"]
 - !private ["PSo30UIResponderStandardEditActions", "FIRDatabase"]
+- ["PSo30UIResponderStandardEditActions", "Kriy"]
 - !private ["PSo30UIResponderStandardEditActions", "NSTextAlignment"]
-- ["PSo30UIResponderStandardEditActions", "SKScene"]
-- !private ["PSo30UIResponderStandardEditActions", "SampleScene"]
 - !private ["PSo30UIResponderStandardEditActions", "String"]
 - !private ["PSo30UIResponderStandardEditActions", "Technique"]
 - ["PSo30UIResponderStandardEditActions", "Timer"]
@@ -2243,14 +2182,15 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "databaseHandle"]
 - ["PSo30UIResponderStandardEditActions", "endSound"]
 - !private ["PSo30UIResponderStandardEditActions", "font"]
-- !private ["PSo30UIResponderStandardEditActions", "frame"]
 - ["PSo30UIResponderStandardEditActions", "getURL"]
 - ["PSo30UIResponderStandardEditActions", "hideButton"]
 - ["PSo30UIResponderStandardEditActions", "hideCounter"]
 - ["PSo30UIResponderStandardEditActions", "hideTimer"]
 - ["PSo30UIResponderStandardEditActions", "highlightColor"]
+- !private ["PSo30UIResponderStandardEditActions", "image"]
+- ["PSo30UIResponderStandardEditActions", "imageView"]
 - ["PSo30UIResponderStandardEditActions", "infoColor"]
-- ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
 - !private ["PSo30UIResponderStandardEditActions", "isHidden"]
 - !private ["PSo30UIResponderStandardEditActions", "isIdleTimerDisabled"]
 - !private ["PSo30UIResponderStandardEditActions", "isPaused"]
@@ -2264,14 +2204,12 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "playSound"]
 - ["PSo30UIResponderStandardEditActions", "playURL"]
 - ["PSo30UIResponderStandardEditActions", "player"]
-- !private ["PSo30UIResponderStandardEditActions", "presentScene"]
 - !private ["PSo30UIResponderStandardEditActions", "print"]
 - ["PSo30UIResponderStandardEditActions", "progressCounter"]
 - ["PSo30UIResponderStandardEditActions", "ref"]
 - ["PSo30UIResponderStandardEditActions", "restCounter"]
 - ["PSo30UIResponderStandardEditActions", "restTime"]
 - ["PSo30UIResponderStandardEditActions", "roundCorners"]
-- ["PSo30UIResponderStandardEditActions", "scene"]
 - ["PSo30UIResponderStandardEditActions", "seconds"]
 - ["PSo30UIResponderStandardEditActions", "sendFirUpdate"]
 - !private ["PSo30UIResponderStandardEditActions", "setBackgroundImage"]
@@ -2288,7 +2226,6 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "timer"]
 - ["PSo30UIResponderStandardEditActions", "timerText"]
 - !private ["PSo30UIResponderStandardEditActions", "view"]
-- ["PSo30UIResponderStandardEditActions", "viewDidAppear"]
 - ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - ["PSo16UIStateRestoring", "AVAudioPlayer"]
@@ -2298,9 +2235,8 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "DailyKriya"]
 - !private ["PSo16UIStateRestoring", "Date"]
 - !private ["PSo16UIStateRestoring", "FIRDatabase"]
+- ["PSo16UIStateRestoring", "Kriy"]
 - !private ["PSo16UIStateRestoring", "NSTextAlignment"]
-- ["PSo16UIStateRestoring", "SKScene"]
-- !private ["PSo16UIStateRestoring", "SampleScene"]
 - !private ["PSo16UIStateRestoring", "String"]
 - !private ["PSo16UIStateRestoring", "Technique"]
 - ["PSo16UIStateRestoring", "Timer"]
@@ -2329,6 +2265,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "hideCounter"]
 - ["PSo16UIStateRestoring", "hideTimer"]
 - ["PSo16UIStateRestoring", "highlightColor"]
+- ["PSo16UIStateRestoring", "imageView"]
 - ["PSo16UIStateRestoring", "infoColor"]
 - !private ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "lastSound"]
@@ -2346,7 +2283,6 @@ depends-member:
 - ["PSo16UIStateRestoring", "restCounter"]
 - ["PSo16UIStateRestoring", "restTime"]
 - ["PSo16UIStateRestoring", "roundCorners"]
-- ["PSo16UIStateRestoring", "scene"]
 - ["PSo16UIStateRestoring", "seconds"]
 - ["PSo16UIStateRestoring", "sendFirUpdate"]
 - ["PSo16UIStateRestoring", "setCircleLabel"]
@@ -2359,7 +2295,6 @@ depends-member:
 - ["PSo16UIStateRestoring", "timer"]
 - ["PSo16UIStateRestoring", "timerText"]
 - !private ["PSo16UIStateRestoring", "view"]
-- ["PSo16UIStateRestoring", "viewDidAppear"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
 - ["PSo18UITraitEnvironment", "AVAudioPlayer"]
@@ -2369,9 +2304,8 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "DailyKriya"]
 - !private ["PSo18UITraitEnvironment", "Date"]
 - !private ["PSo18UITraitEnvironment", "FIRDatabase"]
+- ["PSo18UITraitEnvironment", "Kriy"]
 - !private ["PSo18UITraitEnvironment", "NSTextAlignment"]
-- ["PSo18UITraitEnvironment", "SKScene"]
-- !private ["PSo18UITraitEnvironment", "SampleScene"]
 - !private ["PSo18UITraitEnvironment", "String"]
 - !private ["PSo18UITraitEnvironment", "Technique"]
 - ["PSo18UITraitEnvironment", "Timer"]
@@ -2400,12 +2334,13 @@ depends-member:
 - ["PSo18UITraitEnvironment", "databaseHandle"]
 - ["PSo18UITraitEnvironment", "endSound"]
 - !private ["PSo18UITraitEnvironment", "font"]
-- !private ["PSo18UITraitEnvironment", "frame"]
 - ["PSo18UITraitEnvironment", "getURL"]
 - ["PSo18UITraitEnvironment", "hideButton"]
 - ["PSo18UITraitEnvironment", "hideCounter"]
 - ["PSo18UITraitEnvironment", "hideTimer"]
 - ["PSo18UITraitEnvironment", "highlightColor"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "imageView"]
 - ["PSo18UITraitEnvironment", "infoColor"]
 - !private ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "isHidden"]
@@ -2419,14 +2354,12 @@ depends-member:
 - ["PSo18UITraitEnvironment", "playSound"]
 - ["PSo18UITraitEnvironment", "playURL"]
 - ["PSo18UITraitEnvironment", "player"]
-- !private ["PSo18UITraitEnvironment", "presentScene"]
 - !private ["PSo18UITraitEnvironment", "print"]
 - ["PSo18UITraitEnvironment", "progressCounter"]
 - ["PSo18UITraitEnvironment", "ref"]
 - ["PSo18UITraitEnvironment", "restCounter"]
 - ["PSo18UITraitEnvironment", "restTime"]
 - ["PSo18UITraitEnvironment", "roundCorners"]
-- ["PSo18UITraitEnvironment", "scene"]
 - ["PSo18UITraitEnvironment", "seconds"]
 - ["PSo18UITraitEnvironment", "sendFirUpdate"]
 - !private ["PSo18UITraitEnvironment", "setBackgroundImage"]
@@ -2442,7 +2375,6 @@ depends-member:
 - ["PSo18UITraitEnvironment", "timer"]
 - ["PSo18UITraitEnvironment", "timerText"]
 - !private ["PSo18UITraitEnvironment", "view"]
-- ["PSo18UITraitEnvironment", "viewDidAppear"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "alpha"]
@@ -2451,14 +2383,14 @@ depends-member:
 - !private ["CSo6UIView", "contentMode"]
 - !private ["CSo6UIView", "contentVerticalAlignment"]
 - !private ["CSo6UIView", "font"]
-- !private ["CSo6UIView", "frame"]
+- !private ["CSo6UIView", "image"]
 - !private ["CSo6UIView", "isHidden"]
 - !private ["CSo6UIView", "layer"]
-- !private ["CSo6UIView", "presentScene"]
 - !private ["CSo6UIView", "setBackgroundImage"]
 - !private ["CSo6UIView", "text"]
 - !private ["CSo6UIView", "textAlignment"]
 - ["OSC17UIViewContentMode", "deinit"]
+- !private ["OSC17UIViewContentMode", "scaleAspectFit"]
 - !private ["OSC17UIViewContentMode", "scaleToFill"]
 - ["CSo16UIViewController", "AVAudioPlayer"]
 - ["CSo16UIViewController", "AnyObject"]
@@ -2473,11 +2405,11 @@ depends-member:
 - ["CSo16UIViewController", "FIRDatabaseHandle"]
 - ["CSo16UIViewController", "FIRDatabaseReference"]
 - ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "Kriy"]
+- ["CSo16UIViewController", "KriyScene"]
 - !private ["CSo16UIViewController", "NSError"]
 - !private ["CSo16UIViewController", "NSTextAlignment"]
-- ["CSo16UIViewController", "SKScene"]
 - ["CSo16UIViewController", "SKView"]
-- !private ["CSo16UIViewController", "SampleScene"]
 - ["CSo16UIViewController", "String"]
 - ["CSo16UIViewController", "Technique"]
 - ["CSo16UIViewController", "Timer"]
@@ -2487,6 +2419,7 @@ depends-member:
 - !private ["CSo16UIViewController", "UIControlContentVerticalAlignment"]
 - !private ["CSo16UIViewController", "UIFont"]
 - !private ["CSo16UIViewController", "UIImage"]
+- ["CSo16UIViewController", "UIImageView"]
 - ["CSo16UIViewController", "UILabel"]
 - ["CSo16UIViewController", "UIView"]
 - ["CSo16UIViewController", "URL"]
@@ -2511,6 +2444,7 @@ depends-member:
 - ["CSo16UIViewController", "hideCounter"]
 - ["CSo16UIViewController", "hideTimer"]
 - ["CSo16UIViewController", "highlightColor"]
+- ["CSo16UIViewController", "imageView"]
 - ["CSo16UIViewController", "infoColor"]
 - ["CSo16UIViewController", "init"]
 - ["CSo16UIViewController", "lastSound"]
@@ -2518,7 +2452,6 @@ depends-member:
 - ["CSo16UIViewController", "masterList"]
 - ["CSo16UIViewController", "nameText"]
 - ["CSo16UIViewController", "pause"]
-- !private ["CSo16UIViewController", "placeholderType"]
 - ["CSo16UIViewController", "playButton"]
 - ["CSo16UIViewController", "playSound"]
 - ["CSo16UIViewController", "playURL"]
@@ -2529,7 +2462,6 @@ depends-member:
 - ["CSo16UIViewController", "restCounter"]
 - ["CSo16UIViewController", "restTime"]
 - ["CSo16UIViewController", "roundCorners"]
-- ["CSo16UIViewController", "scene"]
 - ["CSo16UIViewController", "seconds"]
 - ["CSo16UIViewController", "sendFirUpdate"]
 - ["CSo16UIViewController", "setCircleLabel"]
@@ -2542,7 +2474,6 @@ depends-member:
 - ["CSo16UIViewController", "timer"]
 - ["CSo16UIViewController", "timerText"]
 - !private ["CSo16UIViewController", "view"]
-- ["CSo16UIViewController", "viewDidAppear"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
 - !private ["Su", "deinit"]
@@ -2568,10 +2499,9 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contentMode"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contentVerticalAlignment"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "font"]
-- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "frame"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isHidden"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
-- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "presentScene"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setBackgroundImage"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "textAlignment"]
@@ -2609,9 +2539,8 @@ depends-member:
 - !private ["Ps9_Hashable", "Date"]
 - !private ["Ps9_Hashable", "FIRDatabase"]
 - !private ["Ps9_Hashable", "IntegerLiteralType"]
+- ["Ps9_Hashable", "Kriy"]
 - !private ["Ps9_Hashable", "NSTextAlignment"]
-- ["Ps9_Hashable", "SKScene"]
-- !private ["Ps9_Hashable", "SampleScene"]
 - !private ["Ps9_Hashable", "Stride"]
 - !private ["Ps9_Hashable", "String"]
 - !private ["Ps9_Hashable", "Technique"]
@@ -2659,7 +2588,6 @@ depends-member:
 - !private ["Ps9_Hashable", "description"]
 - ["Ps9_Hashable", "endSound"]
 - !private ["Ps9_Hashable", "font"]
-- !private ["Ps9_Hashable", "frame"]
 - ["Ps9_Hashable", "getURL"]
 - ["Ps9_Hashable", "gray"]
 - !private ["Ps9_Hashable", "gregorian"]
@@ -2667,6 +2595,8 @@ depends-member:
 - ["Ps9_Hashable", "hideCounter"]
 - ["Ps9_Hashable", "hideTimer"]
 - ["Ps9_Hashable", "highlightColor"]
+- !private ["Ps9_Hashable", "image"]
+- ["Ps9_Hashable", "imageView"]
 - ["Ps9_Hashable", "infoColor"]
 - ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "invalidate"]
@@ -2688,7 +2618,6 @@ depends-member:
 - ["Ps9_Hashable", "playURL"]
 - ["Ps9_Hashable", "player"]
 - !private ["Ps9_Hashable", "prepareToPlay"]
-- !private ["Ps9_Hashable", "presentScene"]
 - !private ["Ps9_Hashable", "print"]
 - ["Ps9_Hashable", "progressCounter"]
 - ["Ps9_Hashable", "ref"]
@@ -2696,8 +2625,8 @@ depends-member:
 - ["Ps9_Hashable", "restCounter"]
 - ["Ps9_Hashable", "restTime"]
 - ["Ps9_Hashable", "roundCorners"]
+- !private ["Ps9_Hashable", "scaleAspectFit"]
 - !private ["Ps9_Hashable", "scaleToFill"]
-- ["Ps9_Hashable", "scene"]
 - !private ["Ps9_Hashable", "scheduledTimer"]
 - ["Ps9_Hashable", "seconds"]
 - ["Ps9_Hashable", "sendFirUpdate"]
@@ -2717,7 +2646,6 @@ depends-member:
 - ["Ps9_Hashable", "timerText"]
 - ["Ps9_Hashable", "url"]
 - !private ["Ps9_Hashable", "view"]
-- ["Ps9_Hashable", "viewDidAppear"]
 - ["Ps9_Hashable", "viewDidLoad"]
 - !private ["Ps9_Hashable", "year"]
 - ["Ps9_Hashable", ""]
@@ -2776,7 +2704,6 @@ depends-nominal:
 - !private "PSo13CAMediaTiming"
 - "CSo7CGColor"
 - "V12CoreGraphics7CGFloat"
-- !private "VSC6CGRect"
 - "Ps7CVarArg"
 - "V10Foundation8Calendar"
 - !private "Vs9Character"
@@ -2822,6 +2749,7 @@ depends-nominal:
 - !private "Ps7Integer"
 - !private "Ps17IntegerArithmetic"
 - !private "Ps16IteratorProtocol"
+- !private "C14SudarshanKriya9KriyScene"
 - "Ps25LosslessStringConvertible"
 - "Ps10MirrorPath"
 - "Ps17MutableCollection"
@@ -2846,12 +2774,11 @@ depends-nominal:
 - "Ps25RangeReplaceableIndexable"
 - !private "Ps16RawRepresentable"
 - !private "P10Foundation20ReferenceConvertible"
-- "CSo12SKEffectNode"
-- "CSo6SKNode"
-- "CSo7SKScene"
+- !private "CSo12SKEffectNode"
+- !private "CSo6SKNode"
+- !private "CSo7SKScene"
 - !private "CSo6SKView"
-- "PSo10SKWarpable"
-- "C14SudarshanKriya11SampleScene"
+- !private "PSo10SKWarpable"
 - "V10ObjectiveC8Selector"
 - "Ps8Sequence"
 - !private "Ps10SetAlgebra"
@@ -2879,9 +2806,10 @@ depends-nominal:
 - !private "PSo17UICoordinateSpace"
 - !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
-- "PSo11UIFocusItem"
+- !private "PSo11UIFocusItem"
 - !private "CSo6UIFont"
 - !private "CSo7UIImage"
+- !private "CSo11UIImageView"
 - "CSo7UILabel"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
@@ -2967,4 +2895,4 @@ depends-external:
 - "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
 - "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
 - "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/Firebase/Core/Sources/Firebase.h"
-interface-hash: "528fdb07290bdd48b7a55106738b9883"
+interface-hash: "6974993d767a2065b861f04a7dd40362"

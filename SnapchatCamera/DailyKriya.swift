@@ -45,11 +45,11 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
     var Kriy : KriyScene?
     
     //MARK: - IBOutlets
-    
     @IBOutlet weak var playButton: UIButton!
     
     @IBOutlet weak var counter: UIView!
     @IBOutlet weak var animationView: SKView!
+    @IBOutlet weak var imageView: UIImageView!
     
     
     @IBOutlet weak var circleOne: UILabel!
@@ -85,7 +85,9 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-    
+        
+        animationView.alpha = 0 //CHANGE
+        hideButton()
         UIApplication.shared.isIdleTimerDisabled = true
         lastSound = false
         seconds = restTime
@@ -125,10 +127,53 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         let bhastrikaColor = UIColor(red: 232/255, green: 74/255, blue: 95/255, alpha: 1)
         let aumColor = UIColor(red: 84/255, green: 121/255, blue: 128/255, alpha: 1)
         let kriyaColor = UIColor(red: 42/255, green: 54/255, blue: 59/255, alpha: 1)
-        let size = animationView.frame.size
+        
         
         //Ujayi Stage 1
-       // masterList.append(Technique(name: "Ujayi Breath", color: ujayiColor , stage: 1, scene: "35secondemo", url: getURL(string: //"UjayiBreath")))
+        masterList.append(Technique(name: "Ujayi Breath", color: ujayiColor , stage: 1, scene: "Waist.png", url: getURL(string: "UjayiBreath")))
+        //Rest
+        masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "Rest.png", url: getURL(string: "restTransition"))) //need to make custom scenes for the various rest transitions, and combine them all in 1 URL
+        //Ujayi Stage 2
+        masterList.append(Technique(name: "Ujayi Breath", color: ujayiColor, stage: 2, scene: "Chest.png", url: getURL(string: "UjayiBreath")))
+        //Rest
+        masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "Rest.png", url: getURL(string: "restTransition")))
+        //Ujayi Stage 3
+        masterList.append(Technique(name: "Ujayi Breath", color: ujayiColor, stage: 3, scene: "Back.png", url: getURL(string: "UjayiBreath")))
+        //Rest
+        masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "Rest.png", url: getURL(string: "restTransition")))
+        //Bhastrika
+        masterList.append(Technique(name: "Bhastrika", color: bhastrikaColor , stage: 1, scene: "Bhastrika.png", url: getURL(string: "bhastrikafinal")))
+        //Rest
+        masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "Rest.png", url: getURL(string: "restTransition")))
+        //Bhastrika
+        masterList.append(Technique(name: "Bhastrika", color: bhastrikaColor, stage: 2, scene: "Bhastrika.png", url: getURL(string: "bhastrikafinal")))
+        //Rest
+        masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "Rest.png", url: getURL(string: "restTransition")))
+        //Bhastrika
+        masterList.append(Technique(name: "Bhastrika", color: bhastrikaColor, stage: 3, scene: "Bhastrika.png", url: getURL(string: "bhastrikafinal")))
+ 
+        //Aum
+        masterList.append(Technique(name: "Aum", color: aumColor, stage: 1, scene: "Aum.png", url: getURL(string: "aum1")))
+        masterList.append(Technique(name: "Aum", color: aumColor, stage: 2, scene: "Aum.png", url: getURL(string: "aum2")))
+        masterList.append(Technique(name: "Aum", color: aumColor, stage: 3, scene: "Aum.png", url: getURL(string: "aum2")))
+        //Sudarshan Kriya
+        masterList.append(Technique(name: "Sudarshan Kriya", color: kriyaColor, stage: 1, scene: "Kriya.png", url: getURL(string: "SriSoham")))
+        masterList.append(Technique(name: "Sudarshan Kriya", color: kriyaColor, stage: 2, scene: "Kriya.png", url: getURL(string: "SriSoham")))
+        masterList.append(Technique(name: "Sudarshan Kriya", color: kriyaColor, stage: 3, scene: "Kriya.png", url: getURL(string: "SriSoham")))
+    }
+    
+    /*
+    func makeList(){
+        
+        let ujayiColor = UIColor(red: 69/255, green: 173/255, blue: 168/255, alpha: 1)
+        let restColor = UIColor(red: 157/255, green: 224/255, blue: 173/255, alpha: 1)
+        let bhastrikaColor = UIColor(red: 232/255, green: 74/255, blue: 95/255, alpha: 1)
+        let aumColor = UIColor(red: 84/255, green: 121/255, blue: 128/255, alpha: 1)
+        let kriyaColor = UIColor(red: 42/255, green: 54/255, blue: 59/255, alpha: 1)
+        
+        
+        //Ujayi Stage 1
+       masterList.append(Technique(name: "Ujayi Breath", color: ujayiColor , stage: 1, scene: "UjayiWaistAnimation", url: getURL(string: "UjayiBreath")))
         //Rest
          masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "35secondemo", url: getURL(string: "restTransition"))) //need to make custom scenes for the various rest transitions, and combine them all in 1 URL
         //Ujayi Stage 2
@@ -158,6 +203,7 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         masterList.append(Technique(name: "Sudarshan Kriya", color: kriyaColor, stage: 2, scene: "35secondemo", url: getURL(string: "SriSoham")))
         masterList.append(Technique(name: "Sudarshan Kriya", color: kriyaColor, stage: 3, scene: "35secondemo", url: getURL(string: "SriSoham")))
     }
+    */
     
     func getURL(string: String) -> URL{
         return Bundle.main.url(forResource: string, withExtension: "mp3")!
@@ -210,8 +256,9 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
     func backgroundColor(_ color : UIColor){
         self.view.backgroundColor = color
         counter.backgroundColor = color
-        animationView.backgroundColor = color
-        Kriy?.backgroundColor = color
+        //animationView.backgroundColor = color //CHANGE
+        //Kriy?.backgroundColor = color
+        imageView.backgroundColor = color
     }
     
     func roundCorners(){
@@ -246,7 +293,7 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
     
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) { // *
         showCounter()
-        showButton()
+        //showButton()
         progressCounter += 1
         if masterList.indices.contains(progressCounter) {
             let t = masterList[progressCounter]
@@ -254,11 +301,14 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
             hideTimer()
             changeCounter(t.stage)
             nameText.text = t.name
-            Kriy = KriyScene(size: animationView.frame.size)
+            //Kriy = KriyScene(size: animationView.frame.size) //CHANGE
             backgroundColor(t.color)
             playSound(t.url)
-            animationView.presentScene(Kriy)
-            Kriy?.start(position: animationView.center, sceneName: t.scene)
+            let image = UIImage(named: t.scene)
+            imageView.image = image
+            imageView.contentMode = .scaleAspectFit
+            //animationView.presentScene(Kriy)
+            //Kriy?.start(position: animationView.center, sceneName: t.scene)
             
         }
         else if (!self.lastSound){
