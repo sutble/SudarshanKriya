@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
-options: "c301875f583700684bc787a0f247a269"
-build_time: [541817843, 140139000]
+options: "b82f2a249d56a22ca3d6a78749b44043"
+build_time: [541818349, 608005000]
 inputs:
   "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/SnapchatCamera/Techniques.swift": [540720560, 0]
   "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/SnapchatCamera/StartViewController.swift": [538996602, 0]

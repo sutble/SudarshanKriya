@@ -6,14 +6,14 @@ provides-nominal:
 provides-member:
 - ["C14SudarshanKriya18InfoViewController", ""]
 provides-dynamic-lookup:
-- "XButton"
 - "viewDidLoad"
+- "XButton"
 depends-top-level:
-- !private "/"
-- "InfoViewController"
-- "AssignmentPrecedence"
 - "UIButton"
+- "InfoViewController"
 - "UIViewController"
+- !private "/"
+- "AssignmentPrecedence"
 depends-member:
 - ["Ps9AnyObject", "XButton"]
 - !private ["Ps9AnyObject", "cornerRadius"]
