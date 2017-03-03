@@ -45,7 +45,7 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
     var Kriy : KriyScene?
     
     //MARK: - IBOutlets
-    @IBOutlet weak var playButton: UIButton!
+    @IBOutlet weak var infoButton: UIButton!
     
     @IBOutlet weak var counter: UIView!
     @IBOutlet weak var animationView: SKView!
@@ -60,7 +60,7 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var nameText: UILabel!
     @IBOutlet weak var timerText: UILabel!
     
-    
+    /*
     @IBAction func pause(_ sender: AnyObject) {
         if (player?.isPlaying)! {
             player?.pause()
@@ -78,6 +78,7 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
             playButton.setBackgroundImage(pause, for: .normal)
         }
     }
+    */
     
 
     //MARK: - viewDidLoad
@@ -87,7 +88,6 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         super.viewDidLoad()
         
         animationView.alpha = 0 //CHANGE
-        hideButton()
         UIApplication.shared.isIdleTimerDisabled = true
         lastSound = false
         seconds = restTime
@@ -106,8 +106,10 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         setTextLabel(nameText,size: 55)
         setTextLabel(timerText, size: 45)
         
-        let pause = UIImage(named: "pause.png")
-        playButton.setBackgroundImage(pause, for: .normal)
+        //CHANGE
+        //let pause = UIImage(named: "pause.png")
+        //playButton.setBackgroundImage(pause, for: .normal)
+        infoButton.layer.cornerRadius = infoButton.frame.size.width/2
         
         hideCounter()
         hideTimer()
@@ -282,18 +284,18 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
     }
     
     func showButton(){
-        playButton.alpha = 1
+        infoButton.alpha = 1
     }
     
     func hideButton(){
-        playButton.alpha = 0
+        infoButton.alpha = 0
     }
     
     //MARK: - Sound
     
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) { // *
         showCounter()
-        //showButton()
+        showButton()
         progressCounter += 1
         if masterList.indices.contains(progressCounter) {
             let t = masterList[progressCounter]

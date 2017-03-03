@@ -71,13 +71,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lb-dz-QzJ">
-                                <frame key="frameInset" minX="147" minY="587" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="pause:" destination="m3P-OX-xIx" eventType="touchUpInside" id="Tep-NK-P18"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jW3-Bw-xRp">
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGl-rW-ldb">
@@ -136,6 +129,18 @@
                                 <frame key="frameInset" minY="22.94%" height="48.73%"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNE-9j-mjv">
+                                <frame key="frameInset" minX="49.85%" width="40" height="40" maxY="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.89913136773804991" blue="0.48830110656607473" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <state key="normal" title="i">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Apg-zh-l0D" kind="show" id="f3p-yF-xqs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -152,14 +157,46 @@
                         <outlet property="circleTwo" destination="LbT-zM-FJu" id="ZVE-8o-koM"/>
                         <outlet property="counter" destination="jW3-Bw-xRp" id="hsr-cc-MgZ"/>
                         <outlet property="imageView" destination="e11-Lk-oax" id="stG-YJ-eP9"/>
+                        <outlet property="infoButton" destination="iNE-9j-mjv" id="Bm1-O1-cKq"/>
                         <outlet property="nameText" destination="qGL-j6-eHN" id="Jdl-un-UA9"/>
-                        <outlet property="playButton" destination="7lb-dz-QzJ" id="dx1-Fl-93N"/>
                         <outlet property="timerText" destination="fbO-3y-a5V" id="GUc-ro-08U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n7z-sf-bY5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="15.199999999999999" y="51.724137931034484"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="1Re-pp-CBW">
+            <objects>
+                <viewController id="Apg-zh-l0D" customClass="InfoViewController" customModule="SudarshanKriya" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lmx-R5-nbz"/>
+                        <viewControllerLayoutGuide type="bottom" id="S2X-Av-RCR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s4A-HT-yU3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCw-5V-OF2">
+                                <frame key="frameInset" minX="49.85%" width="40" height="40" maxY="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.89913136770000002" blue="0.48830110659999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="XButton" destination="oCw-5V-OF2" id="5BK-W6-DI6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JVy-GZ-wIH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="844" y="52"/>
         </scene>
     </scenes>
 </document>

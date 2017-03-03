@@ -41,28 +41,28 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphonesimulator/Pods_ArtOfLiving.framework/Headers",
+      'name': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphonesimulator/Pods_SudarshanKriya.framework/Headers",
       'contents': [
         {
           'type': 'file',
-          'name': "Pods-ArtOfLiving-umbrella.h",
-          'external-contents': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/Target Support Files/Pods-ArtOfLiving/Pods-ArtOfLiving-umbrella.h"
+          'name': "Pods-SudarshanKriya-umbrella.h",
+          'external-contents': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/Target Support Files/Pods-SudarshanKriya/Pods-SudarshanKriya-umbrella.h"
         },
         {
           'type': 'file',
-          'name': "Pods_ArtOfLiving-Swift.h",
-          'external-contents': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphonesimulator/Pods_ArtOfLiving.framework/Headers/Pods_ArtOfLiving-Swift.h"
+          'name': "Pods_SudarshanKriya-Swift.h",
+          'external-contents': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphonesimulator/Pods_SudarshanKriya.framework/Headers/Pods_SudarshanKriya-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphonesimulator/Pods_ArtOfLiving.framework/Modules",
+      'name': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Debug-iphonesimulator/Pods_SudarshanKriya.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Pods.build/Debug-iphonesimulator/Pods-ArtOfLiving.build/module.modulemap"
+          'external-contents': "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/build/Pods.build/Debug-iphonesimulator/Pods-SudarshanKriya.build/module.modulemap"
         }
       ]
     }

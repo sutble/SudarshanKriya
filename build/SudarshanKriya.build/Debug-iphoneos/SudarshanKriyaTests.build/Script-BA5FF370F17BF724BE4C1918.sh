@@ -1,3 +1,3 @@
 #!/bin/sh
-"${SRCROOT}/Pods/Target Support Files/Pods-ArtOfLivingTests/Pods-ArtOfLivingTests-resources.sh"
+"${SRCROOT}/Pods/Target Support Files/Pods-SudarshanKriyaTests/Pods-SudarshanKriyaTests-resources.sh"
 

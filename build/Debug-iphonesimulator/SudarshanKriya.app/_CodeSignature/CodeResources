@@ -74,7 +74,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		07Pjqcy1ZXVCDiewg4pLhmms6Dg=
+		lMgQjEG+mcYaJSK4mqFNGNYvqq4=
 		</data>
 		<key>Aum.png</key>
 		<data>
@@ -92,7 +92,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NCSe/SmHSdrhdS9kGNBC63Xo6LE=
+			+Z1SXPvGK1I7cEak1qh96KdqURU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -101,7 +101,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hsy8i6otpln7oLQEjoU+Ok6hxeg=
+			LQNnPgh/15/kB1K8J/YjyC+PeWs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Apg-zh-l0D-view-s4A-HT-yU3.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			70D82uEEjokjuIYXoaA+Yf3NvYw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -110,7 +119,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RnAySjHZCCYQjiTQRwpZUyra2kg=
+			xNMMtO7+CRyxJsfwpS+ssjMWbCQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -119,7 +128,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			g/ULkSZH95nEVk/JNHTTy+K6+sY=
+			8g1pE80udR0g+5LzQCQlyE28pZk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-Apg-zh-l0D.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xSVsaHns8syGr+VgnRUSzIaAGf0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -128,7 +146,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GzQYfXfcTv79BWMl4DjdVuIoAWI=
+			1u3auYwYPY1SrPAAmnO18r8Uh3U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -137,7 +155,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2YMSDVpPN0Lo+DlM7ubqdv6xD5E=
+			Ci/Ar7Oas23y1Uzo3EbeBsBRPf0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -152,7 +170,7 @@
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac</key>
 		<data>
-		6pXv79qF/TGGTEjD3W5HOAXvNN4=
+		N8o1GR9Xbyo/FpMXpwE3SD0KG+E=
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
 		<data>
@@ -236,7 +254,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nHrjA2K5iEV9GPkOUKVNzsfcLSg=
+		DOcgrLS+cTEfu690JED4dJgk3gI=
 		</data>
 		<key>Kriya.png</key>
 		<data>
@@ -488,11 +506,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			07Pjqcy1ZXVCDiewg4pLhmms6Dg=
+			lMgQjEG+mcYaJSK4mqFNGNYvqq4=
 			</data>
 			<key>hash2</key>
 			<data>
-			3Cj2FlrrmwGMAOuwqmpCAVJ+QbdGZt6B8XSGItFqSco=
+			uJ1+ojAEhecFUoiMkM09MzTCI5Rvhkj5edIhsridTLw=
 			</data>
 		</dict>
 		<key>Aum.png</key>
@@ -532,11 +550,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NCSe/SmHSdrhdS9kGNBC63Xo6LE=
+			+Z1SXPvGK1I7cEak1qh96KdqURU=
 			</data>
 			<key>hash2</key>
 			<data>
-			0E5WzfNXEiCYTVZw97BpLw33sJ3WqAHpm8enJ2PidlE=
+			TLWvzf3FbHUVj1J2YY17d9f+2jJFx9tbR2ZqbtDPlEA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -545,11 +563,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hsy8i6otpln7oLQEjoU+Ok6hxeg=
+			LQNnPgh/15/kB1K8J/YjyC+PeWs=
 			</data>
 			<key>hash2</key>
 			<data>
-			TiQRMrhH+olnx36nv/a83vdVzs+M2O+WAelqgwiosiM=
+			adIdYDCBQP9Oyv5Nv2zjzT3FiJ5K0m9/GEkeVFdKlTk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Apg-zh-l0D-view-s4A-HT-yU3.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			70D82uEEjokjuIYXoaA+Yf3NvYw=
+			</data>
+			<key>hash2</key>
+			<data>
+			2l2p0RHi51BYgweIuKy77dgWQZwPonOAgT/3Q9v/aqU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -558,11 +589,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RnAySjHZCCYQjiTQRwpZUyra2kg=
+			xNMMtO7+CRyxJsfwpS+ssjMWbCQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Oi5xFKFS27FjXiocDEotprY7exYsCJoa6GDLINpSVRo=
+			DGE9xW4qurVkNpk+xM8AJOEitYWwnq59TynjW5FvL+E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -571,11 +602,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			g/ULkSZH95nEVk/JNHTTy+K6+sY=
+			8g1pE80udR0g+5LzQCQlyE28pZk=
 			</data>
 			<key>hash2</key>
 			<data>
-			hyFWxhtxVKFUQJdIt+LWC5+tmUxRD9N8wB0uev8kPRw=
+			cqCbVig75V+rgnRj3hTCQTss/s+SK4Kbd9uTDTN6+8g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-Apg-zh-l0D.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xSVsaHns8syGr+VgnRUSzIaAGf0=
+			</data>
+			<key>hash2</key>
+			<data>
+			B1Rl8Dq5cT7MNuUC9S6x6SJ1v0U7Ipr4AL04uZ2/j2w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -584,11 +628,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GzQYfXfcTv79BWMl4DjdVuIoAWI=
+			1u3auYwYPY1SrPAAmnO18r8Uh3U=
 			</data>
 			<key>hash2</key>
 			<data>
-			4AMqNmXvfx+K4pkOV/rS28BRyHglb6n7Pi+sD4dbTy0=
+			QXzgmOHoJQZJAHNTpxF9KMpNs+xdVFluss56gRelOgE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -597,11 +641,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2YMSDVpPN0Lo+DlM7ubqdv6xD5E=
+			Ci/Ar7Oas23y1Uzo3EbeBsBRPf0=
 			</data>
 			<key>hash2</key>
 			<data>
-			+A5taNGSvsDP8AzP41f5O/i4/LTwt3Tzv7yOMLEv1OQ=
+			+RUxO2/uwfceZnWz9kxnSyDhe7LOJd+pP0l+Xq6xfDg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -632,11 +676,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6pXv79qF/TGGTEjD3W5HOAXvNN4=
+			N8o1GR9Xbyo/FpMXpwE3SD0KG+E=
 			</data>
 			<key>hash2</key>
 			<data>
-			G2ZSdtGPZzqDJq92HUnqLd/nZyM88efQ1xq3SN+u1Uo=
+			/Z8gHBnIJWkw6OKFlq03r/64bxxfSn5t9Cf7C6xZF/A=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>

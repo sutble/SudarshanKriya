@@ -26,10 +26,13 @@
 		1842E9581E4D087800BCDC7A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1842E9571E4D087800BCDC7A /* SpriteKit.framework */; };
 		184C80D61E073F2000A8E24D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 184C80D51E073F2000A8E24D /* GoogleService-Info.plist */; };
 		1853D5F51E5843F600B269C6 /* transition.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1853D5F41E5843F600B269C6 /* transition.mp3 */; };
+		18869A391E61730B0055D17D /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18869A381E61730B0055D17D /* InfoViewController.swift */; };
 		18A8A4391E25DC1F007668F6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A8A4381E25DC1F007668F6 /* StartViewController.swift */; };
 		18BDC2011E50701500CD109D /* KriyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BDC2001E50701500CD109D /* KriyScene.swift */; };
 		18EF78011E47246000C4F06A /* SriSoham.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18EF78001E47246000C4F06A /* SriSoham.mp3 */; };
 		18EF78031E47246600C4F06A /* restTransition.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18EF78021E47246600C4F06A /* restTransition.mp3 */; };
+		2FC4AE1C8B830FA53CA526B8 /* Pods_SudarshanKriyaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE28A861CCEDDC022343B93 /* Pods_SudarshanKriyaTests.framework */; };
+		A35F7FF0829D2973E6DB89F8 /* Pods_SudarshanKriya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862C141F07A64D3BBDAA632F /* Pods_SudarshanKriya.framework */; };
 		AC94AD611B8E40BF002D9AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94AD601B8E40BF002D9AD2 /* AppDelegate.swift */; };
 		AC94AD661B8E40BF002D9AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC94AD641B8E40BF002D9AD2 /* Main.storyboard */; };
 		AC94AD681B8E40BF002D9AD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC94AD671B8E40BF002D9AD2 /* Images.xcassets */; };
@@ -68,15 +71,21 @@
 		1842E9571E4D087800BCDC7A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		184C80D51E073F2000A8E24D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1853D5F41E5843F600B269C6 /* transition.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = transition.mp3; sourceTree = "<group>"; };
+		18869A381E61730B0055D17D /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		18A8A4381E25DC1F007668F6 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		18A8A43C1E260B5D007668F6 /* SudarshanKriya.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SudarshanKriya.entitlements; sourceTree = "<group>"; };
 		18BDC2001E50701500CD109D /* KriyScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KriyScene.swift; sourceTree = "<group>"; };
 		18EF78001E47246000C4F06A /* SriSoham.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SriSoham.mp3; path = Resources/SriSoham.mp3; sourceTree = "<group>"; };
 		18EF78021E47246600C4F06A /* restTransition.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = restTransition.mp3; path = Resources/restTransition.mp3; sourceTree = "<group>"; };
 		33A75391B67C9A5B8F2EE6A8 /* Pods_ArtOfLiving.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtOfLiving.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6EF70141327D8E1F1D7802 /* Pods-SudarshanKriya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudarshanKriya.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SudarshanKriya/Pods-SudarshanKriya.debug.xcconfig"; sourceTree = "<group>"; };
 		43CB27059945645F3C7C49AA /* Pods-ArtOfLiving.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtOfLiving.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtOfLiving/Pods-ArtOfLiving.debug.xcconfig"; sourceTree = "<group>"; };
+		45441DECE8D65D8403E7E311 /* Pods-SudarshanKriyaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudarshanKriyaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SudarshanKriyaTests/Pods-SudarshanKriyaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		702E4A890B931129549B49B2 /* Pods_ArtOfLivingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtOfLivingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		862C141F07A64D3BBDAA632F /* Pods_SudarshanKriya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SudarshanKriya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89B95EFC8DEE00617A752A7F /* Pods-SudarshanKriya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudarshanKriya.release.xcconfig"; path = "Pods/Target Support Files/Pods-SudarshanKriya/Pods-SudarshanKriya.release.xcconfig"; sourceTree = "<group>"; };
 		962738B2D306C7CD43248EF5 /* Pods-ArtOfLivingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtOfLivingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtOfLivingTests/Pods-ArtOfLivingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EE28A861CCEDDC022343B93 /* Pods_SudarshanKriyaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SudarshanKriyaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC94AD5B1B8E40BF002D9AD2 /* SudarshanKriya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudarshanKriya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC94AD5F1B8E40BF002D9AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC94AD601B8E40BF002D9AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +96,7 @@
 		AC94AD751B8E40BF002D9AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC94AD761B8E40BF002D9AD2 /* SnapchatCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatCameraTests.swift; sourceTree = "<group>"; };
 		AC94AD801B8E4174002D9AD2 /* DailyKriya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyKriya.swift; sourceTree = "<group>"; };
+		B63F7810EA3B902F0DB64F38 /* Pods-SudarshanKriyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudarshanKriyaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SudarshanKriyaTests/Pods-SudarshanKriyaTests.release.xcconfig"; sourceTree = "<group>"; };
 		C991D1C41C18A4345F07E2D3 /* Pods-ArtOfLivingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtOfLivingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtOfLivingTests/Pods-ArtOfLivingTests.release.xcconfig"; sourceTree = "<group>"; };
 		E3A37266E5216E181D2FEF72 /* Pods-ArtOfLiving.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtOfLiving.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtOfLiving/Pods-ArtOfLiving.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +108,7 @@
 			files = (
 				1842E9581E4D087800BCDC7A /* SpriteKit.framework in Frameworks */,
 				BD42352C3666A2399F367C69 /* Pods_ArtOfLiving.framework in Frameworks */,
+				A35F7FF0829D2973E6DB89F8 /* Pods_SudarshanKriya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +117,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10435A9579FAF1AE691D0F91 /* Pods_ArtOfLivingTests.framework in Frameworks */,
+				2FC4AE1C8B830FA53CA526B8 /* Pods_SudarshanKriyaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +176,7 @@
 			children = (
 				18A8A4381E25DC1F007668F6 /* StartViewController.swift */,
 				AC94AD801B8E4174002D9AD2 /* DailyKriya.swift */,
+				18869A381E61730B0055D17D /* InfoViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -174,6 +187,8 @@
 				1842E9571E4D087800BCDC7A /* SpriteKit.framework */,
 				33A75391B67C9A5B8F2EE6A8 /* Pods_ArtOfLiving.framework */,
 				702E4A890B931129549B49B2 /* Pods_ArtOfLivingTests.framework */,
+				862C141F07A64D3BBDAA632F /* Pods_SudarshanKriya.framework */,
+				9EE28A861CCEDDC022343B93 /* Pods_SudarshanKriyaTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -249,6 +264,10 @@
 				E3A37266E5216E181D2FEF72 /* Pods-ArtOfLiving.release.xcconfig */,
 				962738B2D306C7CD43248EF5 /* Pods-ArtOfLivingTests.debug.xcconfig */,
 				C991D1C41C18A4345F07E2D3 /* Pods-ArtOfLivingTests.release.xcconfig */,
+				3F6EF70141327D8E1F1D7802 /* Pods-SudarshanKriya.debug.xcconfig */,
+				89B95EFC8DEE00617A752A7F /* Pods-SudarshanKriya.release.xcconfig */,
+				45441DECE8D65D8403E7E311 /* Pods-SudarshanKriyaTests.debug.xcconfig */,
+				B63F7810EA3B902F0DB64F38 /* Pods-SudarshanKriyaTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -266,6 +285,7 @@
 				AC94AD591B8E40BF002D9AD2 /* Resources */,
 				118B21ECDE470184C9C7415E /* [CP] Embed Pods Frameworks */,
 				CE98E1F042220122CFCC7733 /* [CP] Copy Pods Resources */,
+				18578D1F1E5A499F00A82D98 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -427,8 +447,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtOfLiving/Pods-ArtOfLiving-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SudarshanKriya/Pods-SudarshanKriya-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		18578D1F1E5A499F00A82D98 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" effb12f42da19b02fad00e06317d432f1165f131 29276e5d71c25ea4f8788734ca07333fc15fe1421582364e6c190a54dffad747";
 		};
 		BA5FF370F17BF724BE4C1918 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -442,7 +475,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtOfLivingTests/Pods-ArtOfLivingTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SudarshanKriyaTests/Pods-SudarshanKriyaTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CE98E1F042220122CFCC7733 /* [CP] Copy Pods Resources */ = {
@@ -457,7 +490,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtOfLiving/Pods-ArtOfLiving-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SudarshanKriya/Pods-SudarshanKriya-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DDEB1F7C1F154CB88C3D8D9B /* [CP] Embed Pods Frameworks */ = {
@@ -472,7 +505,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtOfLivingTests/Pods-ArtOfLivingTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SudarshanKriyaTests/Pods-SudarshanKriyaTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -486,6 +519,7 @@
 				18A8A4391E25DC1F007668F6 /* StartViewController.swift in Sources */,
 				18BDC2011E50701500CD109D /* KriyScene.swift in Sources */,
 				AC94AD821B8E4174002D9AD2 /* DailyKriya.swift in Sources */,
+				18869A391E61730B0055D17D /* InfoViewController.swift in Sources */,
 				AC94AD611B8E40BF002D9AD2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,7 +647,7 @@
 		};
 		AC94AD7B1B8E40BF002D9AD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43CB27059945645F3C7C49AA /* Pods-ArtOfLiving.debug.xcconfig */;
+			baseConfigurationReference = 3F6EF70141327D8E1F1D7802 /* Pods-SudarshanKriya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SudarshanKriya.entitlements;
@@ -632,7 +666,7 @@
 		};
 		AC94AD7C1B8E40BF002D9AD2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3A37266E5216E181D2FEF72 /* Pods-ArtOfLiving.release.xcconfig */;
+			baseConfigurationReference = 89B95EFC8DEE00617A752A7F /* Pods-SudarshanKriya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SudarshanKriya.entitlements;
@@ -651,7 +685,7 @@
 		};
 		AC94AD7E1B8E40BF002D9AD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 962738B2D306C7CD43248EF5 /* Pods-ArtOfLivingTests.debug.xcconfig */;
+			baseConfigurationReference = 45441DECE8D65D8403E7E311 /* Pods-SudarshanKriyaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -674,7 +708,7 @@
 		};
 		AC94AD7F1B8E40BF002D9AD2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C991D1C41C18A4345F07E2D3 /* Pods-ArtOfLivingTests.release.xcconfig */;
+			baseConfigurationReference = B63F7810EA3B902F0DB64F38 /* Pods-SudarshanKriyaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = P4D3655X78;

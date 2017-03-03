@@ -1,3 +1,3 @@
 #!/bin/sh
-"${SRCROOT}/Pods/Target Support Files/Pods-ArtOfLiving/Pods-ArtOfLiving-frameworks.sh"
+"${SRCROOT}/Pods/Target Support Files/Pods-SudarshanKriya/Pods-SudarshanKriya-frameworks.sh"
 
