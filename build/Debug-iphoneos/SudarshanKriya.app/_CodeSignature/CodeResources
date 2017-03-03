@@ -92,7 +92,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zvcvKxhHSfStJpSiQNeyRcPPTk0=
+			gyzO1EL2rOHgjQ4QcLdOW2/UEMM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -101,7 +101,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D7A79WTIkcICIkGMIAL+YCxr6uo=
+			YgE5ZhV7qk4tl9nNQPM5NEbZk1o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Apg-zh-l0D-view-s4A-HT-yU3.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rgfKWqcMEu+IcF6UZDKqQ9lYUfI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -110,7 +119,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RnAySjHZCCYQjiTQRwpZUyra2kg=
+			xNMMtO7+CRyxJsfwpS+ssjMWbCQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -119,7 +128,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TeNiOiKXKvALzn5Mdt6zzwyR5vU=
+			paWl/V1d3gP0OjGgS+NDvYPx74Y=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-Apg-zh-l0D.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+Ylnhd89+YMLPiZO0g+EnMEEUCE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -128,7 +146,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1+bwEKg9pu/8u6hmDV8mcVGoznE=
+			k+hrfSX8x9VNQLRozRct6SX8z4I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -137,7 +155,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wvyUfIC8jqvh9ml9CYp3VJDw/XM=
+			vi+lLhDiMjHzlojMVn2r8vM5Pio=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -152,7 +170,7 @@
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac</key>
 		<data>
-		s12WztfNFeThp4yoKC02mcGxCzM=
+		t9EdFKxnkHKMCUmRD3mrOKtpXpY=
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
 		<data>
@@ -236,7 +254,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PYqeOderc2S9ZzBnOYDWroS9FpQ=
+		pqIell9VKk5GTafPbZRePrnPNJY=
 		</data>
 		<key>Kriya.png</key>
 		<data>
@@ -552,11 +570,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zvcvKxhHSfStJpSiQNeyRcPPTk0=
+			gyzO1EL2rOHgjQ4QcLdOW2/UEMM=
 			</data>
 			<key>hash2</key>
 			<data>
-			sQEkvGmYkDnG0jbnPiGPsQh9QpRCXI5UgIRTSPcmuOo=
+			lNftvpEPEpbZuyZ/guZ/Mj2GdJcGacuBe6emVsM6Cis=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -565,11 +583,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D7A79WTIkcICIkGMIAL+YCxr6uo=
+			YgE5ZhV7qk4tl9nNQPM5NEbZk1o=
 			</data>
 			<key>hash2</key>
 			<data>
-			gQQcThWCLggoY0lNJKaHxtWLjD1mPw1aT/5J4WcMuc4=
+			LsE2F+6Ya8CRFUl7X0L9y7si0zaHYLtfNTwgvqX9ilE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Apg-zh-l0D-view-s4A-HT-yU3.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rgfKWqcMEu+IcF6UZDKqQ9lYUfI=
+			</data>
+			<key>hash2</key>
+			<data>
+			LFfnP4xVkLa8LEV1Po+BgIoa9MrG30eCk+M2BRX6Trs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -578,11 +609,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RnAySjHZCCYQjiTQRwpZUyra2kg=
+			xNMMtO7+CRyxJsfwpS+ssjMWbCQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Oi5xFKFS27FjXiocDEotprY7exYsCJoa6GDLINpSVRo=
+			DGE9xW4qurVkNpk+xM8AJOEitYWwnq59TynjW5FvL+E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -591,11 +622,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TeNiOiKXKvALzn5Mdt6zzwyR5vU=
+			paWl/V1d3gP0OjGgS+NDvYPx74Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			NLTq8M/MJPpWgIflzvd/TVpyri84DpXS6BWn7jx1zo8=
+			fCcnPjz2D/zizh6cpwxCUax1UbsHhBdiIRFUHbm8IvA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-Apg-zh-l0D.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+Ylnhd89+YMLPiZO0g+EnMEEUCE=
+			</data>
+			<key>hash2</key>
+			<data>
+			ISy6mm+nxZUhNhnuGnvNs/9i4Nkxf11ETSvWQr2DZ0g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -604,11 +648,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1+bwEKg9pu/8u6hmDV8mcVGoznE=
+			k+hrfSX8x9VNQLRozRct6SX8z4I=
 			</data>
 			<key>hash2</key>
 			<data>
-			DpmgQaCN2IFPOCInyNaE7rluxxop5/vNzc12EXXqkYU=
+			cjaEjL9F77YBA1a2tdnfTiMDH4lCqJP+cztqdSO2SW8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -617,11 +661,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wvyUfIC8jqvh9ml9CYp3VJDw/XM=
+			vi+lLhDiMjHzlojMVn2r8vM5Pio=
 			</data>
 			<key>hash2</key>
 			<data>
-			jrwYfTsUFwve/uONMQVzgnsI7cvqSYPDs1KKYJHGV8M=
+			Ia+tQu9jh9/g7Ir+eSxYQGzccZDb6zZouHa9tZ1lCno=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -652,11 +696,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s12WztfNFeThp4yoKC02mcGxCzM=
+			t9EdFKxnkHKMCUmRD3mrOKtpXpY=
 			</data>
 			<key>hash2</key>
 			<data>
-			w/ja956LYMh9azQnMQ2GYB0/cJCgI9X4UwkKDP74hfk=
+			RuvzM6Eu1lx89x4jU3k9hgJp+Y6kLlEEE4wF5BtxnWY=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>

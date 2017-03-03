@@ -162,7 +162,7 @@ SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
 @property (nonatomic, readonly, strong) UIColor * _Nonnull highlightColor;
 @property (nonatomic, readonly, strong) UIColor * _Nonnull clearColor;
 @property (nonatomic, strong) KriyScene * _Nullable Kriy;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified playButton;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified infoButton;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified counter;
 @property (nonatomic, weak) IBOutlet SKView * _Null_unspecified animationView;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageView;
@@ -171,7 +171,6 @@ SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified circleThree;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameText;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified timerText;
-- (IBAction)pause:(id _Nonnull)sender;
 - (void)viewDidLoad;
 - (void)makeList;
 - (NSURL * _Nonnull)getURLWithString:(NSString * _Nonnull)string;
@@ -192,6 +191,15 @@ SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
 - (void)restCounter;
 - (void)sendFirUpdate;
 - (NSString * _Nonnull)stringDate;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC14SudarshanKriya18InfoViewController")
+@interface InfoViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified XButton;
+- (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

@@ -6,26 +6,26 @@ provides-nominal:
 provides-member:
 - ["C14SudarshanKriya11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillResignActive"
-- "application"
 - "applicationDidEnterBackground"
+- "applicationWillResignActive"
 - "applicationWillEnterForeground"
 - "window"
 - "applicationDidBecomeActive"
+- "application"
 - "applicationWillTerminate"
 depends-top-level:
-- !private "Crashlytics"
-- !private "Fabric"
-- "UIApplicationLaunchOptionsKey"
-- "AppDelegate"
-- "Bool"
+- "UIResponder"
+- "UIWindow"
 - "UIApplication"
 - "UIApplicationDelegate"
-- "UIWindow"
-- "UIResponder"
-- !private "FIRApp"
+- "Bool"
+- "AppDelegate"
 - !private "Array"
+- "UIApplicationLaunchOptionsKey"
 - !private "BooleanLiteralType"
+- !private "Fabric"
+- !private "Crashlytics"
+- !private "FIRApp"
 depends-member:
 - !private ["Ps9AnyObject", "Crashlytics"]
 - !private ["Ps9AnyObject", "FIRApp"]
