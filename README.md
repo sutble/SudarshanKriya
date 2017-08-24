@@ -4,7 +4,7 @@ This app is intended as a supplement for the popular Sudarshan Kriya Meditation 
 
 This app was successful when released on the app store, garnering close to 600 downloads with zero promotional advertising. 
 
-
+![Alt text](https://user-images.githubusercontent.com/10662653/29692019-b8d5acde-88e2-11e7-8289-d0348fb93c0b.png  "Itunes Connect")
 
 It guided users through a series of timed bells to let them know when to breathe in and out, as well as an animated figure to guide the hand movements. 
 
