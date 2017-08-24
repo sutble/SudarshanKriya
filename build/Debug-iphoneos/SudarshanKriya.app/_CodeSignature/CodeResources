@@ -74,7 +74,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		CjiP/IkZZTAgUmPI6tq3iYEc280=
+		SMFDcDa4IUHDuCq0nGopDBmeoo8=
 		</data>
 		<key>Aum.png</key>
 		<data>
@@ -92,7 +92,25 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gyzO1EL2rOHgjQ4QcLdOW2/UEMM=
+			aaxKfnBFwf3K1LAbh1OM5QFa3HM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/04w-Ld-Qj2-view-fHV-U5-58W.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tGSIc7d9riMuKJZfjNgX/kJrKZ0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/0dJ-Ty-z3Q-view-fMo-Tf-AuF.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BBP2CK/HbWhlZx5djtfYbp4D6oM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -101,7 +119,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YgE5ZhV7qk4tl9nNQPM5NEbZk1o=
+			1F4hdE0uN/9lwMuMIJSLLbS4Cko=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/9Wg-7e-SzS-view-ghI-Zk-09j.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xMjND75qVDuJzUTGlIEHVi/Rx+c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -110,7 +137,34 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rgfKWqcMEu+IcF6UZDKqQ9lYUfI=
+			JLG54R0TgIr+TZrXhciK8jYlZ4I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Aum.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7ZhrKQ/KglQnr7pB1oJHMIGaioo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Bhastrika.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lXWvhL2Ow6K9/DTO8HWUXuvhXss=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Finish.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vcV8nIEVFXVkbt4MZWWvAKQ4d3s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -119,7 +173,52 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xNMMtO7+CRyxJsfwpS+ssjMWbCQ=
+			cFsi8oMQIDbYPFg0513snUSyCfk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/OnboardingViewController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			By5E5iwRbWTsXeDoomrxVPiVn+o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/QdA-xR-jvl-view-3cv-7F-v6p.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mH00uqEBCwwc0njV0Z2ociWwsHY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Rest.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c0vdkv4hxcn52chJaSY65mHMcgY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/ShT-tp-Z9Q-view-1pP-cb-K9h.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Xxmff3AkGYSaHkyhIsMc3HOC4XM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Soham.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y+b6RBrJFtCt5gjnUpT7GcfWJH8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -128,7 +227,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			paWl/V1d3gP0OjGgS+NDvYPx74Y=
+			kT4T137SyeGB+t4Qvv8AWEYXwO4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -137,7 +236,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+Ylnhd89+YMLPiZO0g+EnMEEUCE=
+			4D7v9Pyfp3BWulGviYCRRqAkSbc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -146,7 +245,34 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k+hrfSX8x9VNQLRozRct6SX8z4I=
+			f0PY22H8MLQZQ/rD9ZB5Sh1SH60=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Ujayi.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DVxzxJxkb0hpge9Bfxu5auS/GiI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Welcome.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q38Kjs1oB5wmCQilil+gSZorvWU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/ZYD-50-DjH-view-xCK-vd-n17.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TqTRa4H1mv141u7MGGkP+XwBDJE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -155,7 +281,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vi+lLhDiMjHzlojMVn2r8vM5Pio=
+			Cl9E76AJzep3o5q/7b+DmEsDNcQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/z6T-Na-MaZ-view-lJq-I2-bLc.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b7sU3MGd8+7Y5qgU9+A5JwKvmIA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -170,83 +305,87 @@
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac</key>
 		<data>
-		t9EdFKxnkHKMCUmRD3mrOKtpXpY=
+		zt2btLVRbZIgIg/E+27aey3TcEM=
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
 		<data>
-		mcNJNWTY6tF6i1FhIUTU0D3RCSE=
+		68TjPytGcOrgyLo/T1GsnaRyYP0=
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources</key>
 		<data>
-		EztB/lnuzx023NJIRvpzoJn02Fc=
+		SyZBccIM09rXoqotV9ic8uOAKqY=
 		</data>
 		<key>Frameworks/libswiftAVFoundation.dylib</key>
 		<data>
-		MT4j54CKVaW2dOMyRU2b9yHpiOc=
+		O0WfS+vyi2TXufZWPECvfvxxTQk=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		K5b48kW2CAqtzydJwRVm4NeFdMo=
+		bko7da7LaxCfU+sT1+19s7j4Yak=
 		</data>
 		<key>Frameworks/libswiftCoreAudio.dylib</key>
 		<data>
-		615d09bXEL1cPU18IVSByFAFcug=
+		+gQC8Wm9LSoSJXd8Fke3Fzdecqo=
 		</data>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		6TEDJNAGBbSKfJg0g1MaG4VCOdU=
+		MF5peSMR4c+4THomHPhV57NW2gg=
 		</data>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
-		3yxLqDWXlFsUE1JgfIUMV0atZgU=
+		v1J8F3jV6FuY7i1Fa4vo3WTEOgo=
 		</data>
 		<key>Frameworks/libswiftCoreMedia.dylib</key>
 		<data>
-		LcZKp8m+W3EN6inIGbuGTXKORGI=
+		qQKs53xJZB3gLmO7o3A993cUNUs=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		zcz58U8kgCFFGx0EVurHbC5UK/s=
+		5R+Yfbi9EjQlZCI/rSpSTHG7AlA=
 		</data>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		EaT+b0h9hY/RVCtGtvuzaNZ2AJo=
+		E5mCdDNYtE1gdJvube6ciK7TwKE=
 		</data>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		x6o+kpv66ThtyV/Gx0dnydIRE04=
+		OjnLEiwnuC2vNb7JKFCfF5t55eU=
 		</data>
 		<key>Frameworks/libswiftGLKit.dylib</key>
 		<data>
-		VezeVCE8zRS9h75txwllb8zs9KE=
+		XnD32TJMCSx6eqD9laJlJHdC5lI=
 		</data>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		Sx7Bby6IuPc5O31ezXEylG4d/E4=
+		/08c7s10XywuTtYcY/IqleFazwU=
+		</data>
+		<key>Frameworks/libswiftQuartzCore.dylib</key>
+		<data>
+		lHm7j/PD6X1TWbgNk4kvH2hE8lo=
 		</data>
 		<key>Frameworks/libswiftSceneKit.dylib</key>
 		<data>
-		KAQQ2f3tWOGZRPy34VgPQ6SDnYk=
+		h4XIHN0hhUWXvH4p9w0O1O0wbqE=
 		</data>
 		<key>Frameworks/libswiftSpriteKit.dylib</key>
 		<data>
-		uzKPcJFpL8Ol1b1kO8yovexQAxE=
+		DLRBF4W4AJgAcKYpCQ6QPLcP39I=
 		</data>
 		<key>Frameworks/libswiftSwiftOnoneSupport.dylib</key>
 		<data>
-		cPrQQTJygUgvQXcoOyxayMOIlu8=
+		YbKNwNJZT9bzGauvXaSWo+f8Uqw=
 		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		guPhaRgRbsdCBREECcfFz22OKa0=
+		mw21/bnEcylv5H69Dm1v3hVgjuE=
 		</data>
 		<key>Frameworks/libswiftos.dylib</key>
 		<data>
-		piAEB4tt0SvXF5R0FSdex6N3YVE=
+		02Z0Kfav2BzRT7nEiCU08FkuI3o=
 		</data>
 		<key>Frameworks/libswiftsimd.dylib</key>
 		<data>
-		pAaVRstwoUF+qMR026HuRqG+1lo=
+		h0gVVh/FWY5gfDPWS+vd5jLOeYI=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -254,11 +393,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pqIell9VKk5GTafPbZRePrnPNJY=
+		zZr00j8cJgYtK4xoZIeVWSkNh/U=
 		</data>
 		<key>Kriya.png</key>
 		<data>
 		Wyj0AMQyGj4eWFdy1H1+u7cgm6g=
+		</data>
+		<key>Outstretched.png</key>
+		<data>
+		3RAqlcaAlUiGkMX31RqmGi5ctok=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -300,37 +443,577 @@
 		<data>
 		8wLjYshCMHIQ4s7aPGcwg0sBCWc=
 		</data>
+		<key>dummy.atlasc/dummy.1.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.10.png</key>
+		<data>
+		Sp0S/UJrB8J4J2fKZy/IrTvvyUQ=
+		</data>
+		<key>dummy.atlasc/dummy.11.png</key>
+		<data>
+		xqOptn/n9MDoOni4er2batIUYYs=
+		</data>
+		<key>dummy.atlasc/dummy.12.png</key>
+		<data>
+		4+KHYmnzrf+yTxuKn+S5kYaa8pE=
+		</data>
+		<key>dummy.atlasc/dummy.13.png</key>
+		<data>
+		OGvux2UpjK5Utg3qVDEQHrjj1vM=
+		</data>
+		<key>dummy.atlasc/dummy.14.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.15.png</key>
+		<data>
+		pb0RBdJ5C3YhYQgxf5JgCUKqRFw=
+		</data>
+		<key>dummy.atlasc/dummy.16.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.17.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.18.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.19.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.2.png</key>
+		<data>
+		Q1mYRbVER7MO0MytFzo6v4NYyBU=
+		</data>
+		<key>dummy.atlasc/dummy.20.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.21.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.22.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.23.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.24.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.25.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.26.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.27.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.28.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.29.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.3.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.30.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.31.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.32.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.33.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.34.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.35.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.36.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.37.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.38.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.39.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.4.png</key>
+		<data>
+		BZQNVvFC7+BCe7wH//XYnORM/X4=
+		</data>
+		<key>dummy.atlasc/dummy.40.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.41.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.42.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.43.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.44.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.45.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.46.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.47.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.48.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.49.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.5.png</key>
+		<data>
+		KdkzQv+Fb2HUn4SiQXNBCvxGIyk=
+		</data>
+		<key>dummy.atlasc/dummy.50.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.51.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.52.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.53.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.54.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.55.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.56.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.57.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.58.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.59.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.6.png</key>
+		<data>
+		ZGBxAs4BzRKcffhnsAn6nfMxBM8=
+		</data>
+		<key>dummy.atlasc/dummy.60.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.61.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.62.png</key>
+		<data>
+		8FjCruXmXw+WZRIAB0gtM6xdVAw=
+		</data>
+		<key>dummy.atlasc/dummy.63.png</key>
+		<data>
+		I6l8UzKZsphazbKP68mtn4mJK9c=
+		</data>
+		<key>dummy.atlasc/dummy.7.png</key>
+		<data>
+		IByJYURMoX2uSaNC+w90yxBesVg=
+		</data>
+		<key>dummy.atlasc/dummy.8.png</key>
+		<data>
+		FZ9/fTEhEKdFMyny4Q0soF532TQ=
+		</data>
+		<key>dummy.atlasc/dummy.9.png</key>
+		<data>
+		k9iI8NAYzlGyXKNdEQQpbXvc7R0=
+		</data>
+		<key>dummy.atlasc/dummy.plist</key>
+		<data>
+		MAAzsDb6WiIiepZAPnUi6Oc7Bg4=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		16tn08k2/xIAiS0nRcFsV/J44nI=
 		</data>
-		<key>endingSoham.mp3</key>
-		<data>
-		zMRy274a94+OJiWmdQ427bFibZI=
-		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
-		MsIcUqmJN0JaYX6TgW+wYsQpXko=
+		mLrp2x+8MghtTSKcEXuNhKvPh74=
 		</data>
 		<key>restTransition.mp3</key>
 		<data>
 		iGz266QaTrAz+hv5cfDb7LGTCj8=
 		</data>
-		<key>sohamfinal-1.mp3</key>
+		<key>testBhastrika.atlasc/testBhastrika.1.png</key>
 		<data>
-		owsNlVsOWvzG2xoPz3BxtEOY0tY=
+		yFHVQp+hzTqWIvzJoqAx5AzTIAk=
 		</data>
-		<key>sohamfinal.mp3</key>
+		<key>testBhastrika.atlasc/testBhastrika.10.png</key>
 		<data>
-		oYklQlk1m8X9cf1rE9naOTKq2BM=
+		mmOVRBEONz8u30y141bz+RWeEGc=
 		</data>
-		<key>sohamfinal2.mp3</key>
+		<key>testBhastrika.atlasc/testBhastrika.11.png</key>
 		<data>
-		OqpJ+/+GDq8TOags2QLB8SIxMmo=
+		JfMhW3GEOueTZesWMH/L4ywQhLw=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.12.png</key>
+		<data>
+		xEgtCChZTpFqEJR5LdT4fzC+7fk=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.13.png</key>
+		<data>
+		P4eF0kiiUHNTuNKjZ0P/ag+hCQs=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.14.png</key>
+		<data>
+		qEBlgD38NcEJ8astvWVz0JSCglw=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.15.png</key>
+		<data>
+		SJmIgs/35lU3NO6uYLRf+QFUhw4=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.16.png</key>
+		<data>
+		rRuNPJtheEIp7XN07AXEkSezhrU=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.17.png</key>
+		<data>
+		0WJ+Yv88vyA2559ZlHuJQwnbH9k=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.18.png</key>
+		<data>
+		BdMC0QDdO5nUdPiury1WP8P5T+U=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.19.png</key>
+		<data>
+		ScigY2JTe8Jrp/s8++thG0izMoA=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.2.png</key>
+		<data>
+		96rFRRm1DRkjCb7se8pWoyWuHCw=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.20.png</key>
+		<data>
+		y8XxzyDjUgB6sPQThzrIXu7z6T0=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.21.png</key>
+		<data>
+		YF5l6/IVbINd4wTU2ugfcij6qM4=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.22.png</key>
+		<data>
+		MEUfyEq3i6y0gFT81QJHSv0z9hs=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.23.png</key>
+		<data>
+		uxjo1ZYoiw3BrDYeLMdltYnxkP4=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.24.png</key>
+		<data>
+		KzpTRsD2jgNLR3DOdV7jHDKCsxU=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.25.png</key>
+		<data>
+		8q8eUA02KMjk7dChlysfgs3XnlU=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.26.png</key>
+		<data>
+		hkm0GSRWQjrsAo45kyL/5hy+LM4=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.27.png</key>
+		<data>
+		i5GLjOL7ZOzt8R//wKk0Pck6CBk=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.28.png</key>
+		<data>
+		gYYPb/jhrkoMz2ILX/9l93Uk/6Q=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.29.png</key>
+		<data>
+		r4yeJgjiYhju4hS0HHW4jniteDM=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.3.png</key>
+		<data>
+		DvU3oiTzJSv4MpoLSI7K3Xyd5J0=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.30.png</key>
+		<data>
+		2MD61jKRFnyaR0949XXNmF6xB38=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.31.png</key>
+		<data>
+		7rkfWxCw7d+meLiAKJZ/kk++B2k=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.32.png</key>
+		<data>
+		6AEkuGu8UlySjXWk8Pcz1B2+xBU=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.33.png</key>
+		<data>
+		NcAmDd3AztIQIQH1SQ1MFWLzwRU=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.34.png</key>
+		<data>
+		GdCrguJqcC+tFYfzS2kykfl4yLs=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.35.png</key>
+		<data>
+		1nDtGbfKEMvtX/Zl/eLOPQ0lBd8=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.36.png</key>
+		<data>
+		sSwESZROTiDa/wgJ2Bi9MJ+xaug=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.37.png</key>
+		<data>
+		iZUSIx91gBCDJeDwrpJa3KyGuyc=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.38.png</key>
+		<data>
+		SKstfUJxczmAW/yfmn1tVBZ8bKs=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.39.png</key>
+		<data>
+		iIHbBQ5zHyKZVQ+WrcWabzGl6Gw=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.4.png</key>
+		<data>
+		RJ/RekAx2zReu4Tji+rKgFfQk6Y=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.40.png</key>
+		<data>
+		CVQJaFBwzFr3U3rKsqVSCuBEQAA=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.41.png</key>
+		<data>
+		uKyGZUDQrv5+ItlsLjOLd7HoPos=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.42.png</key>
+		<data>
+		2BfzSATCcsLgQT39Aw1WBwyjYAQ=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.43.png</key>
+		<data>
+		WwVtR7AucadasdZlVts6uESrY8A=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.44.png</key>
+		<data>
+		29GFhFqM9xVaBC3DgXa3XYudXek=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.45.png</key>
+		<data>
+		eICC9d/+GyyYa5LgPRgKfj9SEe0=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.46.png</key>
+		<data>
+		BXX0T/udHcRH5/qZ/ql8JzIrdnI=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.47.png</key>
+		<data>
+		uEYU7V0hrukVEVAXGESLUeDU2CI=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.48.png</key>
+		<data>
+		/x4tHYxUs3DmAqWiHZeyJZOHP4U=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.49.png</key>
+		<data>
+		2M0eHNBw5mdcaD/8wTK0gOJ/btk=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.5.png</key>
+		<data>
+		J/xJkCwWf3AJ5yyoP6WlzXXDrbI=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.50.png</key>
+		<data>
+		BQ81bAgDitjnYK97mG3d2RvVz0A=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.51.png</key>
+		<data>
+		Y09G5wccBU7ZHglXDiVmdsklW1w=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.52.png</key>
+		<data>
+		KgwkVYm1NHKGGFWTJ9Rnj/uQzj8=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.53.png</key>
+		<data>
+		8rX6sJjeam7LxQSiSK8pK5Ywad0=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.54.png</key>
+		<data>
+		OkvX7PgLKs6QuPNi6bHZ6QL1Nh4=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.55.png</key>
+		<data>
+		Aa35JaSVJQTZ7mIrwKH+ge8QkLA=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.56.png</key>
+		<data>
+		JPpRyBJurNofG4vthf8G7ENT3Ec=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.57.png</key>
+		<data>
+		sDHlnHSgdYR8WGyROoEMfNUkjGA=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.58.png</key>
+		<data>
+		l4Ety+mxD33AKjMU7BA5TSjbJao=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.59.png</key>
+		<data>
+		E1Kr9ssYjvPlF+/W28RV0tbqkW0=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.6.png</key>
+		<data>
+		632qT+K6MvFyp3b1YiSuUC8sGXY=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.60.png</key>
+		<data>
+		wosOD7Vbb4hyVTuS+rx4/lZZuyI=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.61.png</key>
+		<data>
+		nXARSUbJ7fJ2Fr6Dups6eDI7OHs=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.62.png</key>
+		<data>
+		+l9S/kL+ENr2/oWk2a9nhhJCSSQ=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.63.png</key>
+		<data>
+		eigZmcFmLrieUE+CYAq9P9xcp6I=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.64.png</key>
+		<data>
+		OR4V64MEDWTwrqaDS/WeFbAjRb4=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.65.png</key>
+		<data>
+		puLhg0H711bbe6KX+Z5vsGwudho=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.66.png</key>
+		<data>
+		U/pFr2IQBzAz98W8VqXFfOUOT+I=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.67.png</key>
+		<data>
+		JUXf+GemJXLvsgLk2wstOkiCofg=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.68.png</key>
+		<data>
+		fI3ZaqGPFSrzsetuA8Iq5xYo8Qw=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.69.png</key>
+		<data>
+		BbWkncyB8Nx5ioD9vrjHGzbdZSg=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.7.png</key>
+		<data>
+		QaUcGvOkNe1SdBwLhXc2UfHBLTY=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.70.png</key>
+		<data>
+		JS06tpWFqcmpaXhKOk6psnqvvqE=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.71.png</key>
+		<data>
+		JDU1jfIiUAP2CWumh8pfK4hUvSk=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.72.png</key>
+		<data>
+		ekuMszg60kE999hBDVuZGzG0x8c=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.73.png</key>
+		<data>
+		By8ThVG5k91jQHhpWAzkXLi6nE4=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.8.png</key>
+		<data>
+		uTnR3UBuCf1gcsHB5Ejls3Kl2OU=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.9.png</key>
+		<data>
+		Zr2Aulq5vsV3dwNFY/zSpQRJYqg=
+		</data>
+		<key>testBhastrika.atlasc/testBhastrika.plist</key>
+		<data>
+		uvkT3oNxk6z4RaNjOp7gnrwM18o=
 		</data>
 		<key>transition.mp3</key>
 		<data>
 		OWSxSjlV21oOUTy7vjvkZVF2C/E=
+		</data>
+		<key>xmarks.png</key>
+		<data>
+		WPS9GJp7FwB2yE/OfD701sRrTxw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -526,11 +1209,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CjiP/IkZZTAgUmPI6tq3iYEc280=
+			SMFDcDa4IUHDuCq0nGopDBmeoo8=
 			</data>
 			<key>hash2</key>
 			<data>
-			OXwSJU6DuupkC9orOsfP4l+thdfYzcioJOmWTVVX30o=
+			NA2zXW+Tc8XF4VpolTcpYQe8oQ7pvoROHyVbRaz6PR4=
 			</data>
 		</dict>
 		<key>Aum.png</key>
@@ -570,11 +1253,37 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gyzO1EL2rOHgjQ4QcLdOW2/UEMM=
+			aaxKfnBFwf3K1LAbh1OM5QFa3HM=
 			</data>
 			<key>hash2</key>
 			<data>
-			lNftvpEPEpbZuyZ/guZ/Mj2GdJcGacuBe6emVsM6Cis=
+			ZAuyWSlcVlCECBhBwqvq2hlKLQPX3V2CCROAkUVk4WU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/04w-Ld-Qj2-view-fHV-U5-58W.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tGSIc7d9riMuKJZfjNgX/kJrKZ0=
+			</data>
+			<key>hash2</key>
+			<data>
+			P+NezRo0F+4NTBaxaH0rFIGMKR2seBLKS0ph5OBOogQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/0dJ-Ty-z3Q-view-fMo-Tf-AuF.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BBP2CK/HbWhlZx5djtfYbp4D6oM=
+			</data>
+			<key>hash2</key>
+			<data>
+			9oM4m0tdqIkFDTzlJZOjBXRFV9OtNHew7WC/6ib3iUM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -583,11 +1292,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YgE5ZhV7qk4tl9nNQPM5NEbZk1o=
+			1F4hdE0uN/9lwMuMIJSLLbS4Cko=
 			</data>
 			<key>hash2</key>
 			<data>
-			LsE2F+6Ya8CRFUl7X0L9y7si0zaHYLtfNTwgvqX9ilE=
+			xXfydaMg3Dg92trLaPfi9IzRFNfJRLqrBwq7rIw05bQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/9Wg-7e-SzS-view-ghI-Zk-09j.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xMjND75qVDuJzUTGlIEHVi/Rx+c=
+			</data>
+			<key>hash2</key>
+			<data>
+			OvfuF+RSBdvZpU1I+oQjMb8hnRNXCUQMW04ki9wXAZc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -596,11 +1318,50 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rgfKWqcMEu+IcF6UZDKqQ9lYUfI=
+			JLG54R0TgIr+TZrXhciK8jYlZ4I=
 			</data>
 			<key>hash2</key>
 			<data>
-			LFfnP4xVkLa8LEV1Po+BgIoa9MrG30eCk+M2BRX6Trs=
+			N0ifTrGq99YNyGJ7WmT2i2cYmwqpFb2PiWRuBpy9O10=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Aum.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7ZhrKQ/KglQnr7pB1oJHMIGaioo=
+			</data>
+			<key>hash2</key>
+			<data>
+			Nbxr+Hu225DMH5nwCd8HoCJSu4GGWZhJ/iDuC83o1pU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Bhastrika.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lXWvhL2Ow6K9/DTO8HWUXuvhXss=
+			</data>
+			<key>hash2</key>
+			<data>
+			G0NfBL260nDC2G0T23Ix8x5YYyL0npLCeIvepctziQ0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Finish.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vcV8nIEVFXVkbt4MZWWvAKQ4d3s=
+			</data>
+			<key>hash2</key>
+			<data>
+			mkcKcNyNjDH1Bq91UZoLG7M6Fz1eD4Gx4cM/AVMnn70=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -609,11 +1370,76 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xNMMtO7+CRyxJsfwpS+ssjMWbCQ=
+			cFsi8oMQIDbYPFg0513snUSyCfk=
 			</data>
 			<key>hash2</key>
 			<data>
-			DGE9xW4qurVkNpk+xM8AJOEitYWwnq59TynjW5FvL+E=
+			1cmdNmwORBn4lE6cHQ4Ujfs0/7BFThXI2jRVH9/CvWY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/OnboardingViewController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			By5E5iwRbWTsXeDoomrxVPiVn+o=
+			</data>
+			<key>hash2</key>
+			<data>
+			CaA6Xz0wkpzS6uLuv9bhW2Fv5W3P+tCKtdJ+KRNu6Is=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/QdA-xR-jvl-view-3cv-7F-v6p.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mH00uqEBCwwc0njV0Z2ociWwsHY=
+			</data>
+			<key>hash2</key>
+			<data>
+			aoDFO+AGc+2bvJAqI0NDV5BZzCvzOYHn6FDGPa9l1/Q=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Rest.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c0vdkv4hxcn52chJaSY65mHMcgY=
+			</data>
+			<key>hash2</key>
+			<data>
+			HhXnKQ55U4ZeRdbdMMJOyaCQfQ5znmnRuoIa8ZjAhOs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/ShT-tp-Z9Q-view-1pP-cb-K9h.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Xxmff3AkGYSaHkyhIsMc3HOC4XM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Kx1fc7BbpNaEiGEwfZI5cHpn6pcbbxmzKGmQVfKbvKo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Soham.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y+b6RBrJFtCt5gjnUpT7GcfWJH8=
+			</data>
+			<key>hash2</key>
+			<data>
+			qiuVXurtuLBPBvJof9W5CakQq9RLIl9axVz7K6b/vLU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -622,11 +1448,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			paWl/V1d3gP0OjGgS+NDvYPx74Y=
+			kT4T137SyeGB+t4Qvv8AWEYXwO4=
 			</data>
 			<key>hash2</key>
 			<data>
-			fCcnPjz2D/zizh6cpwxCUax1UbsHhBdiIRFUHbm8IvA=
+			iKlG+FkY2JfuF7Vk9csW0IqvYNqH8bJJ2+l8eDkFinc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -635,11 +1461,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+Ylnhd89+YMLPiZO0g+EnMEEUCE=
+			4D7v9Pyfp3BWulGviYCRRqAkSbc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ISy6mm+nxZUhNhnuGnvNs/9i4Nkxf11ETSvWQr2DZ0g=
+			uG33aVfiCyttHH/zFoIJfcZvJVpHhUbtFSxy6xjhheo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -648,11 +1474,50 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k+hrfSX8x9VNQLRozRct6SX8z4I=
+			f0PY22H8MLQZQ/rD9ZB5Sh1SH60=
 			</data>
 			<key>hash2</key>
 			<data>
-			cjaEjL9F77YBA1a2tdnfTiMDH4lCqJP+cztqdSO2SW8=
+			6xKwkZlKDxq8f/PFjWeBahfpy7lqH0+ByMf3ejqooao=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Ujayi.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DVxzxJxkb0hpge9Bfxu5auS/GiI=
+			</data>
+			<key>hash2</key>
+			<data>
+			++aRonQ8Uhu+T+nPrX+Zs7y4vP1h5+Ab3SPYih1Oz7U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Welcome.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q38Kjs1oB5wmCQilil+gSZorvWU=
+			</data>
+			<key>hash2</key>
+			<data>
+			ELdOXI5toiP5KblpZEaSrCAPVEEig+BCOWpaCPkkI5U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/ZYD-50-DjH-view-xCK-vd-n17.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TqTRa4H1mv141u7MGGkP+XwBDJE=
+			</data>
+			<key>hash2</key>
+			<data>
+			iU8es6Ci1R09PA1fx3678UYGmodAkGwWoPd/N7mDp8I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -661,11 +1526,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vi+lLhDiMjHzlojMVn2r8vM5Pio=
+			Cl9E76AJzep3o5q/7b+DmEsDNcQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ia+tQu9jh9/g7Ir+eSxYQGzccZDb6zZouHa9tZ1lCno=
+			j56SD3oSIpXbV+Tx/pHRac2mdHvKNnCaffkI8/Vkj/Q=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/z6T-Na-MaZ-view-lJq-I2-bLc.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b7sU3MGd8+7Y5qgU9+A5JwKvmIA=
+			</data>
+			<key>hash2</key>
+			<data>
+			9UTwtVzq1IyvLD+zUC+It0xzu6zxKu72483CkY9m3uo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -696,220 +1574,231 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t9EdFKxnkHKMCUmRD3mrOKtpXpY=
+			zt2btLVRbZIgIg/E+27aey3TcEM=
 			</data>
 			<key>hash2</key>
 			<data>
-			RuvzM6Eu1lx89x4jU3k9hgJp+Y6kLlEEE4wF5BtxnWY=
+			AJxiQhJwlDsCjJFjbYI00FyBf3jk01m5GN2DNd7XzuA=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mcNJNWTY6tF6i1FhIUTU0D3RCSE=
+			68TjPytGcOrgyLo/T1GsnaRyYP0=
 			</data>
 			<key>hash2</key>
 			<data>
-			W8Il5T6pE11P9jAKwA6gnY1EfZcDHy/cYJ/3EsXCYmo=
+			hO2CDfNhJznrcNb/WSMyUTh/HgtwteLe9axuMc4ZlfY=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EztB/lnuzx023NJIRvpzoJn02Fc=
+			SyZBccIM09rXoqotV9ic8uOAKqY=
 			</data>
 			<key>hash2</key>
 			<data>
-			qYO6KfohTOIFE3lbMdvdmkiyoTor9jwUViDy1/gUxeU=
+			7RDFo2V1tinVX1GVKF9y8cZJp8g5R7NoGl9DS0UoAZ0=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftAVFoundation.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MT4j54CKVaW2dOMyRU2b9yHpiOc=
+			O0WfS+vyi2TXufZWPECvfvxxTQk=
 			</data>
 			<key>hash2</key>
 			<data>
-			sM1gDfRtJQbpsGiiafJxjoL0jKllcI0tZ9Aj9J4/GIw=
+			MYmF9gVcZDa2uBHWmyzKii+MssH+YuWd7EYLaN2i1IQ=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K5b48kW2CAqtzydJwRVm4NeFdMo=
+			bko7da7LaxCfU+sT1+19s7j4Yak=
 			</data>
 			<key>hash2</key>
 			<data>
-			xTestdx8dNUuusdC9y+FVSERcbnzsQXn//I7IRC4nWU=
+			6vVYyT/FMuvmoCuDu4lrvXZDbuh1tIauh+/YBiPl7GA=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreAudio.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			615d09bXEL1cPU18IVSByFAFcug=
+			+gQC8Wm9LSoSJXd8Fke3Fzdecqo=
 			</data>
 			<key>hash2</key>
 			<data>
-			uiAU45HOhjqOXc5ebed2rJOFGX4TZouwZ3lw2p0gJyw=
+			4TR1CNbDL+1EC90CfGZL1TVDqa31Q2J8owmDMdUgSH0=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6TEDJNAGBbSKfJg0g1MaG4VCOdU=
+			MF5peSMR4c+4THomHPhV57NW2gg=
 			</data>
 			<key>hash2</key>
 			<data>
-			AXAISM17fMzJT6xRjJTzicyLkph+4Dva4uxiaSPZxUo=
+			IJIXBqWkl3QQpqM+UffIdYqyiArhMmKCc1uaCvGTrZQ=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3yxLqDWXlFsUE1JgfIUMV0atZgU=
+			v1J8F3jV6FuY7i1Fa4vo3WTEOgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			IWSbi4eOoJrCEQPaduLm0DIL3/DZld3wXaynlnzc0PU=
+			QlYx0NBOoWhOpLI2LC50NznVED1IfDOa2AGnAdFYRg8=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreMedia.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LcZKp8m+W3EN6inIGbuGTXKORGI=
+			qQKs53xJZB3gLmO7o3A993cUNUs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wc5Gla9Rg+5xvb/9tuwohzfmrjr6LxxhnVoAb4+M50c=
+			7yWyezcFRjSX4P7RCKp9/LAm5k5GzWKswzOH+E0d/eI=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zcz58U8kgCFFGx0EVurHbC5UK/s=
+			5R+Yfbi9EjQlZCI/rSpSTHG7AlA=
 			</data>
 			<key>hash2</key>
 			<data>
-			NuVrCMusv69bMInm7RF5Ya852J0EPdlY8qy7ahz2FPk=
+			Kp8p0gVvMw6G9of2wBsqMuibZObkdr94LOKgsSov4bM=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EaT+b0h9hY/RVCtGtvuzaNZ2AJo=
+			E5mCdDNYtE1gdJvube6ciK7TwKE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ONyb93j2LF9uy+dFYoWFQn4wTOx5ljfDHq9OpLhrnPY=
+			MTsBGX3AX0Bpl1KNSzseKcdeBFzm+mssHUKtcbY724s=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x6o+kpv66ThtyV/Gx0dnydIRE04=
+			OjnLEiwnuC2vNb7JKFCfF5t55eU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gp2srMnez6ScvxY+9An+mxKdQsDu+W5L0m9Y81xwgBc=
+			s4Z/7on+/ciLJSBeIDeMcuOhybO/BMgdZyJH+zbxl1s=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftGLKit.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VezeVCE8zRS9h75txwllb8zs9KE=
+			XnD32TJMCSx6eqD9laJlJHdC5lI=
 			</data>
 			<key>hash2</key>
 			<data>
-			75Kby+JYs94TEJzov8zzur++hD8ZtXEXR9Cyf9RVD30=
+			Wa6kkei8pHPEkluZrNFS9t/ekQwP093jX4bXwYB/cYI=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Sx7Bby6IuPc5O31ezXEylG4d/E4=
+			/08c7s10XywuTtYcY/IqleFazwU=
 			</data>
 			<key>hash2</key>
 			<data>
-			C2gvne/WAon1EN4a2YKx8Tk1SUSEtYFMJlP+3z5cplM=
+			7zDNn6z4ivSAD9mP81jVxEu7uzCJxdEyPE8cAMFOH3o=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftQuartzCore.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lHm7j/PD6X1TWbgNk4kvH2hE8lo=
+			</data>
+			<key>hash2</key>
+			<data>
+			3zdhAapEDRM88mwXJ7VnBWZtrirlQk4GUrpLx89Bt/A=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftSceneKit.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KAQQ2f3tWOGZRPy34VgPQ6SDnYk=
+			h4XIHN0hhUWXvH4p9w0O1O0wbqE=
 			</data>
 			<key>hash2</key>
 			<data>
-			5WijBZz9NKTyLvRZbDWDXfWtyQiIdlhfjpQ79X7AnWM=
+			73wftEAtDK35TSPgJUZPPqt9jnplAD8QMk89MtWMZ9U=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftSpriteKit.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uzKPcJFpL8Ol1b1kO8yovexQAxE=
+			DLRBF4W4AJgAcKYpCQ6QPLcP39I=
 			</data>
 			<key>hash2</key>
 			<data>
-			0wvFHbYCo3taMR+jB7OA+8oI+Jj3PGuAu4AlBrTd/GI=
+			falrY7OxWnmiKLJcVT9dsNgHRfXivq0qxNiGXnt3HlY=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftSwiftOnoneSupport.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cPrQQTJygUgvQXcoOyxayMOIlu8=
+			YbKNwNJZT9bzGauvXaSWo+f8Uqw=
 			</data>
 			<key>hash2</key>
 			<data>
-			QQiejzidrTK2fLN9dK/yxGPukDNR4VHNDRTmJqTf4KU=
+			UOd0KSybidrv6CD7yDC8Hbkbu6CBBxJ38hYsGdi7e8U=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			guPhaRgRbsdCBREECcfFz22OKa0=
+			mw21/bnEcylv5H69Dm1v3hVgjuE=
 			</data>
 			<key>hash2</key>
 			<data>
-			sPqzjtDgLmPf+r1tEOPvhmFj1jGjC/1AgSet4AM8upk=
+			rXhDuIxBaG+Ojfa5CpupZvhvE9ykDe4iZEP/ZUNGLxA=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftos.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			piAEB4tt0SvXF5R0FSdex6N3YVE=
+			02Z0Kfav2BzRT7nEiCU08FkuI3o=
 			</data>
 			<key>hash2</key>
 			<data>
-			P05fW8CbgB5y6xhBCcVOQey+TFROvzk7OaClvP587wI=
+			6GjIkEw2idgXWV4HHe7NpoT1kKMC8yeAlVyyCKS6QEU=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftsimd.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pAaVRstwoUF+qMR026HuRqG+1lo=
+			h0gVVh/FWY5gfDPWS+vd5jLOeYI=
 			</data>
 			<key>hash2</key>
 			<data>
-			5FPeA36tvTlFMODajqZPkpl4PcZs9Kdh6hPUbHuqutE=
+			3105M8LMiQkGHz+/xWLg67PzVEhj9iEzYKa5kdSntKc=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -932,6 +1821,17 @@
 			<key>hash2</key>
 			<data>
 			cnK1N9SCtcmIiEV879DOGkzeqiIx25RyZIomesZgC98=
+			</data>
+		</dict>
+		<key>Outstretched.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3RAqlcaAlUiGkMX31RqmGi5ctok=
+			</data>
+			<key>hash2</key>
+			<data>
+			IMD8rzKnAXzyV+Ohm22/2lL1HbVzxUM6WDFrlAsapok=
 			</data>
 		</dict>
 		<key>Rest.png</key>
@@ -1033,6 +1933,710 @@
 			Ut2LbU0q0pruEFxTpSacQwXKmE2ziZk8vzo1CFxBk0A=
 			</data>
 		</dict>
+		<key>dummy.atlasc/dummy.1.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.10.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Sp0S/UJrB8J4J2fKZy/IrTvvyUQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			kLRaeTu7YAPRm84Ee57gdPDkTi2+aym8huqHKCUynFQ=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.11.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xqOptn/n9MDoOni4er2batIUYYs=
+			</data>
+			<key>hash2</key>
+			<data>
+			5/pRf1++SKjj2reUtnsEP3rgd8C12UPr6kNQ4VHS0ME=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.12.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4+KHYmnzrf+yTxuKn+S5kYaa8pE=
+			</data>
+			<key>hash2</key>
+			<data>
+			wtnWqwuhQxObkrUoqaNl9AmaN1+tdGj5QuPTzMYI4Fk=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.13.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OGvux2UpjK5Utg3qVDEQHrjj1vM=
+			</data>
+			<key>hash2</key>
+			<data>
+			d70DnYacZ46ONKtxtf3I3s9lz6Fpm3uEH8wUSMxuftQ=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.14.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.15.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pb0RBdJ5C3YhYQgxf5JgCUKqRFw=
+			</data>
+			<key>hash2</key>
+			<data>
+			qSRjqmqkKfNsSKbFUYFzX/h5n70VowVY7BzSmLoJHkI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.16.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.17.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.18.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.19.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.2.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q1mYRbVER7MO0MytFzo6v4NYyBU=
+			</data>
+			<key>hash2</key>
+			<data>
+			gQRk8JNgTPu8vgcSeL/4TPfAOGyhTgCgXM0NOgZ9hJw=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.20.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.21.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.22.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.23.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.24.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.25.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.26.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.27.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.28.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.29.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.3.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.30.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.31.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.32.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.33.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.34.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.35.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.36.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.37.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.38.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.39.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.4.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BZQNVvFC7+BCe7wH//XYnORM/X4=
+			</data>
+			<key>hash2</key>
+			<data>
+			lRZeJ7G9EpYQiPW9EXypuJwMGmJFrD+mPXwp8+5HJaw=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.40.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.41.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.42.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.43.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.44.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.45.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.46.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.47.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.48.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.49.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.5.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KdkzQv+Fb2HUn4SiQXNBCvxGIyk=
+			</data>
+			<key>hash2</key>
+			<data>
+			e2qzYULI3X4kv0vRqGFbZLD6nuzChn8N2NQtkIof8hs=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.50.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.51.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.52.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.53.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.54.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.55.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.56.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.57.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.58.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.59.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.6.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZGBxAs4BzRKcffhnsAn6nfMxBM8=
+			</data>
+			<key>hash2</key>
+			<data>
+			LsNLevLp/EMCVhOYnEqksJuqcxgWRVbIAmCsqqJIOis=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.60.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.61.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.62.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8FjCruXmXw+WZRIAB0gtM6xdVAw=
+			</data>
+			<key>hash2</key>
+			<data>
+			5zLVnO/NXqHf2lYUlBzRe9+b5/O2beI4pvx6ePbyxiI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.63.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I6l8UzKZsphazbKP68mtn4mJK9c=
+			</data>
+			<key>hash2</key>
+			<data>
+			5Y02ZPJ62DeQBwe/drMjBTYqci5FJEUHy5auqIyfIl8=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.7.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IByJYURMoX2uSaNC+w90yxBesVg=
+			</data>
+			<key>hash2</key>
+			<data>
+			zROmV2O36MTx8SbYfGyQ4hA5dZOz2+MkMnhQVFDi810=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.8.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FZ9/fTEhEKdFMyny4Q0soF532TQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			KWaF8twbWXUTSxCIn3Gbm0W52r6fAg7wMBP4BasJGJI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.9.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k9iI8NAYzlGyXKNdEQQpbXvc7R0=
+			</data>
+			<key>hash2</key>
+			<data>
+			GBe++17p7s57bzpBx9Xs7UePJ2xUPEVRtULWK09erzI=
+			</data>
+		</dict>
+		<key>dummy.atlasc/dummy.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MAAzsDb6WiIiepZAPnUi6Oc7Bg4=
+			</data>
+			<key>hash2</key>
+			<data>
+			1lU0bnb292cC4vGWtQ6wjzD8u/zsYGlniHxj9qu1HkI=
+			</data>
+		</dict>
 		<key>embedded.mobileprovision</key>
 		<dict>
 			<key>hash</key>
@@ -1044,26 +2648,15 @@
 			85gVG3lJJgSb0MU3qk8C18+Rnt9Y+LkerShUdXsTPMo=
 			</data>
 		</dict>
-		<key>endingSoham.mp3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zMRy274a94+OJiWmdQ427bFibZI=
-			</data>
-			<key>hash2</key>
-			<data>
-			eO3oB5y8ntPMq7MYIu597DOnfM4jpzGXeZOKWGUKYKM=
-			</data>
-		</dict>
 		<key>libswiftRemoteMirror.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MsIcUqmJN0JaYX6TgW+wYsQpXko=
+			mLrp2x+8MghtTSKcEXuNhKvPh74=
 			</data>
 			<key>hash2</key>
 			<data>
-			dzXjnO4rfJVgZgswQFCsduPEuiT5n/MQYW9SacYWGKI=
+			Go03DiejVy4I0hbMBt6BXhrfUSjAaUplborBU6pqECg=
 			</data>
 		</dict>
 		<key>restTransition.mp3</key>
@@ -1077,37 +2670,818 @@
 			8aaQdb2TOjYMrcGXFKIcMYMzQBOhzzzKp++GQ30nPIo=
 			</data>
 		</dict>
-		<key>sohamfinal-1.mp3</key>
+		<key>testBhastrika.atlasc/testBhastrika.1.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			owsNlVsOWvzG2xoPz3BxtEOY0tY=
+			yFHVQp+hzTqWIvzJoqAx5AzTIAk=
 			</data>
 			<key>hash2</key>
 			<data>
-			6wgqWWIQ2a323y9/kiewQ/KoFgpsJAe8duFhMfl79zQ=
+			p48JhJ1bff6FLyxbEEVjroTFRPYOWu7k9VBIQmV2wsc=
 			</data>
 		</dict>
-		<key>sohamfinal.mp3</key>
+		<key>testBhastrika.atlasc/testBhastrika.10.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oYklQlk1m8X9cf1rE9naOTKq2BM=
+			mmOVRBEONz8u30y141bz+RWeEGc=
 			</data>
 			<key>hash2</key>
 			<data>
-			qtLwhAcq+7UxsHVEVYogNqVU18UOCaoFb5wvQTu3BWg=
+			H03gApmaDtMU2yM+x95Vi916Is6MkjDn3ayftp25/2s=
 			</data>
 		</dict>
-		<key>sohamfinal2.mp3</key>
+		<key>testBhastrika.atlasc/testBhastrika.11.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OqpJ+/+GDq8TOags2QLB8SIxMmo=
+			JfMhW3GEOueTZesWMH/L4ywQhLw=
 			</data>
 			<key>hash2</key>
 			<data>
-			bJfSYxD8pl6Q9R/nvqC2eNik/f0/eBXLwUNxKEMkOl4=
+			ch/pO7Q36oHPV8k72hoy51vxOEpgsgB/7XVmb8ZulA4=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.12.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xEgtCChZTpFqEJR5LdT4fzC+7fk=
+			</data>
+			<key>hash2</key>
+			<data>
+			2cJIqhi4ua92rLtfVMcTtR1VwSbvEWlFmZxNN7lFcQI=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.13.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P4eF0kiiUHNTuNKjZ0P/ag+hCQs=
+			</data>
+			<key>hash2</key>
+			<data>
+			jXjvzYrO4f9ylQaAk5TJE7c0VWWQezbavM4gLymFRW4=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.14.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qEBlgD38NcEJ8astvWVz0JSCglw=
+			</data>
+			<key>hash2</key>
+			<data>
+			V9TxkUhZfQgwJaz1twVobwOMx3UbZmLXc2oyTIjzkdI=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.15.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SJmIgs/35lU3NO6uYLRf+QFUhw4=
+			</data>
+			<key>hash2</key>
+			<data>
+			W75xjMRETIz3+nYoUL5TVM9ZQq+NJehEVAcX/D6IKHU=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.16.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rRuNPJtheEIp7XN07AXEkSezhrU=
+			</data>
+			<key>hash2</key>
+			<data>
+			ns2DZCWm4a7conD29/g0b+p8tBvdvpiEb4LlmSjEkN0=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.17.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0WJ+Yv88vyA2559ZlHuJQwnbH9k=
+			</data>
+			<key>hash2</key>
+			<data>
+			F6LOBBFTK8CLuGfw2XBVtEfR34oM45D/FFLERwbC+Vg=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.18.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BdMC0QDdO5nUdPiury1WP8P5T+U=
+			</data>
+			<key>hash2</key>
+			<data>
+			HbQ8uDJK5xn1SJWiVYRoJApGm4IcDDmDyBZbWTM5O5c=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.19.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ScigY2JTe8Jrp/s8++thG0izMoA=
+			</data>
+			<key>hash2</key>
+			<data>
+			dgfMiI7UCguyEI8gZZRD8m+qY1TxvAClt+eqVvI/lxg=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.2.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			96rFRRm1DRkjCb7se8pWoyWuHCw=
+			</data>
+			<key>hash2</key>
+			<data>
+			7Xml5JyqmzBy/RwxrZSKLEZEJHZm5ozKUwwqdnPgO5g=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.20.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y8XxzyDjUgB6sPQThzrIXu7z6T0=
+			</data>
+			<key>hash2</key>
+			<data>
+			CMvF+kc/9qJHtsyF+sTEsf+3WTwZi4QPmRTdQj3hN+c=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.21.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YF5l6/IVbINd4wTU2ugfcij6qM4=
+			</data>
+			<key>hash2</key>
+			<data>
+			+jX8e6g7W3Ao/5mbta1praj03gwRp0MoICswKPuNz4o=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.22.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MEUfyEq3i6y0gFT81QJHSv0z9hs=
+			</data>
+			<key>hash2</key>
+			<data>
+			qnCi6OAQZTpX4SLephFsjMJJD37LR9kqcHKitkXhpOE=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.23.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uxjo1ZYoiw3BrDYeLMdltYnxkP4=
+			</data>
+			<key>hash2</key>
+			<data>
+			PZxbw1rZ/CikGgz2L91n00tWnv7wPC35NzPmERZqAbY=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.24.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KzpTRsD2jgNLR3DOdV7jHDKCsxU=
+			</data>
+			<key>hash2</key>
+			<data>
+			ejjtuH++ov+dPUW1SfTFDmtmKoO76NukPWIsMZ7h9lw=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.25.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8q8eUA02KMjk7dChlysfgs3XnlU=
+			</data>
+			<key>hash2</key>
+			<data>
+			uO0LNXGx1ZEQElfn0Nxr1J0rXG2g8kF5kJpX7FeAYeg=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.26.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hkm0GSRWQjrsAo45kyL/5hy+LM4=
+			</data>
+			<key>hash2</key>
+			<data>
+			L2pc9EfxIE6nMPRdzDv3Nr3HflvPuGnzvGm9YAljzrc=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.27.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i5GLjOL7ZOzt8R//wKk0Pck6CBk=
+			</data>
+			<key>hash2</key>
+			<data>
+			t/h3q+Xvm13s1d5Pku3W5HO3Je/KX86Ji0euXA6pqsw=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.28.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gYYPb/jhrkoMz2ILX/9l93Uk/6Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			KG5NUPb5QAkHdVMJBPCCGCS1RXZ+8IOdtsblm5gC658=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.29.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			r4yeJgjiYhju4hS0HHW4jniteDM=
+			</data>
+			<key>hash2</key>
+			<data>
+			oyjIJnX3CYeyfongKhUNBFvMifH2mUvwzEb96M10T8M=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.3.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DvU3oiTzJSv4MpoLSI7K3Xyd5J0=
+			</data>
+			<key>hash2</key>
+			<data>
+			hYQylxJnFuretL3Oj5zWsLyzWT0RXa0T91KJM+l3dGc=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.30.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2MD61jKRFnyaR0949XXNmF6xB38=
+			</data>
+			<key>hash2</key>
+			<data>
+			dOztg64jTP+/h3djd2E5103rRP5Gidmqf/TIjTnVf+M=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.31.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7rkfWxCw7d+meLiAKJZ/kk++B2k=
+			</data>
+			<key>hash2</key>
+			<data>
+			GvLNYGTCNYUotDnP63FHEdcqXUtrV6g01wgMw/vYv8E=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.32.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6AEkuGu8UlySjXWk8Pcz1B2+xBU=
+			</data>
+			<key>hash2</key>
+			<data>
+			P0pdT5M9ODrOqcXBPXH5E7iHfBvHoBMWbI44oQDB+mY=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.33.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NcAmDd3AztIQIQH1SQ1MFWLzwRU=
+			</data>
+			<key>hash2</key>
+			<data>
+			oC4qrgA4Jf0dyFAPlv53eBKG8GTPZtFKk1zq/jhNytk=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.34.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GdCrguJqcC+tFYfzS2kykfl4yLs=
+			</data>
+			<key>hash2</key>
+			<data>
+			HKFU3sWmpVTCiAn0Qd4BFq1aCSw9Db67zBDfXoikejg=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.35.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1nDtGbfKEMvtX/Zl/eLOPQ0lBd8=
+			</data>
+			<key>hash2</key>
+			<data>
+			HqTZxCkvcJmaJTjjCPuiNhuqqYOZWVw3U98ueVwYIxo=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.36.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sSwESZROTiDa/wgJ2Bi9MJ+xaug=
+			</data>
+			<key>hash2</key>
+			<data>
+			CBxUhZAaIGBaOMB1o0+sBpwuvCS918sXyr8GRZZznyM=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.37.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iZUSIx91gBCDJeDwrpJa3KyGuyc=
+			</data>
+			<key>hash2</key>
+			<data>
+			qXBc1T/aUEZ+gGj3oVwz1xYFLPtfjKiUR5E+6vtl+tU=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.38.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SKstfUJxczmAW/yfmn1tVBZ8bKs=
+			</data>
+			<key>hash2</key>
+			<data>
+			FlD79zLtghr3Co1Pzy7VjdJItoPRhgDAtyPSaVUhobk=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.39.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iIHbBQ5zHyKZVQ+WrcWabzGl6Gw=
+			</data>
+			<key>hash2</key>
+			<data>
+			pGy5x3vReglazmHJwQIdCU4DZBnhe1Kl8zBI9o6+lgg=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.4.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RJ/RekAx2zReu4Tji+rKgFfQk6Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			hTGpXu+YuBcNDHtyErO3wqRV+EOMr5e1GWw/+brfNdQ=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.40.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CVQJaFBwzFr3U3rKsqVSCuBEQAA=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ejrv8jsOzAYIK8/HOAN/ftGQgua6W9eYfMWz90emR/g=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.41.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uKyGZUDQrv5+ItlsLjOLd7HoPos=
+			</data>
+			<key>hash2</key>
+			<data>
+			+RciQiHLQ9tU+6Z8nse6Gn6KHqMNIxqC19lIhEIzvPk=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.42.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2BfzSATCcsLgQT39Aw1WBwyjYAQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			6umTOxu0J9TnFYIn7WYL9xTsdDsquWpoPM6bW7JH/yM=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.43.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WwVtR7AucadasdZlVts6uESrY8A=
+			</data>
+			<key>hash2</key>
+			<data>
+			HyX7Uh+5HLAUZlMl2knFhCW9k9oB8yW3yjgxMSO+ADU=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.44.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			29GFhFqM9xVaBC3DgXa3XYudXek=
+			</data>
+			<key>hash2</key>
+			<data>
+			TFVMmT854CJcEqIHEQw8tDNpMzUsqz7vmlUIBjPbt8I=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.45.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eICC9d/+GyyYa5LgPRgKfj9SEe0=
+			</data>
+			<key>hash2</key>
+			<data>
+			wKik3ysEI2qRkrN+49K4Vg5QoFZVJeOATOos1tQdp98=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.46.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BXX0T/udHcRH5/qZ/ql8JzIrdnI=
+			</data>
+			<key>hash2</key>
+			<data>
+			LaNWcmGHz+ccWeCGAm9PlQaplqKlK4Zs2HVEFryJQgs=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.47.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uEYU7V0hrukVEVAXGESLUeDU2CI=
+			</data>
+			<key>hash2</key>
+			<data>
+			ubm9h1eBr/Dq7Ad+/ZXbd9yRWGxImAcnMdNZtLEYuC4=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.48.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/x4tHYxUs3DmAqWiHZeyJZOHP4U=
+			</data>
+			<key>hash2</key>
+			<data>
+			wwoEx8C2oARhn0Dxm759gL4HeDCggiYPTD+uoGp34fc=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.49.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2M0eHNBw5mdcaD/8wTK0gOJ/btk=
+			</data>
+			<key>hash2</key>
+			<data>
+			5iX6+o7BgPq3obT1JUTraA/MdhRmXFOCaJx/auT72TM=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.5.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			J/xJkCwWf3AJ5yyoP6WlzXXDrbI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Jev5ILjJKgvHqaFwlLt4qBIlBt6WVBjvX12sv1k2Sic=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.50.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BQ81bAgDitjnYK97mG3d2RvVz0A=
+			</data>
+			<key>hash2</key>
+			<data>
+			faX8gJxrkrLEuSnE2dH2Ehpg8P1LajoQYuxRAN+xhi4=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.51.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y09G5wccBU7ZHglXDiVmdsklW1w=
+			</data>
+			<key>hash2</key>
+			<data>
+			haiTW/LkHTEg7AC1cjSZ/91IMEWXnfj0Lak6bPRZPE8=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.52.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KgwkVYm1NHKGGFWTJ9Rnj/uQzj8=
+			</data>
+			<key>hash2</key>
+			<data>
+			CB3cgZsSZuMLsPqwApQFJWvrAis/w+UKiJiQOdJVm+g=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.53.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8rX6sJjeam7LxQSiSK8pK5Ywad0=
+			</data>
+			<key>hash2</key>
+			<data>
+			HiKqn9RhcQKWVuSepLQEUJ8JB/sQDvL5exai5FH8q8o=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.54.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OkvX7PgLKs6QuPNi6bHZ6QL1Nh4=
+			</data>
+			<key>hash2</key>
+			<data>
+			SOAqtAZ/rCWC5A8JJtpLKGTP1nQya5VxUUoLQvHhbJo=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.55.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Aa35JaSVJQTZ7mIrwKH+ge8QkLA=
+			</data>
+			<key>hash2</key>
+			<data>
+			7VLmeibd3WJzBj1dVVnhO5SaZStjD2K6HM7weJNUZLk=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.56.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JPpRyBJurNofG4vthf8G7ENT3Ec=
+			</data>
+			<key>hash2</key>
+			<data>
+			1ekRvJAkXUgY7XofrGm/9e4xzTRiQsajWQnf6Gr6Ojo=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.57.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sDHlnHSgdYR8WGyROoEMfNUkjGA=
+			</data>
+			<key>hash2</key>
+			<data>
+			lJPyagMEPqmbWwSyZ1ZRhze1zogDLwrDi8bnxjTJmks=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.58.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			l4Ety+mxD33AKjMU7BA5TSjbJao=
+			</data>
+			<key>hash2</key>
+			<data>
+			1QNFOZvM7MZbTvKRuFbPJD6gboQlo6WzJsPXQBvIzzQ=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.59.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			E1Kr9ssYjvPlF+/W28RV0tbqkW0=
+			</data>
+			<key>hash2</key>
+			<data>
+			NFjnOsD/pKYwUfAjM/GazcSOTiI+/WlSusltvD8uDFE=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.6.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			632qT+K6MvFyp3b1YiSuUC8sGXY=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZSUlpmUmyDSascfGZE3+Zbya18422IpAOtr/9moxOG8=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.60.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wosOD7Vbb4hyVTuS+rx4/lZZuyI=
+			</data>
+			<key>hash2</key>
+			<data>
+			RiM0G2/z3INLGMggIXuHqfqViG8I1p8naeiA28zSvXo=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.61.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nXARSUbJ7fJ2Fr6Dups6eDI7OHs=
+			</data>
+			<key>hash2</key>
+			<data>
+			FWcC3MsESVjlStyEJLFE6BYmmRyXhiQYW704qnBDAU0=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.62.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+l9S/kL+ENr2/oWk2a9nhhJCSSQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			53Fbz6maEtTlw/ssjvDDcKkjCzxYGa3rSy0VPmrxw3M=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.63.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eigZmcFmLrieUE+CYAq9P9xcp6I=
+			</data>
+			<key>hash2</key>
+			<data>
+			MNXDFE9g271GbPNz+Yy9gnFLgrPFLRUwTXRyAJCfUcI=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.64.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OR4V64MEDWTwrqaDS/WeFbAjRb4=
+			</data>
+			<key>hash2</key>
+			<data>
+			FjALBv7/SS3aGZswmJWFQFb4XwzVv3hwhnuX7UDKkdo=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.65.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			puLhg0H711bbe6KX+Z5vsGwudho=
+			</data>
+			<key>hash2</key>
+			<data>
+			pB/cNu7cyduMsjXyTC6/ErMRNo1xK0sAD8p268xh6/Y=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.66.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U/pFr2IQBzAz98W8VqXFfOUOT+I=
+			</data>
+			<key>hash2</key>
+			<data>
+			CTHymIRFIVh/VCVEuJkQkdfJ6OlJPdW3+2wXmYmDzLw=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.67.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JUXf+GemJXLvsgLk2wstOkiCofg=
+			</data>
+			<key>hash2</key>
+			<data>
+			JyDLZTBJsE527fBkF8BKMzgZE7uJbqCjp4PWBfu6MrA=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.68.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fI3ZaqGPFSrzsetuA8Iq5xYo8Qw=
+			</data>
+			<key>hash2</key>
+			<data>
+			EvHJ1bx1SyLKBDs9Y1Ru1cvp1E4WRFCUInF/ed5nrjI=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.69.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BbWkncyB8Nx5ioD9vrjHGzbdZSg=
+			</data>
+			<key>hash2</key>
+			<data>
+			rUOLVGNaqORfxmjh4gLuwnZjhTL6f5S3g8+aB5JA9g0=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.7.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QaUcGvOkNe1SdBwLhXc2UfHBLTY=
+			</data>
+			<key>hash2</key>
+			<data>
+			DhS6oeCK8nv7/gjPe0R74OiKnKrWZDLEeXu8p+5Pv4o=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.70.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JS06tpWFqcmpaXhKOk6psnqvvqE=
+			</data>
+			<key>hash2</key>
+			<data>
+			4odqlf1p025Q8dCvhwP4wN+YP96iUWX0oUGIiGjQOfw=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.71.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JDU1jfIiUAP2CWumh8pfK4hUvSk=
+			</data>
+			<key>hash2</key>
+			<data>
+			AJ0tKw36ifBHLC38iFRq8EnjOhMDOKWbuISLPeDo0kQ=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.72.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ekuMszg60kE999hBDVuZGzG0x8c=
+			</data>
+			<key>hash2</key>
+			<data>
+			mgbAJWpMak7cF6Q8lyp8Y8T6ATBXtYwr/MvdWGJL1nY=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.73.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			By8ThVG5k91jQHhpWAzkXLi6nE4=
+			</data>
+			<key>hash2</key>
+			<data>
+			IyCONCwmuqNEJ5ATXw1MyrZft0/b2L+1RWoeHgLSQ6A=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.8.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uTnR3UBuCf1gcsHB5Ejls3Kl2OU=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ie51pmoHJlT0Jj23Aztoic7tEl9rv9yOKVZvNSaYKQg=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.9.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Zr2Aulq5vsV3dwNFY/zSpQRJYqg=
+			</data>
+			<key>hash2</key>
+			<data>
+			tte8tN72ZXB8DdJXavUjoyFxKiiwrDVQhiSJWsRxqAg=
+			</data>
+		</dict>
+		<key>testBhastrika.atlasc/testBhastrika.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uvkT3oNxk6z4RaNjOp7gnrwM18o=
+			</data>
+			<key>hash2</key>
+			<data>
+			h8kz4mNugsScgs1qiE91BK2kOC05kZhclnLuQ/M492g=
 			</data>
 		</dict>
 		<key>transition.mp3</key>
@@ -1119,6 +3493,17 @@
 			<key>hash2</key>
 			<data>
 			/s8InR5CbkGAUn0rHs85P0croLEHuttni2OvWs6PdOU=
+			</data>
+		</dict>
+		<key>xmarks.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WPS9GJp7FwB2yE/OfD701sRrTxw=
+			</data>
+			<key>hash2</key>
+			<data>
+			aDEeadxlUzTSsF/Q6ERG7DNlqBFJzeND7WHhpIDd5Nw=
 			</data>
 		</dict>
 	</dict>

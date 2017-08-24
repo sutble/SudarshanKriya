@@ -16,6 +16,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         FIRApp.configure()
         Fabric.with([Crashlytics.self])
+        
+//        self.window = UIWindow(frame: UIScreen.main.bounds)
+//        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+//        var vc : UIViewController
+//        
+//        if(UserDefaults.standard.value(forKey: "first") as? String) == nil {
+//            //show onboarding screen
+//            vc = storyBoard.instantiateViewController(withIdentifier: "OnboardingViewController") 
+//            
+//        }
+//        else {
+//            //show main screen
+//            vc = storyBoard.instantiateInitialViewController()!
+//        }
+        
+        
+        //self.window?.rootViewController = vc
+        //self.window?.makeKeyAndVisible()
+        
         return true
     }
 

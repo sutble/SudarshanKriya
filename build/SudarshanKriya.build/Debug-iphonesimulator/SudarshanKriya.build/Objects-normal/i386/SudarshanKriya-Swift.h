@@ -111,9 +111,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
-@import AVFoundation;
-@import Foundation;
+@import ObjectiveC;
 @import CoreGraphics;
+@import Foundation;
+@import AVFoundation;
 @import SpriteKit;
 #endif
 
@@ -134,21 +135,40 @@ SWIFT_CLASS("_TtC14SudarshanKriya11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIView;
+@class UIColor;
+
+SWIFT_CLASS("_TtC14SudarshanKriya18CircularTransition")
+@interface CircularTransition : NSObject
+@property (nonatomic, strong) UIView * _Nonnull circle;
+@property (nonatomic) CGPoint startingPoint;
+@property (nonatomic, strong) UIColor * _Nonnull circleColor;
+@property (nonatomic) double duration;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@protocol UIViewControllerContextTransitioning;
+
+@interface CircularTransition (SWIFT_EXTENSION(SudarshanKriya)) <UIViewControllerAnimatedTransitioning>
+- (NSTimeInterval)transitionDuration:(id <UIViewControllerContextTransitioning> _Nullable)transitionContext;
+- (void)animateTransition:(id <UIViewControllerContextTransitioning> _Nonnull)transitionContext;
+- (CGRect)frameforCircleWithViewCenter:(CGPoint)viewCenter size:(CGSize)viewSize startPoint:(CGPoint)startPoint;
+@end
+
 @class FIRDatabaseReference;
 @class NSTimer;
 @class AVAudioPlayer;
-@class UIColor;
 @class KriyScene;
 @class UILabel;
+@class UIStoryboardSegue;
 @class UIButton;
-@class UIView;
 @class SKView;
 @class UIImageView;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
-@interface DailyKriya : UIViewController <AVAudioPlayerDelegate>
+@interface DailyKriya : UIViewController <AVAudioPlayerDelegate, UIViewControllerTransitioningDelegate>
 @property (nonatomic, strong) FIRDatabaseReference * _Nullable ref;
 @property (nonatomic) NSInteger progressCounter;
 @property (nonatomic) NSInteger restTime;
@@ -162,6 +182,7 @@ SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
 @property (nonatomic, readonly, strong) UIColor * _Nonnull highlightColor;
 @property (nonatomic, readonly, strong) UIColor * _Nonnull clearColor;
 @property (nonatomic, strong) KriyScene * _Nullable Kriy;
+@property (nonatomic, readonly, strong) CircularTransition * _Nonnull transition;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified infoButton;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified counter;
 @property (nonatomic, weak) IBOutlet SKView * _Null_unspecified animationView;
@@ -189,8 +210,12 @@ SWIFT_CLASS("_TtC14SudarshanKriya10DailyKriya")
 - (void)hideTimer;
 - (void)startTimer;
 - (void)restCounter;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (id <UIViewControllerAnimatedTransitioning> _Nullable)animationControllerForPresentedController:(UIViewController * _Nonnull)presented presentingController:(UIViewController * _Nonnull)presenting sourceController:(UIViewController * _Nonnull)source;
+- (id <UIViewControllerAnimatedTransitioning> _Nullable)animationControllerForDismissedController:(UIViewController * _Nonnull)dismissed;
 - (void)sendFirUpdate;
 - (NSString * _Nonnull)stringDate;
+- (void)drawCenterXWithXPos:(CGFloat)xPos yPos:(CGFloat)yPos;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -200,6 +225,7 @@ SWIFT_CLASS("_TtC14SudarshanKriya18InfoViewController")
 @interface InfoViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified XButton;
 - (void)viewDidLoad;
+- (IBAction)dismiss:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

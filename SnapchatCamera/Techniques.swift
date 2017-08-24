@@ -41,5 +41,17 @@ class Atlas {
     
 }
 
+class lolColor {
+
+    let ujayiColor = UIColor(red: 69/255, green: 173/255, blue: 168/255, alpha: 1)
+    let restColor = UIColor(red: 157/255, green: 224/255, blue: 173/255, alpha: 1)
+    let bhastrikaColor = UIColor(red: 232/255, green: 74/255, blue: 95/255, alpha: 1)
+    let aumColor = UIColor(red: 84/255, green: 121/255, blue: 128/255, alpha: 1)
+    let kriyaColor = UIColor(red: 42/255, green: 54/255, blue: 59/255, alpha: 1)
+    
+    
+    
+}
+
 
 

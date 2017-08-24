@@ -9,29 +9,28 @@ provides-dynamic-lookup:
 - "start"
 - "getFrames"
 depends-top-level:
+- "CGSize"
+- "NSCoder"
+- !private "Array"
+- !private "<"
+- !private "UnicodeScalarType"
+- !private "SKAction"
 - "AssignmentPrecedence"
-- "SKScene"
-- !private "UIColor"
-- "String"
-- "KriyScene"
-- "SKTexture"
 - "CGPoint"
 - "Int"
-- !private "SKTextureAtlas"
-- "NSCoder"
-- !private "UnicodeScalarType"
-- !private "SKSpriteNode"
-- "CGSize"
+- !private "StringLiteralType"
+- "String"
+- !private "-"
+- !private "UIColor"
+- !private "BooleanLiteralType"
 - !private "..."
 - !private "+"
-- !private "Array"
-- !private "-"
-- !private "BooleanLiteralType"
-- !private "SKAction"
-- !private "StringLiteralType"
-- !private "<"
+- "SKTexture"
+- !private "SKSpriteNode"
+- "KriyScene"
+- "SKScene"
+- !private "SKTextureAtlas"
 depends-member:
-- !private ["Ps16AbsoluteValuable", "Stride"]
 - !private ["Ps9AnyObject", "CGPoint"]
 - !private ["Ps9AnyObject", "CGSize"]
 - !private ["Ps9AnyObject", "SKAction"]
@@ -87,7 +86,6 @@ depends-member:
 - !private ["Vs18BidirectionalSlice", "Iterator"]
 - !private ["Vs18BidirectionalSlice", "SubSequence"]
 - !private ["Vs18BidirectionalSlice", "_Element"]
-- !private ["Ps19BinaryFloatingPoint", "Stride"]
 - !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
 - !private ["Ps17BitwiseOperations", "Stride"]
 - !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
@@ -158,7 +156,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "SKAction"]
 - !private ["Ps28CustomDebugStringConvertible", "SKSpriteNode"]
 - !private ["Ps28CustomDebugStringConvertible", "SKTextureAtlas"]
-- !private ["Ps28CustomDebugStringConvertible", "Stride"]
 - !private ["Ps28CustomDebugStringConvertible", "String"]
 - !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
 - !private ["Ps28CustomDebugStringConvertible", "UIColor"]
@@ -254,7 +251,6 @@ depends-member:
 - !private ["Vs26DefaultRandomAccessIndices", "Iterator"]
 - !private ["Vs26DefaultRandomAccessIndices", "SubSequence"]
 - !private ["Vs26DefaultRandomAccessIndices", "_Element"]
-- !private ["Sd", "Stride"]
 - ["Sd", "deinit"]
 - !private ["Ps9Equatable", "CGPoint"]
 - !private ["Ps9Equatable", "CGSize"]
@@ -295,14 +291,12 @@ depends-member:
 - !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps25ExpressibleByFloatLiteral", "Stride"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
-- !private ["Ps13FloatingPoint", "Stride"]
 - !private ["Ps8Hashable", "CGPoint"]
 - !private ["Ps8Hashable", "CGSize"]
 - !private ["Ps8Hashable", "IntegerLiteralType"]
@@ -376,7 +370,6 @@ depends-member:
 - ["C14SudarshanKriya9KriyScene", "getFrames"]
 - ["C14SudarshanKriya9KriyScene", "init"]
 - ["C14SudarshanKriya9KriyScene", "start"]
-- !private ["Ps25LosslessStringConvertible", "Stride"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "IntegerLiteralType"]
@@ -733,8 +726,6 @@ depends-member:
 - !private ["Ps14_ArrayProtocol", "_Element"]
 - !private ["Ps14_ArrayProtocol", "append"]
 - !private ["Ps14_ArrayProtocol", "subscript"]
-- !private ["Ps15_CVarArgAligned", "Stride"]
-- !private ["Ps22_CVarArgPassedAsDouble", "Stride"]
 - !private ["Ps24_DestructorSafeContainer", "Element"]
 - !private ["Ps24_DestructorSafeContainer", "Index"]
 - !private ["Ps24_DestructorSafeContainer", "Iterator"]
@@ -744,7 +735,6 @@ depends-member:
 - !private ["Ps24_DestructorSafeContainer", "subscript"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "Stride"]
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
@@ -808,13 +798,11 @@ depends-member:
 - !private ["Ps11_Strideable", "Stride"]
 - !private ["Ps11_Strideable", "_DisabledRangeIndex"]
 depends-nominal:
-- !private "Ps16AbsoluteValuable"
 - "Ps9AnyObject"
 - "Sa"
 - !private "Ps23BidirectionalCollection"
 - !private "Ps22BidirectionalIndexable"
 - !private "Vs18BidirectionalSlice"
-- !private "Ps19BinaryFloatingPoint"
 - !private "Ps17BitwiseOperations"
 - "Sb"
 - "V12CoreGraphics7CGFloat"
@@ -837,12 +825,10 @@ depends-nominal:
 - !private "Ps25ExpressibleByArrayLiteral"
 - !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
-- !private "Ps25ExpressibleByFloatLiteral"
 - !private "Ps27ExpressibleByIntegerLiteral"
 - !private "Ps32ExpressibleByStringInterpolation"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
-- !private "Ps13FloatingPoint"
 - "Ps8Hashable"
 - !private "Ps9Indexable"
 - !private "Ps13IndexableBase"
@@ -895,12 +881,9 @@ depends-nominal:
 - "PSo30UIResponderStandardEditActions"
 - "Su"
 - !private "Ps14_ArrayProtocol"
-- !private "Ps15_CVarArgAligned"
-- !private "Ps22_CVarArgPassedAsDouble"
 - !private "Ps24_DestructorSafeContainer"
 - !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
-- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
 - !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
 - !private "Ps34_ExpressibleByBuiltinStringLiteral"
 - !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"

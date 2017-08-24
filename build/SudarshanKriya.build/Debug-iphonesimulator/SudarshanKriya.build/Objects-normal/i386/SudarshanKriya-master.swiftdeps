@@ -1,10 +1,11 @@
 version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
 options: "b82f2a249d56a22ca3d6a78749b44043"
-build_time: [541818349, 608005000]
+build_time: [541988130, 624130000]
 inputs:
   "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/SnapchatCamera/Techniques.swift": [540720560, 0]
   "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/SnapchatCamera/StartViewController.swift": [538996602, 0]
-  "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/SnapchatCamera/KriyScene.swift": [540465147, 0]
-  "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/SnapchatCamera/DailyKriya.swift": [541326006, 0]
-  "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/SnapchatCamera/InfoViewController.swift": [541325856, 0]
+  "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/SnapchatCamera/CircularTransition.swift": [541845962, 0]
+  "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/SnapchatCamera/KriyScene.swift": [541988085, 0]
+  "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/SnapchatCamera/DailyKriya.swift": [541988018, 0]
+  "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/SnapchatCamera/InfoViewController.swift": [541842977, 0]
   "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/SnapchatCamera/AppDelegate.swift": [540856052, 0]

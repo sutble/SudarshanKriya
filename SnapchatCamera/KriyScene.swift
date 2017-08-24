@@ -52,8 +52,8 @@ class KriyScene: SKScene {
         let frames = getFrames(atlasString: sceneName, count: 400)
         let texture = frames[0]
         let Kriy = SKSpriteNode(texture: texture)
-        Kriy.size = CGSize(width: 400, height: 400)
-        Kriy.position = CGPoint(x: position.x+20, y: position.y-250)
+        Kriy.size = CGSize(width: 450, height: 450)
+        Kriy.position = CGPoint(x: position.x-12, y: position.y) //HACK
         
         self.addChild(Kriy)
         

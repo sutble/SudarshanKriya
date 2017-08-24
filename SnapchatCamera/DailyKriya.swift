@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import AVFoundation
 import Darwin
 import FirebaseDatabase
 import AVFoundation
@@ -15,13 +14,12 @@ import SpriteKit
 
 
 
-class DailyKriya: UIViewController, AVAudioPlayerDelegate {
+class DailyKriya: UIViewController, AVAudioPlayerDelegate, UIViewControllerTransitioningDelegate {
     
     var ref: FIRDatabaseReference?
     var databaseHandle:FIRDatabaseHandle?
     
     var masterList = Array<Technique>()
-    
     var progressCounter = -1 //starts incrementing in beginning, so will be 0 when used
     
     var restTime = 20
@@ -44,6 +42,12 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
     
     var Kriy : KriyScene?
     
+    let transition = CircularTransition()
+    
+    var tutorialDict : [String: String]!
+    var tutorialText : String!
+    
+    
     //MARK: - IBOutlets
     @IBOutlet weak var infoButton: UIButton!
     
@@ -60,34 +64,15 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var nameText: UILabel!
     @IBOutlet weak var timerText: UILabel!
     
-    /*
-    @IBAction func pause(_ sender: AnyObject) {
-        if (player?.isPlaying)! {
-            player?.pause()
-            Kriy?.isPaused = true
-            let play = UIImage(named: "play.png")
-            playButton.contentMode = .scaleToFill
-            playButton.contentVerticalAlignment = UIControlContentVerticalAlignment.bottom
-
-            playButton.setBackgroundImage(play, for: .normal)
-            //playButton.fram
-        } else {
-            self.player?.play()
-            Kriy?.isPaused = false
-            let pause = UIImage(named: "pause.png")
-            playButton.setBackgroundImage(pause, for: .normal)
-        }
-    }
-    */
-    
-
     //MARK: - viewDidLoad
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
         
+        
         animationView.alpha = 0 //CHANGE
+        imageView.alpha = 1
         UIApplication.shared.isIdleTimerDisabled = true
         lastSound = false
         seconds = restTime
@@ -106,10 +91,11 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         setTextLabel(nameText,size: 55)
         setTextLabel(timerText, size: 45)
         
-        //CHANGE
-        //let pause = UIImage(named: "pause.png")
-        //playButton.setBackgroundImage(pause, for: .normal)
         infoButton.layer.cornerRadius = infoButton.frame.size.width/2
+        
+        tutorialDict = ["Ujayi Breath": "Ujayi Breath","Rest": "Rest","Bhastrika": "Bhastrika","Aum": "Aum","Sudarshan Kriya": "Sudarshan Kriya"]
+
+        tutorialText = ""
         
         hideCounter()
         hideTimer()
@@ -117,8 +103,6 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         playSound(beginSound)
         hideCounter()
     }
-    
- 
     
     //MARK: - Master List
     
@@ -153,7 +137,8 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "Rest.png", url: getURL(string: "restTransition")))
         //Bhastrika
         masterList.append(Technique(name: "Bhastrika", color: bhastrikaColor, stage: 3, scene: "Bhastrika.png", url: getURL(string: "bhastrikafinal")))
- 
+        //Rest
+        masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "Rest.png", url: getURL(string: "restTransition")))
         //Aum
         masterList.append(Technique(name: "Aum", color: aumColor, stage: 1, scene: "Aum.png", url: getURL(string: "aum1")))
         masterList.append(Technique(name: "Aum", color: aumColor, stage: 2, scene: "Aum.png", url: getURL(string: "aum2")))
@@ -164,6 +149,7 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         masterList.append(Technique(name: "Sudarshan Kriya", color: kriyaColor, stage: 3, scene: "Kriya.png", url: getURL(string: "SriSoham")))
     }
     
+    
     /*
     func makeList(){
         
@@ -172,7 +158,6 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         let bhastrikaColor = UIColor(red: 232/255, green: 74/255, blue: 95/255, alpha: 1)
         let aumColor = UIColor(red: 84/255, green: 121/255, blue: 128/255, alpha: 1)
         let kriyaColor = UIColor(red: 42/255, green: 54/255, blue: 59/255, alpha: 1)
-        
         
         //Ujayi Stage 1
        masterList.append(Technique(name: "Ujayi Breath", color: ujayiColor , stage: 1, scene: "UjayiWaistAnimation", url: getURL(string: "UjayiBreath")))
@@ -190,12 +175,13 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         masterList.append(Technique(name: "Bhastrika", color: bhastrikaColor , stage: 1, scene: "35secondemo", url: getURL(string: "bhastrikafinal")))
         //Rest
         masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "35secondemo", url: getURL(string: "transition")))
+ 
         //Bhastrika
-        masterList.append(Technique(name: "Bhastrika", color: bhastrikaColor, stage: 2, scene: "35secondemo", url: getURL(string: "bhastrikafinal")))
+        masterList.append(Technique(name: "Bhastrika", color: bhastrikaColor, stage: 2, scene: "dummy", url: getURL(string: "bhastrikafinal")))
         //Rest
-        masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "35secondemo", url: getURL(string: "transition")))
+        masterList.append(Technique(name: "Rest", color: restColor, stage: 0, scene: "testBhastrika", url: getURL(string: "restTransition")))
         //Bhastrika
-        masterList.append(Technique(name: "Bhastrika", color: bhastrikaColor, stage: 3, scene: "35secondemo", url: getURL(string: "bhastrikafinal")))
+        masterList.append(Technique(name: "Bhastrika", color: bhastrikaColor, stage: 3, scene: "testBhastrika", url: getURL(string: "bhastrikafinal")))
         //Aum
         masterList.append(Technique(name: "Aum", color: aumColor, stage: 1, scene: "35secondemo", url: getURL(string: "aum1")))
         masterList.append(Technique(name: "Aum", color: aumColor, stage: 2, scene: "35secondemo", url: getURL(string: "aum2")))
@@ -205,7 +191,8 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         masterList.append(Technique(name: "Sudarshan Kriya", color: kriyaColor, stage: 2, scene: "35secondemo", url: getURL(string: "SriSoham")))
         masterList.append(Technique(name: "Sudarshan Kriya", color: kriyaColor, stage: 3, scene: "35secondemo", url: getURL(string: "SriSoham")))
     }
-    */
+     */
+    
     
     func getURL(string: String) -> URL{
         return Bundle.main.url(forResource: string, withExtension: "mp3")!
@@ -242,7 +229,7 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
             print("Wrong counter number inputted (only 0,1,2,3)")
         }
     }
-    
+     
     func hideCounter(){
         circleOne.isHidden = true
         circleTwo.isHidden = true
@@ -303,6 +290,7 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
             hideTimer()
             changeCounter(t.stage)
             nameText.text = t.name
+            tutorialText = t.name
             //Kriy = KriyScene(size: animationView.frame.size) //CHANGE
             backgroundColor(t.color)
             playSound(t.url)
@@ -310,7 +298,7 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
             imageView.image = image
             imageView.contentMode = .scaleAspectFit
             //animationView.presentScene(Kriy)
-            //Kriy?.start(position: animationView.center, sceneName: t.scene)
+            //Kriy?.start(position: CGPoint(x: self.view.frame.width/2, y: animationView.frame.height/2), sceneName: t.scene)
             
         }
         else if (!self.lastSound){
@@ -330,6 +318,7 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
             guard let player = player else { return }
             player.delegate = self
             player.prepareToPlay()
+            player.currentTime = 0.0
             player.play()
         } catch let error as NSError {
             print(error.description)
@@ -359,6 +348,41 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
             timer.invalidate()
             seconds = restTime
         }
+    }
+    
+    //MARK: - Info Button
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let infoVC = segue.destination as! InfoViewController
+        infoVC.transitioningDelegate = self
+        infoVC.modalPresentationStyle = .custom
+        //infoVC.playerRef = player
+       
+        //print(tutorialText)
+        //print(tutorialDict[tutorialText]!)
+        //infoVC.descriptionText = "lol"
+         //print("OVER HERE")
+    }
+    
+    @IBAction func pause(_ sender: Any) {
+        if (player?.isPlaying)! {
+            player?.pause()
+            Kriy?.isPaused = true
+    }
+    
+    
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.transitionMode = .present
+        transition.startingPoint = infoButton.center
+        transition.circleColor = infoButton.backgroundColor!
+        return transition
+    }
+    
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.transitionMode = .dismiss
+        transition.startingPoint = infoButton.center
+        transition.circleColor = infoButton.backgroundColor!
+        return transition
     }
     
     
@@ -394,6 +418,17 @@ class DailyKriya: UIViewController, AVAudioPlayerDelegate {
         return monthString + ":" + dayString + ":" + "\(year!)"
     }
     
+    //MARK: - Helper
+    func drawCenterX(xPos:CGFloat, yPos:CGFloat){
+        let xred = "xmarks.png"
+        let image = UIImage(named: xred)
+        let imageView = UIImageView(image: image!)
+        imageView.frame = CGRect(x: xPos, y: yPos, width: (image?.size.width)!, height: (image?.size.height)!)
+        imageView.center = CGPoint(x: xPos, y: yPos)
+        print("imageView center: ", imageView.center)
+        animationView.addSubview(imageView)
+    }
+    
 }
-
+}
 

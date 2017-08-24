@@ -6,31 +6,31 @@ provides-nominal:
 provides-member:
 - ["C14SudarshanKriya19StartViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
-- "didReceiveMemoryWarning"
-- "titleLabel"
 - "animateButton"
-- "startButton"
-- "setupLabel"
-- "successHaptic"
-- "setupButton"
 - "startAction"
+- "setupLabel"
+- "didReceiveMemoryWarning"
+- "startButton"
+- "setupButton"
+- "titleLabel"
+- "viewDidLoad"
+- "successHaptic"
 depends-top-level:
-- !private "/"
-- !private "CGAffineTransform"
-- !private "Bool"
-- !private "AudioServicesPlaySystemSound"
-- !private "UIFont"
-- "AssignmentPrecedence"
 - "UILabel"
-- !private "CGRect"
-- "UIButton"
-- !private "StringLiteralType"
-- "StartViewController"
-- !private "BooleanLiteralType"
-- !private "UIView"
-- "UIViewController"
 - "AnyObject"
+- !private "AudioServicesPlaySystemSound"
+- !private "CGRect"
+- !private "UIFont"
+- "StartViewController"
+- "AssignmentPrecedence"
+- "UIButton"
+- "UIViewController"
+- !private "/"
+- !private "StringLiteralType"
+- !private "UIView"
+- !private "Bool"
+- !private "BooleanLiteralType"
+- !private "CGAffineTransform"
 - !private "UIColor"
 depends-member:
 - !private ["Ps9AnyObject", "AudioServicesPlaySystemSound"]
@@ -43,12 +43,10 @@ depends-member:
 - ["Ps9AnyObject", "animateButton"]
 - !private ["Ps9AnyObject", "backgroundColor"]
 - !private ["Ps9AnyObject", "clipsToBounds"]
-- ["Ps9AnyObject", "deinit"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - !private ["Ps9AnyObject", "font"]
 - !private ["Ps9AnyObject", "frame"]
 - !private ["Ps9AnyObject", "init"]
-- !private ["Ps9AnyObject", "performSegue"]
 - !private ["Ps9AnyObject", "setTitle"]
 - !private ["Ps9AnyObject", "setTitleColor"]
 - ["Ps9AnyObject", "setupButton"]
@@ -62,6 +60,7 @@ depends-member:
 - !private ["Ps9AnyObject", "transform"]
 - !private ["Ps9AnyObject", "view"]
 - ["Ps9AnyObject", "viewDidLoad"]
+- !private ["Ps9AnyObject", "white"]
 - ["Ps9AnyObject", ""]
 - ["Sb", "deinit"]
 - !private ["PSo15CALayerDelegate", "animate"]
@@ -95,7 +94,6 @@ depends-member:
 - !private ["Ps7CVarArg", "font"]
 - !private ["Ps7CVarArg", "frame"]
 - !private ["Ps7CVarArg", "init"]
-- !private ["Ps7CVarArg", "performSegue"]
 - !private ["Ps7CVarArg", "setTitle"]
 - !private ["Ps7CVarArg", "setTitleColor"]
 - ["Ps7CVarArg", "setupButton"]
@@ -109,6 +107,7 @@ depends-member:
 - !private ["Ps7CVarArg", "transform"]
 - !private ["Ps7CVarArg", "view"]
 - ["Ps7CVarArg", "viewDidLoad"]
+- !private ["Ps7CVarArg", "white"]
 - ["Ps7CVarArg", ""]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "AudioServicesPlaySystemSound"]
@@ -125,7 +124,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "font"]
 - !private ["Ps28CustomDebugStringConvertible", "frame"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
-- !private ["Ps28CustomDebugStringConvertible", "performSegue"]
 - !private ["Ps28CustomDebugStringConvertible", "setTitle"]
 - !private ["Ps28CustomDebugStringConvertible", "setTitleColor"]
 - ["Ps28CustomDebugStringConvertible", "setupButton"]
@@ -139,6 +137,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "transform"]
 - !private ["Ps28CustomDebugStringConvertible", "view"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "white"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps17CustomReflectable", "init"]
@@ -156,7 +155,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "font"]
 - !private ["Ps23CustomStringConvertible", "frame"]
 - !private ["Ps23CustomStringConvertible", "init"]
-- !private ["Ps23CustomStringConvertible", "performSegue"]
 - !private ["Ps23CustomStringConvertible", "setTitle"]
 - !private ["Ps23CustomStringConvertible", "setTitleColor"]
 - ["Ps23CustomStringConvertible", "setupButton"]
@@ -170,6 +168,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "transform"]
 - !private ["Ps23CustomStringConvertible", "view"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
+- !private ["Ps23CustomStringConvertible", "white"]
 - ["Ps23CustomStringConvertible", ""]
 - ["Sd", "deinit"]
 - !private ["Ps9Equatable", "AudioServicesPlaySystemSound"]
@@ -189,7 +188,6 @@ depends-member:
 - !private ["Ps9Equatable", "identity"]
 - !private ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "normal"]
-- !private ["Ps9Equatable", "performSegue"]
 - !private ["Ps9Equatable", "setTitle"]
 - !private ["Ps9Equatable", "setTitleColor"]
 - ["Ps9Equatable", "setupButton"]
@@ -203,6 +201,7 @@ depends-member:
 - !private ["Ps9Equatable", "transform"]
 - !private ["Ps9Equatable", "view"]
 - ["Ps9Equatable", "viewDidLoad"]
+- !private ["Ps9Equatable", "white"]
 - ["Ps9Equatable", ""]
 - !private ["Ps25ExpressibleByArrayLiteral", "normal"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
@@ -224,7 +223,6 @@ depends-member:
 - !private ["Ps8Hashable", "font"]
 - !private ["Ps8Hashable", "frame"]
 - !private ["Ps8Hashable", "init"]
-- !private ["Ps8Hashable", "performSegue"]
 - !private ["Ps8Hashable", "setTitle"]
 - !private ["Ps8Hashable", "setTitleColor"]
 - ["Ps8Hashable", "setupButton"]
@@ -238,6 +236,7 @@ depends-member:
 - !private ["Ps8Hashable", "transform"]
 - !private ["Ps8Hashable", "view"]
 - ["Ps8Hashable", "viewDidLoad"]
+- !private ["Ps8Hashable", "white"]
 - ["Ps8Hashable", ""]
 - ["SQ", "deinit"]
 - !private ["Si", "deinit"]
@@ -258,7 +257,6 @@ depends-member:
 - !private ["PSo8NSCoding", "font"]
 - !private ["PSo8NSCoding", "frame"]
 - !private ["PSo8NSCoding", "init"]
-- !private ["PSo8NSCoding", "performSegue"]
 - !private ["PSo8NSCoding", "setTitle"]
 - !private ["PSo8NSCoding", "setTitleColor"]
 - ["PSo8NSCoding", "setupButton"]
@@ -272,8 +270,10 @@ depends-member:
 - !private ["PSo8NSCoding", "transform"]
 - !private ["PSo8NSCoding", "view"]
 - ["PSo8NSCoding", "viewDidLoad"]
+- !private ["PSo8NSCoding", "white"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "white"]
 - !private ["PSo26NSExtensionRequestHandling", "AudioServicesPlaySystemSound"]
 - !private ["PSo26NSExtensionRequestHandling", "CGAffineTransform"]
 - !private ["PSo26NSExtensionRequestHandling", "CGRect"]
@@ -283,7 +283,6 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "animateButton"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
-- !private ["PSo26NSExtensionRequestHandling", "performSegue"]
 - ["PSo26NSExtensionRequestHandling", "setupButton"]
 - ["PSo26NSExtensionRequestHandling", "setupLabel"]
 - ["PSo26NSExtensionRequestHandling", "startAction"]
@@ -312,7 +311,6 @@ depends-member:
 - !private ["CSo8NSObject", "font"]
 - !private ["CSo8NSObject", "frame"]
 - ["CSo8NSObject", "init"]
-- !private ["CSo8NSObject", "performSegue"]
 - !private ["CSo8NSObject", "setTitle"]
 - !private ["CSo8NSObject", "setTitleColor"]
 - ["CSo8NSObject", "setupButton"]
@@ -326,6 +324,7 @@ depends-member:
 - !private ["CSo8NSObject", "transform"]
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
+- !private ["CSo8NSObject", "white"]
 - !private ["PSo16NSObjectProtocol", "AudioServicesPlaySystemSound"]
 - !private ["PSo16NSObjectProtocol", "CGAffineTransform"]
 - !private ["PSo16NSObjectProtocol", "CGRect"]
@@ -340,7 +339,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "font"]
 - !private ["PSo16NSObjectProtocol", "frame"]
 - !private ["PSo16NSObjectProtocol", "init"]
-- !private ["PSo16NSObjectProtocol", "performSegue"]
 - !private ["PSo16NSObjectProtocol", "setTitle"]
 - !private ["PSo16NSObjectProtocol", "setTitleColor"]
 - ["PSo16NSObjectProtocol", "setupButton"]
@@ -354,8 +352,10 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "transform"]
 - !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "white"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "white"]
 - !private ["CSo8NSString", "init"]
 - !private ["OSC15NSTextAlignment", "center"]
 - ["OSC15NSTextAlignment", "deinit"]
@@ -378,7 +378,6 @@ depends-member:
 - ["C14SudarshanKriya19StartViewController", "deinit"]
 - ["C14SudarshanKriya19StartViewController", "didReceiveMemoryWarning"]
 - ["C14SudarshanKriya19StartViewController", "init"]
-- !private ["C14SudarshanKriya19StartViewController", "performSegue"]
 - ["C14SudarshanKriya19StartViewController", "setupButton"]
 - ["C14SudarshanKriya19StartViewController", "setupLabel"]
 - ["C14SudarshanKriya19StartViewController", "startAction"]
@@ -427,7 +426,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "font"]
 - !private ["PSo21UIAppearanceContainer", "frame"]
 - !private ["PSo21UIAppearanceContainer", "init"]
-- !private ["PSo21UIAppearanceContainer", "performSegue"]
 - !private ["PSo21UIAppearanceContainer", "setTitle"]
 - !private ["PSo21UIAppearanceContainer", "setTitleColor"]
 - ["PSo21UIAppearanceContainer", "setupButton"]
@@ -451,6 +449,7 @@ depends-member:
 - !private ["CSo8UIButton", "transform"]
 - ["CSo7UIColor", "deinit"]
 - !private ["CSo7UIColor", "init"]
+- !private ["CSo7UIColor", "white"]
 - !private ["PSo18UIContentContainer", "AudioServicesPlaySystemSound"]
 - !private ["PSo18UIContentContainer", "CGAffineTransform"]
 - !private ["PSo18UIContentContainer", "CGRect"]
@@ -460,7 +459,6 @@ depends-member:
 - ["PSo18UIContentContainer", "animateButton"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - !private ["PSo18UIContentContainer", "init"]
-- !private ["PSo18UIContentContainer", "performSegue"]
 - ["PSo18UIContentContainer", "setupButton"]
 - ["PSo18UIContentContainer", "setupLabel"]
 - ["PSo18UIContentContainer", "startAction"]
@@ -518,7 +516,6 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "font"]
 - !private ["PSo18UIFocusEnvironment", "frame"]
 - !private ["PSo18UIFocusEnvironment", "init"]
-- !private ["PSo18UIFocusEnvironment", "performSegue"]
 - !private ["PSo18UIFocusEnvironment", "setTitle"]
 - !private ["PSo18UIFocusEnvironment", "setTitleColor"]
 - ["PSo18UIFocusEnvironment", "setupButton"]
@@ -567,7 +564,6 @@ depends-member:
 - !private ["CSo11UIResponder", "font"]
 - !private ["CSo11UIResponder", "frame"]
 - ["CSo11UIResponder", "init"]
-- !private ["CSo11UIResponder", "performSegue"]
 - !private ["CSo11UIResponder", "setTitle"]
 - !private ["CSo11UIResponder", "setTitleColor"]
 - ["CSo11UIResponder", "setupButton"]
@@ -595,7 +591,6 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "font"]
 - !private ["PSo30UIResponderStandardEditActions", "frame"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
-- !private ["PSo30UIResponderStandardEditActions", "performSegue"]
 - !private ["PSo30UIResponderStandardEditActions", "setTitle"]
 - !private ["PSo30UIResponderStandardEditActions", "setTitleColor"]
 - ["PSo30UIResponderStandardEditActions", "setupButton"]
@@ -619,7 +614,6 @@ depends-member:
 - ["PSo16UIStateRestoring", "animateButton"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - !private ["PSo16UIStateRestoring", "init"]
-- !private ["PSo16UIStateRestoring", "performSegue"]
 - ["PSo16UIStateRestoring", "setupButton"]
 - ["PSo16UIStateRestoring", "setupLabel"]
 - ["PSo16UIStateRestoring", "startAction"]
@@ -643,7 +637,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "font"]
 - !private ["PSo18UITraitEnvironment", "frame"]
 - !private ["PSo18UITraitEnvironment", "init"]
-- !private ["PSo18UITraitEnvironment", "performSegue"]
 - !private ["PSo18UITraitEnvironment", "setTitle"]
 - !private ["PSo18UITraitEnvironment", "setTitleColor"]
 - ["PSo18UITraitEnvironment", "setupButton"]
@@ -683,7 +676,6 @@ depends-member:
 - ["CSo16UIViewController", "deinit"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "init"]
-- !private ["CSo16UIViewController", "performSegue"]
 - ["CSo16UIViewController", "setupButton"]
 - ["CSo16UIViewController", "setupLabel"]
 - ["CSo16UIViewController", "startAction"]
@@ -710,6 +702,7 @@ depends-member:
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - !private ["Ps26_ExpressibleByColorLiteral", "init"]
+- !private ["Ps26_ExpressibleByColorLiteral", "white"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "AudioServicesPlaySystemSound"]
 - !private ["Ps9_Hashable", "CGAffineTransform"]
@@ -726,7 +719,6 @@ depends-member:
 - !private ["Ps9_Hashable", "font"]
 - !private ["Ps9_Hashable", "frame"]
 - !private ["Ps9_Hashable", "init"]
-- !private ["Ps9_Hashable", "performSegue"]
 - !private ["Ps9_Hashable", "setTitle"]
 - !private ["Ps9_Hashable", "setTitleColor"]
 - ["Ps9_Hashable", "setupButton"]
@@ -740,7 +732,9 @@ depends-member:
 - !private ["Ps9_Hashable", "transform"]
 - !private ["Ps9_Hashable", "view"]
 - ["Ps9_Hashable", "viewDidLoad"]
+- !private ["Ps9_Hashable", "white"]
 - ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "identity"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
@@ -820,13 +814,14 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
 - "/Users/adityagarg/Code/Mobile-App/IOS/ArtOfLiving/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"

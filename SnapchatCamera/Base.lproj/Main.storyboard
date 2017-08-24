@@ -1,48 +1,378 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="46J-hJ-eVh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="46J-hJ-eVh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Azurite (1).ttf">
+            <string>Azurite</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--Start View Controller-->
+        <!--Onboarding View Controller-->
+        <scene sceneID="Jck-TJ-GET">
+            <objects>
+                <pageViewController storyboardIdentifier="OnboardingViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="27Y-NR-eHU" customClass="OnboardingViewController" customModule="SudarshanKriya" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MMe-js-Cso" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="844" y="-1335"/>
+        </scene>
+        <!--Welcome View Controller-->
+        <scene sceneID="bds-L8-vu3">
+            <objects>
+                <viewController storyboardIdentifier="Welcome" id="ShT-tp-Z9Q" customClass="WelcomeViewController" customModule="SudarshanKriya" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mUC-f1-jw2"/>
+                        <viewControllerLayoutGuide type="bottom" id="mWB-tg-Nvi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1pP-cb-K9h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VK4-bn-kjh">
+                                <rect key="frame" x="58" y="44" width="258" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="86"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5L-Ku-eNE">
+                                <rect key="frame" x="41" y="155" width="292" height="420"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18823529411764706" green="0.75686274509803919" blue="0.55294117647058827" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <string key="text">This App is intended to aid you in your daily Kriya routine. No longer do you have to count Ujayi Breath in your head or wonder how many long Soham's you've finished. 
+  
+The next 5 pages will help familiarize you with how this app is used.
+
+Swipe right to continue.                  </string>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99607843137254903" green="0.90196078431372551" blue="0.4823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="djD-Mw-1pB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1540" y="-629.2353823088456"/>
+        </scene>
+        <!--Ujayi View Controller-->
+        <scene sceneID="AqK-hH-EQb">
+            <objects>
+                <viewController storyboardIdentifier="Ujayi" id="z6T-Na-MaZ" customClass="UjayiViewController" customModule="SudarshanKriya" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kWs-I3-pQ6"/>
+                        <viewControllerLayoutGuide type="bottom" id="c9K-WO-24n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lJq-I2-bLc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3 Stage Ujayi Breath" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gK-nE-Tph">
+                                <rect key="frame" x="0.0" y="34" width="375" height="71"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Waist.png" translatesAutoresizingMaskIntoConstraints="NO" id="3NC-vW-p8I">
+                                <rect key="frame" x="-8" y="128" width="142" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Back.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xbt-PE-uLX">
+                                <rect key="frame" x="238" y="128" width="142" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chest.png" translatesAutoresizingMaskIntoConstraints="NO" id="4n0-zU-ljt">
+                                <rect key="frame" x="116" y="128" width="142" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjW-g2-tg0">
+                                <rect key="frame" x="16" y="321" width="343" height="250"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18823529410000001" green="0.75686274509999996" blue="0.55294117649999996" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <string key="text">Using Ujaiyi Breath, breathe in on the higher pitched bell until ringing stops. Hold when silent. Breathe out on the lower pitched bell until ringing stops, Hold when silent. 
+
+</string>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5y-NV-ErS">
+                                <rect key="frame" x="131" y="505" width="112" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Oldplay"/>
+                                <connections>
+                                    <action selector="test:" destination="z6T-Na-MaZ" eventType="touchUpInside" id="tnr-Wb-hFS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27058823529411763" green="0.67843137254901964" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dCZ-QN-aNQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-690.39999999999998" y="-629.2353823088456"/>
+        </scene>
+        <!--Bhastrika View Controller-->
+        <scene sceneID="MXM-y9-tln">
+            <objects>
+                <viewController storyboardIdentifier="Bhastrika" id="QdA-xR-jvl" customClass="BhastrikaViewController" customModule="SudarshanKriya" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GEf-RJ-mY6"/>
+                        <viewControllerLayoutGuide type="bottom" id="uyn-er-VBg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3cv-7F-v6p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bhastrika" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBn-b6-HKJ">
+                                <rect key="frame" x="0.0" y="34" width="375" height="71"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bhastrika.png" translatesAutoresizingMaskIntoConstraints="NO" id="C2N-Y8-vVx">
+                                <rect key="frame" x="-8" y="128" width="142" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Outstretched.png" translatesAutoresizingMaskIntoConstraints="NO" id="n17-0Q-X6X">
+                                <rect key="frame" x="116" y="128" width="142" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cm-rT-ycP">
+                                <rect key="frame" x="16" y="321" width="343" height="113"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Both the up and down motions of Bhastrika are performed when the wind sound is played. 
+</string>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bhastrika.png" translatesAutoresizingMaskIntoConstraints="NO" id="W2M-r9-dzk">
+                                <rect key="frame" x="238" y="128" width="142" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XU7-be-M22">
+                                <rect key="frame" x="131" y="505" width="112" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90980392156862744" green="0.29019607843137252" blue="0.37254901960784315" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zfe-uK-dla" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13.600000000000001" y="-629.2353823088456"/>
+        </scene>
+        <!--Aum View Controller-->
+        <scene sceneID="h1B-Vl-ITN">
+            <objects>
+                <viewController storyboardIdentifier="Aum" id="ZYD-50-DjH" customClass="AumViewController" customModule="SudarshanKriya" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fEu-Gy-pBw"/>
+                        <viewControllerLayoutGuide type="bottom" id="ifx-NJ-Qnq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xCK-vd-n17">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Breathe along and say Aum three times." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qQ-UN-ONE">
+                                <rect key="frame" x="16" y="321" width="343" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czn-q7-Ino">
+                                <rect key="frame" x="0.0" y="34" width="375" height="71"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Aum.png" translatesAutoresizingMaskIntoConstraints="NO" id="QZp-WH-Wmq">
+                                <rect key="frame" x="116" y="128" width="142" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32941176470588235" green="0.50196078431372548" blue="0.47450980392156861" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YXV-PQ-Kg4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="844" y="-629.2353823088456"/>
+        </scene>
+        <!--Soham View Controller-->
+        <scene sceneID="msq-gq-3VK">
+            <objects>
+                <viewController storyboardIdentifier="Soham" id="9Wg-7e-SzS" customClass="SohamViewController" customModule="SudarshanKriya" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BjW-NR-WSj"/>
+                        <viewControllerLayoutGuide type="bottom" id="28b-tN-UpX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ghI-Zk-09j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Soham" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h04-dB-Y54">
+                                <rect key="frame" x="0.0" y="34" width="375" height="71"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kriya.png" translatesAutoresizingMaskIntoConstraints="NO" id="nAF-iT-b3s">
+                                <rect key="frame" x="116" y="128" width="142" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6f-U7-h8p">
+                                <rect key="frame" x="16" y="321" width="343" height="221"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">With a gentle smile on your face, breathe in normally on So, and out on Ham. 20 long, 40 medium, 40 short repeated three times continuously. 
+
+Focus entirely on your breath.</string>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16470588235294117" green="0.21176470588235294" blue="0.23137254901960785" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kMq-Rq-P96" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1669.6000000000001" y="-629.2353823088456"/>
+        </scene>
+        <!--Rest View Controller-->
+        <scene sceneID="arl-JK-Bdb">
+            <objects>
+                <viewController storyboardIdentifier="Rest" id="0dJ-Ty-z3Q" customClass="RestViewController" customModule="SudarshanKriya" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sBN-2T-UVX"/>
+                        <viewControllerLayoutGuide type="bottom" id="HRW-4I-QUf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fMo-Tf-AuF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rest" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7d-G3-Z6E">
+                                <rect key="frame" x="0.0" y="46" width="375" height="71"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kriya.png" translatesAutoresizingMaskIntoConstraints="NO" id="5cn-Wk-4VZ">
+                                <rect key="frame" x="116" y="125" width="142" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BV1-CQ-5FZ">
+                                <rect key="frame" x="16" y="341" width="343" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">In between sets a chimed bell will ring to tell you to take a small (20 second) break. Remember in general to keep your eyes closed during Sudarshan Kriya.</string>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.61568627450980395" green="0.8784313725490196" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nm2-0A-Fsz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2464.8000000000002" y="-631.03448275862081"/>
+        </scene>
+        <!--Finish View Controller-->
+        <scene sceneID="IS4-dl-jXA">
+            <objects>
+                <viewController storyboardIdentifier="Finish" id="04w-Ld-Qj2" customClass="FinishViewController" customModule="SudarshanKriya" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1FR-S8-p3C"/>
+                        <viewControllerLayoutGuide type="bottom" id="Of4-Fk-meU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fHV-U5-58W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="That's it!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dc-e6-Jh7">
+                                <rect key="frame" x="58" y="42" width="258" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="86"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hq1-93-fAG">
+                                <rect key="frame" x="41" y="155" width="292" height="312"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Remember that at any point during Kriya, you can pause and review how to do the specific motion. One final note, it is important to lay down for 5-10 minutes after performing Kriya. 
+
+Best of luck on your meditation journey!</string>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0e1-NG-QSF">
+                                <rect key="frame" x="137" y="496" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="39"/>
+                                <state key="normal" title="Go">
+                                    <color key="titleColor" red="0.074509803920000006" green="0.58431372550000005" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="04w-Ld-Qj2" eventType="touchUpInside" id="47Y-dm-GvP"/>
+                                    <segue destination="46J-hJ-eVh" kind="presentation" id="kEN-oc-mLD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99607843137254903" green="0.90196078431372551" blue="0.4823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="goButton" destination="0e1-NG-QSF" id="3Iq-KE-5UP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Zr-JG-rz8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3248.8000000000002" y="-630.13493253373315"/>
+        </scene>
+        <!--Menu View Controller-->
         <scene sceneID="830-WN-ebx">
             <objects>
-                <viewController id="46J-hJ-eVh" customClass="StartViewController" customModule="SudarshanKriya" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="46J-hJ-eVh" customClass="MenuViewController" customModule="SudarshanKriya" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="fK7-xP-3Wr"/>
-                        <viewControllerLayoutGuide type="bottom" id="b2S-tI-Jxm"/>
+                        <viewControllerLayoutGuide type="top" id="TSz-3o-Djd"/>
+                        <viewControllerLayoutGuide type="bottom" id="oVe-Pu-TOF"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xAH-ZT-hqc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sudarshan Kriya" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0e6-vj-Q5l">
-                                <frame key="frameInset" minY="115" height="99"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kriya" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0e6-vj-Q5l">
+                                <rect key="frame" x="0.0" y="115" width="375" height="99"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgg-a1-5tR">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="280" id="ctb-4h-CXa"/>
-                                    <constraint firstAttribute="height" constant="60" id="eaR-6a-lD0"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgg-a1-5tR">
+                                <rect key="frame" x="47.5" y="456" width="280" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="startAction:" destination="46J-hJ-eVh" eventType="touchUpInside" id="fd4-fy-hl8"/>
-                                    <segue destination="m3P-OX-xIx" kind="show" identifier="dailyKriya" id="7sX-hL-VaO"/>
+                                    <segue destination="m3P-OX-xIx" kind="show" id="zZT-AN-R7f"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="xgg-a1-5tR" firstAttribute="centerX" secondItem="xAH-ZT-hqc" secondAttribute="centerX" id="V7h-K7-9ua"/>
-                            <constraint firstItem="b2S-tI-Jxm" firstAttribute="top" secondItem="xgg-a1-5tR" secondAttribute="bottom" constant="151" id="q1U-30-2wp"/>
-                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="DQX-cL-GOt"/>
                     <connections>
                         <outlet property="startButton" destination="xgg-a1-5tR" id="ih7-3A-fLb"/>
                         <outlet property="titleLabel" destination="0e6-vj-Q5l" id="hpp-rq-b5W"/>
@@ -50,58 +380,54 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jE8-Ka-tjA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-690.39999999999998" y="52.623688155922046"/>
+            <point key="canvasLocation" x="14" y="53"/>
         </scene>
         <!--Daily Kriya-->
         <scene sceneID="cM7-5p-1DO">
             <objects>
                 <viewController id="m3P-OX-xIx" customClass="DailyKriya" customModule="SudarshanKriya" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="v7b-pK-bcV"/>
-                        <viewControllerLayoutGuide type="bottom" id="Qkq-yl-CCd"/>
+                        <viewControllerLayoutGuide type="top" id="pLk-vH-VWG"/>
+                        <viewControllerLayoutGuide type="bottom" id="1wu-qN-nGO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="niz-jM-7YD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Begin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGL-j6-eHN">
-                                <frame key="frameInset" minY="61" height="71"/>
+                                <rect key="frame" x="0.0" y="61" width="375" height="71"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jW3-Bw-xRp">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jW3-Bw-xRp">
+                                <rect key="frame" x="16" y="491" width="343" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGl-rW-ldb">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="IOI-w5-VbQ"/>
-                                            <constraint firstAttribute="width" constant="70" id="fK2-KG-yCB"/>
-                                        </constraints>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGl-rW-ldb">
+                                        <rect key="frame" x="36.5" y="21.5" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbT-zM-FJu">
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="70" id="d6e-v1-Ahj"/>
-                                            <constraint firstAttribute="height" constant="70" id="s1N-JD-S2y"/>
-                                        </constraints>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbT-zM-FJu">
+                                        <rect key="frame" x="136.5" y="21.5" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aD-mv-y0V">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="ToM-NU-5wZ"/>
-                                            <constraint firstAttribute="width" constant="70" id="eI6-5v-Qj2"/>
-                                        </constraints>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aD-mv-y0V">
+                                        <rect key="frame" x="236.5" y="21.5" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="15 Seconds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbO-3y-a5V">
-                                        <frame key="frameInset" minY="-16" width="335" height="146"/>
+                                        <rect key="frame" x="0.0" y="-16" width="335" height="146"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                         <nil key="textColor"/>
@@ -109,28 +435,18 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="vGl-rW-ldb" firstAttribute="centerY" secondItem="jW3-Bw-xRp" secondAttribute="centerY" id="0BW-Sk-Mk5"/>
-                                    <constraint firstItem="8aD-mv-y0V" firstAttribute="centerY" secondItem="jW3-Bw-xRp" secondAttribute="centerY" id="AAP-si-Fxp"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="113" id="FnA-fj-RXl"/>
-                                    <constraint firstItem="8aD-mv-y0V" firstAttribute="leading" secondItem="LbT-zM-FJu" secondAttribute="trailing" constant="30" id="MDi-uc-ngO"/>
-                                    <constraint firstItem="LbT-zM-FJu" firstAttribute="centerX" secondItem="jW3-Bw-xRp" secondAttribute="centerX" id="UYs-wl-e0c"/>
-                                    <constraint firstItem="LbT-zM-FJu" firstAttribute="leading" secondItem="vGl-rW-ldb" secondAttribute="trailing" constant="30" id="VPl-1q-MEj"/>
-                                    <constraint firstItem="LbT-zM-FJu" firstAttribute="centerY" secondItem="jW3-Bw-xRp" secondAttribute="centerY" id="YWd-K5-Rix"/>
-                                    <constraint firstAttribute="height" constant="113" id="bTF-qX-xh5"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6mY-LL-KOg" customClass="SKView">
-                                <frame key="frameInset" minY="140" width="375" height="343"/>
+                                <rect key="frame" x="0.0" y="140" width="375" height="343"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e11-Lk-oax">
-                                <frame key="frameInset" minY="22.94%" height="48.73%"/>
+                                <rect key="frame" x="0.0" y="153" width="375" height="325"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNE-9j-mjv">
-                                <frame key="frameInset" minX="49.85%" width="40" height="40" maxY="20"/>
+                                <rect key="frame" x="164" y="607" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.89913136773804991" blue="0.48830110656607473" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
@@ -138,18 +454,14 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Apg-zh-l0D" kind="show" id="f3p-yF-xqs"/>
+                                    <action selector="pause:" destination="m3P-OX-xIx" eventType="touchUpInside" id="GAh-ET-ADj"/>
+                                    <segue destination="Apg-zh-l0D" kind="show" id="ZHu-9Y-KyC"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Qkq-yl-CCd" firstAttribute="top" secondItem="jW3-Bw-xRp" secondAttribute="bottom" constant="63" id="7pL-GR-npJ" userLabel="Bottom Layout Guide.top = Counter.bottom + 80"/>
-                            <constraint firstItem="jW3-Bw-xRp" firstAttribute="trailing" secondItem="niz-jM-7YD" secondAttribute="trailingMargin" id="8ji-FG-VBs" userLabel="Counter.trailing = trailingMargin - 20"/>
-                            <constraint firstItem="jW3-Bw-xRp" firstAttribute="centerX" secondItem="niz-jM-7YD" secondAttribute="centerX" id="j96-hd-NPi"/>
-                            <constraint firstItem="jW3-Bw-xRp" firstAttribute="leading" secondItem="niz-jM-7YD" secondAttribute="leadingMargin" id="vV5-Ye-TLD"/>
-                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="qgA-nA-lJj"/>
                     <connections>
                         <outlet property="animationView" destination="6mY-LL-KOg" id="u80-Uo-pVw"/>
                         <outlet property="circleOne" destination="vGl-rW-ldb" id="i6t-Ap-tbC"/>
@@ -164,39 +476,63 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n7z-sf-bY5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="15.199999999999999" y="51.724137931034484"/>
+            <point key="canvasLocation" x="844" y="53"/>
         </scene>
         <!--Info View Controller-->
         <scene sceneID="1Re-pp-CBW">
             <objects>
                 <viewController id="Apg-zh-l0D" customClass="InfoViewController" customModule="SudarshanKriya" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Lmx-R5-nbz"/>
-                        <viewControllerLayoutGuide type="bottom" id="S2X-Av-RCR"/>
+                        <viewControllerLayoutGuide type="top" id="8sy-ql-ocZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fk7-Pm-1UP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="s4A-HT-yU3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCw-5V-OF2">
-                                <frame key="frameInset" minX="49.85%" width="40" height="40" maxY="20"/>
+                                <rect key="frame" x="164" y="607" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.89913136770000002" blue="0.48830110659999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                 <state key="normal" title="X">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.99607843137254903" green="0.90196078431372551" blue="0.4823529411764706" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="dismiss:" destination="Apg-zh-l0D" eventType="touchUpInside" id="MBU-xJ-zK8"/>
+                                </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tr1-8c-yNh">
+                                <rect key="frame" x="16" y="223" width="343" height="221"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">With a gentle smile on your face, breathe in normally on So, and out on Ham. 20 long, 40 medium, 40 short repeated three times continuously. 
+
+Focus entirely on your breath.</string>
+                                <fontDescription key="fontDescription" name="Azurite" family="Azurite" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.99607843137254903" green="0.90196078431372551" blue="0.48627450980392156" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="XButton" destination="oCw-5V-OF2" id="5BK-W6-DI6"/>
+                        <outlet property="textView" destination="Tr1-8c-yNh" id="Bl6-rN-sFZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JVy-GZ-wIH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="844" y="52"/>
+            <point key="canvasLocation" x="1670.4000000000001" y="53.073463268365821"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Aum.png" width="275" height="477"/>
+        <image name="Back.png" width="270" height="477"/>
+        <image name="Bhastrika.png" width="312" height="477"/>
+        <image name="Chest.png" width="327" height="477"/>
+        <image name="Kriya.png" width="275" height="477"/>
+        <image name="Oldplay" width="256" height="256"/>
+        <image name="Outstretched.png" width="295" height="477"/>
+        <image name="Waist.png" width="322" height="477"/>
+    </resources>
 </document>

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AC94AD5A1B8E40BF002D9AD2"
-               BuildableName = "ArtOfLiving.app"
-               BlueprintName = "ArtOfLiving"
-               ReferencedContainer = "container:ArtOfLiving.xcodeproj">
+               BuildableName = "SudarshanKriya.app"
+               BlueprintName = "SudarshanKriya"
+               ReferencedContainer = "container:SudarshanKriya.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AC94AD6F1B8E40BF002D9AD2"
-               BuildableName = "ArtOfLiving.xctest"
-               BlueprintName = "ArtOfLivingTests"
-               ReferencedContainer = "container:ArtOfLiving.xcodeproj">
+               BuildableName = "SudarshanKriya.xctest"
+               BlueprintName = "SudarshanKriyaTests"
+               ReferencedContainer = "container:SudarshanKriya.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,6 +71,13 @@
             ReferencedContainer = "container:SudarshanKriya.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -85,9 +92,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AC94AD5A1B8E40BF002D9AD2"
-            BuildableName = "ArtOfLiving.app"
-            BlueprintName = "ArtOfLiving"
-            ReferencedContainer = "container:ArtOfLiving.xcodeproj">
+            BuildableName = "SudarshanKriya.app"
+            BlueprintName = "SudarshanKriya"
+            ReferencedContainer = "container:SudarshanKriya.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
@@ -96,7 +103,6 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
-      customArchiveName = "SudarshanKriya"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
